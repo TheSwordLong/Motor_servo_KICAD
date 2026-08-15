@@ -1338,7 +1338,7 @@
         "uuid": "54005433-e3aa-4693-8f75-bb73943288d3"
       }
     ],
-    "used_designators": "U1-6,C1-36,#PWR3-20,L1-3,D1-8,R1-26,Y1-2,Q1,1,CN1-2,B1,SW1,H1,JP1-2,FL1-2",
+    "used_designators": "U1-9,C1-39,#PWR3-36,L1-3,D1-8,R1-26,Y1-2,Q1,1,CN1-2,B1,SW1,H1-5,JP1-2,FL1-2,J1",
     "variants": []
   },
   "sheets": [
@@ -1365,6 +1365,10 @@
     [
       "0c884452-aecc-4e2c-81cc-965ac67a1a2e",
       "RS485"
+    ],
+    [
+      "e93f7eb9-c44f-4296-8391-19d4baa4357c",
+      "Motor_Comm"
     ]
   ],
   "text_variables": {},

@@ -6,8 +6,8 @@
 	(paper "A3")
 	(lib_symbols)
 	(sheet
-		(at 272.415 133.985)
-		(size 26.035 13.335)
+		(at 196.977 137.922)
+		(size 24.765 13.335)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "0c884452-aecc-4e2c-81cc-965ac67a1a2e")
 		(property "Sheetname" "RS485"
-			(at 272.415 133.2734 0)
+			(at 196.977 137.2104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "RS485.kicad_sch"
-			(at 272.415 147.9046 0)
+			(at 196.977 151.8416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,8 +52,8 @@
 		)
 	)
 	(sheet
-		(at 273.05 90.805)
-		(size 28.575 15.875)
+		(at 197.612 96.012)
+		(size 24.13 14.605)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "46739a1c-a686-46fc-8f12-984396225a7f")
 		(property "Sheetname" "CAN"
-			(at 273.05 90.0934 0)
+			(at 197.612 95.3004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 273.05 107.2646 0)
+			(at 197.612 111.2016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,7 +98,7 @@
 		)
 	)
 	(sheet
-		(at 273.05 114.3)
+		(at 197.612 118.237)
 		(size 24.13 14.605)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "6d57bf2a-6797-463e-a7be-460e5ac424fd")
 		(property "Sheetname" "RS232"
-			(at 273.05 113.5884 0)
+			(at 197.612 117.5254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "RS232.kicad_sch"
-			(at 273.05 129.4896 0)
+			(at 197.612 133.4266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,8 +144,8 @@
 		)
 	)
 	(sheet
-		(at 149.86 91.059)
-		(size 30.48 36.576)
+		(at 139.7 21.844)
+		(size 114.935 36.576)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -160,7 +160,7 @@
 		)
 		(uuid "991ba235-e77c-4edd-a3a2-0f8fb1340e9c")
 		(property "Sheetname" "POWER"
-			(at 149.86 90.3474 0)
+			(at 139.7 21.1324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER.kicad_sch"
-			(at 149.86 128.2196 0)
+			(at 139.7 59.0046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -190,7 +190,7 @@
 		)
 	)
 	(sheet
-		(at 203.708 90.043)
+		(at 128.27 93.98)
 		(size 35.306 53.086)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -206,7 +206,7 @@
 		)
 		(uuid "ab5b236f-20a8-4993-b87c-2c1c522e6f92")
 		(property "Sheetname" "MCU_Core"
-			(at 203.708 89.3314 0)
+			(at 128.27 93.2684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -217,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32F303VCT6.kicad_sch"
-			(at 203.708 143.7136 0)
+			(at 128.27 147.6506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -225,6 +225,96 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 163.576 100.33 0)
+			(uuid "845742c4-64a3-4348-ab2e-2bfe8253ffa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS232_RX" input
+			(at 163.576 128.27 0)
+			(uuid "b238ac81-b06b-4eb7-8893-59e6ba0d9539")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" output
+			(at 163.576 104.14 0)
+			(uuid "b2a87c5f-93d8-4c29-a744-ad7d25e84c75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS232_TX" output
+			(at 163.576 124.46 0)
+			(uuid "451b4c4f-5e31-4f5b-b63e-c9c5c4d8d71d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_RX" bidirectional
+			(at 163.576 142.24 0)
+			(uuid "ef6c01b7-b9d2-4921-b7ee-b5c72785fde9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_TX" bidirectional
+			(at 163.576 139.7 0)
+			(uuid "16266d9f-7ece-47ac-be4a-dbd8dc6f642c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_DE" output
+			(at 163.576 137.16 0)
+			(uuid "af7141b9-dc70-4139-88cc-3e616b77589c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 128.27 107.95 180)
+			(uuid "0d095d2e-2170-4236-bec1-e8a06138dcac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 128.27 111.76 180)
+			(uuid "5b6de8fb-e203-4dd1-b092-df8babadc470")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
