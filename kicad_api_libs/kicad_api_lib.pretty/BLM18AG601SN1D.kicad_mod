@@ -1,0 +1,197 @@
+(footprint "MURA-BLM18-RF-H4-CHIP-2_V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Chip Ferrite Bead, 2-Leads, Body 1.6x0.8mm, Height 0.95mm, Reflow")
+	(property "Reference" "REF**"
+		(at 0 -1.225 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f8ab890c-d30d-4161-ad67-b4f1ff334485")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MURA-BLM18-RF-H4-CHIP-2_V"
+		(at 0 1.225 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dd565676-e613-499a-a1a5-61a712abfde6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "305c0091-8a79-48ed-b989-16cd1a908f98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "068706fc-ed86-4c3f-8956-9483f910e75f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a4c3378-354a-431c-872b-63c8cc6045fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.1 -0.5)
+		(end 1.1 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4cc88d5a-6a41-44f8-996a-6d8aa379c19c")
+	)
+	(fp_line
+		(start -1.1 0.5)
+		(end -1.1 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23d638ef-8c6e-4ad7-84e6-40f59b7db815")
+	)
+	(fp_line
+		(start -1.1 0.5)
+		(end 1.1 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20ecd767-8384-4fa1-848f-3aaa85edc7ee")
+	)
+	(fp_line
+		(start -0.25 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ccf8cd0a-e576-4837-9708-c0b8c7466d46")
+	)
+	(fp_line
+		(start 0 0.25)
+		(end 0 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b56ba53b-c098-4c08-b35c-a419d87f009f")
+	)
+	(fp_line
+		(start 1.1 0.5)
+		(end 1.1 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80a5a150-584c-4dd8-94c5-5a633e0a3704")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4eeb5b95-f066-4157-9125-2da824e353c6")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a608c65d-39be-4c11-b9d4-1dd23a609bdd")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec56cfa5-4906-4948-ba8a-472b6b9ad70d")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc6741f7-e6f0-483d-b298-8474a7c83c25")
+	)
+	(fp_text user "Land Pattern Adapted for Reflow Soldering"
+		(at -1 -0.6 0)
+		(unlocked yes)
+		(layer "User.6")
+		(uuid "6ed81453-2c67-4eb0-813e-1fbf8ca6fb06")
+		(effects
+			(font
+				(size 0.05 0.05)
+				(thickness 0.01)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.675 0)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "1dc5fbc8-2820-4a2e-b223-65c251e90d2d")
+	)
+	(pad "2" smd rect
+		(at 0.675 0)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "72117af5-adb1-49c5-a4bb-c4f0507b42ec")
+	)
+)

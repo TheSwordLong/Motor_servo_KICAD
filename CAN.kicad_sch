@@ -2154,10 +2154,264 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDS"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDS_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDS_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "模块电路功能：\n这是一个带隔离功能的 CAN 总线收发器电路，采用半双工，最高支持1Mbps CAN 通信速率；\n该电路的主要功能是将微控制器的逻辑电平信号（TXD/RXD）\n转换为 CAN 总线的差分信号（CANH/CANL），\n同时在逻辑侧和总线侧之间提供电气隔离。\n引脚功能：\nMCU 的 TXD → ISO1050DWR → 驱动 CAN_H/CAN_L 差分信号上总线。\nCAN_H/CAN_L 差分信号 → ISO1050DWR → 输出 RXD 给 MCU。\n应用场景：\n适用于PLC、伺服驱动器、工业机器人的 CAN/CANopen 通信隔离；"
 		(exclude_from_sim no)
-		(at 89.408 151.13 0)
+		(at 78.994 170.688 0)
 		(effects
 			(font
 				(face "宋体")
@@ -2215,6 +2469,12 @@
 		(uuid "9afa2372-90fb-41a9-acf8-f6ba5c1c2009")
 	)
 	(junction
+		(at 102.87 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a164efa1-23fb-4956-a94a-5994d18b8768")
+	)
+	(junction
 		(at 111.76 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2227,10 +2487,10 @@
 		(uuid "ef1c0276-985f-4424-8802-203e6642dec0")
 	)
 	(junction
-		(at 129.54 116.84)
+		(at 111.76 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f82e10b8-79c0-42de-bf70-e46f4d9babed")
+		(uuid "fe4abf74-0b20-4cff-b986-83866f626950")
 	)
 	(no_connect
 		(at 115.57 86.36)
@@ -2270,23 +2530,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 101.6) (xy 111.76 116.84)
+			(xy 111.76 101.6) (xy 111.76 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "16a7fff3-4e8f-4731-aa6d-33701c7def16")
-	)
-	(wire
-		(pts
-			(xy 111.76 116.84) (xy 129.54 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e2805fc-2a98-4ed1-9dd4-8363b331227e")
 	)
 	(wire
 		(pts
@@ -2360,6 +2610,26 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 106.68) (xy 111.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f1a2f1-9c4f-47f9-9674-92c2de97b4ee")
+	)
+	(wire
+		(pts
+			(xy 102.87 91.44) (xy 102.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf950df-bdee-40b9-b918-0c39518663d3")
+	)
+	(wire
+		(pts
 			(xy 154.94 101.6) (xy 154.94 106.68)
 		)
 		(stroke
@@ -2367,6 +2637,16 @@
 			(type default)
 		)
 		(uuid "5250beb6-5ffe-443d-bab6-bd0e37f359fb")
+	)
+	(wire
+		(pts
+			(xy 102.87 102.87) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537d5619-1f17-4d98-bf13-bd7e72092c4f")
 	)
 	(wire
 		(pts
@@ -2380,7 +2660,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 91.44) (xy 115.57 91.44)
+			(xy 99.06 91.44) (xy 102.87 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2410,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 91.44) (xy 171.45 91.44)
+			(xy 163.83 91.44) (xy 179.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2437,6 +2717,16 @@
 			(type default)
 		)
 		(uuid "656f84f3-3e77-4ded-b889-797487bafdd1")
+	)
+	(wire
+		(pts
+			(xy 111.76 106.68) (xy 111.76 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f00ea2-e965-4b71-9e24-d21a66949618")
 	)
 	(wire
 		(pts
@@ -2467,16 +2757,6 @@
 			(type default)
 		)
 		(uuid "8393d4db-402c-4272-bed9-5aeeac621322")
-	)
-	(wire
-		(pts
-			(xy 129.54 116.84) (xy 154.94 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a121e2f-35f3-408b-9d35-01fd8809d9ee")
 	)
 	(wire
 		(pts
@@ -2560,16 +2840,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 119.38) (xy 129.54 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c06bfb92-19e4-4643-81f9-e31b584a974e")
-	)
-	(wire
-		(pts
 			(xy 177.8 73.66) (xy 184.15 73.66)
 		)
 		(stroke
@@ -2577,6 +2847,16 @@
 			(type default)
 		)
 		(uuid "d6e83bb5-80f2-40e9-8c87-d8bbaea9a650")
+	)
+	(wire
+		(pts
+			(xy 102.87 91.44) (xy 115.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb4abeb-9cd9-4753-96b9-0ca6ae89b9b4")
 	)
 	(wire
 		(pts
@@ -2670,17 +2950,6 @@
 		)
 		(uuid "455a22b9-0da0-44b9-a579-970f94a539f9")
 	)
-	(hierarchical_label "+5V"
-		(shape input)
-		(at 171.45 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4850dbe4-2c77-467d-9329-d83d932fd27d")
-	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
 		(at 186.69 86.36 0)
@@ -2705,7 +2974,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 119.38 0)
+		(at 111.76 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2716,7 +2985,7 @@
 		(fields_autoplaced yes)
 		(uuid "122039d8-cfa0-4270-b35d-ba9a19be984f")
 		(property "Reference" "#PWR021"
-			(at 129.54 125.73 0)
+			(at 111.76 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2726,8 +2995,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 129.54 124.46 0)
+		(property "Value" "GNDS"
+			(at 111.76 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2737,7 +3006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 119.38 0)
+			(at 111.76 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2748,7 +3017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 119.38 0)
+			(at 111.76 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2759,7 +3028,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 119.38 0)
+			(at 111.76 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2783,7 +3052,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 107.95 91.44 0)
+		(at 99.06 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2791,10 +3060,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "204fc631-c625-494f-b997-aec328e1ed60")
 		(property "Reference" "#PWR032"
-			(at 107.95 95.25 0)
+			(at 99.06 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2804,18 +3072,19 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 107.95 86.36 0)
+		(property "Value" "+3.3V_ISO"
+			(at 93.472 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 91.44 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2826,7 +3095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 91.44 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2837,7 +3106,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 107.95 91.44 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3149,7 +3418,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDS"
 			(at 161.29 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3200,6 +3469,287 @@
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/46739a1c-a686-46fc-8f12-984396225a7f"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 154.94 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b18029e-7a1c-4455-8722-15498b0ef1ea")
+		(property "Reference" "#PWR040"
+			(at 154.94 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 154.94 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 154.94 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "478de7f0-4439-4102-b482-01b5aafb58d2")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/46739a1c-a686-46fc-8f12-984396225a7f"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CL05B104KB54PNC:CL05B104KB54PNC")
+		(at 102.87 100.33 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e28e1f2-83ec-439f-975b-e03211db50b7")
+		(property "Reference" "C41"
+			(at 102.616 96.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 102.616 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:CL05B104KB54PNC"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://file.elecfans.com/web2/M00/1B/84/pYYBAGGE3DSALqKTAHpnF_h8sn4284.pdf"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "application" "Automotive"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "grade" "AEC-Q200"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G4240447"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lead_free" "Yes"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount" "表面贴装"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "0402"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "packaging" "4000pcs"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "tolerance" "10 %"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage_rating" "50 V"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b415f9e9-0e72-4cd7-9e86-fd805d2fae38")
+		)
+		(pin "1"
+			(uuid "921f19b3-4bde-4495-82e8-08403ecc0405")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/46739a1c-a686-46fc-8f12-984396225a7f"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -4310,6 +4860,83 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 179.07 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f36c973c-9238-4bfa-9c45-f6b014b4cacf")
+		(property "Reference" "#PWR054"
+			(at 179.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_ISO"
+			(at 178.816 87.376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 179.07 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e684b12-2a41-448b-80cd-ef4413b4ce5c")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/46739a1c-a686-46fc-8f12-984396225a7f"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(group "ISO1050DWR_Isolated CAN Transceiver Module"
 		(uuid "f4d9e456-9e44-4f07-8052-4bb8ce12b3ca")
 		(members "023091b1-53b3-4293-867f-7c8be1baa351" "0d21ff73-b48f-48a2-a07c-41cfa3c9b65f"
@@ -4321,16 +4948,18 @@
 			"2b05e52f-32bb-4230-8e5d-b64d63c79945" "2f4a5f8c-7aa1-4bd8-be9e-2d6c856bf33d"
 			"33c929d2-3536-4222-822d-4ea96f82e1d6" "391afede-bbeb-4bbb-844f-4d2f2c74870e"
 			"3a6faee6-8222-45df-bc0e-f3fe1a657feb" "455a22b9-0da0-44b9-a579-970f94a539f9"
-			"4850dbe4-2c77-467d-9329-d83d932fd27d" "5250beb6-5ffe-443d-bab6-bd0e37f359fb"
+			"48f1a2f1-9c4f-47f9-9674-92c2de97b4ee" "4cf950df-bdee-40b9-b918-0c39518663d3"
+			"5250beb6-5ffe-443d-bab6-bd0e37f359fb" "537d5619-1f17-4d98-bf13-bd7e72092c4f"
 			"53aed62d-6834-4a02-94f6-af4b62b1c789" "56509837-4182-45cc-ac75-d0bde76f692b"
 			"5b6c2316-9b08-487d-b2bc-b290986a2e0d" "5def3e47-1009-4ed2-90d9-b7d3b455cf23"
-			"5f15307f-2731-41c3-a660-5c34afe18ecf" "6319cd8b-445c-4817-99e3-baa54bcbcf2e"
-			"636a167a-e0f5-434f-8dfd-ca23994979c3" "656f84f3-3e77-4ded-b889-797487bafdd1"
-			"748bb6af-a33f-4ad0-8a69-a4e3e12f3524" "780a393f-3374-4191-9478-c91806a259b3"
-			"7b106594-847c-47fd-ab03-1f0a5d061637" "7f70a47c-f5a1-4ddc-a557-bc2579c53eae"
-			"8393d4db-402c-4272-bed9-5aeeac621322" "8eb05af7-2a5b-4278-8a7a-658d5929f395"
-			"911edada-07e8-4252-9f54-5abae0bcc1fe" "9afa2372-90fb-41a9-acf8-f6ba5c1c2009"
-			"9b3b3ec2-7489-4fba-9b3f-b136ceaabae4" "a36baf56-09c4-4a5c-b19b-4ae325d93169"
+			"5f15307f-2731-41c3-a660-5c34afe18ecf" "636a167a-e0f5-434f-8dfd-ca23994979c3"
+			"656f84f3-3e77-4ded-b889-797487bafdd1" "6e28e1f2-83ec-439f-975b-e03211db50b7"
+			"72f00ea2-e965-4b71-9e24-d21a66949618" "748bb6af-a33f-4ad0-8a69-a4e3e12f3524"
+			"780a393f-3374-4191-9478-c91806a259b3" "7b106594-847c-47fd-ab03-1f0a5d061637"
+			"7f70a47c-f5a1-4ddc-a557-bc2579c53eae" "8393d4db-402c-4272-bed9-5aeeac621322"
+			"8eb05af7-2a5b-4278-8a7a-658d5929f395" "911edada-07e8-4252-9f54-5abae0bcc1fe"
+			"9afa2372-90fb-41a9-acf8-f6ba5c1c2009" "9b3b3ec2-7489-4fba-9b3f-b136ceaabae4"
+			"a164efa1-23fb-4956-a94a-5994d18b8768" "a36baf56-09c4-4a5c-b19b-4ae325d93169"
 			"a38620f9-22db-48d2-8857-8595c3389ad3" "a7f7a2b2-7337-4e3b-93ed-5b5f169f47c1"
 			"ab5bf633-5969-4dba-8059-151eeb9968d3" "b29742d1-5b75-46f9-b90c-7c147ef959bd"
 			"b7390a9e-706c-4362-beae-e307eaee0241" "b8e4316d-a334-4790-9fad-5ec9b319e1ac"
@@ -4338,10 +4967,11 @@
 			"bfad5b17-c7dc-49e9-83b5-8a26e4c2e591" "c6e5c11f-1b87-4a85-a743-5d6687e2abb5"
 			"d6e83bb5-80f2-40e9-8c87-d8bbaea9a650" "d7d742cd-e851-44be-b9b9-bc3a2715cf0a"
 			"d82ca82a-6ab1-4731-a61e-6e2fdbb9fff2" "dd1048c4-8a7c-4795-8ad6-a5c53c0f8fa7"
-			"ef1c0276-985f-4424-8802-203e6642dec0" "f4040a01-6fc8-42b4-9101-506895b012f8"
-			"f6395026-5a91-43ab-abf4-732d91e79501" "f797892c-e9b1-44f0-8435-060cae16df17"
-			"f877f0ca-3afa-4f83-bf88-5dde30a1020a" "f8806729-fa6e-4b41-8781-beb338df86b5"
-			"fc586841-3762-4e9e-933b-6a246cbeafd7"
+			"eeb4abeb-9cd9-4753-96b9-0ca6ae89b9b4" "ef1c0276-985f-4424-8802-203e6642dec0"
+			"f4040a01-6fc8-42b4-9101-506895b012f8" "f6395026-5a91-43ab-abf4-732d91e79501"
+			"f797892c-e9b1-44f0-8435-060cae16df17" "f877f0ca-3afa-4f83-bf88-5dde30a1020a"
+			"f8806729-fa6e-4b41-8781-beb338df86b5" "fc586841-3762-4e9e-933b-6a246cbeafd7"
+			"fe4abf74-0b20-4cff-b986-83866f626950"
 		)
 	)
 )

@@ -237,7 +237,7 @@
 				(justify right)
 			)
 		)
-		(pin "RS232_RX" input
+		(pin "MCU_RS232_RX" input
 			(at 163.576 128.27 0)
 			(uuid "b238ac81-b06b-4eb7-8893-59e6ba0d9539")
 			(effects
@@ -257,7 +257,7 @@
 				(justify right)
 			)
 		)
-		(pin "RS232_TX" output
+		(pin "MCU_RS232_TX" output
 			(at 163.576 124.46 0)
 			(uuid "451b4c4f-5e31-4f5b-b63e-c9c5c4d8d71d")
 			(effects
