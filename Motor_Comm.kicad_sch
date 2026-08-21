@@ -1783,6 +1783,15 @@
 		(uuid "40241e5a-5ef4-47a5-a390-676b93ded505")
 	)
 	(bus_entry
+		(at 146.05 143.51)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a98eb69-4196-42c3-9e46-1c32cd4466b2")
+	)
+	(bus_entry
 		(at 50.8 104.14)
 		(size 2.54 2.54)
 		(stroke
@@ -1790,6 +1799,15 @@
 			(type default)
 		)
 		(uuid "55192aa1-52ed-49cf-947d-bbb378d32d06")
+	)
+	(bus_entry
+		(at 146.05 140.97)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559e45d8-8046-4b3b-a68e-6a1327ed3915")
 	)
 	(bus_entry
 		(at 146.05 105.41)
@@ -1835,6 +1853,15 @@
 			(type default)
 		)
 		(uuid "632f9024-7f7e-4dd4-ae65-db914c1c70f8")
+	)
+	(bus_entry
+		(at 146.05 146.05)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6693e47e-d2df-4a83-b8c0-aa884ee46b6d")
 	)
 	(bus_entry
 		(at 144.78 127)
@@ -1952,6 +1979,15 @@
 			(type default)
 		)
 		(uuid "bbc24294-9105-49ff-ac46-6fd217d23b99")
+	)
+	(bus_entry
+		(at 146.05 138.43)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2468b88-2fa0-44c3-888c-b0dac4be5f62")
 	)
 	(bus_entry
 		(at 50.8 93.98)
@@ -2093,6 +2129,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 146.05) (xy 153.67 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0109900d-49b5-440f-8a89-39a04fb5d36a")
+	)
+	(wire
+		(pts
 			(xy 53.34 104.14) (xy 63.5 104.14)
 		)
 		(stroke
@@ -2203,6 +2249,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 142.24) (xy 203.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c340c43-4309-4c94-b76e-0f7cd5ea60ef")
+	)
+	(wire
+		(pts
 			(xy 91.44 52.07) (xy 91.44 49.53)
 		)
 		(stroke
@@ -2240,6 +2296,16 @@
 			(type default)
 		)
 		(uuid "2524525e-6b08-48b9-8a60-8f2fde5214ab")
+	)
+	(wire
+		(pts
+			(xy 148.59 140.97) (xy 153.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b30307-39a2-43ac-a171-693da435998a")
 	)
 	(wire
 		(pts
@@ -2321,9 +2387,19 @@
 		)
 		(uuid "35e011a5-7562-4e83-ae63-f80f8db190d4")
 	)
+	(wire
+		(pts
+			(xy 172.72 144.78) (xy 177.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3667d4c1-86b4-47b8-9a3f-6f0fc0a5677a")
+	)
 	(bus
 		(pts
-			(xy 38.1 85.09) (xy 49.53 85.09)
+			(xy 34.29 85.09) (xy 49.53 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2510,6 +2586,16 @@
 			(type default)
 		)
 		(uuid "541134bd-1ce7-4bf7-b11c-5a9cc546eb61")
+	)
+	(bus
+		(pts
+			(xy 143.51 135.89) (xy 146.05 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557cbc0e-c79a-4048-91e2-796529d0dcb8")
 	)
 	(wire
 		(pts
@@ -2703,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 148.59) (xy 153.67 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e1b3d3-54f3-42c8-9bad-985c601539b1")
+	)
+	(wire
+		(pts
 			(xy 146.05 71.12) (xy 151.13 71.12)
 		)
 		(stroke
@@ -2863,7 +2959,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 91.44) (xy 104.14 91.44)
+			(xy 172.72 142.24) (xy 177.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fac4e4c-cbde-4b29-b437-9858fa2a9f7c")
+	)
+	(wire
+		(pts
+			(xy 100.33 91.44) (xy 107.95 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2890,6 +2996,16 @@
 			(type default)
 		)
 		(uuid "a7acb61e-a50a-4ec1-8e31-ef48b426f21d")
+	)
+	(wire
+		(pts
+			(xy 148.59 143.51) (xy 153.67 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb55346-b54e-4545-b731-2d9db37f8e8a")
 	)
 	(wire
 		(pts
@@ -3013,6 +3129,16 @@
 	)
 	(bus
 		(pts
+			(xy 133.35 135.89) (xy 143.51 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfff38c3-7387-4d95-8136-bfd30c2bfcf6")
+	)
+	(bus
+		(pts
 			(xy 49.53 97.79) (xy 50.8 99.06)
 		)
 		(stroke
@@ -3030,6 +3156,16 @@
 			(type default)
 		)
 		(uuid "c4cb11ea-dbe3-4520-a017-3ccb57afe9a5")
+	)
+	(wire
+		(pts
+			(xy 198.12 144.78) (xy 203.2 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c820db85-01be-4f32-b5e6-92e7c441306e")
 	)
 	(wire
 		(pts
@@ -3093,7 +3229,7 @@
 	)
 	(bus
 		(pts
-			(xy 40.64 27.94) (xy 48.26 27.94)
+			(xy 34.29 27.94) (xy 48.26 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3283,6 +3419,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 87.63) (xy 107.95 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b31564-f272-4b3c-850e-926182d5fc6d")
+	)
+	(wire
+		(pts
 			(xy 195.58 35.56) (xy 203.2 35.56)
 		)
 		(stroke
@@ -3361,6 +3507,16 @@
 		)
 		(uuid "fb63ceff-c170-479b-9bc7-85bf3916a13e")
 	)
+	(bus
+		(pts
+			(xy 146.05 138.43) (xy 146.05 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc370f9-02b7-464a-8a42-39f4e1bbb23b")
+	)
 	(wire
 		(pts
 			(xy 53.34 88.9) (xy 63.5 88.9)
@@ -3421,6 +3577,26 @@
 		)
 		(uuid "0d7be47a-abae-459a-8642-4ba2a36a7bea")
 	)
+	(label "ADC.2"
+		(at 198.12 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e8f7ea5-7ff0-45dd-8b72-6dc0c39a245e")
+	)
+	(label "ADC.1"
+		(at 172.72 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11146e0d-7b2e-4993-b593-5d6a4b0baec0")
+	)
 	(label "PWM1_5V.1"
 		(at 165.1 33.02 0)
 		(effects
@@ -3460,6 +3636,16 @@
 			(justify left bottom)
 		)
 		(uuid "17257ad1-95f9-4515-8e6e-272574fa5c7d")
+	)
+	(label "ADC.3"
+		(at 198.12 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c7b366c-3d00-49a1-9ee5-92c224c881cd")
 	)
 	(label "DIR1.2"
 		(at 200.66 45.72 0)
@@ -3791,6 +3977,16 @@
 		)
 		(uuid "7c955524-1f82-4a44-9fbc-2338bb4ec58c")
 	)
+	(label "ADC.0"
+		(at 172.72 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e635a4a-55cf-4c08-8154-92030c4d6b9c")
+	)
 	(label "BRAKE1.2"
 		(at 147.32 49.53 0)
 		(effects
@@ -3802,7 +3998,7 @@
 		(uuid "83edddb9-fcbe-46e1-9368-4596e1349b3b")
 	)
 	(label "PWM2[1..4]"
-		(at 39.37 85.09 0)
+		(at 35.56 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3820,6 +4016,16 @@
 			(justify left bottom)
 		)
 		(uuid "8bc2036d-1b1e-4612-a4e6-0ad28541646a")
+	)
+	(label "ADC.3"
+		(at 148.59 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90cf8864-7ea2-45a0-907b-24f3e8495500")
 	)
 	(label "BRAKE1.1"
 		(at 147.32 46.99 0)
@@ -3900,6 +4106,16 @@
 			(justify left bottom)
 		)
 		(uuid "a6f076c4-42c8-4299-98e6-eace07c2dd94")
+	)
+	(label "ADC.0"
+		(at 148.59 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a75f278b-ea5b-4dfa-807e-f65ca570bb80")
 	)
 	(label "DIR2.4"
 		(at 204.47 127 0)
@@ -4121,6 +4337,26 @@
 		)
 		(uuid "ec2df1b3-0999-4e4c-8e57-386ea401012b")
 	)
+	(label "ADC[0..3]"
+		(at 134.62 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecbfcd92-9f99-4ae9-8f70-1b4de6459c2a")
+	)
+	(label "ADC.2"
+		(at 148.59 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef29cb7d-7168-43d7-9edf-d4bea2de5f6a")
+	)
 	(label "PWM1.4"
 		(at 52.07 39.37 0)
 		(effects
@@ -4150,6 +4386,16 @@
 			(justify left bottom)
 		)
 		(uuid "f382866f-7c19-4981-9a0e-0d108736c29a")
+	)
+	(label "ADC.1"
+		(at 148.59 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3d4bd6e-09a4-4f30-b757-d1d343261dcd")
 	)
 	(label "FG2.4"
 		(at 147.32 129.54 0)
@@ -4202,27 +4448,16 @@
 		)
 		(uuid "1beb6c93-3c33-4fd2-9f62-eaa5432acb6a")
 	)
-	(hierarchical_label "PWM1_5V[1..4]"
+	(hierarchical_label "ADC[0..3]"
 		(shape output)
-		(at 34.29 40.64 180)
+		(at 133.35 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "3fdb5d0c-b0d9-45a2-92c0-ea636ce8693b")
-	)
-	(hierarchical_label "PWM2_5V[1..4]"
-		(shape output)
-		(at 35.56 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4d0f27ca-3116-4040-a80f-3cdcc3c1aec6")
+		(uuid "1fbb31d3-bc94-4075-a1f9-898a15b5419d")
 	)
 	(hierarchical_label "FG1[1..4]"
 		(shape output)
@@ -4237,7 +4472,7 @@
 	)
 	(hierarchical_label "PWM1[1..4]"
 		(shape input)
-		(at 40.64 27.94 180)
+		(at 34.29 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4281,7 +4516,7 @@
 	)
 	(hierarchical_label "PWM2[1..4]"
 		(shape input)
-		(at 38.1 85.09 180)
+		(at 34.29 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4313,7 +4548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "116008d8-6e69-44f3-b83c-cf4e2b79979c")
-		(property "Reference" "H5"
+		(property "Reference" "H9"
 			(at 186.69 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4612,7 +4847,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "H5")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -4630,7 +4865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2413096d-1261-4773-a93a-f4742658dcd2")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR062"
 			(at 104.14 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4691,7 +4926,324 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR060")
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KF2EDGRM-3.81-4P:220S-1_4P H=8.5MM")
+		(at 187.96 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33df868d-013d-43a6-8558-b4986931dc27")
+		(property "Reference" "H14"
+			(at 187.96 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KF2EDGRM-3.81-4P"
+			(at 187.96 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:KF2EDGRM-3.81-4P"
+			(at 187.96 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://file.elecfans.com/web2/M00/83/9A/poYBAGOadD2AG2ZXAAZFypO287M769.pdf"
+			(at 187.96 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Plug in terminal 4Pin spacing: 3.81mm, 1 row of bend plug"
+			(at 187.96 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KF2EDGRM-3.81-4P"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEFA"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "colour" "绿色"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "connector_type" "板端/插座-闭口"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "contact_plating" "锡"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "current" "7 A, 8 A"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "current_rating" "8 A"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fixed_form" "螺丝固定"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G4613410"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount" "弯针"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "number_of_rows" "1"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "operating_temperature" "-40 °C"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "弯插,P=3.81mm"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "packaging" "200pcs"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin_number_in_each_row" "4"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pins" "4"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pitch" "3.81 mm"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "terminal_pitch" "3.81 mm"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "termination_type" "插拔式接线端子"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage" "160 V, 300 V"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage_rating" "300 V"
+			(at 187.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f1362e78-b0f8-4965-afe0-5a60122cbc75")
+		)
+		(pin "4"
+			(uuid "4faa73d7-a44a-4589-9ea3-d2471689a478")
+		)
+		(pin "1"
+			(uuid "62ff169c-4629-48b6-b799-48990706e39a")
+		)
+		(pin "3"
+			(uuid "0101f591-ed62-468a-827e-aef24d43e861")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "H14")
 					(unit 1)
 				)
 			)
@@ -4708,7 +5260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "397e2f89-afa7-47ed-bb2d-48fd33ce0f4d")
-		(property "Reference" "C38"
+		(property "Reference" "C47"
 			(at 105.41 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4728,7 +5280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 100.0252 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4770,7 +5322,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "C38")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -4788,7 +5340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42ab02b3-5b52-474b-91fe-3f6a0f4e9815")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 74.93 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5260,7 +5812,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "U9")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -5277,7 +5829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "462c4a6a-3879-4ed4-a234-7af9c62d10a8")
-		(property "Reference" "C49"
+		(property "Reference" "C46"
 			(at 93.98 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5297,7 +5849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 97.79 81.5848 0)
 			(hide yes)
 			(show_name no)
@@ -5339,7 +5891,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "C49")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -5357,7 +5909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48760870-7c07-42a7-9049-3630bd507fbb")
-		(property "Reference" "H7"
+		(property "Reference" "H11"
 			(at 186.69 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5656,7 +6208,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "H7")
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -5674,7 +6226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ef57f2a-c02d-40f1-a40f-b0d75eeb4a30")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 100.33 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5735,7 +6287,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5753,7 +6305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "526f5d83-c60c-4d69-b717-58eae17bb43c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR065"
 			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5813,7 +6365,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR026")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5831,7 +6383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8428d100-6e8f-4fdd-943e-5b7c49220569")
-		(property "Reference" "H6"
+		(property "Reference" "H10"
 			(at 186.69 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,7 +6682,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "H6")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -6148,7 +6700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b42d29e-cb6c-4a85-82e2-34e59cc3659a")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 88.9 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6208,7 +6760,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -6225,7 +6777,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ba8fdaf-4497-474c-8d67-8edf9921b84f")
-		(property "Reference" "C37"
+		(property "Reference" "C45"
 			(at 92.71 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6245,7 +6797,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 96.52 24.4348 0)
 			(hide yes)
 			(show_name no)
@@ -6287,7 +6839,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "C37")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -6305,7 +6857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cd54b6e-95b5-4447-a4c2-f0f7156c55e6")
-		(property "Reference" "H4"
+		(property "Reference" "H8"
 			(at 186.69 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6604,7 +7156,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "H4")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -6622,7 +7174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "922e5c64-79ab-4324-a0fa-33c684533fde")
-		(property "Reference" "H2"
+		(property "Reference" "H6"
 			(at 185.42 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6921,7 +7473,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "H2")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -6939,7 +7491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93b3cc27-5ee2-4d09-a922-37d226c42e21")
-		(property "Reference" "U11"
+		(property "Reference" "U12"
 			(at 76.2 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7411,7 +7963,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "U11")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -7429,7 +7981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95c41329-c4fb-4dd0-a326-c53f7a88b15f")
-		(property "Reference" "H3"
+		(property "Reference" "H7"
 			(at 185.42 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7728,7 +8280,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "H3")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -7746,7 +8298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fdcc139-5199-4743-9dae-d7f644335df2")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR059"
 			(at 87.63 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -7806,7 +8358,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR024")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7824,7 +8376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a44048d9-5833-48ab-a581-4bba59b1bedc")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR061"
 			(at 102.87 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -7885,7 +8437,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR025")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7902,7 +8454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4db7fd8-f066-4ab9-b61e-2b999fcdc1ab")
-		(property "Reference" "C50"
+		(property "Reference" "C48"
 			(at 106.68 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7922,7 +8474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 101.2952 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7964,7 +8516,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "C50")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -7972,7 +8524,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 104.14 90.17 0)
+		(at 107.95 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7982,8 +8534,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb2dc905-d6e4-439f-a1f1-1bad69d27c02")
-		(property "Reference" "#PWR062"
-			(at 104.14 93.98 0)
+		(property "Reference" "#PWR066"
+			(at 107.95 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7994,7 +8546,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 104.14 85.09 0)
+			(at 107.95 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8004,7 +8556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 90.17 0)
+			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8015,7 +8567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 90.17 0)
+			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8026,7 +8578,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 104.14 90.17 0)
+			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8042,7 +8594,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR062")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8060,7 +8612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c49e7e31-b999-4f8b-b494-7012ff99d6f0")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR063"
 			(at 99.06 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8121,7 +8673,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR027")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8139,7 +8691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da5a4129-4edd-4bfa-8688-5f890be78854")
-		(property "Reference" "H8"
+		(property "Reference" "H12"
 			(at 187.96 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8438,7 +8990,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "H8")
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -8456,7 +9008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e02105b8-3be3-4e06-a825-83a6a04c6aec")
-		(property "Reference" "H9"
+		(property "Reference" "H13"
 			(at 187.96 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8755,7 +9307,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "H9")
+					(reference "H13")
 					(unit 1)
 				)
 			)

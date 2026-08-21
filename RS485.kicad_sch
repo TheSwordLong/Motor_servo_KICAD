@@ -1988,6 +1988,328 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WJ15EDGRC-3.81-2P:31330102"
+			(pin_names
+				(offset 1.0142)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN?"
+				(at 0 7.0357 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WJ15EDGRC-3.81-2P"
+				(at 0 5.2577 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_api_lib:WJ15EDGRC-3.81-2P"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://file.elecfans.com/web1/M00/8F/66/o4YBAFzAJVGAapO-AAtZGykaSso280.pdf"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Plug and pull terminal board end/socket - closed 2Pin spacing: 3.81mm, 1 row of bent pins green"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "WJ15EDGRC-3.81-2P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "KANGNEX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "colour" "绿色"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "connector_type" "板端/插座-闭口"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "current" "7 A, 8 A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "flammability_rating" "UL94V-0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "holes_direction" "90°，直角"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "huaqiu_pn" "G4189957"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "lead_free" "Yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "mount" "弯针"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "number_of_rows" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "package" "弯插,P=3.81mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "packaging" "500pcs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "pin_number_in_each_row" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "pins" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "pitch" "3.81 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "terminal_pitch" "3.81 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "termination_type" "插拔式接线端子"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "voltage" "250 V, 300 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "31330102_1_1"
+				(rectangle
+					(start -6.35 -1.27)
+					(end 6.35 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -5272,51 +5594,107 @@
 			"AABJRU5ErkJggg=="
 		)
 	)
-	(hierarchical_label "RS485_A"
-		(shape bidirectional)
-		(at 156.21 85.09 180)
+	(label "RS485_A"
+		(at 156.21 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "4c05916b-e464-4a48-8757-4831e0906ca0")
+		(uuid "03a8f350-16e7-4e54-bb91-b1271fd25f7a")
 	)
-	(hierarchical_label "CTRL"
-		(shape output)
-		(at 223.52 81.28 0)
+	(label "RS485_RX"
+		(at 133.35 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "53e49b2d-8ea9-46f2-824b-36d44733eb91")
+		(uuid "2b41001d-9cc9-4632-a7f6-8042c0941b51")
 	)
-	(hierarchical_label "MCU_RS232_TXD"
-		(shape output)
-		(at 133.35 57.15 0)
+	(label "RS485_RX"
+		(at 209.55 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "62e5d432-c9e1-4f5f-b3e8-1cf26f43703d")
+		(uuid "91c43ad4-cd65-4974-b441-99beb5d14579")
 	)
-	(hierarchical_label "CTRL"
-		(shape output)
+	(label "CTRL"
 		(at 133.35 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "68f54190-f8cf-4878-8e10-2dad2ba7d5f2")
+		(uuid "91f5d9a9-d8d1-4523-9239-8b167ad28e6b")
 	)
-	(hierarchical_label "RS485_DE"
+	(label "RS485_A"
+		(at 245.11 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a14a0c84-2535-4d47-9724-8012e6529ddb")
+	)
+	(label "RS485_B"
+		(at 245.11 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab71dfce-46fb-49cc-9cfb-46a799fb2d48")
+	)
+	(label "RS485_TX"
+		(at 163.83 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7dba2d2-eec2-4923-8ac6-fd37550d249b")
+	)
+	(label "CTRL"
+		(at 223.52 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c67948f3-25a3-4b53-ab45-17b7d4af9585")
+	)
+	(label "RS485B"
+		(at 156.21 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d94ab396-6e04-47c4-8b06-94bd16d04516")
+	)
+	(label "RS485_TX"
+		(at 133.35 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daebe6e3-4e2d-444b-b451-8a02f5898537")
+	)
+	(hierarchical_label "MCU_RS485_DE"
 		(shape input)
 		(at 87.63 46.99 90)
 		(effects
@@ -5327,18 +5705,7 @@
 		)
 		(uuid "90284949-d7cd-406a-ae60-2c35dcb721e3")
 	)
-	(hierarchical_label "RS485_B"
-		(shape bidirectional)
-		(at 156.21 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "986aae08-a21d-416f-a836-37399ad2a898")
-	)
-	(hierarchical_label "MCU_RS232_RXD"
+	(hierarchical_label "MCU_RS485_RXD"
 		(shape input)
 		(at 100.33 62.23 180)
 		(effects
@@ -5349,41 +5716,8 @@
 		)
 		(uuid "9d5c04d1-a0da-457a-ba9b-5bc4c24853bf")
 	)
-	(hierarchical_label "MCU_RS232_TXD"
+	(hierarchical_label "MCU_RS485_TX"
 		(shape output)
-		(at 163.83 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a3abfcb7-0aba-4682-ae5d-6b307cd053d1")
-	)
-	(hierarchical_label "RS485_RX"
-		(shape output)
-		(at 133.35 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aaafce98-7451-4fa4-94ae-ce25325c233c")
-	)
-	(hierarchical_label "MCU_RS232_RXD"
-		(shape input)
-		(at 209.55 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc461577-5902-4aad-aa1d-6c89e8007318")
-	)
-	(hierarchical_label "RS485_TX"
-		(shape input)
 		(at 105.41 57.15 180)
 		(effects
 			(font
@@ -5483,7 +5817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1528f321-1ccf-4300-9ff1-aa9f27d43e78")
-		(property "Reference" "C47"
+		(property "Reference" "C43"
 			(at 152.4 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5505,7 +5839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 147.6248 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5547,7 +5881,298 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "C47")
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WJ15EDGRC-3.81-2P:31330102")
+		(at 245.11 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2da6c4bd-5257-41b0-b738-21e596a1e83a")
+		(property "Reference" "CN5"
+			(at 247.65 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WJ15EDGRC-3.81-2P"
+			(at 247.65 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:WJ15EDGRC-3.81-2P"
+			(at 241.3 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://file.elecfans.com/web1/M00/8F/66/o4YBAFzAJVGAapO-AAtZGykaSso280.pdf"
+			(at 241.3 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Plug and pull terminal board end/socket - closed 2Pin spacing: 3.81mm, 1 row of bent pins green"
+			(at 241.3 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WJ15EDGRC-3.81-2P"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KANGNEX"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "colour" "绿色"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "connector_type" "板端/插座-闭口"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "current" "7 A, 8 A"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "flammability_rating" "UL94V-0"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "holes_direction" "90°，直角"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G4189957"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lead_free" "Yes"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount" "弯针"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "number_of_rows" "1"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "弯插,P=3.81mm"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "packaging" "500pcs"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin_number_in_each_row" "2"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pins" "2"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pitch" "3.81 mm"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "terminal_pitch" "3.81 mm"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "termination_type" "插拔式接线端子"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage" "250 V, 300 V"
+			(at 245.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a4134ef-7eb8-4eac-8b18-5e37054229f7")
+		)
+		(pin "2"
+			(uuid "e8c0c7cb-6650-4799-b6a4-b74b4748bf91")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
+					(reference "CN5")
 					(unit 1)
 				)
 			)
@@ -5565,7 +6190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fa501fa-b8eb-4486-9c05-1838992f9b7c")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR058"
 			(at 171.45 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5626,7 +6251,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "#PWR039")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -5644,7 +6269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "443484ec-33f8-42ee-8fbe-9dcb6f0eab62")
-		(property "Reference" "C36"
+		(property "Reference" "C44"
 			(at 171.704 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5666,7 +6291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:0402X104K160CT"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 171.45 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5917,7 +6542,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "C36")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -5941,7 +6566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57e16580-60bb-487b-a973-f877ac27e1ca")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR053"
 			(at 82.55 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6001,7 +6626,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "#PWR023")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6018,7 +6643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80ca57a8-e417-4287-9eda-f4d758be0f02")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR057"
 			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6078,7 +6703,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "#PWR047")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -6096,7 +6721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2c2a655-3083-4d99-9996-2dea564f73bf")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 166.624 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6118,7 +6743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:CRCW0603120RFKEA"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 166.37 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6512,7 +7137,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6536,7 +7161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3d05b5f-2c23-4a8c-b00c-bed5e62bdda7")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR054"
 			(at 96.52 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6596,7 +7221,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "#PWR022")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6613,7 +7238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab027b3f-47ae-4c03-a900-a46b44b2d0b0")
-		(property "Reference" "R21"
+		(property "Reference" "R16"
 			(at 84.582 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6633,7 +7258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 86.614 53.086 90)
 			(hide yes)
 			(show_name no)
@@ -6675,7 +7300,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "R21")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6771,7 +7396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfbfbedd-97da-4211-ba99-46998d19c44e")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 208.026 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6791,7 +7416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:AF0603JR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 212.09 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7097,7 +7722,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7121,7 +7746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df1c306a-7d94-46b2-8329-f27bf6008f60")
-		(property "Reference" "C48"
+		(property "Reference" "C42"
 			(at 86.36 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7143,7 +7768,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 81.5848 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7185,7 +7810,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "C48")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -7203,7 +7828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebf69372-e787-4354-a53e-7b597cbd503f")
-		(property "Reference" "U6"
+		(property "Reference" "U10"
 			(at 181.102 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7223,7 +7848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:SIT3485ESA"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 189.23 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7426,7 +8051,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "U6")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -7450,7 +8075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1cfc41f-1ddb-41da-a619-b3cb6d48228f")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 119.38 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7675,64 +8300,38 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(group "SIT3485ESA_Interface Module"
-		(uuid "f2047699-2e8b-4f07-9008-53a56833965e")
-		(members "23dfa473-4469-4f38-9314-589935e126c4" "26108246-1be3-418f-a1b5-7bad52adde01"
+		(uuid "f2047699-2e8b-4f07-9008-53a56833965f")
+		(members "03a8f350-16e7-4e54-bb91-b1271fd25f7a" "23dfa473-4469-4f38-9314-589935e126c4"
+			"26108246-1be3-418f-a1b5-7bad52adde01" "2b41001d-9cc9-4632-a7f6-8042c0941b51"
 			"31ddb25e-b6ab-4ced-8fe1-ae8fd7e62b07" "39d72b1f-3389-4232-b2b7-e1027b86fc17"
-			"443484ec-33f8-42ee-8fbe-9dcb6f0eab62" "4c05916b-e464-4a48-8757-4831e0906ca0"
-			"51d99099-4acd-4cfe-9e93-c93f0b295e31" "53e49b2d-8ea9-46f2-824b-36d44733eb91"
+			"443484ec-33f8-42ee-8fbe-9dcb6f0eab62" "51d99099-4acd-4cfe-9e93-c93f0b295e31"
 			"55e09955-f414-4e01-bfcd-fa6c38337f1d" "5ed6cc2d-ccac-414a-bf56-461902222bb2"
 			"6140e6fe-5a83-46ff-9bce-0f7ebcf9845a" "62dfcb28-a389-46d6-ba56-12e3dff38496"
-			"62e5d432-c9e1-4f5f-b3e8-1cf26f43703d" "6395606e-565f-416a-b7f2-155000fc9816"
-			"68f54190-f8cf-4878-8e10-2dad2ba7d5f2" "6b1a0329-4171-4786-ab80-74d0023dd190"
+			"6395606e-565f-416a-b7f2-155000fc9816" "6b1a0329-4171-4786-ab80-74d0023dd190"
 			"7c5fdb95-2271-450f-9337-2569b4fe3a41" "911a547e-cc1d-4754-95f0-e97177cc3de2"
-			"986aae08-a21d-416f-a836-37399ad2a898" "9d5c04d1-a0da-457a-ba9b-5bc4c24853bf"
-			"9e0f76fc-b6ad-415d-96c8-e3aea2d579fc" "9e2a6550-1d09-4560-bf3a-ec5f651006ee"
-			"a2c2a655-3083-4d99-9996-2dea564f73bf" "a3abfcb7-0aba-4682-ae5d-6b307cd053d1"
-			"a9ec83d8-c6ab-43e8-be1c-8cf4f626aac8" "b3aac39a-25d6-497d-a2c7-c40feb76406f"
-			"b5a734af-4b1c-4642-9e99-e5ce70eb4072" "b8038749-188b-4218-8d17-842c1396e420"
-			"bc5cd577-1e5e-4f90-aaf9-22c387c5b9c7" "bfbfbedd-97da-4211-ba99-46998d19c44e"
+			"91c43ad4-cd65-4974-b441-99beb5d14579" "91f5d9a9-d8d1-4523-9239-8b167ad28e6b"
+			"9d5c04d1-a0da-457a-ba9b-5bc4c24853bf" "9e0f76fc-b6ad-415d-96c8-e3aea2d579fc"
+			"9e2a6550-1d09-4560-bf3a-ec5f651006ee" "a14a0c84-2535-4d47-9724-8012e6529ddb"
+			"a2c2a655-3083-4d99-9996-2dea564f73bf" "a9ec83d8-c6ab-43e8-be1c-8cf4f626aac8"
+			"ab71dfce-46fb-49cc-9cfb-46a799fb2d48" "b3aac39a-25d6-497d-a2c7-c40feb76406f"
+			"b5a734af-4b1c-4642-9e99-e5ce70eb4072" "b7dba2d2-eec2-4923-8ac6-fd37550d249b"
+			"b8038749-188b-4218-8d17-842c1396e420" "bc5cd577-1e5e-4f90-aaf9-22c387c5b9c7"
+			"bfbfbedd-97da-4211-ba99-46998d19c44e" "c67948f3-25a3-4b53-ab45-17b7d4af9585"
 			"cb720ff4-dc0d-412f-b55f-f07bb3dd1bd7" "cbe8c850-df89-474c-a9ca-2bf6c4b39290"
 			"cc885663-8a0d-48e5-8458-7c62c6453b33" "d0d78a06-ba3a-4898-aff4-5f6b6f7b6fa8"
 			"d2467b82-d4ce-445e-8d2a-6adb26260aa8" "d8c2b88a-e5a2-4701-a8e7-d50ea2202197"
-			"dc461577-5902-4aad-aa1d-6c89e8007318" "e22e755f-e53a-4c4c-ab14-083374453ef6"
-			"ebf69372-e787-4354-a53e-7b597cbd503f" "ed190d79-050e-4e15-9d3c-59789546445f"
-			"eea1b2e9-26ed-4bef-9e3e-f096e30246c9" "ef2ebefc-983b-4848-9a18-9d586aee4b7c"
-			"f08841d5-75c3-41d6-b8de-9fecd535c3ce" "fdd4bf25-51b0-4703-9236-d98b0b2e5368"
-			"fde634bd-a756-4e03-b0ca-3d5b3de6ddfc"
-		)
-	)
-	(group "SIT3485ESA_Interface Module"
-		(uuid "f2047699-2e8b-4f07-9008-53a56833965e")
-		(members "23dfa473-4469-4f38-9314-589935e126c4" "26108246-1be3-418f-a1b5-7bad52adde01"
-			"31ddb25e-b6ab-4ced-8fe1-ae8fd7e62b07" "39d72b1f-3389-4232-b2b7-e1027b86fc17"
-			"443484ec-33f8-42ee-8fbe-9dcb6f0eab62" "4c05916b-e464-4a48-8757-4831e0906ca0"
-			"51d99099-4acd-4cfe-9e93-c93f0b295e31" "53e49b2d-8ea9-46f2-824b-36d44733eb91"
-			"55e09955-f414-4e01-bfcd-fa6c38337f1d" "5ed6cc2d-ccac-414a-bf56-461902222bb2"
-			"6140e6fe-5a83-46ff-9bce-0f7ebcf9845a" "62dfcb28-a389-46d6-ba56-12e3dff38496"
-			"62e5d432-c9e1-4f5f-b3e8-1cf26f43703d" "6395606e-565f-416a-b7f2-155000fc9816"
-			"68f54190-f8cf-4878-8e10-2dad2ba7d5f2" "6b1a0329-4171-4786-ab80-74d0023dd190"
-			"7c5fdb95-2271-450f-9337-2569b4fe3a41" "911a547e-cc1d-4754-95f0-e97177cc3de2"
-			"986aae08-a21d-416f-a836-37399ad2a898" "9d5c04d1-a0da-457a-ba9b-5bc4c24853bf"
-			"9e0f76fc-b6ad-415d-96c8-e3aea2d579fc" "9e2a6550-1d09-4560-bf3a-ec5f651006ee"
-			"a2c2a655-3083-4d99-9996-2dea564f73bf" "a3abfcb7-0aba-4682-ae5d-6b307cd053d1"
-			"a9ec83d8-c6ab-43e8-be1c-8cf4f626aac8" "b3aac39a-25d6-497d-a2c7-c40feb76406f"
-			"b5a734af-4b1c-4642-9e99-e5ce70eb4072" "b8038749-188b-4218-8d17-842c1396e420"
-			"bc5cd577-1e5e-4f90-aaf9-22c387c5b9c7" "bfbfbedd-97da-4211-ba99-46998d19c44e"
-			"cb720ff4-dc0d-412f-b55f-f07bb3dd1bd7" "cbe8c850-df89-474c-a9ca-2bf6c4b39290"
-			"cc885663-8a0d-48e5-8458-7c62c6453b33" "d0d78a06-ba3a-4898-aff4-5f6b6f7b6fa8"
-			"d2467b82-d4ce-445e-8d2a-6adb26260aa8" "d8c2b88a-e5a2-4701-a8e7-d50ea2202197"
-			"dc461577-5902-4aad-aa1d-6c89e8007318" "e22e755f-e53a-4c4c-ab14-083374453ef6"
-			"ebf69372-e787-4354-a53e-7b597cbd503f" "ed190d79-050e-4e15-9d3c-59789546445f"
-			"eea1b2e9-26ed-4bef-9e3e-f096e30246c9" "ef2ebefc-983b-4848-9a18-9d586aee4b7c"
-			"f08841d5-75c3-41d6-b8de-9fecd535c3ce" "fdd4bf25-51b0-4703-9236-d98b0b2e5368"
-			"fde634bd-a756-4e03-b0ca-3d5b3de6ddfc"
+			"d94ab396-6e04-47c4-8b06-94bd16d04516" "daebe6e3-4e2d-444b-b451-8a02f5898537"
+			"e22e755f-e53a-4c4c-ab14-083374453ef6" "ebf69372-e787-4354-a53e-7b597cbd503f"
+			"ed190d79-050e-4e15-9d3c-59789546445f" "eea1b2e9-26ed-4bef-9e3e-f096e30246c9"
+			"ef2ebefc-983b-4848-9a18-9d586aee4b7c" "f08841d5-75c3-41d6-b8de-9fecd535c3ce"
+			"fdd4bf25-51b0-4703-9236-d98b0b2e5368" "fde634bd-a756-4e03-b0ca-3d5b3de6ddfc"
 		)
 	)
 )

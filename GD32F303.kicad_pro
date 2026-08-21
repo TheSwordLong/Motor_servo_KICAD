@@ -1289,6 +1289,570 @@
           "label": "circluar_pins_square_pins",
           "name": "circluar_pins_square_pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "conn_orientation",
+          "name": "conn_orientation",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_transceivers",
+          "name": "number_of_transceivers",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_transmitters",
+          "name": "number_of_transmitters",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_unidirectional_channels",
+          "name": "number_of_unidirectional_channels",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "off_state_voltage",
+          "name": "off_state_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_lines",
+          "name": "number_of_lines",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "core_material",
+          "name": "core_material",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "duplex",
+          "name": "duplex",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "output_voltage",
+          "name": "output_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "current",
+          "name": "current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mpn",
+          "name": "Mpn",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "data_rate",
+          "name": "data_rate",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "data_transmission_rate",
+          "name": "data_transmission_rate",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_drivers",
+          "name": "number_of_drivers",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "peak_pulse_current",
+          "name": "peak_pulse_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "peak_pulse_power",
+          "name": "peak_pulse_power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "logic_function",
+          "name": "logic_function",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "pin_number_in_each_row",
+          "name": "pin_number_in_each_row",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "low_level_output_current",
+          "name": "low_level_output_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "connector_type",
+          "name": "connector_type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_bits",
+          "name": "number_of_bits",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "direction",
+          "name": "direction",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "drain_to_source_voltage",
+          "name": "drain_to_source_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "power_line_protection",
+          "name": "power_line_protection",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "driver_receiver",
+          "name": "driver_receiver",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "propagation_delay",
+          "name": "propagation_delay",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "protocol",
+          "name": "protocol",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "quiescent_current",
+          "name": "quiescent_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "esd_protec_present",
+          "name": "esd_protec_present",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "fixed_form",
+          "name": "fixed_form",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "receiver_hysteresis",
+          "name": "receiver_hysteresis",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Technology",
+          "name": "Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature Characteristic",
+          "name": "Temperature Characteristic",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "reverse_breakdown_voltage",
+          "name": "reverse_breakdown_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "reverse_channels",
+          "name": "reverse_channels",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature Coefficient",
+          "name": "Temperature Coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Termination",
+          "name": "Termination",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "reverse_standoff_voltage",
+          "name": "reverse_standoff_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "reverse_working_voltage",
+          "name": "reverse_working_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "rms_current",
+          "name": "rms_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "gate_source_threshold_voltage",
+          "name": "gate_source_threshold_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "gender",
+          "name": "gender",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_outputs",
+          "name": "number_of_outputs",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "shielding",
+          "name": "shielding",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "supply_current",
+          "name": "supply_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Width",
+          "name": "Width",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_receivers",
+          "name": "number_of_receivers",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "high_level_output_current",
+          "name": "high_level_output_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_contacts",
+          "name": "number_of_contacts",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "impedance",
+          "name": "impedance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "input_voltage",
+          "name": "input_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "termination_type",
+          "name": "termination_type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "test_current",
+          "name": "test_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "test_frequency",
+          "name": "test_frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "isolation_voltage",
+          "name": "isolation_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_circuits",
+          "name": "number_of_circuits",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "breakdown_voltage",
+          "name": "breakdown_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "translator_type",
+          "name": "translator_type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "turn_on_delay_time",
+          "name": "turn_on_delay_time",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_rows",
+          "name": "number_of_rows",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "usb_standard",
+          "name": "usb_standard",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "leakage_current",
+          "name": "leakage_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "logic_type",
+          "name": "logic_type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "REACH SHVC Compliant",
+          "name": "REACH SHVC Compliant",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Resistance",
+          "name": "Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Composition",
+          "name": "Composition",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric Material",
+          "name": "Dielectric Material",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Grade",
+          "name": "Grade",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Lead Free",
+          "name": "Lead Free",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR Package Code",
+          "name": "MFR Package Code",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "cmti",
+          "name": "cmti",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Length",
+          "name": "Length",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Material",
+          "name": "Material",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Military Standard",
+          "name": "Military Standard",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mount",
+          "name": "Mount",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature",
+          "name": "Operating Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature (Max)",
+          "name": "Operating Temperature (Max)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature (Min)",
+          "name": "Operating Temperature (Min)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Overload Voltage",
+          "name": "Overload Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pins",
+          "name": "Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power Rating",
+          "name": "Power Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_ports",
+          "name": "number_of_ports",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "application_function",
+          "name": "application_function",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "certification",
+          "name": "certification",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "clamping_voltage",
+          "name": "clamping_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "drain-source_on_resistance",
+          "name": "drain-source_on_resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_inputs",
+          "name": "number_of_inputs",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rating",
+          "name": "Voltage Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_channels",
+          "name": "number_of_channels",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1339,7 +1903,7 @@
         "uuid": "54005433-e3aa-4693-8f75-bb73943288d3"
       }
     ],
-    "used_designators": "U1-15,C1-56,#PWR3-67,L1-4,D1-8,R1-33,Y1-2,Q1-2,1,CN1-2,B1-2,SW1,H1-9,JP1-2,FL1-2,J1-2,FB1-2",
+    "used_designators": "U1-15,C1-56,D1-8,L1-4,#PWR1-88,#FLG1-14,R1-33,Y1-2,Q1-2,1,CN1-5,B1-2,SW1,H1-14,JP1-2,FL1-2,J1-2,FB1-2",
     "variants": []
   },
   "sheets": [

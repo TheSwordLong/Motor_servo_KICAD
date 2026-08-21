@@ -1660,6 +1660,350 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DB2ERC-5.08-2P-GN:KF237-10.16-2P"
+			(pin_names
+				(offset 1.0142)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN?"
+				(at 0 7.0357 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DB2ERC-5.08-2P-GN"
+				(at 0 5.2577 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_api_lib:DB2ERC-5.08-2P-GN"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://file.elecfans.com/web2/M00/98/ED/pYYBAGQSgSmAFWPAAAW6f_NSamU229.pdf"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Plug-in terminal DB2ERC-5.08 Pitch 5.08mm 2Pin bent green tin plated"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "DB2ERC-5.08-2P-GN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "DORABO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "colour" "绿色"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "connector_type" "板端/插座-闭口"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "contact_plating" "Sn"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "current" "15 A, 20 A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "current_rating" "20 A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "huaqiu_pn" "G4260980"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "lead_free" "Yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "mount" "弯针"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "number_of_rows" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "operating_temperature" "-40 °C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "package" "弯插,P=5.08mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "packaging" "500pcs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "pin_number_in_each_row" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "pins" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "pitch" "5.08 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "terminal_pitch" "5.08 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "termination_type" "插拔式接线端子"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "voltage" "300 V, 320 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "voltage_rating" "320 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KF237-10.16-2P_1_1"
+				(rectangle
+					(start -6.35 -1.27)
+					(end 6.35 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2973,6 +3317,129 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7782,6 +8249,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "XL1509-5.0_DCDC Module"
 		(exclude_from_sim no)
@@ -7841,10 +8423,10 @@
 		(uuid "a67d671e-aafb-47bf-9fb2-f58df2e84605")
 	)
 	(junction
-		(at 59.69 187.96)
+		(at 59.69 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "050a7867-6c88-48b9-87ac-85eb347a8a58")
+		(uuid "0983f4ff-79b4-4728-be08-8256dc2d25f1")
 	)
 	(junction
 		(at 179.07 53.34)
@@ -7883,22 +8465,40 @@
 		(uuid "31e2f87a-12b1-4884-af5e-12e83daa690a")
 	)
 	(junction
+		(at 41.91 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41ca763a-8658-4361-b41c-ed8733e2018e")
+	)
+	(junction
 		(at 151.13 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "486429dd-9417-4467-adab-12fe55c02267")
 	)
 	(junction
-		(at 133.35 154.94)
+		(at 238.76 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4b6092fb-7736-49b1-a554-5601873723d0")
+		(uuid "48b72217-f00b-42cb-be44-3c4e615f0be2")
+	)
+	(junction
+		(at 241.3 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cbfe79e-d15a-489d-9c82-4f10a10296dc")
 	)
 	(junction
 		(at 223.52 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fb4ebc1-35df-4d4f-a99c-7a718da73ba4")
+	)
+	(junction
+		(at 30.48 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5711bdd5-ef99-495d-926e-6a5c8a8a4903")
 	)
 	(junction
 		(at 30.48 44.45)
@@ -7949,6 +8549,12 @@
 		(uuid "8c749e41-44aa-4019-b681-19d404dc57c8")
 	)
 	(junction
+		(at 104.3999 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93492722-5e61-48c7-bff7-413e0cb41474")
+	)
+	(junction
 		(at 223.52 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7973,6 +8579,18 @@
 		(uuid "9877b5a2-f19d-47b7-9a55-3c680051384b")
 	)
 	(junction
+		(at 240.03 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b3041b8-b708-401c-a2e0-1b3fc624ce92")
+	)
+	(junction
+		(at 41.91 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b07049c2-08cc-49dc-86b9-78ea65b801ae")
+	)
+	(junction
 		(at 86.36 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7985,10 +8603,10 @@
 		(uuid "b447ed20-36d2-4017-ac26-03d52d6217bb")
 	)
 	(junction
-		(at 101.6 147.32)
+		(at 133.35 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b5d467b4-4c25-4cd8-999e-82c932c12c41")
+		(uuid "b6ec563d-960e-4df7-b69d-63da0e186698")
 	)
 	(junction
 		(at 133.35 140.335)
@@ -7997,10 +8615,10 @@
 		(uuid "c5f86f6a-a94e-423a-8313-b938804ee78f")
 	)
 	(junction
-		(at 193.04 142.24)
+		(at 59.69 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4e58b20-b605-49f5-b814-d2b324674a76")
+		(uuid "cd0c09cc-0f90-4fe7-9b61-ec755bfe9f3c")
 	)
 	(junction
 		(at 179.07 31.75)
@@ -8019,6 +8637,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc858717-44e7-4792-9b5e-fe85a664d09e")
+	)
+	(junction
+		(at 193.04 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e074737a-bf47-4550-97b8-5e6f1dfbf1b3")
 	)
 	(junction
 		(at 100.33 44.45)
@@ -8045,16 +8669,34 @@
 		(uuid "ee83b70d-237b-42b7-b08f-fb6913f26c0f")
 	)
 	(junction
+		(at 101.6 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efe9c696-4089-4e03-a53c-528cf170277a")
+	)
+	(junction
 		(at 66.04 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "effba389-79a7-4395-b60f-e1bb6c937388")
 	)
 	(junction
+		(at 21.59 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6b3ea18-835d-4ce5-8df2-e87eddb67d72")
+	)
+	(junction
 		(at 86.36 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc49cb04-eb9c-440e-b65d-d9be5d9b350a")
+	)
+	(junction
+		(at 193.04 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fea7eef1-6d62-4ac7-b771-7ecabeac2f06")
 	)
 	(junction
 		(at 82.55 52.07)
@@ -8114,6 +8756,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 143.51) (xy 41.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e09b69f-e778-467e-9296-6c0a0b3007a3")
+	)
+	(wire
+		(pts
 			(xy 179.07 53.34) (xy 151.13 53.34)
 		)
 		(stroke
@@ -8134,7 +8786,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 165.1) (xy 41.91 162.56)
+			(xy 41.91 167.64) (xy 41.91 166.37)
 		)
 		(stroke
 			(width 0)
@@ -8174,6 +8826,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 35.56) (xy 21.59 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1184c41c-dec9-4804-b2e8-730d0cf1e428")
+	)
+	(wire
+		(pts
 			(xy 82.55 52.07) (xy 82.55 54.61)
 		)
 		(stroke
@@ -8181,16 +8843,6 @@
 			(type default)
 		)
 		(uuid "12c5fb4e-f587-4d6a-a6f9-6afb99a05a56")
-	)
-	(wire
-		(pts
-			(xy 119.38 149.86) (xy 119.38 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1645e67b-fb86-4bbc-96ca-fe86d0452f9a")
 	)
 	(wire
 		(pts
@@ -8314,6 +8966,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 29.21) (xy 238.76 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326fd31d-2f70-4fd5-8dae-cd2927e1b84b")
+	)
+	(wire
+		(pts
 			(xy 223.52 33.02) (xy 223.52 31.75)
 		)
 		(stroke
@@ -8344,6 +9006,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 190.5) (xy 59.69 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ec2932-c925-4aff-ac88-3e043b5fa00d")
+	)
+	(wire
+		(pts
 			(xy 213.36 33.02) (xy 213.36 31.75)
 		)
 		(stroke
@@ -8364,6 +9036,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 190.5) (xy 59.69 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be31f8e-6706-44ea-9e4a-fde070e00038")
+	)
+	(wire
+		(pts
+			(xy 25.4 166.37) (xy 30.48 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3bc243-cce1-4a9b-952e-11ab1e9f6f78")
+	)
+	(wire
+		(pts
 			(xy 120.65 182.88) (xy 114.3 182.88)
 		)
 		(stroke
@@ -8371,6 +9063,16 @@
 			(type default)
 		)
 		(uuid "40dc5be2-3649-4d1e-88d2-de6bbc408dee")
+	)
+	(wire
+		(pts
+			(xy 104.3999 147.32) (xy 106.68 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44170a30-1ae3-4d00-8b3f-a74cfbb7a605")
 	)
 	(wire
 		(pts
@@ -8391,6 +9093,16 @@
 			(type default)
 		)
 		(uuid "46700d3a-dc84-4f15-b007-b4113775407d")
+	)
+	(wire
+		(pts
+			(xy 123.19 154.94) (xy 133.35 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a39566-9d34-463c-b8c2-bf20d1eb0590")
 	)
 	(wire
 		(pts
@@ -8454,7 +9166,17 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 44.45) (xy 22.86 44.45)
+			(xy 123.19 149.86) (xy 123.19 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53671fdb-3bde-4ee9-a806-f3f33b3f0435")
+	)
+	(wire
+		(pts
+			(xy 19.05 44.45) (xy 21.59 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8504,6 +9226,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 149.86) (xy 121.92 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63dff6cb-d1b2-469f-b18c-73b7fa86d313")
+	)
+	(wire
+		(pts
 			(xy 203.2 36.83) (xy 203.2 53.34)
 		)
 		(stroke
@@ -8511,6 +9243,16 @@
 			(type default)
 		)
 		(uuid "651123bb-04b4-4144-96ee-7f4e01392faa")
+	)
+	(wire
+		(pts
+			(xy 226.06 137.16) (xy 241.3 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65305456-a9b0-461f-bdd3-54f34bbcccc3")
 	)
 	(wire
 		(pts
@@ -8534,6 +9276,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 166.37) (xy 41.91 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b157082-4a4f-467b-8892-eca614b9fc38")
+	)
+	(wire
+		(pts
 			(xy 208.28 34.29) (xy 208.28 40.64)
 		)
 		(stroke
@@ -8551,6 +9303,16 @@
 			(type default)
 		)
 		(uuid "6f4c04ba-332a-43a5-ab0c-f9b63fdcb2cf")
+	)
+	(wire
+		(pts
+			(xy 238.76 29.21) (xy 238.76 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b07b88-0e62-416c-b3a3-47cb9195d388")
 	)
 	(wire
 		(pts
@@ -8624,16 +9386,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 154.94) (xy 133.35 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82442ff5-f91f-4757-b497-49cdb5cf0381")
-	)
-	(wire
-		(pts
 			(xy 74.93 180.34) (xy 74.93 179.07)
 		)
 		(stroke
@@ -8694,7 +9446,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 144.78) (xy 41.91 142.24)
+			(xy 41.91 144.78) (xy 41.91 143.51)
 		)
 		(stroke
 			(width 0)
@@ -8721,6 +9473,16 @@
 			(type default)
 		)
 		(uuid "95aa31a1-58c9-420f-bbc6-2b7756ea4a0e")
+	)
+	(wire
+		(pts
+			(xy 101.6 147.32) (xy 104.3999 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d4b902-2f08-4e70-b0c9-d1fcd2419e02")
 	)
 	(wire
 		(pts
@@ -8774,6 +9536,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 44.45) (xy 22.86 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24894b9-b65e-48e8-8f96-2903cdc2b0e6")
+	)
+	(wire
+		(pts
 			(xy 95.25 44.45) (xy 100.33 44.45)
 		)
 		(stroke
@@ -8794,7 +9566,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 144.78) (xy 123.825 144.78)
+			(xy 196.85 143.51) (xy 193.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45a7cc0-6f0d-4789-8f63-7f351695fd31")
+	)
+	(wire
+		(pts
+			(xy 121.92 144.78) (xy 123.825 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8844,7 +9626,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 27.94) (xy 238.76 31.75)
+			(xy 238.76 27.94) (xy 238.76 29.21)
 		)
 		(stroke
 			(width 0)
@@ -8854,13 +9636,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 147.32) (xy 101.6 147.32)
+			(xy 48.26 143.51) (xy 41.91 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afe677fb-0ba9-497b-96f3-a39d4207f6cb")
+		(uuid "ae276247-3b89-409a-a29c-ece74c9949a1")
+	)
+	(wire
+		(pts
+			(xy 30.48 162.56) (xy 30.48 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1f5d11-71a6-4f92-ba34-0f9578eb85e7")
 	)
 	(wire
 		(pts
@@ -8894,7 +9686,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 167.64) (xy 30.48 162.56)
+			(xy 30.48 167.64) (xy 30.48 166.37)
 		)
 		(stroke
 			(width 0)
@@ -8904,7 +9696,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 147.32) (xy 91.44 147.32)
+			(xy 91.44 147.32) (xy 101.6 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8931,6 +9723,16 @@
 			(type default)
 		)
 		(uuid "b45c45ad-17f0-401b-9fd1-3e70d0315777")
+	)
+	(wire
+		(pts
+			(xy 193.04 143.51) (xy 193.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b497fec0-d713-4926-aa45-fd998654c973")
 	)
 	(wire
 		(pts
@@ -9184,6 +9986,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 152.4) (xy 240.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e122fd46-23f3-4606-bdb4-7274ef7c053e")
+	)
+	(wire
+		(pts
 			(xy 66.04 187.96) (xy 74.93 187.96)
 		)
 		(stroke
@@ -9264,6 +10076,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 152.4) (xy 240.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10626a1-da30-4efb-a968-6266290e5dae")
+	)
+	(wire
+		(pts
+			(xy 49.53 166.37) (xy 41.91 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f200202a-4a10-45d7-8bf3-fb7d86623474")
+	)
+	(wire
+		(pts
 			(xy 231.14 43.18) (xy 231.14 53.34)
 		)
 		(stroke
@@ -9321,6 +10153,16 @@
 			(type default)
 		)
 		(uuid "f60b0cac-c2cd-46cc-beac-3d7fa1a1d8ca")
+	)
+	(wire
+		(pts
+			(xy 241.3 137.16) (xy 252.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7950552-ff5d-4a99-8001-3a0c5700d8b2")
 	)
 	(wire
 		(pts
@@ -32927,7 +33769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00cac493-b786-4cdc-9d94-4b5d01cced6e")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 213.868 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32949,7 +33791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:0402B104K500CT"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 213.36 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -33107,7 +33949,7 @@
 			)
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -33125,7 +33967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "023a5572-284e-4725-a89f-f57df5b86e94")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 86.868 49.022 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33147,7 +33989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:SS34"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 86.36 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -33607,7 +34449,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -33631,7 +34473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02682ffb-180e-4144-bc72-4af9cb339879")
-		(property "Reference" "L3"
+		(property "Reference" "L2"
 			(at 91.44 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33814,7 +34656,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "L3")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -33832,7 +34674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02862d15-0d53-4ff7-84fe-d05eac938a1d")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR014"
 			(at 100.33 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -33892,7 +34734,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR029")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -33929,7 +34771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:XL1509-5.0"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 59.69 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -34078,7 +34920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "090ce745-45d2-40f8-b468-657ccd7585f5")
-		(property "Reference" "U10"
+		(property "Reference" "U2"
 			(at 82.55 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34088,7 +34930,7 @@
 				)
 			)
 		)
-		(property "Value" "B0503S-2WR2L"
+		(property "Value" "B0503S-2WR3L"
 			(at 82.55 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34098,7 +34940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SIP:SIP4_Sharp-SSR_P7.62mm_Straight"
+		(property "Footprint" "Converter_DCDC:B0503S-2WR3L"
 			(at 78.994 145.288 0)
 			(hide yes)
 			(show_name no)
@@ -34146,7 +34988,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "U10")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -34163,7 +35005,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ac8588b-b900-4f62-816a-a9f0a9192d8e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR025"
 			(at 238.76 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -34229,7 +35071,7 @@
 			)
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR02")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -34247,7 +35089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f17e229-5c68-4970-bac0-01b937343177")
-		(property "Reference" "U12"
+		(property "Reference" "U3"
 			(at 102.87 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34417,7 +35259,84 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "U12")
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 196.85 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "107ce6f7-e897-412e-ab4a-f4e1969ad197")
+		(property "Reference" "#FLG07"
+			(at 196.85 141.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 196.85 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 196.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7cd683e-a011-4b99-9b40-c96a6ef7caf9")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -34434,7 +35353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "137bed07-bc91-43cc-ba94-8b751b9c9ffc")
-		(property "Reference" "C42"
+		(property "Reference" "C4"
 			(at 67.056 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34456,7 +35375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 72.0852 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -34498,7 +35417,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C42")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -34515,7 +35434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1576cc1d-beea-4bb9-bf1b-1a3f61702cb4")
-		(property "Reference" "R3"
+		(property "Reference" "R8"
 			(at 224.028 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34537,7 +35456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:CRCW040222K0FKED"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 223.52 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -34937,7 +35856,7 @@
 			)
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -34955,7 +35874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "181b270d-65d8-4b7b-80bd-c28a423842de")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 34.29 148.9074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34977,7 +35896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 30.48 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -35030,7 +35949,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -35047,7 +35966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f14ded8-2c77-4bdf-b80a-45fc1bec0806")
-		(property "Reference" "C7"
+		(property "Reference" "C14"
 			(at 239.014 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35069,7 +35988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:0402B104K500CT"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 238.76 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -35227,7 +36146,7 @@
 			)
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C7")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -35235,7 +36154,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 193.04 143.51 0)
+		(at 193.04 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35245,8 +36164,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d62ef4-9227-495b-82ff-65d46a447048")
-		(property "Reference" "#PWR034"
-			(at 193.04 149.86 0)
+		(property "Reference" "#PWR024"
+			(at 193.04 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35257,7 +36176,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 193.04 148.59 0)
+			(at 193.04 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35267,7 +36186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 143.51 0)
+			(at 193.04 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35278,7 +36197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 143.51 0)
+			(at 193.04 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35289,7 +36208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 193.04 143.51 0)
+			(at 193.04 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35305,7 +36224,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR034")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -35323,7 +36242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23f9f013-53c2-41cd-ac57-f004884f5d1d")
-		(property "Reference" "R11"
+		(property "Reference" "R1"
 			(at 33.02 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35334,7 +36253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 33.02 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35345,7 +36264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.496 159.004 90)
 			(hide yes)
 			(show_name no)
@@ -35387,7 +36306,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "R11")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -35424,7 +36343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 82.55 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -35473,6 +36392,319 @@
 		)
 	)
 	(symbol
+		(lib_id "DB2ERC-5.08-2P-GN:KF237-10.16-2P")
+		(at 118.11 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "279cfe70-56b9-482d-9dc9-b7c110a40d4b")
+		(property "Reference" "CN1"
+			(at 120.65 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DB2ERC-5.08-2P-GN"
+			(at 120.65 53.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:DB2ERC-5.08-2P-GN"
+			(at 114.3 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://file.elecfans.com/web2/M00/98/ED/pYYBAGQSgSmAFWPAAAW6f_NSamU229.pdf"
+			(at 114.3 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Plug-in terminal DB2ERC-5.08 Pitch 5.08mm 2Pin bent green tin plated"
+			(at 114.3 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DB2ERC-5.08-2P-GN"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "DORABO"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "colour" "绿色"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "connector_type" "板端/插座-闭口"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "contact_plating" "Sn"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "current" "15 A, 20 A"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "current_rating" "20 A"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G4260980"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lead_free" "Yes"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount" "弯针"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "number_of_rows" "1"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "operating_temperature" "-40 °C"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "弯插,P=5.08mm"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "packaging" "500pcs"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin_number_in_each_row" "2"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pins" "2"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pitch" "5.08 mm"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "terminal_pitch" "5.08 mm"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "termination_type" "插拔式接线端子"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage" "300 V, 320 V"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage_rating" "320 V"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1d6e337-082b-4762-b20b-598de84bd3de")
+		)
+		(pin "2"
+			(uuid "4375a389-9083-4c71-85f4-a3d278736561")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "RVT1E221M0607_1")
 		(lib_id "RVT1E221M0607:RVT1E221M0607")
 		(at 100.33 53.34 0)
@@ -35484,7 +36716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2deefaca-dd11-42e7-9708-9c039b20e260")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 101.092 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35506,7 +36738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:RVT1E221M0607"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 100.33 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -35647,13 +36879,90 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
 			(project ""
 				(path "/d296c9cb-09dc-4e33-81fb-0e169cc1a06d"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 104.3999 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3175e695-f729-488b-bd70-91f6e6fb147e")
+		(property "Reference" "#FLG06"
+			(at 104.3999 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 104.3999 143.002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.3999 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.3999 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 104.3999 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6457fa8b-8b44-473c-b411-80df46edb143")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -35671,7 +36980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34b4f8e3-ac7c-4048-959c-ab14c3aa5e73")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 26.9875 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36162,7 +37471,84 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "D4")
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 48.26 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b7b4dc5-af3c-41d0-8ecb-4351c0b30a55")
+		(property "Reference" "#FLG03"
+			(at 48.26 141.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 48.26 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 48.26 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbe8b61f-451a-47f3-9a46-88c85f57840e")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -36179,7 +37565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c231cce-439e-41d1-b089-ad8fcaf2e34e")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 187.452 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36199,7 +37585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:SY8089AAC"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 191.77 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -36322,7 +37708,7 @@
 			)
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -36340,7 +37726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b812be7-0d0f-4e3f-a9c3-a3bc431a5a2d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR015"
 			(at 116.84 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -36400,7 +37786,85 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR049")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ea5334f-1202-4722-b7e9-1c2f73c07133")
+		(property "Reference" "#PWR017"
+			(at 118.11 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a99ebb5-86fb-4272-8325-b9aeb90b72aa")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -36417,7 +37881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52fbca11-3137-4902-85e4-10eb1cc134a8")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 181.61 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36437,7 +37901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 181.864 141.224 90)
 			(hide yes)
 			(show_name no)
@@ -36479,7 +37943,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -36496,7 +37960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57a5f7d1-fc92-45c8-8daa-f8bb126eb224")
-		(property "Reference" "C43"
+		(property "Reference" "C6"
 			(at 97.536 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36518,7 +37982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 102.5652 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -36560,7 +38024,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C43")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -36577,7 +38041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "584625bf-8fa4-432f-be63-83784a81f3f6")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 203.708 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36597,7 +38061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:SWPA3015S2R2NT"
+		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-3012"
 			(at 207.01 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -36788,7 +38252,7 @@
 			)
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -36805,7 +38269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61bb4542-8e10-4df6-9dc5-bf620625e8ed")
-		(property "Reference" "C44"
+		(property "Reference" "C7"
 			(at 116.586 177.038 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36827,7 +38291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 121.6152 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -36869,7 +38333,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C44")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -36886,7 +38350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6367fd61-e726-45e7-a878-f9a1af18b269")
-		(property "Reference" "R2"
+		(property "Reference" "R7"
 			(at 224.028 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36908,7 +38372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:WR04X1003FTL"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 223.52 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -37242,7 +38706,7 @@
 			)
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -37250,7 +38714,7 @@
 	)
 	(symbol
 		(lib_id "CH213K:WCH_CH213K")
-		(at 111.76 147.32 180)
+		(at 114.3 147.32 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37260,8 +38724,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63e1a879-0800-4906-95a6-172943a7decd")
-		(property "Reference" "U8"
-			(at 111.76 137.16 0)
+		(property "Reference" "U4"
+			(at 114.3 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37271,7 +38735,7 @@
 			)
 		)
 		(property "Value" "CH213K"
-			(at 111.76 139.7 0)
+			(at 114.3 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37281,7 +38745,7 @@
 			)
 		)
 		(property "Footprint" "kicad_api_lib:CH213K"
-			(at 111.76 147.32 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37292,7 +38756,7 @@
 			)
 		)
 		(property "Datasheet" "https://file.eda.cn/web1/M00/08/27/wKgzI2iVdBeADEYOAALjG29uhEc9336973857928.pdf"
-			(at 111.76 147.32 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37303,7 +38767,7 @@
 			)
 		)
 		(property "Description" "CH213 是带限流功能的低压降理想二极管芯片"
-			(at 111.76 147.32 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37314,7 +38778,7 @@
 			)
 		)
 		(property "MPN" "CH213K"
-			(at 111.76 147.32 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37325,7 +38789,7 @@
 			)
 		)
 		(property "Manufacturer" "WCH"
-			(at 111.76 147.32 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37336,7 +38800,7 @@
 			)
 		)
 		(property "huaqiu_pn" "G14528796"
-			(at 111.76 147.32 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37347,7 +38811,7 @@
 			)
 		)
 		(property "mount" "SMT"
-			(at 111.76 147.32 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37358,7 +38822,7 @@
 			)
 		)
 		(property "number_of_outputs" "1"
-			(at 111.76 147.32 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37369,7 +38833,7 @@
 			)
 		)
 		(property "output_current" "500 mA"
-			(at 111.76 147.32 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37380,7 +38844,7 @@
 			)
 		)
 		(property "package" "SOT23-3"
-			(at 111.76 147.32 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37391,7 +38855,7 @@
 			)
 		)
 		(property "power_dissipation" "400 mW"
-			(at 111.76 147.32 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37402,7 +38866,7 @@
 			)
 		)
 		(property "supply_voltage" "2.2 V"
-			(at 111.76 147.32 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37424,7 +38888,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "U8")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -37432,7 +38896,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDS")
-		(at 41.91 165.1 0)
+		(at 41.91 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37442,8 +38906,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66881880-2267-4160-85a6-7e00fffbef55")
-		(property "Reference" "#PWR044"
-			(at 41.91 171.45 0)
+		(property "Reference" "#PWR05"
+			(at 41.91 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37454,7 +38918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 170.18 0)
+			(at 41.91 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37464,7 +38928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 165.1 0)
+			(at 41.91 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37475,7 +38939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 165.1 0)
+			(at 41.91 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37486,7 +38950,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 41.91 165.1 0)
+			(at 41.91 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37502,7 +38966,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR044")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -37520,7 +38984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68112ebb-c774-4d9a-92f8-f38897e6f34f")
-		(property "Reference" "C39"
+		(property "Reference" "C11"
 			(at 181.6163 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37540,7 +39004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 181.61 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -37582,7 +39046,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C39")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -37600,7 +39064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b53563a-941d-40cb-a3ca-88bcde7d75cb")
-		(property "Reference" "C1"
+		(property "Reference" "C9"
 			(at 153.67 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37622,7 +39086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:CL10A106MP8NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 151.13 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -37945,7 +39409,7 @@
 			)
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -37963,7 +39427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ba36ac1-2935-4e7c-ac3b-88f28d0bbe8c")
-		(property "Reference" "C40"
+		(property "Reference" "C8"
 			(at 137.16 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37985,7 +39449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 134.3152 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -38027,7 +39491,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C40")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -38045,7 +39509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fc7d2ad-5ae4-4350-9260-ee90ad5959c2")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR011"
 			(at 85.09 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -38105,7 +39569,85 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR050")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 118.11 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73150b06-c4bf-4505-be52-0d842d8af64d")
+		(property "Reference" "#PWR016"
+			(at 118.11 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 118.11 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 118.11 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aad0a54e-f73f-4403-ac1f-d33b88587bb3")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -38123,7 +39665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d14c68-7b45-48a9-b5a2-64916e5d6ef4")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR01"
 			(at 19.05 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -38183,7 +39725,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR028")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -38201,7 +39743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ef85f0e-f42f-441a-a1fc-48d8fc8b83cf")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR018"
 			(at 127 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -38261,7 +39803,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR048")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -38278,7 +39820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b4b9303-175c-457b-a614-1c979039d229")
-		(property "Reference" "C46"
+		(property "Reference" "C2"
 			(at 55.626 178.308 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38300,7 +39842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 60.6552 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -38342,7 +39884,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C46")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -38350,7 +39892,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 59.69 187.96 180)
+		(at 59.69 190.5 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38360,8 +39902,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bcf2a23-8542-4c53-95df-132ac85511ff")
-		(property "Reference" "#PWR053"
-			(at 59.69 184.15 0)
+		(property "Reference" "#PWR07"
+			(at 59.69 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38372,7 +39914,7 @@
 			)
 		)
 		(property "Value" "+3V3_ISO"
-			(at 59.69 193.04 0)
+			(at 59.69 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38382,7 +39924,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 187.96 0)
+			(at 59.69 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38393,7 +39935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 187.96 0)
+			(at 59.69 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38404,7 +39946,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 187.96 0)
+			(at 59.69 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38420,7 +39962,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR053")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -38438,7 +39980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cb002ac-20b9-44c9-942b-51cce8eb7f07")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR023"
 			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -38498,7 +40040,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR031")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -38515,7 +40057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d74edc6-57ae-4327-951a-96f093b4b6be")
-		(property "Reference" "R13"
+		(property "Reference" "R4"
 			(at 72.39 186.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38537,7 +40079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 75.946 184.404 90)
 			(hide yes)
 			(show_name no)
@@ -38579,7 +40121,86 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "R13")
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 252.73 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e84d11-145b-4e9a-9f53-f01753382ccd")
+		(property "Reference" "H4"
+			(at 255.27 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 255.27 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 252.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 252.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e55dd39b-5d2a-40c1-bc6f-0ac98ecbc561")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -38596,7 +40217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "980eeff0-3429-4eaa-82c3-254a0ad50e92")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 169.672 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38616,7 +40237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:RC0402JR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 172.72 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -39016,7 +40637,7 @@
 			)
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -39035,7 +40656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99adb674-7dd5-4fb7-b707-8ec6068a5def")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR09"
 			(at 67.31 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -39095,7 +40716,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR033")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -39113,7 +40734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0d145fc-89c1-4c83-abe0-2274796ccbc6")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR020"
 			(at 133.35 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -39173,7 +40794,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR042")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -39191,7 +40812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7a448b2-8737-43a9-ba43-48b9bb48bbc3")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 45.72 148.9074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39213,7 +40834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 41.91 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -39266,7 +40887,85 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "D6")
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 240.03 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8313921-3c42-4931-ba43-ffe505af02c4")
+		(property "Reference" "#PWR026"
+			(at 240.03 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 240.03 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 240.03 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9592d5c5-b23c-4b49-b129-84d75b7b68a1")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -39283,7 +40982,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8565525-af58-4091-b42d-72c62c2f3d5e")
-		(property "Reference" "R20"
+		(property "Reference" "R3"
 			(at 72.39 176.022 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39305,7 +41004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 75.946 174.244 90)
 			(hide yes)
 			(show_name no)
@@ -39347,7 +41046,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "R20")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -39365,7 +41064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac0f889-be8b-4239-8c48-ca6c8c65ff91")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR03"
 			(at 30.48 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -39425,7 +41124,84 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR046")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 21.59 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab8beeb4-8a3f-4a57-b88c-f83751cde33f")
+		(property "Reference" "#FLG01"
+			(at 21.59 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 21.59 31.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 21.59 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89b9935a-e1f0-4db6-9dff-b9818d853570")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -39443,7 +41219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abdeb31c-f10b-4329-919d-d68cddfec1f7")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR013"
 			(at 93.98 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -39503,7 +41279,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR038")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -39521,7 +41297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac3d827a-2a16-4d8a-a05a-b4c862891379")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR06"
 			(at 55.88 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -39581,7 +41357,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR030")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -39599,7 +41375,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae695cc4-6948-4d73-8632-01889eb13501")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 30.988 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39621,7 +41397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:RVT1E471M0810"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
 			(at 30.48 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -39751,13 +41527,246 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
 			(project ""
 				(path "/d296c9cb-09dc-4e33-81fb-0e169cc1a06d"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 226.06 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afbfbf2a-99fb-4898-9425-4eaf5dd3cba4")
+		(property "Reference" "H2"
+			(at 228.6 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 228.6 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 226.06 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 226.06 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0858b387-a030-4946-99e6-854ad2d08e67")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afcd0987-5d03-4768-8275-9ce0d2113861")
+		(property "Reference" "#FLG05"
+			(at 54.61 188.595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 54.61 186.182 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b934ce2-ad45-48ce-a6d8-cc69e9116d5f")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0396156-707a-477b-aac3-073c3c3d7b50")
+		(property "Reference" "#FLG04"
+			(at 49.53 164.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 49.53 162.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 49.53 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a92b4848-e1ca-4e09-9430-c97e6c1e6201")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -39775,7 +41784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2a7aee2-a2fd-48ba-8dbd-cba5d8f0dff7")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR019"
 			(at 133.35 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -39835,7 +41844,86 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR041")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 251.46 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4dd346a-a8f1-4ee6-94eb-81caf129f789")
+		(property "Reference" "H3"
+			(at 254 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 254 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 251.46 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 251.46 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b460241-4a6c-4703-8330-940110d8e8ff")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -39853,7 +41941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b74a5b00-dd00-4902-b4a2-3eeacd4776ea")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR012"
 			(at 91.44 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -39913,7 +42001,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR051")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -39932,7 +42020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b88dbec8-6b9b-45ad-bd60-e15ec55682da")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR08"
 			(at 63.5 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -39992,7 +42080,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR037")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -40010,7 +42098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba9964ce-83e0-4168-9b7a-a1d02020ab40")
-		(property "Reference" "R12"
+		(property "Reference" "R2"
 			(at 44.45 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40032,7 +42120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 42.926 159.004 90)
 			(hide yes)
 			(show_name no)
@@ -40074,7 +42162,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "R12")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -40092,7 +42180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf4f3d40-fda5-4a71-b7a9-ed3092f77a91")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR010"
 			(at 74.93 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -40152,7 +42240,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR052")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -40169,7 +42257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c003da0b-32d1-4fd1-a031-72f08ea5d220")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR021"
 			(at 151.13 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -40235,7 +42323,86 @@
 			)
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR01")
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 226.06 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cead80d2-6331-4374-aac9-54e21876d47f")
+		(property "Reference" "H1"
+			(at 228.6 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 228.6 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 226.06 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 226.06 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d412319-a31b-4862-92f7-fa57687d1d75")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -40253,7 +42420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d07fa94d-3d1d-44c7-a484-3203744458ca")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR02"
 			(at 30.48 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -40313,7 +42480,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR045")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -40331,7 +42498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1c16bad-42ac-4cf1-9f9d-372a86c3b21e")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR022"
 			(at 171.45 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -40391,7 +42558,84 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR035")
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 242.57 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5855677-d60b-41df-b59d-bff567c94a18")
+		(property "Reference" "#FLG08"
+			(at 242.57 27.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 247.65 24.384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 242.57 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ca394cc-dca7-4b25-a7e6-f433fd74edf7")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -40408,7 +42652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e47b14ce-0203-4894-a441-0f2e579682a7")
-		(property "Reference" "C6"
+		(property "Reference" "C13"
 			(at 231.394 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40430,7 +42674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:GRM188R61A226ME15D"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 231.14 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -40764,7 +43008,85 @@
 			)
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C6")
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 241.3 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8b5b83a-77e1-4a2b-beb0-a929d47d9781")
+		(property "Reference" "#PWR027"
+			(at 241.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 241.3 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 241.3 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "687a2997-4c3b-4443-a2e7-a3ec2da542ae")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -40781,7 +43103,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec61e437-91c0-4e41-bb15-3025a0b819dc")
-		(property "Reference" "C45"
+		(property "Reference" "C3"
 			(at 61.976 180.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40803,7 +43125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.0052 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -40845,7 +43167,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C45")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -40853,7 +43175,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 41.91 142.24 0)
+		(at 41.91 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40863,8 +43185,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6dbe3bb-3e02-480e-9bfb-58c316d3f90a")
-		(property "Reference" "#PWR043"
-			(at 41.91 146.05 0)
+		(property "Reference" "#PWR04"
+			(at 41.91 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40875,7 +43197,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 41.91 137.16 0)
+			(at 41.91 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40885,7 +43207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 142.24 0)
+			(at 41.91 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40896,7 +43218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 142.24 0)
+			(at 41.91 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40907,7 +43229,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 41.91 142.24 0)
+			(at 41.91 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40923,7 +43245,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR043")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -40940,7 +43262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f743cfe2-3d6d-4fa8-9628-86811aa8634a")
-		(property "Reference" "C4"
+		(property "Reference" "C10"
 			(at 179.578 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40962,7 +43284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:0402B104K500CT"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 179.07 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -41120,7 +43442,84 @@
 			)
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C4")
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 25.4 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd12b1c2-d8d3-4b72-8749-245881f06555")
+		(property "Reference" "#FLG02"
+			(at 25.4 164.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 24.13 162.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 25.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e63fec5-1215-4fb6-a37d-ab9aede0952b")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)

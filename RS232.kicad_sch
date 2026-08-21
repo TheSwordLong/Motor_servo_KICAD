@@ -1742,6 +1742,328 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WJ15EDGRC-3.81-2P:31330102"
+			(pin_names
+				(offset 1.0142)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN?"
+				(at 0 7.0357 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WJ15EDGRC-3.81-2P"
+				(at 0 5.2577 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_api_lib:WJ15EDGRC-3.81-2P"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://file.elecfans.com/web1/M00/8F/66/o4YBAFzAJVGAapO-AAtZGykaSso280.pdf"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Plug and pull terminal board end/socket - closed 2Pin spacing: 3.81mm, 1 row of bent pins green"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "WJ15EDGRC-3.81-2P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "KANGNEX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "colour" "绿色"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "connector_type" "板端/插座-闭口"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "current" "7 A, 8 A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "flammability_rating" "UL94V-0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "holes_direction" "90°，直角"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "huaqiu_pn" "G4189957"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "lead_free" "Yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "mount" "弯针"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "number_of_rows" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "package" "弯插,P=3.81mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "packaging" "500pcs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "pin_number_in_each_row" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "pins" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "pitch" "3.81 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "terminal_pitch" "3.81 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "termination_type" "插拔式接线端子"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "voltage" "250 V, 300 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "31330102_1_1"
+				(rectangle
+					(start -6.35 -1.27)
+					(end 6.35 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -2073,6 +2395,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 77.47) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12be70cc-f77d-4deb-804d-e0f8daa93ce2")
+	)
+	(wire
+		(pts
 			(xy 101.6 100.33) (xy 101.6 97.79)
 		)
 		(stroke
@@ -2090,6 +2422,16 @@
 			(type default)
 		)
 		(uuid "1c621944-700c-48c6-b66c-7aff0497672b")
+	)
+	(wire
+		(pts
+			(xy 232.41 104.14) (xy 232.41 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c62c597-c9e4-45a6-b949-0b05f62643a8")
 	)
 	(wire
 		(pts
@@ -2200,6 +2542,16 @@
 			(type default)
 		)
 		(uuid "73ac1dba-8880-43c5-a276-e20ddf6d8216")
+	)
+	(wire
+		(pts
+			(xy 232.41 81.28) (xy 232.41 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74974886-77ba-414d-9a9e-c3347306eeaa")
 	)
 	(wire
 		(pts
@@ -2341,37 +2693,45 @@
 		)
 		(uuid "e9d1a0c0-2adb-4e4d-85e5-7ba145d01c1b")
 	)
-	(wire
-		(pts
-			(xy 110.49 77.47) (xy 121.92 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0cacb5-f90b-44c7-b237-54e55fa630a6")
-	)
-	(hierarchical_label "RS232_TX1"
-		(shape output)
-		(at 110.49 77.47 180)
+	(label "RS232_TX1"
+		(at 110.49 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "1e6a2bee-ec21-41e3-b6f4-bcaa7bf862fd")
+		(uuid "027b3c0b-4ee2-4e61-9952-96e1873a37c3")
 	)
-	(hierarchical_label "RS232_RX1"
-		(shape input)
-		(at 172.72 74.93 0)
+	(label "RS232_RX1"
+		(at 232.41 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "362a501d-ef37-4a7a-953e-0541af0fc5e8")
+		(uuid "63669a8d-96cb-4225-8737-e091fd0381ea")
+	)
+	(label "RS232_TX1"
+		(at 232.41 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "997616fb-ba3d-4b6d-90fb-67bba2e3beb9")
+	)
+	(label "RS232_RX1"
+		(at 162.56 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aee06596-de01-42cc-a0ed-57df6cce3b98")
 	)
 	(hierarchical_label "MCU_RS232_RX1"
 		(shape output)
@@ -2406,7 +2766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "268d6759-0286-4db1-8b7b-985303c611a4")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 158.75 76.454 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2426,7 +2786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:TC0525F1000T5E"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 162.56 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2567,7 +2927,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2610,7 +2970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:TC0525F1000T5E"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 110.49 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2764,6 +3124,297 @@
 		)
 	)
 	(symbol
+		(lib_id "WJ15EDGRC-3.81-2P:31330102")
+		(at 232.41 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42a866d4-34e3-47d7-b7b8-c247da73f67c")
+		(property "Reference" "CN4"
+			(at 234.95 91.4399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WJ15EDGRC-3.81-2P"
+			(at 234.95 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:WJ15EDGRC-3.81-2P"
+			(at 236.22 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://file.elecfans.com/web1/M00/8F/66/o4YBAFzAJVGAapO-AAtZGykaSso280.pdf"
+			(at 236.22 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Plug and pull terminal board end/socket - closed 2Pin spacing: 3.81mm, 1 row of bent pins green"
+			(at 236.22 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WJ15EDGRC-3.81-2P"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KANGNEX"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "colour" "绿色"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "connector_type" "板端/插座-闭口"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "current" "7 A, 8 A"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "flammability_rating" "UL94V-0"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "holes_direction" "90°，直角"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G4189957"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lead_free" "Yes"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount" "弯针"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "number_of_rows" "1"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "弯插,P=3.81mm"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "packaging" "500pcs"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin_number_in_each_row" "2"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pins" "2"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pitch" "3.81 mm"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "terminal_pitch" "3.81 mm"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "termination_type" "插拔式接线端子"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage" "250 V, 300 V"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2d701079-d2d9-4df1-a014-e0567b4d66ab")
+		)
+		(pin "1"
+			(uuid "3d9555b2-4703-4f4f-b9ad-c94e1c083104")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SP3232EEN-L_TR:SP3232EEN-L_TR")
 		(at 137.16 90.17 0)
 		(unit 1)
@@ -2774,7 +3425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "490b12ca-c682-498d-ba29-0d4cae564267")
-		(property "Reference" "U5"
+		(property "Reference" "U8"
 			(at 126.492 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2794,7 +3445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:SP3232EEN-L_TR"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 137.16 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3175,7 +3826,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
-					(reference "U5")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3198,7 +3849,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "579e9243-188c-40e4-9f07-1669c90bc6fe")
-		(property "Reference" "C35"
+		(property "Reference" "C41"
 			(at 159.004 94.234 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3218,7 +3869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:0603B104K500CT"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 162.56 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3480,7 +4131,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
-					(reference "C35")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -3503,7 +4154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6065c545-c178-4be5-b21c-125ffde05d9f")
-		(property "Reference" "C32"
+		(property "Reference" "C38"
 			(at 106.934 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3523,7 +4174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:0603B104K500CT"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 110.49 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3785,7 +4436,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
-					(reference "C32")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -3808,7 +4459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "687bd0e5-35d3-4785-a542-a97aa8828853")
-		(property "Reference" "C33"
+		(property "Reference" "C39"
 			(at 117.094 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3828,7 +4479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:0603B104K500CT"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 115.57 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4090,7 +4741,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
-					(reference "C33")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -4114,7 +4765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73f9063f-484b-4e66-b5da-3091d2f955bf")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR051"
 			(at 111.76 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4175,7 +4826,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
-					(reference "#PWR058")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4192,7 +4843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4cced3b-1ab2-434f-88f3-2f5bd0f1ec2a")
-		(property "Reference" "C31"
+		(property "Reference" "C37"
 			(at 106.934 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4212,7 +4863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:0603B104K500CT"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 110.49 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4474,7 +5125,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
-					(reference "C31")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -4907,7 +5558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddfc387a-ab02-4f98-9c2c-da592ff913cf")
-		(property "Reference" "C34"
+		(property "Reference" "C40"
 			(at 159.004 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4927,7 +5578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:0603B104K500CT"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 162.56 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5189,7 +5840,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
-					(reference "C34")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -5213,7 +5864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e50dbc62-1aef-4e5e-adda-e3e0234b98cd")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR052"
 			(at 115.57 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5273,7 +5924,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
-					(reference "#PWR057")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5283,9 +5934,8 @@
 		(uuid "9b237456-df3e-4646-a0aa-47b4cfdb0011")
 		(members "0ec95852-f728-44e4-bd59-4ec661735e54" "12ce9f7f-c50e-49ec-aca1-834855961e67"
 			"1be64531-b883-4ee6-810f-6457701dd925" "1c621944-700c-48c6-b66c-7aff0497672b"
-			"1e6a2bee-ec21-41e3-b6f4-bcaa7bf862fd" "268d6759-0286-4db1-8b7b-985303c611a4"
-			"2efc36bc-7b3d-475e-b052-d49a57b84b52" "30a92b32-5b06-4d11-bffe-c739966f84ab"
-			"362a501d-ef37-4a7a-953e-0541af0fc5e8" "36c5f25c-0140-43f9-afdd-ad1f77a95173"
+			"268d6759-0286-4db1-8b7b-985303c611a4" "2efc36bc-7b3d-475e-b052-d49a57b84b52"
+			"30a92b32-5b06-4d11-bffe-c739966f84ab" "36c5f25c-0140-43f9-afdd-ad1f77a95173"
 			"38c35e4b-bee5-4e99-840b-21e3c651f3a7" "417c2af8-d0f1-422f-b98b-91a0f1b88080"
 			"44e79efa-75dc-456a-b6f9-c08c485246b9" "490b12ca-c682-498d-ba29-0d4cae564267"
 			"4ad86ad7-7285-4ff0-ad63-ef2c2c06a07f" "55b7aa77-8011-4902-bd8f-87f7a84f17fb"
@@ -5306,7 +5956,6 @@
 			"bd428472-073f-4e5f-862a-b5d8532bfd31" "c2509333-18e6-41ac-9a02-ebe3d3619307"
 			"c700a011-7c1a-4994-b2fa-6fc8a6098230" "ddfc387a-ab02-4f98-9c2c-da592ff913cf"
 			"e64a7580-1bb5-4436-a99e-43b1b1868de4" "e9d1a0c0-2adb-4e4d-85e5-7ba145d01c1b"
-			"fc0cacb5-f90b-44c7-b237-54e55fa630a6"
 		)
 	)
 )

@@ -32,4 +32,6 @@
 	(lib (name "TYPE-C 16PIN 2MD(073)") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/TYPE-C 16PIN 2MD(073).kicad_sym") (options "") (descr ""))
 	(lib (name "ESD5Z3.3T1G") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/ESD5Z3.3T1G.kicad_sym") (options "") (descr ""))
 	(lib (name "SD03C") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/SD03C.kicad_sym") (options "") (descr ""))
+	(lib (name "WJ15EDGRC-3.81-2P") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/WJ15EDGRC-3.81-2P.kicad_sym") (options "") (descr ""))
+	(lib (name "DB2ERC-5.08-2P-GN") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/DB2ERC-5.08-2P-GN.kicad_sym") (options "") (descr ""))
 )
