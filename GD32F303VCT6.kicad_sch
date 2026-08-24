@@ -18604,7 +18604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:X9254WR-04-N0SN"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 67.31 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -24350,7 +24350,7 @@
 				(justify left)
 			)
 		)
-		(pin "ADC[1..4]" output
+		(pin "ADC[0..3]" output
 			(at 326.39 60.96 180)
 			(uuid "b019cb0a-0829-4ba4-be2e-0eec7d540c5d")
 			(effects

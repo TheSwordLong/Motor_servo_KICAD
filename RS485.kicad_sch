@@ -5899,7 +5899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2da6c4bd-5257-41b0-b738-21e596a1e83a")
-		(property "Reference" "CN5"
+		(property "Reference" "CN4"
 			(at 247.65 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6172,7 +6172,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
-					(reference "CN5")
+					(reference "CN4")
 					(unit 1)
 				)
 			)

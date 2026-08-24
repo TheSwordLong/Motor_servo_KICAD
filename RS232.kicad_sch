@@ -2764,7 +2764,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "268d6759-0286-4db1-8b7b-985303c611a4")
 		(property "Reference" "R15"
 			(at 158.75 76.454 90)
@@ -2948,7 +2948,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "30a92b32-5b06-4d11-bffe-c739966f84ab")
 		(property "Reference" "R14"
 			(at 106.426 73.914 90)
@@ -3132,10 +3132,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "42a866d4-34e3-47d7-b7b8-c247da73f67c")
-		(property "Reference" "CN4"
+		(property "Reference" "CN3"
 			(at 234.95 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3408,7 +3408,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
-					(reference "CN4")
+					(reference "CN3")
 					(unit 1)
 				)
 			)
@@ -3423,7 +3423,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "490b12ca-c682-498d-ba29-0d4cae564267")
 		(property "Reference" "U8"
 			(at 126.492 72.644 0)
@@ -3847,7 +3847,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "579e9243-188c-40e4-9f07-1669c90bc6fe")
 		(property "Reference" "C41"
 			(at 159.004 94.234 90)
@@ -4152,7 +4152,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6065c545-c178-4be5-b21c-125ffde05d9f")
 		(property "Reference" "C38"
 			(at 106.934 96.774 90)
@@ -4457,7 +4457,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "687bd0e5-35d3-4785-a542-a97aa8828853")
 		(property "Reference" "C39"
 			(at 117.094 109.728 0)
@@ -4841,7 +4841,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a4cced3b-1ab2-434f-88f3-2f5bd0f1ec2a")
 		(property "Reference" "C37"
 			(at 106.934 89.154 90)
@@ -5146,7 +5146,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "af0d1506-5ae0-43b5-8298-db908ba4c42c")
 		(property "Reference" "FB1"
@@ -5556,7 +5556,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ddfc387a-ab02-4f98-9c2c-da592ff913cf")
 		(property "Reference" "C40"
 			(at 159.004 89.154 90)

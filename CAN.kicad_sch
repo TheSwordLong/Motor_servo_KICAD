@@ -1578,328 +1578,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PZ254-1-02-W-8.5:FWF12507-S02B24W5B"
-			(pin_names
-				(offset 1.0142)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CN?"
-				(at 0 7.0357 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PZ254-1-02-W-8.5"
-				(at 0 5.2577 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "kicad_api_lib:PZ254-1-02-W-8.5"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://file.elecfans.com/web2/M00/2A/22/poYBAGHJGEOABv6jAAPwbQgwABA332.pdf"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Pin spacing 2.54mm 2Pin (1x2) brass square elbow"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "PZ254-1-02-W-8.5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "HCTL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "circluar_pins_square_pins" "方针"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "colour" "黑色"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "contact_material" "镍"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "contact_plating" "金/锡"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "contact_resistance" "20 mΩ"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "current_rating" "3 A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "height" "2.5 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "huaqiu_pn" "G5436062"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "lead_free" "Yes"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "lead_length" "6 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "mount" "弯插"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "operating_temperature" "-40 °C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "package" "弯插,P=2.54mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "packaging" "500pcs"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "pins" "2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "pitch" "2.54 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "terminal_pitch" "2.54 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FWF12507-S02B24W5B_1_1"
-				(rectangle
-					(start -6.35 -1.27)
-					(end 6.35 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "WJ15EDGRC-3.81-2P:31330102"
 			(pin_names
 				(offset 1.0142)
@@ -2953,13 +2631,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 73.66) (xy 185.42 63.5)
+			(xy 204.47 102.87) (xy 204.47 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d21ff73-b48f-48a2-a07c-41cfa3c9b65f")
+		(uuid "04690c1c-4f43-433b-8004-63a06ab7aa1a")
 	)
 	(wire
 		(pts
@@ -3023,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 170.18 73.66)
+			(xy 154.94 73.66) (xy 184.15 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3040,16 +2718,6 @@
 			(type default)
 		)
 		(uuid "391afede-bbeb-4bbb-844f-4d2f2c74870e")
-	)
-	(wire
-		(pts
-			(xy 170.18 73.66) (xy 165.1 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a6faee6-8222-45df-bc0e-f3fe1a657feb")
 	)
 	(wire
 		(pts
@@ -3203,6 +2871,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 71.12) (xy 204.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df56f72-6108-4e01-9625-a8da9b9aa194")
+	)
+	(wire
+		(pts
 			(xy 154.94 99.06) (xy 154.94 101.6)
 		)
 		(stroke
@@ -3293,16 +2971,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 73.66) (xy 184.15 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6e83bb5-80f2-40e9-8c87-d8bbaea9a650")
-	)
-	(wire
-		(pts
 			(xy 102.87 91.44) (xy 115.57 91.44)
 		)
 		(stroke
@@ -3382,7 +3050,7 @@
 		(uuid "fc586841-3762-4e9e-933b-6a246cbeafd7")
 	)
 	(label "CANH"
-		(at 204.47 97.79 0)
+		(at 204.47 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3412,7 +3080,7 @@
 		(uuid "c0f0ae32-b6ac-4698-97cd-e436d5b90a12")
 	)
 	(label "CANL"
-		(at 204.47 77.47 0)
+		(at 204.47 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3688,7 +3356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eb1aefd-055e-4073-a980-50d06b3897dc")
-		(property "Reference" "CN3"
+		(property "Reference" "CN2"
 			(at 207.01 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,7 +3629,7 @@
 		(instances
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/46739a1c-a686-46fc-8f12-984396225a7f"
-					(reference "CN3")
+					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -5411,295 +5079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PZ254-1-02-W-8.5:FWF12507-S02B24W5B")
-		(at 175.26 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0805114-b658-4eaa-b941-1611c41f6a41")
-		(property "Reference" "CN2"
-			(at 175.26 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PZ254-1-02-W-8.5"
-			(at 175.26 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kicad_api_lib:PZ254-1-02-W-8.5"
-			(at 175.26 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://file.elecfans.com/web2/M00/2A/22/poYBAGHJGEOABv6jAAPwbQgwABA332.pdf"
-			(at 175.26 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pin spacing 2.54mm 2Pin (1x2) brass square elbow"
-			(at 175.26 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PZ254-1-02-W-8.5"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "HCTL"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "circluar_pins_square_pins" "方针"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "colour" "黑色"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "contact_material" "镍"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "contact_plating" "金/锡"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "contact_resistance" "20 mΩ"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "current_rating" "3 A"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "height" "2.5 mm"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "huaqiu_pn" "G5436062"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "lead_free" "Yes"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "lead_length" "6 mm"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mount" "弯插"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "operating_temperature" "-40 °C"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "package" "弯插,P=2.54mm"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "packaging" "500pcs"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "pins" "2"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "pitch" "2.54 mm"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "terminal_pitch" "2.54 mm"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "47bfc0f0-be1f-4b64-9f1b-d1899d6fb63e")
-		)
-		(pin "2"
-			(uuid "236613b2-1dd6-42a3-8248-e40a810f97c2")
-		)
-		(instances
-			(project "GD32F303"
-				(path "/54005433-e3aa-4693-8f75-bb73943288d3/46739a1c-a686-46fc-8f12-984396225a7f"
-					(reference "CN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 179.07 91.44 0)
 		(unit 1)
@@ -5778,15 +5157,14 @@
 	)
 	(group "ISO1050DWR_Isolated CAN Transceiver Module"
 		(uuid "f4d9e456-9e44-4f07-8052-4bb8ce12b3ca")
-		(members "023091b1-53b3-4293-867f-7c8be1baa351" "0d21ff73-b48f-48a2-a07c-41cfa3c9b65f"
-			"166886e7-32dd-4765-9a52-6ad5326fdd0f" "16a7fff3-4e8f-4731-aa6d-33701c7def16"
-			"1cae1cd1-bb56-4e39-8750-929387a48882" "1e8af640-f367-426b-b6d7-ab60485a76d0"
-			"21e05653-614e-4df4-9cc9-2e124da8495c" "2467d929-dd30-4287-a2ed-80eb1e4e38a9"
-			"2603850b-7cff-4e69-bbec-bcf84c5392ba" "262bf5fc-f5c3-4c96-8957-33c14118687d"
-			"286cae22-4071-4c4a-9b77-de13003fd412" "2a0c3748-bc05-4f34-a5de-6b845e95933d"
-			"2b05e52f-32bb-4230-8e5d-b64d63c79945" "2f4a5f8c-7aa1-4bd8-be9e-2d6c856bf33d"
-			"33c929d2-3536-4222-822d-4ea96f82e1d6" "391afede-bbeb-4bbb-844f-4d2f2c74870e"
-			"3a6faee6-8222-45df-bc0e-f3fe1a657feb" "455a22b9-0da0-44b9-a579-970f94a539f9"
+		(members "023091b1-53b3-4293-867f-7c8be1baa351" "166886e7-32dd-4765-9a52-6ad5326fdd0f"
+			"16a7fff3-4e8f-4731-aa6d-33701c7def16" "1cae1cd1-bb56-4e39-8750-929387a48882"
+			"1e8af640-f367-426b-b6d7-ab60485a76d0" "21e05653-614e-4df4-9cc9-2e124da8495c"
+			"2467d929-dd30-4287-a2ed-80eb1e4e38a9" "2603850b-7cff-4e69-bbec-bcf84c5392ba"
+			"262bf5fc-f5c3-4c96-8957-33c14118687d" "286cae22-4071-4c4a-9b77-de13003fd412"
+			"2a0c3748-bc05-4f34-a5de-6b845e95933d" "2b05e52f-32bb-4230-8e5d-b64d63c79945"
+			"2f4a5f8c-7aa1-4bd8-be9e-2d6c856bf33d" "33c929d2-3536-4222-822d-4ea96f82e1d6"
+			"391afede-bbeb-4bbb-844f-4d2f2c74870e" "455a22b9-0da0-44b9-a579-970f94a539f9"
 			"48f1a2f1-9c4f-47f9-9674-92c2de97b4ee" "4cf950df-bdee-40b9-b918-0c39518663d3"
 			"5250beb6-5ffe-443d-bab6-bd0e37f359fb" "537d5619-1f17-4d98-bf13-bd7e72092c4f"
 			"56509837-4182-45cc-ac75-d0bde76f692b" "5b6c2316-9b08-487d-b2bc-b290986a2e0d"
@@ -5802,13 +5180,12 @@
 			"ab5bf633-5969-4dba-8059-151eeb9968d3" "b29742d1-5b75-46f9-b90c-7c147ef959bd"
 			"b8e4316d-a334-4790-9fad-5ec9b319e1ac" "bd32c88c-6a9d-4b11-8e43-6f406c54344d"
 			"bd6a42ea-9697-4c93-bbf6-e353479a80f4" "bfad5b17-c7dc-49e9-83b5-8a26e4c2e591"
-			"c6e5c11f-1b87-4a85-a743-5d6687e2abb5" "d6e83bb5-80f2-40e9-8c87-d8bbaea9a650"
-			"d7d742cd-e851-44be-b9b9-bc3a2715cf0a" "d82ca82a-6ab1-4731-a61e-6e2fdbb9fff2"
-			"eeb4abeb-9cd9-4753-96b9-0ca6ae89b9b4" "ef1c0276-985f-4424-8802-203e6642dec0"
-			"f4040a01-6fc8-42b4-9101-506895b012f8" "f6395026-5a91-43ab-abf4-732d91e79501"
-			"f797892c-e9b1-44f0-8435-060cae16df17" "f877f0ca-3afa-4f83-bf88-5dde30a1020a"
-			"f8806729-fa6e-4b41-8781-beb338df86b5" "fc586841-3762-4e9e-933b-6a246cbeafd7"
-			"fe4abf74-0b20-4cff-b986-83866f626950"
+			"c6e5c11f-1b87-4a85-a743-5d6687e2abb5" "d7d742cd-e851-44be-b9b9-bc3a2715cf0a"
+			"d82ca82a-6ab1-4731-a61e-6e2fdbb9fff2" "eeb4abeb-9cd9-4753-96b9-0ca6ae89b9b4"
+			"ef1c0276-985f-4424-8802-203e6642dec0" "f4040a01-6fc8-42b4-9101-506895b012f8"
+			"f6395026-5a91-43ab-abf4-732d91e79501" "f797892c-e9b1-44f0-8435-060cae16df17"
+			"f877f0ca-3afa-4f83-bf88-5dde30a1020a" "f8806729-fa6e-4b41-8781-beb338df86b5"
+			"fc586841-3762-4e9e-933b-6a246cbeafd7" "fe4abf74-0b20-4cff-b986-83866f626950"
 		)
 	)
 )

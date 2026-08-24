@@ -2,3 +2,4 @@
 ~*.lck
 _restore_backup_*/
 untitled.kicad_sch
+place_footprints.log
