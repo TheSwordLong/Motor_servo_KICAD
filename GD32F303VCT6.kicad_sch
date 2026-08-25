@@ -11340,7 +11340,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "B01"
-				(at -2.286 -1.27 0)
+				(at -5.588 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -11350,7 +11350,7 @@
 				)
 			)
 			(property "Value" "VBAT_BAT"
-				(at -3.048 -7.366 0)
+				(at 4.318 -1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -11461,7 +11461,7 @@
 							)
 						)
 					)
-					(number "+"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11479,7 +11479,7 @@
 							)
 						)
 					)
-					(number "-"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13498,6 +13498,12 @@
 		(uuid "0780c88f-2d21-4a43-a866-c41ff631bf88")
 	)
 	(junction
+		(at 76.2 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17703739-c569-4526-9d41-564b691e6ab1")
+	)
+	(junction
 		(at 71.12 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13592,12 +13598,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c90873e-e977-4d33-97a1-6536ecc35662")
-	)
-	(junction
-		(at 81.788 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ebd0524-68a1-4fec-9efc-474c2e543bd5")
 	)
 	(junction
 		(at 45.72 83.82)
@@ -13696,12 +13696,6 @@
 		(uuid "a3153923-3ddd-4de1-9635-7a12ccb397f9")
 	)
 	(junction
-		(at 76.2 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6297712-31b3-4324-a959-0754dc097790")
-	)
-	(junction
 		(at 50.8 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13736,6 +13730,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d07ce8a4-d764-49bd-acb3-f05cc4742763")
+	)
+	(junction
+		(at 59.055 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7511991-ec88-4cc1-903a-24888b3b1cc2")
 	)
 	(junction
 		(at 67.31 48.26)
@@ -14367,6 +14367,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.055 113.03) (xy 64.77 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "128db412-b92d-43fa-ab49-5176843d051d")
+	)
+	(wire
+		(pts
 			(xy 34.29 140.97) (xy 53.34 140.97)
 		)
 		(stroke
@@ -14567,16 +14577,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.788 29.21) (xy 83.82 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e3fda75-6fca-4241-a1cf-9c1297a6232e")
-	)
-	(wire
-		(pts
 			(xy 160.02 134.62) (xy 171.45 134.62)
 		)
 		(stroke
@@ -14604,6 +14604,26 @@
 			(type default)
 		)
 		(uuid "3b7e7f36-9eca-4b93-88fb-3a522a8311fb")
+	)
+	(wire
+		(pts
+			(xy 54.61 113.03) (xy 59.055 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5b0285-d39b-4e1f-9218-eb78ca86c533")
+	)
+	(wire
+		(pts
+			(xy 73.66 29.21) (xy 76.2 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400af567-c340-4f80-960b-e26f4ffb5981")
 	)
 	(wire
 		(pts
@@ -14797,16 +14817,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 29.21) (xy 93.98 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "582adc9f-fe67-4175-b2fe-33c2e95e623c")
-	)
-	(wire
-		(pts
 			(xy 43.18 106.68) (xy 39.37 106.68)
 		)
 		(stroke
@@ -14854,16 +14864,6 @@
 			(type default)
 		)
 		(uuid "627cc9cc-129b-497b-b21c-db15a4bd0d31")
-	)
-	(wire
-		(pts
-			(xy 76.2 29.21) (xy 81.788 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "628842fc-565a-4276-ba65-ac07defb9ba3")
 	)
 	(bus
 		(pts
@@ -14914,6 +14914,16 @@
 			(type default)
 		)
 		(uuid "6af179c0-6622-41e6-907a-c0c6af931b0e")
+	)
+	(wire
+		(pts
+			(xy 87.63 29.21) (xy 93.98 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf99076-542b-440b-a783-5db5237ac4e8")
 	)
 	(wire
 		(pts
@@ -15967,6 +15977,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.518 29.21) (xy 76.2 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96dc42f-3ea1-46de-a004-2234b045c075")
+	)
+	(wire
+		(pts
 			(xy 93.98 29.21) (xy 93.98 33.02)
 		)
 		(stroke
@@ -16134,16 +16154,6 @@
 			(type default)
 		)
 		(uuid "ffafe9da-0fea-4731-8306-5c3336963a18")
-	)
-	(label "OSC32_IN"
-		(at 64.77 113.03 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04d921d6-835f-490c-a9cb-483a844cd8b0")
 	)
 	(label "BRAKE1[1..4]"
 		(at 175.26 160.02 0)
@@ -16845,16 +16855,6 @@
 		)
 		(uuid "d7279149-3710-49aa-b877-45c1bb24791b")
 	)
-	(label "OSC32_OUT"
-		(at 54.61 113.03 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d944ebf9-3648-4022-9d04-5c033a46a97a")
-	)
 	(label "SWDIO"
 		(at 86.36 129.54 0)
 		(effects
@@ -16974,6 +16974,26 @@
 			(justify left bottom)
 		)
 		(uuid "f019d5fc-c177-4736-96ce-4853ae5f4b8e")
+	)
+	(label "OSC32_IN"
+		(at 64.77 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3fc9e39-c166-4a00-99f6-b2b4cffabaf9")
+	)
+	(label "OSC32_OUT"
+		(at 54.61 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f73b7db6-75c6-4f3c-9ebb-7dd9ceaa5b37")
 	)
 	(label "PC7"
 		(at 162.56 157.48 0)
@@ -17624,6 +17644,84 @@
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.055 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205be133-016e-4974-9041-3c028f84f646")
+		(property "Reference" "#PWR089"
+			(at 59.055 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.055 117.475 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.055 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.055 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.055 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25858f47-fb59-452c-81f6-fc25a84348a7")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -21396,17 +21494,17 @@
 	)
 	(symbol
 		(lib_id "PZ254V-11-02P:VBAT_BAT")
-		(at 87.63 24.892 0)
+		(at 86.36 24.892 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91ce56ef-e2e3-4816-b091-d9d9be162d4a")
 		(property "Reference" "B01"
-			(at 82.042 26.162 0)
+			(at 80.772 26.162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21416,7 +21514,7 @@
 			)
 		)
 		(property "Value" "VBAT_BAT"
-			(at 91.948 26.67 0)
+			(at 90.678 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21425,8 +21523,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_500"
-			(at 87.63 24.892 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 86.36 24.892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21437,7 +21535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 24.892 0)
+			(at 86.36 24.892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21448,7 +21546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 24.892 0)
+			(at 86.36 24.892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21458,10 +21556,10 @@
 				)
 			)
 		)
-		(pin "+"
+		(pin "1"
 			(uuid "c5130e77-93e4-4f1b-951c-5664ca5f2073")
 		)
-		(pin "-"
+		(pin "2"
 			(uuid "f7f948f0-0e30-4c99-8634-ba47f0ab74b4")
 		)
 		(instances
@@ -21553,7 +21651,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 76.2 29.21 90)
+		(at 73.66 29.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21564,7 +21662,7 @@
 		(fields_autoplaced yes)
 		(uuid "99caae99-8c1c-4810-b8ed-75c25aee53e7")
 		(property "Reference" "#PWR040"
-			(at 80.01 29.21 0)
+			(at 77.47 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21575,7 +21673,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 72.39 29.2099 90)
+			(at 69.85 29.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21586,7 +21684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 29.21 0)
+			(at 73.66 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21597,7 +21695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 29.21 0)
+			(at 73.66 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21608,7 +21706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 76.2 29.21 0)
+			(at 73.66 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

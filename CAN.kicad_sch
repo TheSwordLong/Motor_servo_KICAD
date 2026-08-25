@@ -3211,7 +3211,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND"
 			(at 111.76 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)

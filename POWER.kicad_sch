@@ -8468,12 +8468,6 @@
 		(uuid "5711bdd5-ef99-495d-926e-6a5c8a8a4903")
 	)
 	(junction
-		(at 30.48 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d64ec37-2fc4-4f94-be4b-edc8d2407dba")
-	)
-	(junction
 		(at 223.52 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8486,6 +8480,12 @@
 		(uuid "6079c2fd-85cd-4e80-9124-c7cd78ee0d35")
 	)
 	(junction
+		(at 31.75 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64aae99b-b31e-4d0f-9e7d-cb0871b1ff0d")
+	)
+	(junction
 		(at 231.14 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8496,6 +8496,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83f7efed-6362-4b3e-9073-7db107c42fea")
+	)
+	(junction
+		(at 31.75 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8537205d-1650-4f73-afcd-f377457d48ad")
 	)
 	(junction
 		(at 120.65 182.88)
@@ -8540,16 +8546,16 @@
 		(uuid "965e253a-349c-4d4c-97c9-19ee753a6590")
 	)
 	(junction
-		(at 55.88 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9877b5a2-f19d-47b7-9a55-3c680051384b")
-	)
-	(junction
 		(at 240.03 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b3041b8-b708-401c-a2e0-1b3fc624ce92")
+	)
+	(junction
+		(at 55.88 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6276723-3a38-45e9-8d7f-91f9e1a666ad")
 	)
 	(junction
 		(at 41.91 143.51)
@@ -8598,12 +8604,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbd4ab18-7ed3-4f34-83a6-023d11d459a4")
-	)
-	(junction
-		(at 30.48 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc858717-44e7-4792-9b5e-fe85a664d09e")
 	)
 	(junction
 		(at 193.04 143.51)
@@ -8963,7 +8963,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 44.45) (xy 30.48 44.45)
+			(xy 41.91 44.45) (xy 31.75 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9153,6 +9153,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 63.5) (xy 31.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5587b970-4a96-4f8f-887b-d16e45082cd3")
+	)
+	(wire
+		(pts
 			(xy 86.36 57.15) (xy 82.55 57.15)
 		)
 		(stroke
@@ -9293,16 +9303,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 63.5) (xy 30.48 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "769c80b7-574c-461d-b939-55541b3e4076")
-	)
-	(wire
-		(pts
 			(xy 185.42 142.24) (xy 193.04 142.24)
 		)
 		(stroke
@@ -9373,7 +9373,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 68.58) (xy 30.48 68.58)
+			(xy 55.88 68.58) (xy 31.75 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9773,16 +9773,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 59.69) (xy 30.48 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3c687f8-243e-4f7c-a8f2-2e61c4db08af")
-	)
-	(wire
-		(pts
 			(xy 151.13 27.94) (xy 151.13 31.75)
 		)
 		(stroke
@@ -9923,6 +9913,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 52.07) (xy 31.75 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcae19d4-426f-40f6-b5e9-274c599d4e4e")
+	)
+	(wire
+		(pts
 			(xy 66.04 179.07) (xy 74.93 179.07)
 		)
 		(stroke
@@ -9940,16 +9940,6 @@
 			(type default)
 		)
 		(uuid "de6981ea-c235-4b3d-8f8a-827dcac897c9")
-	)
-	(wire
-		(pts
-			(xy 30.48 44.45) (xy 30.48 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e03c8444-e008-4a58-9245-32e54c84192d")
 	)
 	(wire
 		(pts
@@ -10033,7 +10023,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 63.5) (xy 30.48 63.5)
+			(xy 39.37 63.5) (xy 31.75 63.5)
 		)
 		(stroke
 			(width 0)
@@ -10050,6 +10040,16 @@
 			(type default)
 		)
 		(uuid "f10626a1-da30-4efb-a968-6266290e5dae")
+	)
+	(wire
+		(pts
+			(xy 31.75 44.45) (xy 30.48 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c764d1-0cd8-44ec-b2ee-1ba8d768374f")
 	)
 	(wire
 		(pts
@@ -10140,6 +10140,16 @@
 			(type default)
 		)
 		(uuid "fcf762b4-8c23-48bf-81a1-616685e5d513")
+	)
+	(wire
+		(pts
+			(xy 31.75 59.69) (xy 31.75 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff909fae-c819-4eef-be49-b54e22d8454a")
 	)
 	(image
 		(at 224.04 93.98)
@@ -41300,7 +41310,7 @@
 	(symbol
 		(lib_name "RVT1E471M0810_1")
 		(lib_id "RVT1E471M0810:RVT1E471M0810")
-		(at 30.48 57.15 0)
+		(at 31.75 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41310,7 +41320,7 @@
 		(dnp no)
 		(uuid "ae695cc4-6948-4d73-8632-01889eb13501")
 		(property "Reference" "C1"
-			(at 30.988 53.086 0)
+			(at 32.258 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41321,7 +41331,7 @@
 			)
 		)
 		(property "Value" "470µF"
-			(at 30.988 58.674 0)
+			(at 32.258 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41332,7 +41342,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
-			(at 30.48 57.15 0)
+			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41343,7 +41353,7 @@
 			)
 		)
 		(property "Datasheet" "http://file.elecfans.com/web2/M00/22/BF/pYYBAGGogrCAVRG2AA7jMVy9gGE112.pdf?RVT-VT_HONOR"
-			(at 30.48 57.15 0)
+			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41354,7 +41364,7 @@
 			)
 		)
 		(property "Description" "SMD Aluminum Electrolytic Capacitor AEC_D8X10.2MM_SM 470µF ±20% 25V Ф8.00 x 10.20mm 2000Hrs@105℃ 280mA"
-			(at 30.48 57.15 0)
+			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41365,7 +41375,7 @@
 			)
 		)
 		(property "MPN" "RVT1E471M0810"
-			(at 30.48 57.15 0)
+			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41376,7 +41386,7 @@
 			)
 		)
 		(property "Manufacturer" "HONOR"
-			(at 30.48 57.15 0)
+			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41387,7 +41397,7 @@
 			)
 		)
 		(property "characteristic" "Original"
-			(at 30.48 57.15 0)
+			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41398,7 +41408,7 @@
 			)
 		)
 		(property "huaqiu_pn" "G4630692"
-			(at 30.48 57.15 0)
+			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41409,7 +41419,7 @@
 			)
 		)
 		(property "lead_free" "Yes"
-			(at 30.48 57.15 0)
+			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41420,7 +41430,7 @@
 			)
 		)
 		(property "mount" "表面贴装"
-			(at 30.48 57.15 0)
+			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41431,7 +41441,7 @@
 			)
 		)
 		(property "package" "AEC_D8X10.2MM_SM"
-			(at 30.48 57.15 0)
+			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41442,7 +41452,7 @@
 			)
 		)
 		(property "packaging" "500pcs"
-			(at 30.48 57.15 0)
+			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42365,7 +42375,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V_ISO"
+		(property "Value" "+3V3"
 			(at 30.48 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43470,21 +43480,21 @@
 			"31370487-31fc-4a27-8ef9-0b462805a579" "3550dbd5-7ef1-4d88-b45f-a0dbd3e83fde"
 			"36787dff-c477-468a-9e03-1a3b4b145c2e" "38ce2f56-570e-40c6-b757-aa47cf9dfda7"
 			"46700d3a-dc84-4f15-b007-b4113775407d" "5480400e-2c10-4d2a-b689-ad3a55651a0e"
-			"571c289e-4d86-4e89-b896-2a8a1f5b416a" "5aa61575-f0a3-4800-9395-32c5d2429cb1"
-			"5d64ec37-2fc4-4f94-be4b-edc8d2407dba" "769c80b7-574c-461d-b939-55541b3e4076"
-			"864aea4d-c010-46ba-bf76-2d4aceee47ac" "87663fc0-80f9-457e-89ee-f77716126e36"
-			"89ac511e-9bce-4b44-acc2-49be076367c4" "9877b5a2-f19d-47b7-9a55-3c680051384b"
+			"5587b970-4a96-4f8f-887b-d16e45082cd3" "571c289e-4d86-4e89-b896-2a8a1f5b416a"
+			"5aa61575-f0a3-4800-9395-32c5d2429cb1" "64aae99b-b31e-4d0f-9e7d-cb0871b1ff0d"
+			"8537205d-1650-4f73-afcd-f377457d48ad" "864aea4d-c010-46ba-bf76-2d4aceee47ac"
+			"87663fc0-80f9-457e-89ee-f77716126e36" "89ac511e-9bce-4b44-acc2-49be076367c4"
 			"a3ba6393-ba4a-4a18-ba16-b8b6de3d18d9" "a450bf52-f601-4a1a-9608-e2de2191c341"
-			"a629a46f-aa10-49da-8fa8-747a51441a02" "ad10da03-42c7-41ab-8272-4e697b611dc2"
-			"ae695cc4-6948-4d73-8632-01889eb13501" "b1cf9011-d0ae-41cf-9886-3915d25a9983"
-			"b22bfd10-6a69-4e9b-8f7e-75925597f621" "b3daacdd-d13f-4f71-8e75-45559c63763c"
-			"baf224da-49cd-45e8-9ff0-fc6de9a845ef" "c3c687f8-243e-4f7c-a8f2-2e61c4db08af"
+			"a6276723-3a38-45e9-8d7f-91f9e1a666ad" "a629a46f-aa10-49da-8fa8-747a51441a02"
+			"ad10da03-42c7-41ab-8272-4e697b611dc2" "ae695cc4-6948-4d73-8632-01889eb13501"
+			"b1cf9011-d0ae-41cf-9886-3915d25a9983" "b22bfd10-6a69-4e9b-8f7e-75925597f621"
+			"b3daacdd-d13f-4f71-8e75-45559c63763c" "baf224da-49cd-45e8-9ff0-fc6de9a845ef"
 			"cea6f413-c63a-4c6e-8bcb-0b8c4e4aead3" "d63dfb50-0603-483d-bef3-d27715a1603e"
-			"dc858717-44e7-4792-9b5e-fe85a664d09e" "e03c8444-e008-4a58-9245-32e54c84192d"
-			"e3226108-1576-4075-9c6f-3ef6ab673751" "e9cc422a-e8ef-4678-9425-2c4a87040a7f"
-			"eecc0daf-8b5d-45ac-b9d3-bb845ef75685" "f300bdc4-1080-41ac-b121-bcfd2228993b"
+			"dcae19d4-426f-40f6-b5e9-274c599d4e4e" "e3226108-1576-4075-9c6f-3ef6ab673751"
+			"e9cc422a-e8ef-4678-9425-2c4a87040a7f" "eecc0daf-8b5d-45ac-b9d3-bb845ef75685"
+			"f1c764d1-0cd8-44ec-b2ee-1ba8d768374f" "f300bdc4-1080-41ac-b121-bcfd2228993b"
 			"f37a2232-f27e-4a93-98b9-1b34d7863a5c" "fc49cb04-eb9c-440e-b65d-d9be5d9b350a"
-			"ff8701ce-2786-4762-ba69-b1e96abcd2ad"
+			"ff8701ce-2786-4762-ba69-b1e96abcd2ad" "ff909fae-c819-4eef-be49-b54e22d8454a"
 		)
 	)
 	(group "SY8089AAC_DCDC Module"
