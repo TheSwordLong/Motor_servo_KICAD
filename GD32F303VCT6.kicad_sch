@@ -11350,7 +11350,7 @@
 				)
 			)
 			(property "Value" "VBAT_BAT"
-				(at 4.318 -1.778 0)
+				(at -5.588 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -11403,58 +11403,22 @@
 				)
 			)
 			(symbol "VBAT_BAT_1_1"
-				(polyline
-					(pts
-						(xy -3.175 -2.54) (xy -3.175 -6.35)
-					)
+				(rectangle
+					(start -9.652 -2.54)
+					(end -1.27 -5.08)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 -3.683) (xy -2.54 -4.953)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -2.54) (xy -1.905 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.683) (xy -1.27 -4.953)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -5.842 -4.318 0)
+				(pin bidirectional line
+					(at -12.192 -3.81 0)
 					(length 2.54)
-					(name ""
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11469,10 +11433,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 1.27 -4.318 180)
+				(pin bidirectional line
+					(at 1.27 -3.81 180)
 					(length 2.54)
-					(name ""
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13498,12 +13462,6 @@
 		(uuid "0780c88f-2d21-4a43-a866-c41ff631bf88")
 	)
 	(junction
-		(at 76.2 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17703739-c569-4526-9d41-564b691e6ab1")
-	)
-	(junction
 		(at 71.12 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13526,12 +13484,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "286bec12-4d76-442c-bbea-23bde714dbaa")
-	)
-	(junction
-		(at 93.98 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a8b3760-4ad7-4091-88bf-b0e9017d33de")
 	)
 	(junction
 		(at 87.63 170.18)
@@ -13732,6 +13684,12 @@
 		(uuid "d07ce8a4-d764-49bd-acb3-f05cc4742763")
 	)
 	(junction
+		(at 93.98 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1373b68-a89d-4471-934a-f9a65bb36996")
+	)
+	(junction
 		(at 59.055 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13760,6 +13718,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4e35bea-5422-4028-9fde-e7240a8572f3")
+	)
+	(junction
+		(at 76.2 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f63f1e7b-bb25-4f7a-91cc-8423de29baa2")
 	)
 	(no_connect
 		(at 299.72 204.47)
@@ -14603,7 +14567,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3b7e7f36-9eca-4b93-88fb-3a522a8311fb")
+		(uuid "393a2ce0-b90e-4242-8669-bce5c22a92e6")
 	)
 	(wire
 		(pts
@@ -14865,6 +14829,16 @@
 		)
 		(uuid "627cc9cc-129b-497b-b21c-db15a4bd0d31")
 	)
+	(wire
+		(pts
+			(xy 90.932 29.21) (xy 93.98 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f97cf8-29d1-4b9a-a015-265d5dd57e5e")
+	)
 	(bus
 		(pts
 			(xy 173.99 181.61) (xy 175.26 180.34)
@@ -14874,6 +14848,16 @@
 			(type default)
 		)
 		(uuid "634832b0-4121-47a9-9fb6-6c123c445058")
+	)
+	(wire
+		(pts
+			(xy 76.2 29.21) (xy 77.47 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64840a45-18c6-41cc-982b-d0ce77b15602")
 	)
 	(wire
 		(pts
@@ -14914,16 +14898,6 @@
 			(type default)
 		)
 		(uuid "6af179c0-6622-41e6-907a-c0c6af931b0e")
-	)
-	(wire
-		(pts
-			(xy 87.63 29.21) (xy 93.98 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf99076-542b-440b-a783-5db5237ac4e8")
 	)
 	(wire
 		(pts
@@ -15974,16 +15948,6 @@
 			(type default)
 		)
 		(uuid "e6ed02c1-fb0e-4d30-ba6f-d76b111c79ff")
-	)
-	(wire
-		(pts
-			(xy 80.518 29.21) (xy 76.2 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e96dc42f-3ea1-46de-a004-2234b045c075")
 	)
 	(wire
 		(pts
@@ -18354,8 +18318,8 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "30548a44-7d2d-44b2-a86f-de52458406f2")
@@ -21494,17 +21458,17 @@
 	)
 	(symbol
 		(lib_id "PZ254V-11-02P:VBAT_BAT")
-		(at 86.36 24.892 0)
+		(at 89.662 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91ce56ef-e2e3-4816-b091-d9d9be162d4a")
 		(property "Reference" "B01"
-			(at 80.772 26.162 0)
+			(at 84.074 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21514,7 +21478,7 @@
 			)
 		)
 		(property "Value" "VBAT_BAT"
-			(at 90.678 26.67 0)
+			(at 84.074 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21523,8 +21487,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 86.36 24.892 0)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_500"
+			(at 89.662 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21535,7 +21499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 24.892 0)
+			(at 89.662 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21546,7 +21510,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 24.892 0)
+			(at 89.662 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22688,8 +22652,8 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "e684127c-1852-49a7-9c6a-5fb110d0ade9")
