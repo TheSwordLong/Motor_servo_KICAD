@@ -13725,6 +13725,12 @@
 		(color 0 0 0 0)
 		(uuid "f63f1e7b-bb25-4f7a-91cc-8423de29baa2")
 	)
+	(junction
+		(at 58.42 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa904bd7-d99e-468c-aabd-9a759424a5ca")
+	)
 	(no_connect
 		(at 299.72 204.47)
 		(uuid "078a9a1e-9cb4-4478-a5ea-bf4b6beb31aa")
@@ -14881,6 +14887,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 36.83) (xy 58.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c211c7-bc2c-4961-bbaa-2511bced8a26")
+	)
+	(wire
+		(pts
 			(xy 38.1 60.96) (xy 44.45 60.96)
 		)
 		(stroke
@@ -15101,7 +15117,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 34.29) (xy 58.42 43.18)
+			(xy 58.42 34.29) (xy 58.42 36.83)
 		)
 		(stroke
 			(width 0)
@@ -15488,6 +15504,16 @@
 			(type default)
 		)
 		(uuid "ab282dc5-80fa-4c18-8192-a784b7be7949")
+	)
+	(wire
+		(pts
+			(xy 64.77 36.83) (xy 58.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac308f29-5d81-4509-bb92-8730777eaa7d")
 	)
 	(wire
 		(pts
@@ -16119,7 +16145,7 @@
 		)
 		(uuid "ffafe9da-0fea-4731-8306-5c3336963a18")
 	)
-	(label "BRAKE1[1..4]"
+	(label "BRAKE1_[1..4]"
 		(at 175.26 160.02 0)
 		(effects
 			(font
@@ -16139,7 +16165,7 @@
 		)
 		(uuid "0abd4528-e8c5-4f75-a35f-5c670d728413")
 	)
-	(label "ADC[0..3]"
+	(label "ADC_[0..3]"
 		(at 313.69 60.96 180)
 		(effects
 			(font
@@ -16149,7 +16175,7 @@
 		)
 		(uuid "0b095ed0-e91e-403c-b5cb-8a7ddb677a9e")
 	)
-	(label "TIMER0_CH1-FG2"
+	(label "FG2_2"
 		(at 337.82 214.63 0)
 		(effects
 			(font
@@ -16179,7 +16205,7 @@
 		)
 		(uuid "116b110a-6170-4b31-83fa-6649c7029d83")
 	)
-	(label "PD4"
+	(label "BRAKE1_1"
 		(at 162.56 163.83 0)
 		(effects
 			(font
@@ -16189,7 +16215,7 @@
 		)
 		(uuid "12b92c73-6dbe-44f9-ba2e-f5534c7be765")
 	)
-	(label "PD0"
+	(label "DIR2_1"
 		(at 335.28 134.62 0)
 		(effects
 			(font
@@ -16199,7 +16225,7 @@
 		)
 		(uuid "146079b1-6a0e-4685-aac4-e925c059e1fe")
 	)
-	(label "TIMER2_CH1-PWM2"
+	(label "PWM2_2"
 		(at 267.97 144.78 0)
 		(effects
 			(font
@@ -16229,7 +16255,7 @@
 		)
 		(uuid "1888aa73-5fbf-4844-9b17-3bedeae685e9")
 	)
-	(label "PWM1[12..15]"
+	(label "PWM1_[1..4]"
 		(at 313.69 40.64 180)
 		(effects
 			(font
@@ -16239,7 +16265,7 @@
 		)
 		(uuid "1b0ce2a1-6a2b-4df6-b07c-e91cc760e518")
 	)
-	(label "PD13"
+	(label "PWM1_2"
 		(at 163.83 130.81 0)
 		(effects
 			(font
@@ -16249,7 +16275,7 @@
 		)
 		(uuid "2192a776-808c-4a9b-aa96-40649249a36c")
 	)
-	(label "FG2[1..4]"
+	(label "FG2_[1..4]"
 		(at 379.73 200.66 0)
 		(effects
 			(font
@@ -16269,7 +16295,7 @@
 		)
 		(uuid "23d9e049-4e94-4a33-a2e9-c5d83f419905")
 	)
-	(label "PD1"
+	(label "DIR2_2"
 		(at 335.28 138.43 0)
 		(effects
 			(font
@@ -16279,7 +16305,7 @@
 		)
 		(uuid "29eb9d1d-8569-4023-8398-9e78e4971e1c")
 	)
-	(label "PB3"
+	(label "BRAKE2_1"
 		(at 259.08 181.61 0)
 		(effects
 			(font
@@ -16299,7 +16325,7 @@
 		)
 		(uuid "2dc9ef97-d1a6-4c23-ab55-5aaf4af07306")
 	)
-	(label "PD14"
+	(label "PWM1_3"
 		(at 163.83 134.62 0)
 		(effects
 			(font
@@ -16309,7 +16335,7 @@
 		)
 		(uuid "2e360080-3d15-4f44-8f78-0022302ca713")
 	)
-	(label "DIR2[1..4]"
+	(label "DIR2_[1..4]"
 		(at 313.69 76.2 180)
 		(effects
 			(font
@@ -16329,7 +16355,7 @@
 		)
 		(uuid "3ab19422-826d-4ae2-9d3e-4c4e93f44c42")
 	)
-	(label "FG1[1..4]"
+	(label "FG1_[1..4]"
 		(at 313.69 45.72 180)
 		(effects
 			(font
@@ -16339,7 +16365,7 @@
 		)
 		(uuid "47c2041f-12dc-4d2d-a254-15c7e906822e")
 	)
-	(label "DIR1[1..4]"
+	(label "DIR1_[1..4]"
 		(at 313.69 50.8 180)
 		(effects
 			(font
@@ -16359,7 +16385,7 @@
 		)
 		(uuid "5a0480a8-8aaf-48cf-b060-46cf9253cc7f")
 	)
-	(label "PC0"
+	(label "ADC_0"
 		(at 163.83 80.01 0)
 		(effects
 			(font
@@ -16369,7 +16395,7 @@
 		)
 		(uuid "5b4bde18-19bb-426c-841c-356b56203222")
 	)
-	(label "PWM2[1..4]"
+	(label "PWM2_[1..4]"
 		(at 240.03 134.62 0)
 		(effects
 			(font
@@ -16379,7 +16405,7 @@
 		)
 		(uuid "5cb75e36-fe11-4ad4-912d-15e88a83b165")
 	)
-	(label "PC6"
+	(label "DIR1_3"
 		(at 162.56 153.67 0)
 		(effects
 			(font
@@ -16409,7 +16435,7 @@
 		)
 		(uuid "602303e1-3bac-468c-8a1d-bda848cc3b89")
 	)
-	(label "PA3"
+	(label "FG1_4"
 		(at 162.56 195.58 0)
 		(effects
 			(font
@@ -16419,7 +16445,7 @@
 		)
 		(uuid "62bacc85-1013-4c70-a112-3bedc1522650")
 	)
-	(label "FG2[1..4]"
+	(label "FG2_[1..4]"
 		(at 313.69 71.12 180)
 		(effects
 			(font
@@ -16429,7 +16455,7 @@
 		)
 		(uuid "62e99c0d-3b83-47bf-b5c8-6735da41b307")
 	)
-	(label "PWM2[1..4]"
+	(label "PWM2_[1..4]"
 		(at 313.69 66.04 180)
 		(effects
 			(font
@@ -16449,7 +16475,7 @@
 		)
 		(uuid "6dd3585a-f590-47be-a904-9dc283506762")
 	)
-	(label "DIR2[1..4]"
+	(label "DIR2_[1..4]"
 		(at 347.98 130.81 0)
 		(effects
 			(font
@@ -16469,7 +16495,7 @@
 		)
 		(uuid "73aa117f-93a9-44a5-a5f7-3478f34fa0ec")
 	)
-	(label "DIR1[1..4]"
+	(label "DIR1_[1..4]"
 		(at 175.26 142.24 0)
 		(effects
 			(font
@@ -16489,7 +16515,7 @@
 		)
 		(uuid "7db568c9-562b-40c1-b8c9-aaba9cca40d1")
 	)
-	(label "PA1"
+	(label "FG1_2"
 		(at 162.56 187.96 0)
 		(effects
 			(font
@@ -16499,7 +16525,7 @@
 		)
 		(uuid "7f09aa70-a6d0-40f4-a5c3-72afb8525cf4")
 	)
-	(label "PC1"
+	(label "ADC_1"
 		(at 163.83 83.82 0)
 		(effects
 			(font
@@ -16539,7 +16565,7 @@
 		)
 		(uuid "88f761e0-ab01-417e-8392-f174e783205f")
 	)
-	(label "PC3"
+	(label "ADC_3"
 		(at 163.83 91.44 0)
 		(effects
 			(font
@@ -16559,7 +16585,7 @@
 		)
 		(uuid "93033ee2-5f81-4bf0-a352-5ac2bdcccbab")
 	)
-	(label "PA0"
+	(label "FG1_1"
 		(at 162.56 184.15 0)
 		(effects
 			(font
@@ -16569,7 +16595,7 @@
 		)
 		(uuid "9373d0ed-cc41-46f3-afee-a98431f25138")
 	)
-	(label "BRAKE2[1..4]"
+	(label "BRAKE2_[1..4]"
 		(at 313.69 81.28 180)
 		(effects
 			(font
@@ -16579,7 +16605,7 @@
 		)
 		(uuid "9a23e305-2784-4f36-a2b7-5c5b8df0ef74")
 	)
-	(label "PC14"
+	(label "DIR1_1"
 		(at 162.56 146.05 0)
 		(effects
 			(font
@@ -16589,7 +16615,7 @@
 		)
 		(uuid "9b372052-40f9-4b9b-bbe1-029c4c21e238")
 	)
-	(label "TIMER0_CH2-FG3"
+	(label "FG2_3"
 		(at 337.82 222.25 0)
 		(effects
 			(font
@@ -16609,7 +16635,7 @@
 		)
 		(uuid "9dab606b-08cb-4bc2-8fd6-68a92478ba80")
 	)
-	(label "PC15"
+	(label "DIR1_2"
 		(at 162.56 149.86 0)
 		(effects
 			(font
@@ -16619,7 +16645,7 @@
 		)
 		(uuid "9f22386b-f85f-4a6c-911f-5e9a7fdafc34")
 	)
-	(label "PD6"
+	(label "BRAKE1_3"
 		(at 162.56 171.45 0)
 		(effects
 			(font
@@ -16639,7 +16665,7 @@
 		)
 		(uuid "a3dd062d-d001-445c-b7a9-0431e268ba6e")
 	)
-	(label "BRAKE1[1..4]"
+	(label "BRAKE1_[1..4]"
 		(at 313.69 55.88 180)
 		(effects
 			(font
@@ -16669,7 +16695,7 @@
 		)
 		(uuid "aa1db1d2-a3ad-4ce0-a5a8-d02f22731c2f")
 	)
-	(label "PB6"
+	(label "BRAKE2_4"
 		(at 259.08 193.04 0)
 		(effects
 			(font
@@ -16679,7 +16705,7 @@
 		)
 		(uuid "ad3bd899-d398-43f5-b6e3-7bcfc6a6091e")
 	)
-	(label "TIMER0_CH0-FG1"
+	(label "FG2_1"
 		(at 337.82 207.01 0)
 		(effects
 			(font
@@ -16699,7 +16725,7 @@
 		)
 		(uuid "b63c4bf8-891e-42a0-a019-d693f4cecd49")
 	)
-	(label "PD15"
+	(label "PWM1_4"
 		(at 163.83 138.43 0)
 		(effects
 			(font
@@ -16719,7 +16745,7 @@
 		)
 		(uuid "b6ee5400-87e7-44ce-a5b6-f74f8da5db81")
 	)
-	(label "PWM1[12..15]"
+	(label "PWM1_[1..4]"
 		(at 175.26 123.19 0)
 		(effects
 			(font
@@ -16729,7 +16755,7 @@
 		)
 		(uuid "b9ea49b2-1c1b-42d8-aef8-678fb916b46a")
 	)
-	(label "TIMER0_CH3-FG4"
+	(label "FG2_4"
 		(at 337.82 226.06 0)
 		(effects
 			(font
@@ -16739,7 +16765,7 @@
 		)
 		(uuid "beba0764-fadd-4103-9577-25e8508bd202")
 	)
-	(label "PD5"
+	(label "BRAKE1_2"
 		(at 162.56 167.64 0)
 		(effects
 			(font
@@ -16749,7 +16775,7 @@
 		)
 		(uuid "bf6bba46-ec19-4758-85ad-d480eb6df7d1")
 	)
-	(label "ADC[0..3]"
+	(label "ADC_[0..3]"
 		(at 177.8 76.2 0)
 		(effects
 			(font
@@ -16769,7 +16795,7 @@
 		)
 		(uuid "c1f79360-06be-4586-a471-edb8d8ae8770")
 	)
-	(label "PD3"
+	(label "DIR2_4"
 		(at 335.28 146.05 0)
 		(effects
 			(font
@@ -16779,7 +16805,7 @@
 		)
 		(uuid "c54d7cee-3b5b-43df-929e-40c26f9149d3")
 	)
-	(label "TIMER2_CH3-PWM4"
+	(label "PWM2_4"
 		(at 266.7 177.8 0)
 		(effects
 			(font
@@ -16799,7 +16825,7 @@
 		)
 		(uuid "c7e30dac-86d8-4107-96c4-903fcb69403f")
 	)
-	(label "TIMER2_CH0-PWM1"
+	(label "PWM2_1"
 		(at 267.97 140.97 0)
 		(effects
 			(font
@@ -16809,7 +16835,7 @@
 		)
 		(uuid "d580b902-a33c-4eda-8444-987c6467d4bf")
 	)
-	(label "PA2"
+	(label "FG1_3"
 		(at 162.56 191.77 0)
 		(effects
 			(font
@@ -16839,7 +16865,7 @@
 		)
 		(uuid "da609ad7-0d1d-4af1-91ab-63c0a83db69b")
 	)
-	(label "PC2"
+	(label "ADC_2"
 		(at 163.83 87.63 0)
 		(effects
 			(font
@@ -16849,7 +16875,7 @@
 		)
 		(uuid "dba7c0fc-ebff-4d24-950c-6529708f31c9")
 	)
-	(label "TIMER2_CH2-PWM3"
+	(label "PWM2_3"
 		(at 266.7 173.99 0)
 		(effects
 			(font
@@ -16859,7 +16885,7 @@
 		)
 		(uuid "dbc5727f-783b-4622-a90f-22b9608f6d2a")
 	)
-	(label "PD7"
+	(label "BRAKE1_4"
 		(at 162.56 175.26 0)
 		(effects
 			(font
@@ -16869,7 +16895,7 @@
 		)
 		(uuid "dd4e2ea9-4053-4be4-a154-98d233f43673")
 	)
-	(label "PD12"
+	(label "PWM1_1"
 		(at 163.83 127 0)
 		(effects
 			(font
@@ -16879,7 +16905,7 @@
 		)
 		(uuid "e3503885-950e-4c0c-ac79-7ce2d666fd17")
 	)
-	(label "PD2"
+	(label "DIR2_3"
 		(at 335.28 142.24 0)
 		(effects
 			(font
@@ -16889,7 +16915,7 @@
 		)
 		(uuid "e4077dff-95a6-47c1-b720-43c4cf2513ad")
 	)
-	(label "FG1[1..4]"
+	(label "FG1_[1..4]"
 		(at 175.26 180.34 0)
 		(effects
 			(font
@@ -16899,7 +16925,7 @@
 		)
 		(uuid "e69e3d75-d68a-4842-be1d-8253a1dceaec")
 	)
-	(label "PB5"
+	(label "BRAKE2_3"
 		(at 259.08 189.23 0)
 		(effects
 			(font
@@ -16919,7 +16945,7 @@
 		)
 		(uuid "ecf8d1b6-de22-417f-a34c-364c090f6b26")
 	)
-	(label "BRAKE2[1..4]"
+	(label "BRAKE2_[1..4]"
 		(at 250.19 177.8 180)
 		(effects
 			(font
@@ -16929,7 +16955,7 @@
 		)
 		(uuid "ee89c666-f397-429d-ac4d-0ef3232535ec")
 	)
-	(label "PB4"
+	(label "BRAKE2_2"
 		(at 259.08 185.42 0)
 		(effects
 			(font
@@ -16959,7 +16985,7 @@
 		)
 		(uuid "f73b7db6-75c6-4f3c-9ebb-7dd9ceaa5b37")
 	)
-	(label "PC7"
+	(label "DIR1_4"
 		(at 162.56 157.48 0)
 		(effects
 			(font
@@ -19106,6 +19132,84 @@
 			(project "GD32F303"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 64.77 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40e8ef3c-3ab6-4582-92ca-7cea00742aeb")
+		(property "Reference" "#FLG015"
+			(at 64.77 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 64.77 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 64.77 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13fa9d34-9789-4896-9c38-66b254c80e55")
+		)
+		(instances
+			(project "GD32F303"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
+					(reference "#FLG015")
 					(unit 1)
 				)
 			)
@@ -21465,7 +21569,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "91ce56ef-e2e3-4816-b091-d9d9be162d4a")
 		(property "Reference" "B01"
 			(at 84.074 26.67 0)
@@ -24332,7 +24436,7 @@
 				(justify left top)
 			)
 		)
-		(pin "BRAKE1[1..4]" input
+		(pin "BRAKE1_[1..4]" input
 			(at 326.39 55.88 180)
 			(uuid "24394c22-cb40-40e3-945b-38f93c623fe6")
 			(effects
@@ -24342,7 +24446,7 @@
 				(justify left)
 			)
 		)
-		(pin "BRAKE2[1..4]" input
+		(pin "BRAKE2_[1..4]" input
 			(at 326.39 81.28 180)
 			(uuid "f997abc8-6cb4-4fe9-9a2a-54f5e5db0b1c")
 			(effects
@@ -24352,7 +24456,7 @@
 				(justify left)
 			)
 		)
-		(pin "FG2[1..4]" output
+		(pin "FG2_[1..4]" output
 			(at 326.39 71.12 180)
 			(uuid "314e2344-17ae-423d-92f8-da2aace44d37")
 			(effects
@@ -24362,7 +24466,7 @@
 				(justify left)
 			)
 		)
-		(pin "FG1[1..4]" output
+		(pin "FG1_[1..4]" output
 			(at 326.39 45.72 180)
 			(uuid "5b812366-ca58-4058-af10-47fbe81197c6")
 			(effects
@@ -24372,7 +24476,7 @@
 				(justify left)
 			)
 		)
-		(pin "PWM2[1..4]" input
+		(pin "PWM2_[1..4]" input
 			(at 326.39 66.04 180)
 			(uuid "4498c5ab-8619-4a29-baf5-0a7f6c7515ed")
 			(effects
@@ -24382,7 +24486,7 @@
 				(justify left)
 			)
 		)
-		(pin "DIR2[1..4]" input
+		(pin "DIR2_[1..4]" input
 			(at 326.39 76.2 180)
 			(uuid "9451c359-c42c-40ef-ac47-d264fdd85cc8")
 			(effects
@@ -24392,7 +24496,7 @@
 				(justify left)
 			)
 		)
-		(pin "DIR1[1..4]" input
+		(pin "DIR1_[1..4]" input
 			(at 326.39 50.8 180)
 			(uuid "1795194c-87f3-476e-8914-662100d39121")
 			(effects
@@ -24402,7 +24506,7 @@
 				(justify left)
 			)
 		)
-		(pin "PWM1[1..4]" input
+		(pin "PWM1_[1..4]" input
 			(at 326.39 40.64 180)
 			(uuid "77b44b6f-3e16-4f27-9f70-66b6d1ed5c05")
 			(effects
@@ -24412,7 +24516,7 @@
 				(justify left)
 			)
 		)
-		(pin "ADC[0..3]" output
+		(pin "ADC_[0..3]" output
 			(at 326.39 60.96 180)
 			(uuid "b019cb0a-0829-4ba4-be2e-0eec7d540c5d")
 			(effects
