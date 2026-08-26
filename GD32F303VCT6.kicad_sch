@@ -16215,7 +16215,7 @@
 		)
 		(uuid "12b92c73-6dbe-44f9-ba2e-f5534c7be765")
 	)
-	(label "DIR2_1"
+	(label "DIR1_1"
 		(at 335.28 134.62 0)
 		(effects
 			(font
@@ -16295,7 +16295,7 @@
 		)
 		(uuid "23d9e049-4e94-4a33-a2e9-c5d83f419905")
 	)
-	(label "DIR2_2"
+	(label "DIR1_2"
 		(at 335.28 138.43 0)
 		(effects
 			(font
@@ -16405,7 +16405,7 @@
 		)
 		(uuid "5cb75e36-fe11-4ad4-912d-15e88a83b165")
 	)
-	(label "DIR1_3"
+	(label "DIR2_3"
 		(at 162.56 153.67 0)
 		(effects
 			(font
@@ -16475,7 +16475,7 @@
 		)
 		(uuid "6dd3585a-f590-47be-a904-9dc283506762")
 	)
-	(label "DIR2_[1..4]"
+	(label "DIR1_[1..4]"
 		(at 347.98 130.81 0)
 		(effects
 			(font
@@ -16495,7 +16495,7 @@
 		)
 		(uuid "73aa117f-93a9-44a5-a5f7-3478f34fa0ec")
 	)
-	(label "DIR1_[1..4]"
+	(label "DIR2_[1..4]"
 		(at 175.26 142.24 0)
 		(effects
 			(font
@@ -16605,7 +16605,7 @@
 		)
 		(uuid "9a23e305-2784-4f36-a2b7-5c5b8df0ef74")
 	)
-	(label "DIR1_1"
+	(label "DIR2_1"
 		(at 162.56 146.05 0)
 		(effects
 			(font
@@ -16635,7 +16635,7 @@
 		)
 		(uuid "9dab606b-08cb-4bc2-8fd6-68a92478ba80")
 	)
-	(label "DIR1_2"
+	(label "DIR2_2"
 		(at 162.56 149.86 0)
 		(effects
 			(font
@@ -16795,7 +16795,7 @@
 		)
 		(uuid "c1f79360-06be-4586-a471-edb8d8ae8770")
 	)
-	(label "DIR2_4"
+	(label "DIR1_4"
 		(at 335.28 146.05 0)
 		(effects
 			(font
@@ -16905,7 +16905,7 @@
 		)
 		(uuid "e3503885-950e-4c0c-ac79-7ce2d666fd17")
 	)
-	(label "DIR2_3"
+	(label "DIR1_3"
 		(at 335.28 142.24 0)
 		(effects
 			(font
@@ -16985,7 +16985,7 @@
 		)
 		(uuid "f73b7db6-75c6-4f3c-9ebb-7dd9ceaa5b37")
 	)
-	(label "DIR1_4"
+	(label "DIR2_4"
 		(at 162.56 157.48 0)
 		(effects
 			(font

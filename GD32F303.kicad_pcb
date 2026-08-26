@@ -2336,11 +2336,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "11a59743-4508-46f5-9086-cb02dda34d0b")
-		(at 143 79.04 180)
+		(at 140.525 76.75 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "JP2"
-			(at 0 -2.38 0)
+			(at 0 -2.38 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5b2cd345-33b6-464a-b48f-5eebdf8eec92")
@@ -2352,7 +2352,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Small_Open"
-			(at 0 4.92 0)
+			(at 0 4.92 90)
 			(layer "F.Fab")
 			(uuid "335bd1c9-ba41-442b-b2a3-503e967ec5a7")
 			(effects
@@ -2363,7 +2363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "28863308-1950-4e03-9721-7e15d5a59e51")
@@ -2374,7 +2374,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "89d6f164-6814-403b-9b05-1f832a87ebf9")
@@ -2397,16 +2397,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.38 1.27)
-			(end 1.38 3.92)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "13b97ec7-4fa7-4201-9bd7-3847269c7664")
-		)
-		(fp_line
 			(start -1.38 3.92)
 			(end 1.38 3.92)
 			(stroke
@@ -2415,6 +2405,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "2682fecb-4786-41df-9111-1ee1ceb068d2")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b5b9f7aa-c3f6-4921-a832-7692e63465a7")
 		)
 		(fp_line
 			(start -1.38 1.27)
@@ -2427,14 +2427,14 @@
 			(uuid "cdf52b4c-8aa6-4377-8276-e0e3bb48050d")
 		)
 		(fp_line
-			(start -1.38 1.27)
-			(end -1.38 3.92)
+			(start 1.38 1.27)
+			(end 1.38 3.92)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b5b9f7aa-c3f6-4921-a832-7692e63465a7")
+			(uuid "13b97ec7-4fa7-4201-9bd7-3847269c7664")
 		)
 		(fp_line
 			(start -1.38 0)
@@ -2468,6 +2468,16 @@
 			(uuid "522dcaab-d595-45d8-9ae6-3f0b63424384")
 		)
 		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "89946307-3056-4748-a222-1d3dba90f01e")
+		)
+		(fp_line
 			(start 1.27 3.81)
 			(end -1.27 3.81)
 			(stroke
@@ -2478,14 +2488,14 @@
 			(uuid "1fd63728-7fb0-476b-96ee-520f47c5e94a")
 		)
 		(fp_line
-			(start 1.27 -1.27)
-			(end 1.27 3.81)
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fd3626e6-dfe6-448b-8bee-003fbc00543c")
+			(uuid "5f525356-ed44-48b4-a54c-8621658d5dd4")
 		)
 		(fp_line
 			(start -0.635 -1.27)
@@ -2498,27 +2508,17 @@
 			(uuid "051c30a9-57a7-4746-8c8a-ae47e32e0141")
 		)
 		(fp_line
-			(start -1.27 3.81)
-			(end -1.27 -0.635)
+			(start 1.27 -1.27)
+			(end 1.27 3.81)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "89946307-3056-4748-a222-1d3dba90f01e")
-		)
-		(fp_line
-			(start -1.27 -0.635)
-			(end -0.635 -1.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5f525356-ed44-48b4-a54c-8621658d5dd4")
+			(uuid "fd3626e6-dfe6-448b-8bee-003fbc00543c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 90)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "6412f518-6fc6-4f22-8509-6db8bca9782b")
 			(effects
@@ -2529,7 +2529,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 180)
+			(at 0 0 270)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -2540,7 +2540,7 @@
 			(uuid "b5d0a530-a993-4f21-8f32-2688021ac045")
 		)
 		(pad "2" thru_hole circle
-			(at 0 2.54 180)
+			(at 0 2.54 270)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -17357,7 +17357,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "93362ef8-df97-4160-bef6-94dce9da5e5e")
-		(at 146.75 73.5)
+		(at 138.9125 73.25)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
@@ -29820,7 +29820,7 @@
 			(at 7.55 2.5 90)
 			(size 1.6 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/MCU_Core/DIR1_1")
+			(net "/MCU_Core/DIR2_1")
 			(pinfunction "DIR1_33")
 			(pintype "bidirectional")
 			(thermal_bridge_angle 45)
@@ -29830,7 +29830,7 @@
 			(at 7.55 2 90)
 			(size 1.6 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/MCU_Core/DIR1_2")
+			(net "/MCU_Core/DIR2_2")
 			(pinfunction "DIR2_34")
 			(pintype "bidirectional")
 			(thermal_bridge_angle 45)
@@ -30120,7 +30120,7 @@
 			(at 0 -7.55 90)
 			(size 0.3 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/MCU_Core/DIR1_3")
+			(net "/MCU_Core/DIR2_3")
 			(pinfunction "DIR3_63")
 			(pintype "bidirectional")
 			(thermal_bridge_angle 45)
@@ -30130,7 +30130,7 @@
 			(at -0.5 -7.55 90)
 			(size 0.3 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/MCU_Core/DIR1_4")
+			(net "/MCU_Core/DIR2_4")
 			(pinfunction "DIR4_64")
 			(pintype "bidirectional")
 			(thermal_bridge_angle 45)
@@ -30300,7 +30300,7 @@
 			(at -7.55 -3.5 90)
 			(size 1.6 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/MCU_Core/DIR2_1")
+			(net "/MCU_Core/DIR1_1")
 			(pinfunction "PD0_81")
 			(pintype "bidirectional")
 			(thermal_bridge_angle 45)
@@ -30310,7 +30310,7 @@
 			(at -7.55 -3 90)
 			(size 1.6 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/MCU_Core/DIR2_2")
+			(net "/MCU_Core/DIR1_2")
 			(pinfunction "PD1_82")
 			(pintype "bidirectional")
 			(thermal_bridge_angle 45)
@@ -30320,7 +30320,7 @@
 			(at -7.55 -2.5 90)
 			(size 1.6 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/MCU_Core/DIR2_3")
+			(net "/MCU_Core/DIR1_3")
 			(pinfunction "PD2_83")
 			(pintype "bidirectional")
 			(thermal_bridge_angle 45)
@@ -30330,7 +30330,7 @@
 			(at -7.55 -2 90)
 			(size 1.6 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/MCU_Core/DIR2_4")
+			(net "/MCU_Core/DIR1_4")
 			(pinfunction "PD3_84")
 			(pintype "bidirectional")
 			(thermal_bridge_angle 45)
