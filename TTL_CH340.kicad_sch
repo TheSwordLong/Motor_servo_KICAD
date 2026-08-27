@@ -11521,7 +11521,7 @@
 		)
 		(uuid "1d718ffc-008d-4bbc-9ccb-6659e78978a2")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_DN"
 		(shape bidirectional)
 		(at 279.4 121.92 180)
 		(effects

@@ -3112,83 +3112,6 @@
 		(uuid "455a22b9-0da0-44b9-a579-970f94a539f9")
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 92.71 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "008f0817-3ced-4519-867a-e781998ccb3d")
-		(property "Reference" "#FLG013"
-			(at 92.71 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 91.694 92.964 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 92.71 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29044398-5390-4304-9cec-fc95bc024293")
-		)
-		(instances
-			(project "GD32F303"
-				(path "/54005433-e3aa-4693-8f75-bb73943288d3/46739a1c-a686-46fc-8f12-984396225a7f"
-					(reference "#FLG013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 111.76 116.84 0)
 		(unit 1)
@@ -3288,7 +3211,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V_ISO"
+		(property "Value" "+3V3"
 			(at 93.472 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)

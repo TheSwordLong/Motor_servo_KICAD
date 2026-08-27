@@ -5624,7 +5624,7 @@
 		)
 		(uuid "03a8f350-16e7-4e54-bb91-b1271fd25f7a")
 	)
-	(label "RS485A"
+	(label "RS485B"
 		(at 245.11 110.998 0)
 		(effects
 			(font
@@ -5644,7 +5644,7 @@
 		)
 		(uuid "2b41001d-9cc9-4632-a7f6-8042c0941b51")
 	)
-	(label "RS485B"
+	(label "RS485A"
 		(at 245.11 79.248 0)
 		(effects
 			(font
@@ -6597,7 +6597,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 82.55 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)

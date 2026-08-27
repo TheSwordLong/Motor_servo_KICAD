@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -616,6 +616,10 @@
       {
         "netclass": "SIGNAL",
         "pattern": "PWM*"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "PWM1_1"
       }
     ]
   },
@@ -1961,7 +1965,20 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "PD0_3_BUS": [
+        "BRAKE1_1",
+        "DIR1_1",
+        "BRAKE1_2",
+        "DIR1_2"
+      ],
+      "PD4_7_BUS": [
+        "BRAKE1_3",
+        "DIR1_3",
+        "BRAKE1_4",
+        "DIR1_4"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -2010,7 +2027,7 @@
         "uuid": "54005433-e3aa-4693-8f75-bb73943288d3"
       }
     ],
-    "used_designators": "U1-15,C1-56,D1-8,L1-4,#PWR1-89,#FLG1-15,R1-35,Y1-2,Q1-2,1,CN1-5,B1-2,SW1,H1-14,JP1-2,FL1-2,J1-2,FB1-2",
+    "used_designators": "U1-16,C1-56,D1-8,L1-4,#PWR1-89,#FLG1-15,R1-35,Y1-2,Q1-2,1,CN1-5,B1-2,SW1,H1-14,JP1-2,FL1-2,J1-2,FB1-2",
     "variants": []
   },
   "sheets": [
