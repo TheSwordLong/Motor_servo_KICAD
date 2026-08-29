@@ -35,4 +35,5 @@
 	(lib (name "WJ15EDGRC-3.81-2P") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/WJ15EDGRC-3.81-2P.kicad_sym") (options "") (descr ""))
 	(lib (name "DB2ERC-5.08-2P-GN") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/DB2ERC-5.08-2P-GN.kicad_sym") (options "") (descr ""))
 	(lib (name "KF128L-5.08-2P") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/KF128L-5.08-2P.kicad_sym") (options "") (descr ""))
+	(lib (name "GD32F303VET6") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/GD32F303VET6.kicad_sym") (options "") (descr ""))
 )

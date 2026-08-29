@@ -19879,7 +19879,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 36.83 48.26 90)
+		(at 36.83 48.26 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19887,7 +19888,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65f32cc7-83c9-421b-8874-8d30610d1a70")
 		(property "Reference" "C21"
 			(at 36.83 40.64 90)
@@ -19910,7 +19910,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 40.64 47.2948 0)
+			(at 33.02 47.2948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24123,9 +24123,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fff7c430-3ed5-4044-96b7-89d45dab9a32")
 		(property "Reference" "#PWR043"

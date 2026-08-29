@@ -8450,7 +8450,7 @@
 		(uuid "48b72217-f00b-42cb-be44-3c4e615f0be2")
 	)
 	(junction
-		(at 241.3 137.16)
+		(at 238.125 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cbfe79e-d15a-489d-9c82-4f10a10296dc")
@@ -9223,7 +9223,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 137.16) (xy 241.3 137.16)
+			(xy 226.06 137.16) (xy 238.125 137.16)
 		)
 		(stroke
 			(width 0)
@@ -10123,7 +10123,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 137.16) (xy 252.73 137.16)
+			(xy 238.125 137.16) (xy 252.73 137.16)
 		)
 		(stroke
 			(width 0)
@@ -42959,7 +42959,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 241.3 137.16 0)
+		(at 238.125 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42970,7 +42970,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8b5b83a-77e1-4a2b-beb0-a929d47d9781")
 		(property "Reference" "#PWR027"
-			(at 241.3 143.51 0)
+			(at 238.125 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42981,7 +42981,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 241.3 142.24 0)
+			(at 238.125 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42991,7 +42991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 137.16 0)
+			(at 238.125 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43002,7 +43002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 137.16 0)
+			(at 238.125 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43013,7 +43013,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 241.3 137.16 0)
+			(at 238.125 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
