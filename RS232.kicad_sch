@@ -2925,7 +2925,7 @@
 			(uuid "ace08d35-6d82-46f3-a41f-e2ee408244b3")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
 					(reference "R15")
 					(unit 1)
@@ -3109,7 +3109,7 @@
 			(uuid "b9d293b9-635d-4bbf-84f4-17f67a219d88")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
 					(reference "R14")
 					(unit 1)
@@ -3406,7 +3406,7 @@
 			(uuid "3d9555b2-4703-4f4f-b9ad-c94e1c083104")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
 					(reference "CN3")
 					(unit 1)
@@ -3824,7 +3824,7 @@
 			(uuid "1ce1a593-0f49-4193-bf3c-48ff53cb1c37")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
 					(reference "U8")
 					(unit 1)
@@ -4129,7 +4129,7 @@
 			(uuid "8c81e9db-8723-4b60-94be-e93d12097784")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
 					(reference "C41")
 					(unit 1)
@@ -4434,7 +4434,7 @@
 			(uuid "89870859-275f-4d06-9c22-a53b0cff0262")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
 					(reference "C38")
 					(unit 1)
@@ -4739,7 +4739,7 @@
 			(uuid "df8bcd78-68ab-41fc-a25e-ff1970d005de")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
 					(reference "C39")
 					(unit 1)
@@ -4824,7 +4824,7 @@
 			(uuid "b93b3fba-b40e-4d80-b18b-6762d2b63bc2")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
 					(reference "#PWR051")
 					(unit 1)
@@ -5123,7 +5123,7 @@
 			(uuid "6e64a3d7-3c5c-4f92-80e8-19b578504ee3")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
 					(reference "C37")
 					(unit 1)
@@ -5539,7 +5539,7 @@
 			(uuid "7e5eedca-aee8-4c13-af23-bf1224d530b9")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
 					(reference "FB1")
 					(unit 1)
@@ -5838,7 +5838,7 @@
 			(uuid "5585fb64-83a5-4bb6-8188-d962a683cd05")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
 					(reference "C40")
 					(unit 1)
@@ -5922,7 +5922,7 @@
 			(uuid "c222637d-89ae-4454-b330-58dd9375a38a")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/6d57bf2a-6797-463e-a7be-460e5ac424fd"
 					(reference "#PWR052")
 					(unit 1)

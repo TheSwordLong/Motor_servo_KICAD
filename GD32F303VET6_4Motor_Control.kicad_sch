@@ -144,7 +144,7 @@
 			)
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3"
 					(page "6")
 				)
@@ -209,7 +209,7 @@
 			)
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3"
 					(page "4")
 				)
@@ -275,7 +275,7 @@
 			)
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3"
 					(page "5")
 				)
@@ -321,7 +321,7 @@
 			)
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3"
 					(page "2")
 				)
@@ -355,7 +355,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "GD32F303VCT6.kicad_sch"
+		(property "Sheetfile" "GD32F303VET6.kicad_sch"
 			(at 128.27 149.1746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -437,7 +437,7 @@
 			)
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3"
 					(page "3")
 				)

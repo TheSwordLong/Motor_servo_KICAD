@@ -1135,7 +1135,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GD32F303VCT6_Mulit_1"
+		(symbol "GD32F303VET6_Mulit_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1151,7 +1151,7 @@
 					)
 				)
 			)
-			(property "Value" "GD32F303VCT6"
+			(property "Value" "GD32F303VET6"
 				(at -7.62 30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1161,7 +1161,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kicad_api_lib:GD32F303VCT6"
+			(property "Footprint" "kicad_api_lib:GD32F303VET6"
 				(at -7.112 32.766 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1194,7 +1194,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_1_1_1"
+			(symbol "GD32F303VET6_Mulit_1_1_1"
 				(rectangle
 					(start -20.32 28.575)
 					(end 3.81 -6.35)
@@ -1477,7 +1477,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_1_2_1"
+			(symbol "GD32F303VET6_Mulit_1_2_1"
 				(rectangle
 					(start -17.78 28.575)
 					(end 2.54 -13.335)
@@ -1653,7 +1653,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_1_3_1"
+			(symbol "GD32F303VET6_Mulit_1_3_1"
 				(rectangle
 					(start -19.05 28.575)
 					(end 3.683 -47.625)
@@ -1970,7 +1970,7 @@
 					(alternate "PD7" bidirectional line)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_1_4_1"
+			(symbol "GD32F303VET6_Mulit_1_4_1"
 				(rectangle
 					(start -18.415 28.575)
 					(end 3.81 -35.56)
@@ -2230,7 +2230,7 @@
 					(alternate "PB9" bidirectional line)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_1_5_1"
+			(symbol "GD32F303VET6_Mulit_1_5_1"
 				(rectangle
 					(start -20.32 28.575)
 					(end 5.08 -71.374)
@@ -3091,7 +3091,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GD32F303VCT6_Mulit_2"
+		(symbol "GD32F303VET6_Mulit_2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3107,7 +3107,7 @@
 					)
 				)
 			)
-			(property "Value" "GD32F303VCT6"
+			(property "Value" "GD32F303VET6"
 				(at -7.62 30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3117,7 +3117,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kicad_api_lib:GD32F303VCT6"
+			(property "Footprint" "kicad_api_lib:GD32F303VET6"
 				(at -7.112 32.766 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3150,7 +3150,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_2_1_1"
+			(symbol "GD32F303VET6_Mulit_2_1_1"
 				(rectangle
 					(start -20.32 28.575)
 					(end 3.81 -6.35)
@@ -3433,7 +3433,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_2_2_1"
+			(symbol "GD32F303VET6_Mulit_2_2_1"
 				(rectangle
 					(start -17.78 28.575)
 					(end 2.54 -13.335)
@@ -3609,7 +3609,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_2_3_1"
+			(symbol "GD32F303VET6_Mulit_2_3_1"
 				(rectangle
 					(start -19.05 28.575)
 					(end 3.683 -47.625)
@@ -3926,7 +3926,7 @@
 					(alternate "PD7" bidirectional line)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_2_4_1"
+			(symbol "GD32F303VET6_Mulit_2_4_1"
 				(rectangle
 					(start -18.415 28.575)
 					(end 3.81 -35.56)
@@ -4186,7 +4186,7 @@
 					(alternate "PB9" bidirectional line)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_2_5_1"
+			(symbol "GD32F303VET6_Mulit_2_5_1"
 				(rectangle
 					(start -20.32 28.575)
 					(end 5.08 -71.374)
@@ -5047,7 +5047,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GD32F303VCT6_Mulit_3"
+		(symbol "GD32F303VET6_Mulit_3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5063,7 +5063,7 @@
 					)
 				)
 			)
-			(property "Value" "GD32F303VCT6"
+			(property "Value" "GD32F303VET6"
 				(at -7.62 30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5073,7 +5073,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kicad_api_lib:GD32F303VCT6"
+			(property "Footprint" "kicad_api_lib:GD32F303VET6"
 				(at -7.112 32.766 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5106,7 +5106,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_3_1_1"
+			(symbol "GD32F303VET6_Mulit_3_1_1"
 				(rectangle
 					(start -20.32 28.575)
 					(end 3.81 -6.35)
@@ -5389,7 +5389,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_3_2_1"
+			(symbol "GD32F303VET6_Mulit_3_2_1"
 				(rectangle
 					(start -17.78 28.575)
 					(end 2.54 -13.335)
@@ -5565,7 +5565,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_3_3_1"
+			(symbol "GD32F303VET6_Mulit_3_3_1"
 				(rectangle
 					(start -19.05 28.575)
 					(end 3.683 -47.625)
@@ -5882,7 +5882,7 @@
 					(alternate "PD7" bidirectional line)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_3_4_1"
+			(symbol "GD32F303VET6_Mulit_3_4_1"
 				(rectangle
 					(start -18.415 28.575)
 					(end 3.81 -35.56)
@@ -6142,7 +6142,7 @@
 					(alternate "PB9" bidirectional line)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_3_5_1"
+			(symbol "GD32F303VET6_Mulit_3_5_1"
 				(rectangle
 					(start -20.32 28.575)
 					(end 5.08 -71.374)
@@ -7003,7 +7003,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GD32F303VCT6_Mulit_4"
+		(symbol "GD32F303VET6_Mulit_4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7019,7 +7019,7 @@
 					)
 				)
 			)
-			(property "Value" "GD32F303VCT6"
+			(property "Value" "GD32F303VET6"
 				(at -7.62 30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7029,7 +7029,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kicad_api_lib:GD32F303VCT6"
+			(property "Footprint" "kicad_api_lib:GD32F303VET6"
 				(at -7.112 32.766 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7062,7 +7062,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_4_1_1"
+			(symbol "GD32F303VET6_Mulit_4_1_1"
 				(rectangle
 					(start -20.32 28.575)
 					(end 3.81 -6.35)
@@ -7345,7 +7345,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_4_2_1"
+			(symbol "GD32F303VET6_Mulit_4_2_1"
 				(rectangle
 					(start -17.78 28.575)
 					(end 2.54 -13.335)
@@ -7521,7 +7521,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_4_3_1"
+			(symbol "GD32F303VET6_Mulit_4_3_1"
 				(rectangle
 					(start -19.05 28.575)
 					(end 3.683 -47.625)
@@ -7838,7 +7838,7 @@
 					(alternate "PD7" bidirectional line)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_4_4_1"
+			(symbol "GD32F303VET6_Mulit_4_4_1"
 				(rectangle
 					(start -18.415 28.575)
 					(end 3.81 -35.56)
@@ -8098,7 +8098,7 @@
 					(alternate "PB9" bidirectional line)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_4_5_1"
+			(symbol "GD32F303VET6_Mulit_4_5_1"
 				(rectangle
 					(start -20.32 28.575)
 					(end 5.08 -71.374)
@@ -8959,7 +8959,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GD32F303VCT6_Mulit_5"
+		(symbol "GD32F303VET6_Mulit_5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8975,7 +8975,7 @@
 					)
 				)
 			)
-			(property "Value" "GD32F303VCT6"
+			(property "Value" "GD32F303VET6"
 				(at -7.62 30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8985,7 +8985,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kicad_api_lib:GD32F303VCT6"
+			(property "Footprint" "kicad_api_lib:GD32F303VET6"
 				(at -7.112 32.766 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9018,7 +9018,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_5_1_1"
+			(symbol "GD32F303VET6_Mulit_5_1_1"
 				(rectangle
 					(start -20.32 28.575)
 					(end 3.81 -6.35)
@@ -9301,7 +9301,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_5_2_1"
+			(symbol "GD32F303VET6_Mulit_5_2_1"
 				(rectangle
 					(start -17.78 28.575)
 					(end 2.54 -13.335)
@@ -9477,7 +9477,7 @@
 					)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_5_3_1"
+			(symbol "GD32F303VET6_Mulit_5_3_1"
 				(rectangle
 					(start -19.05 28.575)
 					(end 3.683 -47.625)
@@ -9794,7 +9794,7 @@
 					(alternate "PD7" bidirectional line)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_5_4_1"
+			(symbol "GD32F303VET6_Mulit_5_4_1"
 				(rectangle
 					(start -18.415 28.575)
 					(end 3.81 -35.56)
@@ -10054,7 +10054,7 @@
 					(alternate "PB9" bidirectional line)
 				)
 			)
-			(symbol "GD32F303VCT6_Mulit_5_5_1"
+			(symbol "GD32F303VET6_Mulit_5_5_1"
 				(rectangle
 					(start -20.32 28.575)
 					(end 5.08 -71.374)
@@ -17107,7 +17107,7 @@
 			(uuid "66141a36-5196-404a-a97e-8dfdcab98fac")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR036")
 					(unit 1)
@@ -17188,7 +17188,7 @@
 			(uuid "1d4e0598-6b46-4c85-bd4f-a02f7ac8313f")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C28")
 					(unit 1)
@@ -17197,8 +17197,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GD32F303VCT6_Mulit_2")
-		(lib_id "GD32F303VCT6:GD32F303VCT6_Mulit")
+		(lib_name "GD32F303VET6_Mulit_2")
+		(lib_id "GD32F303VET6:GD32F303VET6_Mulit")
 		(at 78.74 74.93 0)
 		(mirror y)
 		(unit 1)
@@ -17219,7 +17219,7 @@
 				)
 			)
 		)
-		(property "Value" "GD32F303VCT6"
+		(property "Value" "GD32F303VET6"
 			(at 86.36 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17229,7 +17229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:GD32F303VCT6"
+		(property "Footprint" "kicad_api_lib:GD32F303VET6"
 			(at 85.852 42.164 0)
 			(hide yes)
 			(show_name no)
@@ -17570,7 +17570,7 @@
 			(uuid "6c504ee2-d9db-48c0-a67b-5b035856a0eb")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "U6")
 					(unit 1)
@@ -17648,7 +17648,7 @@
 			(uuid "25858f47-fb59-452c-81f6-fc25a84348a7")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR089")
 					(unit 1)
@@ -17729,7 +17729,7 @@
 			(uuid "691c6cea-46f1-4929-a30a-e2d794181a1a")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C18")
 					(unit 1)
@@ -17811,7 +17811,7 @@
 			(uuid "531ea095-a0fe-490a-8add-cf3a72ea4abe")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C15")
 					(unit 1)
@@ -17820,8 +17820,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GD32F303VCT6_Mulit_3")
-		(lib_id "GD32F303VCT6:GD32F303VCT6_Mulit")
+		(lib_name "GD32F303VET6_Mulit_3")
+		(lib_id "GD32F303VET6:GD32F303VET6_Mulit")
 		(at 100.33 125.73 0)
 		(mirror y)
 		(unit 2)
@@ -17842,7 +17842,7 @@
 				)
 			)
 		)
-		(property "Value" "GD32F303VCT6"
+		(property "Value" "GD32F303VET6"
 			(at 107.95 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17852,7 +17852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:GD32F303VCT6"
+		(property "Footprint" "kicad_api_lib:GD32F303VET6"
 			(at 107.442 92.964 0)
 			(hide yes)
 			(show_name no)
@@ -18193,7 +18193,7 @@
 			(uuid "08b1c83a-02ed-40c8-86f1-82ad69084c1a")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "U6")
 					(unit 2)
@@ -18274,7 +18274,7 @@
 			(uuid "cf61b2e4-955c-4287-bf01-85739b2f1680")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C19")
 					(unit 1)
@@ -18355,7 +18355,7 @@
 			(uuid "9ab74db4-e91a-4f15-b567-4050942836e4")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C33")
 					(unit 1)
@@ -18437,7 +18437,7 @@
 			(uuid "c5b5b013-b6e3-4375-aa00-5a444d270265")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C34")
 					(unit 1)
@@ -18518,7 +18518,7 @@
 			(uuid "10f7e4a7-ec05-459c-be1d-dfe59825d0be")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C30")
 					(unit 1)
@@ -18596,7 +18596,7 @@
 			(uuid "365c680c-d146-4687-a22a-ee380a3a88c7")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#FLG012")
 					(unit 1)
@@ -18836,7 +18836,7 @@
 			(uuid "29a0b67c-0c50-4664-896d-b31d9bd2e76a")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "H5")
 					(unit 1)
@@ -18917,7 +18917,7 @@
 			(uuid "8a67d656-c7ee-42de-93d5-b9e7bc816b0d")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C22")
 					(unit 1)
@@ -18994,7 +18994,7 @@
 			(uuid "bcc85abe-464b-49dd-83bb-f077ef6d1abf")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR038")
 					(unit 1)
@@ -19073,7 +19073,7 @@
 			(uuid "c89459b1-3fa4-4591-8b8f-ae89117a31e7")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "R11")
 					(unit 1)
@@ -19151,7 +19151,7 @@
 			(uuid "13fa9d34-9789-4896-9c38-66b254c80e55")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#FLG015")
 					(unit 1)
@@ -19232,7 +19232,7 @@
 			(uuid "b84da20f-2e00-4204-b9c1-a94874f09aa1")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C29")
 					(unit 1)
@@ -19310,7 +19310,7 @@
 			(uuid "96581557-e014-4a84-bcf0-115e5d1ae899")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR042")
 					(unit 1)
@@ -19392,7 +19392,7 @@
 			(uuid "120a15d5-5a20-4474-b476-312944e2ac7e")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C20")
 					(unit 1)
@@ -19473,7 +19473,7 @@
 			(uuid "7d09a797-ce56-497d-8345-b744b7995c7c")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C25")
 					(unit 1)
@@ -19554,7 +19554,7 @@
 			(uuid "d6eecd11-bd9c-42ed-9ec5-95e0cdc479bf")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C27")
 					(unit 1)
@@ -19632,7 +19632,7 @@
 			(uuid "50ec4617-adbf-458a-b097-dcdd58ccf91b")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR045")
 					(unit 1)
@@ -19710,7 +19710,7 @@
 			(uuid "610f08d0-8be4-4021-a705-345e1ec83f3e")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR044")
 					(unit 1)
@@ -19791,7 +19791,7 @@
 			(uuid "190802dd-4e7d-4337-b9ca-995712232c0e")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C24")
 					(unit 1)
@@ -19869,7 +19869,7 @@
 			(uuid "45516b86-5b06-4d9d-9708-6cf64348c49a")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR037")
 					(unit 1)
@@ -19949,7 +19949,7 @@
 			(uuid "fd887469-c31a-4b88-903b-c85c8317afef")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C21")
 					(unit 1)
@@ -20030,7 +20030,7 @@
 			(uuid "ccc1539a-fc9f-4778-a11d-714a4c49fae6")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C16")
 					(unit 1)
@@ -20111,7 +20111,7 @@
 			(uuid "4721c628-4ffe-47be-a21b-bc710cdf4b51")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C23")
 					(unit 1)
@@ -20120,8 +20120,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GD32F303VCT6_Mulit_1")
-		(lib_id "GD32F303VCT6:GD32F303VCT6_Mulit")
+		(lib_name "GD32F303VET6_Mulit_1")
+		(lib_id "GD32F303VET6:GD32F303VET6_Mulit")
 		(at 153.67 60.96 0)
 		(unit 4)
 		(body_style 1)
@@ -20142,7 +20142,7 @@
 				)
 			)
 		)
-		(property "Value" "GD32F303VCT6"
+		(property "Value" "GD32F303VET6"
 			(at 146.05 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20152,7 +20152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:GD32F303VCT6"
+		(property "Footprint" "kicad_api_lib:GD32F303VET6"
 			(at 146.558 28.194 0)
 			(hide yes)
 			(show_name no)
@@ -20493,7 +20493,7 @@
 			(uuid "3e7530e3-efeb-4169-a7d6-e929123fae66")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "U6")
 					(unit 4)
@@ -20650,7 +20650,7 @@
 			(uuid "0d67f9e9-e148-4876-8c14-4704560a3c0d")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "Y2")
 					(unit 1)
@@ -20728,7 +20728,7 @@
 			(uuid "c3767000-261a-4df2-84a9-c8098d1d4dd1")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR035")
 					(unit 1)
@@ -20806,7 +20806,7 @@
 			(uuid "a601294d-ecd5-4c06-91f3-2d5577b18cbb")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR031")
 					(unit 1)
@@ -20885,7 +20885,7 @@
 			(uuid "6cfc1aef-ca38-435f-ae2a-8ddc50bd3e14")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "R12")
 					(unit 1)
@@ -20894,8 +20894,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GD32F303VCT6_Mulit_5")
-		(lib_id "GD32F303VCT6:GD32F303VCT6_Mulit")
+		(lib_name "GD32F303VET6_Mulit_5")
+		(lib_id "GD32F303VET6:GD32F303VET6_Mulit")
 		(at 323.85 160.02 0)
 		(unit 5)
 		(body_style 1)
@@ -20916,7 +20916,7 @@
 				)
 			)
 		)
-		(property "Value" "GD32F303VCT6"
+		(property "Value" "GD32F303VET6"
 			(at 316.23 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20926,7 +20926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:GD32F303VCT6"
+		(property "Footprint" "kicad_api_lib:GD32F303VET6"
 			(at 316.738 127.254 0)
 			(hide yes)
 			(show_name no)
@@ -21267,7 +21267,7 @@
 			(uuid "79d25595-82d2-45d7-a822-6dca59ff3525")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "U6")
 					(unit 5)
@@ -21344,7 +21344,7 @@
 			(uuid "52219548-2667-40f0-a5d1-6092169b330f")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR033")
 					(unit 1)
@@ -21429,7 +21429,7 @@
 			(uuid "0c068fc6-0de2-4abd-9a27-cae26d99e98a")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "JP1")
 					(unit 1)
@@ -21506,7 +21506,7 @@
 			(uuid "4250d403-437a-4de4-8df8-4e25a75d25e0")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR029")
 					(unit 1)
@@ -21585,7 +21585,7 @@
 			(uuid "f7f948f0-0e30-4c99-8634-ba47f0ab74b4")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "B01")
 					(unit 1)
@@ -21663,7 +21663,7 @@
 			(uuid "c216de7b-3cc5-492d-b2cf-018012c16ac4")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR039")
 					(unit 1)
@@ -21742,7 +21742,7 @@
 			(uuid "d8feffda-7d2c-4921-b4b1-89eb43254a0b")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR040")
 					(unit 1)
@@ -21822,7 +21822,7 @@
 			(uuid "9538c4ef-0e62-4fec-8379-88dab8e70d48")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "JP2")
 					(unit 1)
@@ -21900,7 +21900,7 @@
 			(uuid "351da435-5e43-40ff-8a4d-d7814a094dec")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#FLG09")
 					(unit 1)
@@ -21977,7 +21977,7 @@
 			(uuid "fb3d23de-9062-4f0a-a195-c32eecceb15b")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR034")
 					(unit 1)
@@ -22059,7 +22059,7 @@
 			(uuid "5277c165-4708-4581-aae9-7e55d71b5786")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "R10")
 					(unit 1)
@@ -22137,7 +22137,7 @@
 			(uuid "35e20656-c366-4bf2-ace1-b6f6423e3363")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#FLG011")
 					(unit 1)
@@ -22216,7 +22216,7 @@
 			(uuid "3dc0a750-6076-4292-b219-071800615a72")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR032")
 					(unit 1)
@@ -22455,7 +22455,7 @@
 			(uuid "c09329ee-49d3-4dc6-afd2-cb1d7cf9c036")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "Y1")
 					(unit 1)
@@ -22537,7 +22537,7 @@
 			(uuid "4dc7e4d9-24ae-4db3-ad5a-d86f8578a26b")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C31")
 					(unit 1)
@@ -22618,7 +22618,7 @@
 			(uuid "5a545e6e-a508-4204-8be7-28355028b734")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C17")
 					(unit 1)
@@ -22699,7 +22699,7 @@
 			(uuid "ad93f58b-c3f5-4c43-89d7-e935f777260f")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C32")
 					(unit 1)
@@ -22907,7 +22907,7 @@
 			(uuid "8616d8fb-8eb8-4dff-b19a-b64aaeb9d2ce")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "SW1")
 					(unit 1)
@@ -22986,7 +22986,7 @@
 			(uuid "2143fcd6-d2a7-4012-b4bc-c620b0ef8e73")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "R9")
 					(unit 1)
@@ -23067,7 +23067,7 @@
 			(uuid "cb54bc84-fcb8-4e96-bcfc-41f04b3d694b")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C26")
 					(unit 1)
@@ -23076,8 +23076,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GD32F303VCT6_Mulit_4")
-		(lib_id "GD32F303VCT6:GD32F303VCT6_Mulit")
+		(lib_name "GD32F303VET6_Mulit_4")
+		(lib_id "GD32F303VET6:GD32F303VET6_Mulit")
 		(at 152.4 152.4 0)
 		(unit 3)
 		(body_style 1)
@@ -23098,7 +23098,7 @@
 				)
 			)
 		)
-		(property "Value" "GD32F303VCT6"
+		(property "Value" "GD32F303VET6"
 			(at 144.78 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23108,7 +23108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:GD32F303VCT6"
+		(property "Footprint" "kicad_api_lib:GD32F303VET6"
 			(at 145.288 119.634 0)
 			(hide yes)
 			(show_name no)
@@ -23450,7 +23450,7 @@
 			(uuid "b927b6b0-9e35-43d5-ae01-f020068067ba")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "U6")
 					(unit 3)
@@ -23528,7 +23528,7 @@
 			(uuid "2f60156c-2eca-492a-9fdc-c6aca567d5e0")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR041")
 					(unit 1)
@@ -23605,7 +23605,7 @@
 			(uuid "26afd6df-c598-47db-9787-d02c39847fa2")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR028")
 					(unit 1)
@@ -24030,7 +24030,7 @@
 			(uuid "f0f76dd7-78e6-487e-8502-7c6a32131e73")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "D5")
 					(unit 1)
@@ -24108,7 +24108,7 @@
 			(uuid "177aa64b-c531-4db4-9567-41a49bf641af")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR030")
 					(unit 1)
@@ -24186,7 +24186,7 @@
 			(uuid "b733a2aa-2fb9-4d2c-a350-05ba5eb2a861")
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR043")
 					(unit 1)
@@ -24273,7 +24273,7 @@
 			)
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(page "8")
 				)
@@ -24409,7 +24409,7 @@
 			)
 		)
 		(instances
-			(project "GD32F303"
+			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(page "7")
 				)
