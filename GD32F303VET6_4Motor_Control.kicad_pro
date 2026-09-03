@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.3,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.2,
           "pad_connection": 1,
@@ -76,40 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|181500000|60500000|e004d86f-5479-4b9d-86be-9a88adf06399|c01aac7d-b362-466d-a8c5-e746300ad60a",
-          ""
-        ],
-        [
-          "copper_edge_clearance|184000000|115000000|e004d86f-5479-4b9d-86be-9a88adf06399|30aed111-549b-40ae-8e2f-26f315ca0c3a",
-          ""
-        ],
-        [
-          "copper_edge_clearance|87000000|115000000|e004d86f-5479-4b9d-86be-9a88adf06399|093aa338-3247-4841-8333-e6bf8de50819",
-          ""
-        ],
-        [
-          "copper_edge_clearance|87000000|63000000|e004d86f-5479-4b9d-86be-9a88adf06399|e11057d0-501c-424e-b342-3975f3d70a52",
-          ""
-        ],
-        [
-          "hole_clearance|92750000|71645000|955db082-783e-4163-8880-d73333125590|910d39ab-1704-4e9d-becd-d4bbb15bcd3a",
-          ""
-        ],
-        [
-          "hole_clearance|92750000|77445000|f531a4ec-73c1-43ae-af67-4e6f1af05d29|a58403ee-ef83-48e9-acf8-26b0b0b2cb92",
-          ""
-        ],
-        [
-          "hole_clearance|92750000|86600000|2dc82df9-45bd-476b-9962-edad78575dc0|d9c87c0a-8ad8-44af-a451-e61870a56f04",
-          ""
-        ],
-        [
-          "hole_clearance|92750000|92400000|06a83438-3645-42c3-b4b6-81a643021cea|18a195f1-6e36-4018-a544-32e334bd681e",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -181,7 +148,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.25,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.15,
@@ -550,7 +517,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "GD32F303.kicad_pro",
+    "filename": "GD32F303VET6_4Motor_Control.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -580,7 +547,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.3,
         "tuning_profile": ""
       },
       {
@@ -660,7 +627,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "E:/Date_save/KICAD_date/GD32F303-Control/",
+      "plot": "E:/Date_save/KICAD_date/GD32F303-Control/GD32F303_new/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -2055,18 +2022,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "GD32F303.kicad_sch",
-        "name": "GD32F303VCT6_Dual_Motor_Controller",
+        "filename": "GD32F303VET6_4Motor_Control.kicad_sch",
+        "name": "GD32F303VET6_4Motor_Control",
         "uuid": "54005433-e3aa-4693-8f75-bb73943288d3"
       }
     ],
-    "used_designators": "U1-16,C1-56,D1-8,L1-4,#PWR1-89,#FLG1-15,R1-35,Y1-2,Q1-2,1,CN1-5,B1-2,SW1,H1-14,JP1-2,FL1-2,J1-2,FB1-2",
+    "used_designators": "U1-16,C1-56,D1-10,L1-4,#PWR1-102,#FLG1-15,R1-35,Y1-2,Q1-4,1,CN1-9,B1-2,SW1,H1-14,JP1-2,FL1-2,J1-2,FB1-2",
     "variants": []
   },
   "sheets": [
     [
       "54005433-e3aa-4693-8f75-bb73943288d3",
-      "GD32F303VCT6_Dual_Motor_Controller"
+      "GD32F303VET6_4Motor_Control"
     ],
     [
       "991ba235-e77c-4edd-a3a2-0f8fb1340e9c",

@@ -3,3 +3,26 @@
 _restore_backup_*/
 untitled.kicad_sch
 place_footprints.log
+
+# KiCad local UI state
+*.kicad_prl
+
+# Local analysis, routing, previews, and tool state
+.codex-*.json
+_route_*
+_preview_*
+_crop_previews.py
+tmp/
+dfm/
+database/
+fabrication-toolkit-options.json
+
+# Previous snapshots and production exports
+GD32F303.zip
+GD32F303_SCH_PCB/
+GD32F303_SCH_PCB.rar
+pcbway_production/
+production/*
+!production/jlcpcb_6layer/
+production/jlcpcb_6layer/*
+!production/jlcpcb_6layer/JLCPCB_GD32F303VET6_6Layer_20260903.zip

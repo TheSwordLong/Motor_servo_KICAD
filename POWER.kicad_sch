@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "3e290af3-71eb-4ba5-a69b-b979e7adedb3")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "0402B104K500CT:0402B104K500CT"
 			(pin_numbers
@@ -271,6 +271,822 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "0603WAF1003T5E:0603WAF1003T5E"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0603WAF1003T5E"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "kicad_api_lib:0603WAF1003T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://file.elecfans.com/web1/M00/8F/24/o4YBAFy-fqCABd01AAciZeje3jQ155.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Chip Resistors 0603 100KΩ ±1% 1/10W ±100ppm/℃"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0603WAF1003T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Royal Electronic Factory"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "grade" "消费级"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "huaqiu_pn" "G0063750"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "lead_free" "Yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "mount" "表面贴装"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "operating_temperature" "-55 °C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "overload_voltage" "75 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "package" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "packaging" "5000pcs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "power_rating" "100 mW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "technology" "厚膜"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "temperature_coefficient" "100 ppm/°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "tolerance" "1 %"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "type" "厚膜电阻"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603WAF1003T5E_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AP40P04Q:AP40P04Q"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP40P04Q"
+				(at 0 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_api_lib:AP40P04Q"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://file.eda.cn/web1/M00/08/E0/wKgzI2kgN76AOVOmAAn4Uzi_JSM8981623014218.PDF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P沟道MOSFET管，-40V，-30A，20W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "AP40P04Q"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ALLPOWER"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "huaqiu_pn" "G12287606"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "mount" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "package" "PDFN3X3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "technology" "MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AP40P04Q_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy 2.54 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.524) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.508 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.016) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy 2.54 -2.032) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.54) (xy -0.508 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0.508) (xy 2.54 0) (xy 1.778 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.794) (xy 4.318 2.794) (xy 5.08 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.032) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 0.508) (xy 5.08 -1.016) (xy 6.096 0.508) (xy 4.064 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -1.016) (xy 6.096 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.794) (xy 5.08 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.016) (xy 5.08 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.016) (xy 5.08 -3.556) (xy 2.54 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AP40P04Q_1_0"
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "B0503S-2WL:B0503S-2WL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -409,6 +1225,856 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BZT52C12:BZT52C12"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZT52C12"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_api_lib:BZT52C12"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://file.elecfans.com/web2/M00/2D/B5/pYYBAGHmW3qAKuB5ABo8bjy7aFc472.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener Diodes Vz=12V 11.4V~12.7V Izt=5mA P=500mW SOD123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "BZT52C12"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "LGE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "diode_configuration" "独立式"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "forward_current" "10 mA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "forward_voltage" "900 mV"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "huaqiu_pn" "G5432001"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "impedance" "150 Ω, 25 Ω"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "lead_free" "Yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "mount" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "package" "SOD-123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "packaging" "3000pcs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "power_dissipation" "500 mW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "reverse_leakage_current" "100 nA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "reverse_voltage" "8 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "voltage" "11.4 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "voltage_rating" "12 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "zener_impedance" "20 Ω"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "zener_voltage" "12 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BZT52C12_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BZT52C12_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CC0603KRX7R9BB104:CC0603KRX7R9BB104"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CC0603KRX7R9BB104"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "kicad_api_lib:CC0603KRX7R9BB104"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://file.elecfans.com/web2/M00/21/99/poYBAGGkg-OAAOL3ABnvvisUh-Y906.pdf?CC X7R_6.3V-to-50V_Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Chip Capacitor, 100 nF, 50 V, 0603, 0.1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CC0603KRX7R9BB104"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "application" "Mobile Phone,PCs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "body_length" "1.6 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "body_width" "0.8 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "capacitance" "100 nF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "case_code_imperial" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "depth" "800 µm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "dielectric_material" "Ceramic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "grade" "消费级"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "halogen_free" "Halogen Free"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "height" "800 µm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "height_overall" "0.8 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "huaqiu_pn" "G0045361"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "lead_free" "Lead Free"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "mount" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "operating_temperature" "-55 °C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "package" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "package_quantity" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "packaging" "Tape and Reel"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "pins" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "radiation_hardening" "No"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "reach_svhc_compliant" "No SVHC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "temperature_characteristic" "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "terminal_pitch" "1.20 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "termination" "SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "thickness" "0.035 in"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "tolerance" "0.1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "voltage" "50 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "voltage_rating" "50 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CC0603KRX7R9BB104_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CC0603KRX7R9BB104_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3294,6 +4960,957 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MMBD1504A:MMBD1504A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MMBD1504A"
+				(at 0.254 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_api_lib:MMBD1504A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://file.elecfans.com/web2/M00/46/2B/poYBAGKQqJ2AUFsPAC13oT265Cc671.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "塑封二极管，低泄漏，高导电，共阴极，VR=200V，IO=200mA，PD=350mW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "MMBD1504A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JSCJ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "capacitance" "4 pF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "forward_surge_current" "2 A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "forward_voltage" "1.5 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "huaqiu_pn" "G6552209"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "mount" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "package" "SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "packaging" "3000pcs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "power_dissipation" "350 mW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "reverse_leakage_current" "10 nA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "reverse_voltage" "200 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MMBD1504A_0_1"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -1.27 2.54) (xy -3.81 1.27) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 3.556) (xy -1.778 3.81) (xy -1.27 3.81) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -0.762 1.27) (xy -0.762 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 0.762 3.81) (xy 0.762 3.556) (xy 0.762 3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.778 1.27) (xy 1.778 1.524) (xy 1.778 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 1.27 2.54) (xy 3.81 3.81) (xy 3.81 1.27) (xy 3.81 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MMBD1504A_1_1"
+				(pin passive line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MMDT5401:MMDT5401"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MMDT5401"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_api_lib:MMDT5401"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://file.eda.cn/web1/M00/08/E0/wKgzJGkgOIqAMZNiAArlEcDcRZc0162574273959.PDF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "PNP型双极晶体管，适用于中功率放大和开关应用，VCBO=-160V，IC=-0.2A，PC=0.2W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "MMDT5401"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "MSKSEMI"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "collector_base_voltage" "-160 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "collector_current" "-0.2 A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "collector_emitter_breakdown_voltage" "-150 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "collector_emitter_saturation_voltage" "-0.5 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "collector_emitter_voltage" "-150 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "emitter_base_voltage" "-5 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "hfe" "300"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "hfe_testic" "10 mA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "hfe_testvce" "-5 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "huaqiu_pn" "G12280323"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "mount" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "number_of_elements" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "number_of_pnp" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "package" "SOT-363"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "polarity" "PNP+PNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MMDT5401_0_1"
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -7.62 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -3.81) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 -1.27) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMDT5401_1_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.366 -3.048) (xy -6.858 -3.556) (xy -6.35 -2.54) (xy -7.366 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 0.635) (xy -5.715 -3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -0.635) (xy -7.62 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -1.905) (xy -7.62 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -5.715 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.905) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 0.635) (xy 7.62 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -0.635) (xy 5.715 3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 3.048) (xy 6.858 3.556) (xy 6.35 2.54) (xy 7.366 3.048)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -3860,6 +6477,446 @@
 				)
 			)
 			(symbol "RC0402JR-0710KL_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RK73H1JTTD1804F:RK73H1JTTD1804F"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "RK73H1JTTD1804F"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "kicad_api_lib:RK73H1JTTD1804F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://file.elecfans.com/web2/M00/1B/31/pYYBAGGCZMuAXwY2AAV0cV9Yibc636.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Chip SMD Resistors, 1.8 MΩ, 100 mW, 1 %, Thick Film, 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RK73H1JTTD1804F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "KOA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "body_length" "1.6 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "body_width" "800 µm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "case_code_imperial" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "characteristic" "Automotive AEC-Q200, Moisture Resistant"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "composition" "Thick Film"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "depth" "800 µm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "height" "450 µm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "huaqiu_pn" "G5261393"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "lead_free" "Lead Free"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "material" "Thick Film"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "military_standard" "Not"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "operating_temperature" "-55 °C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "overload_voltage" "75 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "package" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "packaging" "Tape and Reel"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "pins" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "power_rating" "100 mW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "resistance" "1.8 MΩ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "temperature_coefficient" "200 ppm/°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "terminal_pitch" "1.3 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "termination" "SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "tolerance" "1 %"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "type" "厚膜电阻"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "voltage_rating" "50 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RK73H1JTTD1804F_1_1"
 				(polyline
 					(pts
 						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
@@ -7557,6 +10614,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+1V8"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+1V8"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V8\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+24V"
 			(power global)
 			(pin_numbers
@@ -8366,6 +11562,18 @@
 		)
 		(uuid "4025afc7-fa26-4b4e-a722-a138f0d176e5")
 	)
+	(text "模块电路功能：\n该原理图功能是对输入电源进行防反接以及过流保护"
+		(exclude_from_sim no)
+		(at 189.484 278.638 0)
+		(effects
+			(font
+				(face "宋体")
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "7503c3e9-f307-4cfa-aed3-8f01072c82c7")
+	)
 	(text "VOUT = 0.6 * (1+R2/R3)"
 		(exclude_from_sim no)
 		(at 263.652 31.75 0)
@@ -8376,6 +11584,17 @@
 			)
 		)
 		(uuid "8969a01e-1f34-4d24-982b-3e460361210a")
+	)
+	(text "Input Anti-Reverse & Backflow Protection Circuit"
+		(exclude_from_sim no)
+		(at 220.472 158.75 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "8f377133-dd25-4796-b518-2df87fd49c03")
 	)
 	(text "模块电路功能：\n输入2.7V-5.5V，输出3.3V，可提供 2A 连续电流和 3A 峰值电流"
 		(exclude_from_sim no)
@@ -8394,6 +11613,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0983f4ff-79b4-4728-be08-8256dc2d25f1")
+	)
+	(junction
+		(at 200.66 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ab32d30-e3fb-40bf-8ec5-cb5dc5e20219")
 	)
 	(junction
 		(at 179.07 53.34)
@@ -8420,6 +11645,12 @@
 		(uuid "2623cec3-4fad-4088-ad91-21eeb0fca3ff")
 	)
 	(junction
+		(at 220.98 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d658438-aa21-45ca-8410-ceeda95f7028")
+	)
+	(junction
 		(at 74.93 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8436,6 +11667,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41ca763a-8658-4361-b41c-ed8733e2018e")
+	)
+	(junction
+		(at 205.74 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44050601-7449-4f09-9b14-b0477136d4ba")
 	)
 	(junction
 		(at 151.13 31.75)
@@ -8592,6 +11829,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd0c09cc-0f90-4fe7-9b61-ec755bfe9f3c")
+	)
+	(junction
+		(at 245.11 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3c4376a-84c1-4aab-be19-bb0f34c57a0d")
 	)
 	(junction
 		(at 179.07 31.75)
@@ -8763,6 +12006,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 223.52) (xy 236.22 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f717635-7836-4cff-a739-3f24fbdc2b57")
+	)
+	(wire
+		(pts
 			(xy 85.09 185.42) (xy 91.44 185.42)
 		)
 		(stroke
@@ -8813,6 +12066,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 208.28) (xy 245.11 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1546d6ae-da9d-491a-8d84-5079f1777b40")
+	)
+	(wire
+		(pts
 			(xy 120.65 175.26) (xy 120.65 166.37)
 		)
 		(stroke
@@ -8820,6 +12083,26 @@
 			(type default)
 		)
 		(uuid "16555639-2c6c-45ea-8719-da05dd392661")
+	)
+	(wire
+		(pts
+			(xy 245.11 251.46) (xy 245.11 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16faad56-83a1-4f41-a0d3-4da0e0faa94f")
+	)
+	(wire
+		(pts
+			(xy 193.04 241.3) (xy 200.66 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b72c312-927b-4013-bbf3-e0c046a580ae")
 	)
 	(wire
 		(pts
@@ -8923,6 +12206,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 241.3) (xy 245.11 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305de28e-9375-4216-b338-34269f343f7c")
+	)
+	(wire
+		(pts
 			(xy 73.66 151.13) (xy 73.66 156.21)
 		)
 		(stroke
@@ -8960,6 +12253,16 @@
 			(type default)
 		)
 		(uuid "34f9b190-7f57-401b-8ca0-2edacc7fdc90")
+	)
+	(wire
+		(pts
+			(xy 236.22 231.14) (xy 205.74 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35092f25-59a3-4beb-9f6d-5539fc412374")
 	)
 	(wire
 		(pts
@@ -9010,6 +12313,16 @@
 			(type default)
 		)
 		(uuid "3be31f8e-6706-44ea-9e4a-fde070e00038")
+	)
+	(wire
+		(pts
+			(xy 220.98 251.46) (xy 245.11 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf71cfd-ce9c-4ab4-a897-a4d7284ebe1f")
 	)
 	(wire
 		(pts
@@ -9083,6 +12396,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 241.3) (xy 200.66 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48715bd2-708f-4e82-84c8-9081ef730397")
+	)
+	(wire
+		(pts
 			(xy 123.825 140.335) (xy 133.35 140.335)
 		)
 		(stroke
@@ -9090,6 +12413,16 @@
 			(type default)
 		)
 		(uuid "48f6eac8-2a23-4bd9-9afb-b90a541d3f8a")
+	)
+	(wire
+		(pts
+			(xy 223.52 186.69) (xy 223.52 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb95b4f-f07c-49ed-a612-de7a1248b93b")
 	)
 	(wire
 		(pts
@@ -9163,6 +12496,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 231.14) (xy 205.74 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55babc25-4d22-4b57-b35d-757ed9dd7142")
+	)
+	(wire
+		(pts
+			(xy 200.66 223.52) (xy 200.66 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56df53eb-1d3b-4643-b158-a1d49b09467c")
+	)
+	(wire
+		(pts
 			(xy 86.36 57.15) (xy 82.55 57.15)
 		)
 		(stroke
@@ -9170,6 +12523,26 @@
 			(type default)
 		)
 		(uuid "571c289e-4d86-4e89-b896-2a8a1f5b416a")
+	)
+	(wire
+		(pts
+			(xy 245.11 241.3) (xy 260.35 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57dfce49-3366-41c8-b0c4-2f671d82777a")
+	)
+	(wire
+		(pts
+			(xy 215.9 208.28) (xy 210.82 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5964891a-f184-4833-b01b-ab0d082a7883")
 	)
 	(wire
 		(pts
@@ -9193,6 +12566,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 241.3) (xy 213.36 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ebdc040-3087-4000-a57d-d8cee969c0e1")
+	)
+	(wire
+		(pts
 			(xy 171.45 143.51) (xy 171.45 142.24)
 		)
 		(stroke
@@ -9210,6 +12593,16 @@
 			(type default)
 		)
 		(uuid "63dff6cb-d1b2-469f-b18c-73b7fa86d313")
+	)
+	(wire
+		(pts
+			(xy 220.98 260.35) (xy 220.98 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c850f6-23e8-4ec9-9671-a7d1f8b4eb1d")
 	)
 	(wire
 		(pts
@@ -9233,6 +12626,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 251.46) (xy 220.98 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b44011-51e1-41ce-a9b2-725f8652fb69")
+	)
+	(wire
+		(pts
 			(xy 123.825 144.78) (xy 123.825 140.335)
 		)
 		(stroke
@@ -9253,6 +12656,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 195.58) (xy 229.87 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa18162-0a99-47de-8149-8053294caac7")
+	)
+	(wire
+		(pts
 			(xy 41.91 166.37) (xy 41.91 162.56)
 		)
 		(stroke
@@ -9260,6 +12673,16 @@
 			(type default)
 		)
 		(uuid "6b157082-4a4f-467b-8892-eca614b9fc38")
+	)
+	(wire
+		(pts
+			(xy 220.98 251.46) (xy 220.98 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3ccab2-b997-4cbf-82d7-0307c33c5c25")
 	)
 	(wire
 		(pts
@@ -9300,6 +12723,16 @@
 			(type default)
 		)
 		(uuid "751fb651-5082-4455-8734-dd8ea46bc827")
+	)
+	(wire
+		(pts
+			(xy 236.22 223.52) (xy 236.22 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a0c22f-e665-4974-a566-d9f73a728f7d")
 	)
 	(wire
 		(pts
@@ -9370,6 +12803,16 @@
 			(type default)
 		)
 		(uuid "83cf7843-02ec-47bc-bce7-01fc973ef8a6")
+	)
+	(wire
+		(pts
+			(xy 210.82 208.28) (xy 210.82 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849215d6-ffb2-4031-bef8-3d0d54d320ad")
 	)
 	(wire
 		(pts
@@ -9493,6 +12936,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 195.58) (xy 217.17 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18d7c97-58b0-4a8c-af85-60a44428d25f")
+	)
+	(wire
+		(pts
+			(xy 205.74 215.9) (xy 215.9 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1aed648-b055-4c07-bbfa-59ff022c3dff")
+	)
+	(wire
+		(pts
 			(xy 223.52 38.1) (xy 223.52 40.64)
 		)
 		(stroke
@@ -9520,6 +12983,16 @@
 			(type default)
 		)
 		(uuid "a3ba6393-ba4a-4a18-ba16-b8b6de3d18d9")
+	)
+	(wire
+		(pts
+			(xy 236.22 195.58) (xy 236.22 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40c0f5a-02c4-4e56-a1e8-3e671dc439bc")
 	)
 	(wire
 		(pts
@@ -9703,6 +13176,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 248.92) (xy 220.98 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bcf809-aa45-4b28-845e-dbbaac9cc08b")
+	)
+	(wire
+		(pts
 			(xy 133.35 152.4) (xy 133.35 154.94)
 		)
 		(stroke
@@ -9730,6 +13213,16 @@
 			(type default)
 		)
 		(uuid "b915ca87-a640-4482-b15b-5e595d15b86e")
+	)
+	(wire
+		(pts
+			(xy 245.11 208.28) (xy 231.14 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7310ed-ce04-49e8-8f16-6af612b60bcd")
 	)
 	(wire
 		(pts
@@ -9780,6 +13273,16 @@
 			(type default)
 		)
 		(uuid "c8bada74-6768-4dd6-8ffe-e66f30e4ebf9")
+	)
+	(wire
+		(pts
+			(xy 223.52 177.8) (xy 223.52 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b34564-1f5e-4bf9-af6a-91b041792a98")
 	)
 	(wire
 		(pts
@@ -9903,6 +13406,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 241.3) (xy 245.11 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91bb4e7-0e30-412a-90d8-c06448b841a5")
+	)
+	(wire
+		(pts
 			(xy 80.01 187.96) (xy 74.93 187.96)
 		)
 		(stroke
@@ -9940,6 +13453,16 @@
 			(type default)
 		)
 		(uuid "de6981ea-c235-4b3d-8f8a-827dcac897c9")
+	)
+	(wire
+		(pts
+			(xy 205.74 215.9) (xy 205.74 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1c8f32-1161-4b34-9a15-5b46fd35b81c")
 	)
 	(wire
 		(pts
@@ -10030,6 +13553,16 @@
 			(type default)
 		)
 		(uuid "eecc0daf-8b5d-45ac-b9d3-bb845ef75685")
+	)
+	(wire
+		(pts
+			(xy 200.66 223.52) (xy 215.9 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d12506-3892-4574-ac87-9d26aa720509")
 	)
 	(wire
 		(pts
@@ -10140,6 +13673,26 @@
 			(type default)
 		)
 		(uuid "fcf762b4-8c23-48bf-81a1-616685e5d513")
+	)
+	(wire
+		(pts
+			(xy 231.14 215.9) (xy 236.22 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd82af39-c5e4-42e5-ae5a-c0021e4e51e3")
+	)
+	(wire
+		(pts
+			(xy 200.66 250.19) (xy 200.66 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff399a1b-0cb6-42c8-bbdf-06483ce7244d")
 	)
 	(wire
 		(pts
@@ -33746,7 +37299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00cac493-b786-4cdc-9d94-4b5d01cced6e")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 213.868 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33926,7 +37479,7 @@
 			)
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -34651,7 +38204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02862d15-0d53-4ff7-84fe-d05eac938a1d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 100.33 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -34711,7 +38264,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -34982,7 +38535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ac8588b-b900-4f62-816a-a9f0a9192d8e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR030"
 			(at 238.76 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -35048,7 +38601,7 @@
 			)
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR025")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -35411,7 +38964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1576cc1d-beea-4bb9-bf1b-1a3f61702cb4")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 224.028 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35833,7 +39386,7 @@
 			)
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -35943,7 +39496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f14ded8-2c77-4bdf-b80a-45fc1bec0806")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 239.014 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36123,7 +39676,7 @@
 			)
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -36208,6 +39761,91 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 193.04 241.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "21e527a7-9da7-4bb5-9abe-e6d4f0c07532")
+		(property "Reference" "#PWR025"
+			(at 196.85 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 189.23 241.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 193.04 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72910079-b311-4064-8d05-5e78cc76955a")
+		)
+		(instances
+			(project ""
+				(path "/24b06997-2311-426a-8c06-e60cd852411c"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 30.48 158.75 0)
 		(unit 1)
@@ -36284,6 +39922,226 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMBD1504A:MMBD1504A")
+		(at 223.52 193.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "240551b5-1c30-4f8d-8e5f-a703218e3b49")
+		(property "Reference" "D5"
+			(at 216.154 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBD1504A"
+			(at 223.52 198.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:MMBD1504A"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://file.elecfans.com/web2/M00/46/2B/poYBAGKQqJ2AUFsPAC13oT265Cc671.pdf"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "塑封二极管，低泄漏，高导电，共阴极，VR=200V，IO=200mA，PD=350mW"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MMBD1504A"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JSCJ"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "4 pF"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "forward_surge_current" "2 A"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "forward_voltage" "1.5 V"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G6552209"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount" "SMT"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "SOT-23"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "packaging" "3000pcs"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "power_dissipation" "350 mW"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "reverse_leakage_current" "10 nA"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "reverse_voltage" "200 V"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a56f1034-9b75-4668-b0e4-edc696c03f85")
+		)
+		(pin "2"
+			(uuid "cb4338f8-7bec-447e-8fcc-6c211fcfc5e0")
+		)
+		(pin "3"
+			(uuid "053445cc-5128-47a9-9877-afea1eb57c14")
+		)
+		(instances
+			(project "Input Anti-Reverse & Backflow Protection Circuit"
+				(path "/24b06997-2311-426a-8c06-e60cd852411c"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -36550,6 +40408,664 @@
 			(project ""
 				(path "/d296c9cb-09dc-4e33-81fb-0e169cc1a06d"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMDT5401:MMDT5401")
+		(at 223.52 215.9 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "2e81d18b-7a28-4405-a631-0285a285ce7b")
+		(property "Reference" "Q2"
+			(at 219.71 204.724 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMDT5401"
+			(at 223.266 227.076 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:MMDT5401"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://file.eda.cn/web1/M00/08/E0/wKgzJGkgOIqAMZNiAArlEcDcRZc0162574273959.PDF"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PNP型双极晶体管，适用于中功率放大和开关应用，VCBO=-160V，IC=-0.2A，PC=0.2W"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MMDT5401"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MSKSEMI"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "collector_base_voltage" "-160 V"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "collector_current" "-0.2 A"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "collector_emitter_breakdown_voltage" "-150 V"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "collector_emitter_saturation_voltage" "-0.5 V"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "collector_emitter_voltage" "-150 V"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "emitter_base_voltage" "-5 V"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "hfe" "300"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "hfe_testic" "10 mA"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "hfe_testvce" "-5 V"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G12280323"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount" "SMT"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "number_of_elements" "2"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "number_of_pnp" "2"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "SOT-363"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "polarity" "PNP+PNP"
+			(at 223.52 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e35bf4a7-dc4a-459a-9de1-2396896e8460")
+		)
+		(pin "3"
+			(uuid "9b63dae2-d376-4300-9a85-dc795f1c7132")
+		)
+		(pin "5"
+			(uuid "3950a816-f57a-4452-bf0c-c35a6ae13d6d")
+		)
+		(pin "4"
+			(uuid "b6b29fa8-7bf6-4a95-a8fc-0116cbea6e53")
+		)
+		(pin "2"
+			(uuid "10b1aa0f-fefb-4f1b-96b7-6efed6fc94d0")
+		)
+		(pin "6"
+			(uuid "d494412a-5da2-41bf-af95-3678eee2d118")
+		)
+		(instances
+			(project ""
+				(path "/24b06997-2311-426a-8c06-e60cd852411c"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RK73H1JTTD1804F:RK73H1JTTD1804F")
+		(at 223.52 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "3031c711-8d48-4c83-b9f2-055c212c5439")
+		(property "Reference" "R10"
+			(at 224.028 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.8M"
+			(at 223.774 186.182 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:RK73H1JTTD1804F"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://file.elecfans.com/web2/M00/1B/31/pYYBAGGCZMuAXwY2AAV0cV9Yibc636.pdf"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Chip SMD Resistors, 1.8 MΩ, 100 mW, 1 %, Thick Film, 0603"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RK73H1JTTD1804F"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "body_length" "1.6 mm"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "body_width" "800 µm"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "case_code_imperial" "0603"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "characteristic" "Automotive AEC-Q200, Moisture Resistant"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "composition" "Thick Film"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "depth" "800 µm"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "height" "450 µm"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G5261393"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lead_free" "Lead Free"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "material" "Thick Film"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "military_standard" "Not"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "operating_temperature" "-55 °C"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "overload_voltage" "75 V"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "0603"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "packaging" "Tape and Reel"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pins" "2"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "power_rating" "100 mW"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "resistance" "1.8 MΩ"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "temperature_coefficient" "200 ppm/°C"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "terminal_pitch" "1.3 mm"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "termination" "SMD"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "tolerance" "1 %"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "type" "厚膜电阻"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage_rating" "50 V"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ace6b65b-605a-4252-9612-fd68e490ca7f")
+		)
+		(pin "2"
+			(uuid "72f22d40-adfe-4638-849d-b1f59be7bd39")
+		)
+		(instances
+			(project ""
+				(path "/24b06997-2311-426a-8c06-e60cd852411c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -37389,7 +41905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b812be7-0d0f-4e3f-a9c3-a3bc431a5a2d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 116.84 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -37449,7 +41965,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -37457,7 +41973,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 62.23 0)
+		(at 66.04 32.385 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37467,8 +41983,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ea5334f-1202-4722-b7e9-1c2f73c07133")
-		(property "Reference" "#PWR017"
-			(at 118.11 68.58 0)
+		(property "Reference" "#PWR010"
+			(at 72.39 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37479,7 +41995,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 67.31 0)
+			(at 71.12 32.385 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37489,7 +42005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 62.23 0)
+			(at 66.04 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37500,7 +42016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 62.23 0)
+			(at 66.04 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37511,7 +42027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 62.23 0)
+			(at 66.04 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37527,7 +42043,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR017")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -37922,8 +42438,293 @@
 		)
 	)
 	(symbol
+		(lib_id "BZT52C12:BZT52C12")
+		(at 245.11 246.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "5d01a619-3323-4114-9877-a4e06df3dca4")
+		(property "Reference" "D6"
+			(at 245.618 243.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZT52C12"
+			(at 245.364 249.174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:BZT52C12"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://file.elecfans.com/web2/M00/2D/B5/pYYBAGHmW3qAKuB5ABo8bjy7aFc472.pdf"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener Diodes Vz=12V 11.4V~12.7V Izt=5mA P=500mW SOD123"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BZT52C12"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "LGE"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "diode_configuration" "独立式"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "forward_current" "10 mA"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "forward_voltage" "900 mV"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G5432001"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "impedance" "150 Ω, 25 Ω"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lead_free" "Yes"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount" "SMT"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "SOD-123"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "packaging" "3000pcs"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "power_dissipation" "500 mW"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "reverse_leakage_current" "100 nA"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "reverse_voltage" "8 V"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage" "11.4 V"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage_rating" "12 V"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "zener_impedance" "20 Ω"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "zener_voltage" "12 V"
+			(at 245.11 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "453631d4-6c12-44fb-9569-1a4e72ee185b")
+		)
+		(pin "1"
+			(uuid "6f49cff8-576d-489a-8e36-a42001960298")
+		)
+		(instances
+			(project ""
+				(path "/24b06997-2311-426a-8c06-e60cd852411c"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KF128L-5.08-2P:15ETYRC-3.5-02P-14-00AH")
-		(at 118.11 52.07 90)
+		(at 55.88 32.385 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37931,10 +42732,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d61c6cd-d0cd-481d-ac78-6ee3a1d5beb3")
 		(property "Reference" "CN1"
-			(at 120.65 50.7999 90)
+			(at 55.88 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37945,7 +42745,7 @@
 			)
 		)
 		(property "Value" "KF128L-5.08-2P"
-			(at 120.65 53.3399 90)
+			(at 48.26 29.845 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37956,7 +42756,7 @@
 			)
 		)
 		(property "Footprint" "kicad_api_lib:KF128L-5.08-2P"
-			(at 114.3 52.07 0)
+			(at 55.88 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37967,7 +42767,7 @@
 			)
 		)
 		(property "Datasheet" "http://file.elecfans.com/web1/M00/E3/BD/pIYBAGBBnUaAMkBFAAMGNHK6UP8913.pdf"
-			(at 114.3 52.07 0)
+			(at 55.88 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37978,7 +42778,7 @@
 			)
 		)
 		(property "Description" "间距:5.08mm;结构:1x2P;排数:1;每排PIN数:2;安装方式:直针;额定电流:24A;额定电压:250V;线规 - AWG:12~22;线规 - mm2:2.5;工作温度范围:-40℃~+105℃;颜色:绿色;"
-			(at 114.3 52.07 0)
+			(at 55.88 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37989,7 +42789,7 @@
 			)
 		)
 		(property "MPN" "KF128L-5.08-2P"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38000,7 +42800,7 @@
 			)
 		)
 		(property "Manufacturer" "KEFA"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38011,7 +42811,7 @@
 			)
 		)
 		(property "colour" "绿色"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38022,7 +42822,7 @@
 			)
 		)
 		(property "current" "10 A, 24 A"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38033,7 +42833,7 @@
 			)
 		)
 		(property "current_rating" "24 A"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38044,7 +42844,7 @@
 			)
 		)
 		(property "huaqiu_pn" "G3175735"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38055,7 +42855,7 @@
 			)
 		)
 		(property "mount" "直针"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38066,7 +42866,7 @@
 			)
 		)
 		(property "number_of_rows" "1"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38077,7 +42877,7 @@
 			)
 		)
 		(property "operating_temperature" "-40 °C"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38088,7 +42888,7 @@
 			)
 		)
 		(property "package" "插件,P=5.08mm"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38099,7 +42899,7 @@
 			)
 		)
 		(property "pin_number_in_each_row" "2"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38110,7 +42910,7 @@
 			)
 		)
 		(property "pins" "2"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38121,7 +42921,7 @@
 			)
 		)
 		(property "pitch" "5.08 mm"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38132,7 +42932,7 @@
 			)
 		)
 		(property "terminal_pitch" "5.08 mm"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38143,7 +42943,7 @@
 			)
 		)
 		(property "termination_type" "螺钉"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38154,7 +42954,7 @@
 			)
 		)
 		(property "voltage" "250 V, 300 V"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38165,7 +42965,7 @@
 			)
 		)
 		(property "voltage_rating" "250 V"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38176,7 +42976,7 @@
 			)
 		)
 		(property "wire_gauge" "2.5"
-			(at 118.11 52.07 0)
+			(at 55.88 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38293,7 +43093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6367fd61-e726-45e7-a878-f9a1af18b269")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 224.028 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38649,7 +43449,7 @@
 			)
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -39452,7 +44252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fc7d2ad-5ae4-4350-9260-ee90ad5959c2")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 85.09 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -39512,26 +44312,25 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 118.11 41.91 0)
+		(lib_id "power:GND")
+		(at 223.52 177.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73150b06-c4bf-4505-be52-0d842d8af64d")
-		(property "Reference" "#PWR016"
-			(at 118.11 45.72 0)
+		(dnp yes)
+		(uuid "7052170a-d132-4424-9e6f-983bfb6327d0")
+		(property "Reference" "#PWR028"
+			(at 223.52 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39541,8 +44340,8 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
-			(at 118.11 36.83 0)
+		(property "Value" "GND"
+			(at 223.52 174.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39552,7 +44351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 41.91 0)
+			(at 223.52 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39563,7 +44362,91 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 41.91 0)
+			(at 223.52 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53e96cb1-56e7-4874-8946-22d708e47775")
+		)
+		(instances
+			(project "Input Anti-Reverse & Backflow Protection Circuit"
+				(path "/24b06997-2311-426a-8c06-e60cd852411c"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 45.72 32.385 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73150b06-c4bf-4505-be52-0d842d8af64d")
+		(property "Reference" "#PWR06"
+			(at 49.53 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 44.45 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39574,7 +44457,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 118.11 41.91 0)
+			(at 45.72 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39590,7 +44473,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR016")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -39845,7 +44728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bcf2a23-8542-4c53-95df-132ac85511ff")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 59.69 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -39905,7 +44788,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -40599,7 +45482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99adb674-7dd5-4fb7-b707-8ec6068a5def")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 67.31 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -40659,7 +45542,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -40848,7 +45731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8313921-3c42-4931-ba43-ffe505af02c4")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR031"
 			(at 240.03 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -40908,7 +45791,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR026")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -41162,7 +46045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abdeb31c-f10b-4329-919d-d68cddfec1f7")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 93.98 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -41222,7 +46105,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -41240,7 +46123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac3d827a-2a16-4d8a-a05a-b4c862891379")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 55.88 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -41300,7 +46183,90 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR06")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 262.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "adb0f3a7-50bd-4bad-847e-9ed1b27a864f")
+		(property "Reference" "#PWR027"
+			(at 220.98 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 266.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a23cd0ad-a340-47d9-b252-3e8a5426d1aa")
+		)
+		(instances
+			(project "Input Anti-Reverse & Backflow Protection Circuit"
+				(path "/24b06997-2311-426a-8c06-e60cd852411c"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -41794,6 +46760,89 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 200.66 252.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "b2c3c996-261d-47db-ae9a-592729a69fbd")
+		(property "Reference" "#PWR026"
+			(at 200.66 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 256.286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd9d1dab-1118-44b1-8b4a-b76dff8c4a39")
+		)
+		(instances
+			(project ""
+				(path "/24b06997-2311-426a-8c06-e60cd852411c"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 251.46 149.86 0)
 		(unit 1)
@@ -41873,6 +46922,343 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 260.35 241.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b595b5f5-16de-481b-a749-1241c874a1ea")
+		(property "Reference" "#PWR032"
+			(at 256.54 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 263.525 241.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 260.35 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8d7c975-24a7-4a5d-8727-823711f58db0")
+		)
+		(instances
+			(project "Input Anti-Reverse & Backflow Protection Circuit"
+				(path "/24b06997-2311-426a-8c06-e60cd852411c"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0603WAF1003T5E:0603WAF1003T5E")
+		(at 220.98 257.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "b5d70a4e-3ef0-40c0-a76a-81ff206274af")
+		(property "Reference" "R7"
+			(at 221.234 255.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 221.234 260.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:0603WAF1003T5E"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://file.elecfans.com/web1/M00/8F/24/o4YBAFy-fqCABd01AAciZeje3jQ155.pdf"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Chip Resistors 0603 100KΩ ±1% 1/10W ±100ppm/℃"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1003T5E"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Royal Electronic Factory"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "grade" "消费级"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G0063750"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lead_free" "Yes"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount" "表面贴装"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "operating_temperature" "-55 °C"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "overload_voltage" "75 V"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "0603"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "packaging" "5000pcs"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "power_rating" "100 mW"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "technology" "厚膜"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "temperature_coefficient" "100 ppm/°C"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "tolerance" "1 %"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "type" "厚膜电阻"
+			(at 220.98 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27c95c1d-d81b-415f-8b8f-42b216b11be1")
+		)
+		(pin "2"
+			(uuid "b8c48c2d-8f99-4039-ba42-81787ce79c07")
+		)
+		(instances
+			(project ""
+				(path "/24b06997-2311-426a-8c06-e60cd852411c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 91.44 179.07 0)
 		(unit 1)
@@ -41884,7 +47270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b74a5b00-dd00-4902-b4a2-3eeacd4776ea")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 91.44 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -41944,7 +47330,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -41963,7 +47349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b88dbec8-6b9b-45ad-bd60-e15ec55682da")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 63.5 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -42023,7 +47409,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -42123,7 +47509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf4f3d40-fda5-4a71-b7a9-ed3092f77a91")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 74.93 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -42183,7 +47569,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -42267,6 +47653,423 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CC0603KRX7R9BB104:CC0603KRX7R9BB104")
+		(at 200.66 247.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "c287b72f-896c-44bd-9db6-e376924b08ea")
+		(property "Reference" "C12"
+			(at 200.914 245.872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 200.914 249.428 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:CC0603KRX7R9BB104"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://file.elecfans.com/web2/M00/21/99/poYBAGGkg-OAAOL3ABnvvisUh-Y906.pdf?CC X7R_6.3V-to-50V_Yageo"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Chip Capacitor, 100 nF, 50 V, 0603, 0.1"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "application" "Mobile Phone,PCs"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "body_length" "1.6 mm"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "body_width" "0.8 mm"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100 nF"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "case_code_imperial" "0603"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "depth" "800 µm"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "dielectric_material" "Ceramic"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "grade" "消费级"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "halogen_free" "Halogen Free"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "height" "800 µm"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "height_overall" "0.8 mm"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G0045361"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lead_free" "Lead Free"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount" "SMT"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "operating_temperature" "-55 °C"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "0603"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package_quantity" "1"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "packaging" "Tape and Reel"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pins" "2"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "radiation_hardening" "No"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "reach_svhc_compliant" "No SVHC"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "temperature_characteristic" "X7R"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "terminal_pitch" "1.20 mm"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "termination" "SMD"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "thickness" "0.035 in"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "tolerance" "0.1"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage" "50 V"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage_rating" "50 V"
+			(at 200.66 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2846d05e-c3bf-4549-b6c4-d3ab359e3123")
+		)
+		(pin "1"
+			(uuid "af600a58-8b74-4e21-b01d-d7b0d19e3bea")
+		)
+		(instances
+			(project ""
+				(path "/24b06997-2311-426a-8c06-e60cd852411c"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -42595,7 +48398,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e47b14ce-0203-4894-a441-0f2e579682a7")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 231.394 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42951,7 +48754,7 @@
 			)
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -42969,7 +48772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8b5b83a-77e1-4a2b-beb0-a929d47d9781")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 238.125 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -43029,7 +48832,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -43392,6 +49195,177 @@
 		)
 	)
 	(symbol
+		(lib_id "AP40P04Q:AP40P04Q")
+		(at 220.98 243.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "f774e637-c7af-445d-ab10-90cbc59376ab")
+		(property "Reference" "Q1"
+			(at 216.408 240.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AP40P04Q"
+			(at 235.458 240.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:AP40P04Q"
+			(at 220.98 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://file.eda.cn/web1/M00/08/E0/wKgzI2kgN76AOVOmAAn4Uzi_JSM8981623014218.PDF"
+			(at 220.98 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P沟道MOSFET管，-40V，-30A，20W"
+			(at 220.98 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AP40P04Q"
+			(at 220.98 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ALLPOWER"
+			(at 220.98 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G12287606"
+			(at 220.98 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount" "SMT"
+			(at 220.98 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "PDFN3X3"
+			(at 220.98 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "technology" "MOSFET"
+			(at 220.98 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6f9bedff-489d-4c1f-b155-18a7ea1603a5")
+		)
+		(pin "8"
+			(uuid "73eee262-5037-42c1-9988-364c8ae7eae3")
+		)
+		(pin "7"
+			(uuid "5a8557f1-db70-4de8-b3e1-d395d99465b0")
+		)
+		(pin "5"
+			(uuid "79efcc13-b053-4244-bac8-79f40472bac3")
+		)
+		(pin "1"
+			(uuid "37c2d813-828e-40f2-99e2-8f607efc4756")
+		)
+		(pin "4"
+			(uuid "22d09048-da4e-4fdf-8490-ea95f66d9be8")
+		)
+		(pin "6"
+			(uuid "3f5d0394-0291-47c1-9e27-6ed12a87812e")
+		)
+		(pin "3"
+			(uuid "6c13a611-39ed-4cdb-b3f2-8eeced720aba")
+		)
+		(instances
+			(project ""
+				(path "/24b06997-2311-426a-8c06-e60cd852411c"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 25.4 166.37 0)
 		(unit 1)
@@ -43466,6 +49440,35 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(group "Input Anti-Reverse & Backflow Protection Circuit"
+		(uuid "6606411f-1802-4651-bf75-0f6dc0cff6c7")
+		(members "0ab32d30-e3fb-40bf-8ec5-cb5dc5e20219" "0f717635-7836-4cff-a739-3f24fbdc2b57"
+			"1546d6ae-da9d-491a-8d84-5079f1777b40" "16faad56-83a1-4f41-a0d3-4da0e0faa94f"
+			"1b72c312-927b-4013-bbf3-e0c046a580ae" "21e527a7-9da7-4bb5-9abe-e6d4f0c07532"
+			"240551b5-1c30-4f8d-8e5f-a703218e3b49" "2d658438-aa21-45ca-8410-ceeda95f7028"
+			"2e81d18b-7a28-4405-a631-0285a285ce7b" "3031c711-8d48-4c83-b9f2-055c212c5439"
+			"305de28e-9375-4216-b338-34269f343f7c" "35092f25-59a3-4beb-9f6d-5539fc412374"
+			"3bf71cfd-ce9c-4ab4-a897-a4d7284ebe1f" "44050601-7449-4f09-9b14-b0477136d4ba"
+			"48715bd2-708f-4e82-84c8-9081ef730397" "4bb95b4f-f07c-49ed-a612-de7a1248b93b"
+			"55babc25-4d22-4b57-b35d-757ed9dd7142" "56df53eb-1d3b-4643-b158-a1d49b09467c"
+			"57dfce49-3366-41c8-b0c4-2f671d82777a" "5964891a-f184-4833-b01b-ab0d082a7883"
+			"5d01a619-3323-4114-9877-a4e06df3dca4" "5ebdc040-3087-4000-a57d-d8cee969c0e1"
+			"64c850f6-23e8-4ec9-9671-a7d1f8b4eb1d" "68b44011-51e1-41ce-a9b2-725f8652fb69"
+			"6aa18162-0a99-47de-8149-8053294caac7" "6c3ccab2-b997-4cbf-82d7-0307c33c5c25"
+			"7052170a-d132-4424-9e6f-983bfb6327d0" "7503c3e9-f307-4cfa-aed3-8f01072c82c7"
+			"75a0c22f-e665-4974-a566-d9f73a728f7d" "849215d6-ffb2-4031-bef8-3d0d54d320ad"
+			"8f377133-dd25-4796-b518-2df87fd49c03" "a18d7c97-58b0-4a8c-af85-60a44428d25f"
+			"a1aed648-b055-4c07-bbfa-59ff022c3dff" "a40c0f5a-02c4-4e56-a1e8-3e671dc439bc"
+			"adb0f3a7-50bd-4bad-847e-9ed1b27a864f" "b2c3c996-261d-47db-ae9a-592729a69fbd"
+			"b4bcf809-aa45-4b28-845e-dbbaac9cc08b" "b595b5f5-16de-481b-a749-1241c874a1ea"
+			"b5d70a4e-3ef0-40c0-a76a-81ff206274af" "ba7310ed-ce04-49e8-8f16-6af612b60bcd"
+			"c287b72f-896c-44bd-9db6-e376924b08ea" "c9b34564-1f5e-4bf9-af6a-91b041792a98"
+			"d3c4376a-84c1-4aab-be19-bb0f34c57a0d" "d91bb4e7-0e30-412a-90d8-c06448b841a5"
+			"df1c8f32-1161-4b34-9a15-5b46fd35b81c" "f0d12506-3892-4574-ac87-9d26aa720509"
+			"f774e637-c7af-445d-ab10-90cbc59376ab" "fd82af39-c5e4-42e5-ae5a-c0021e4e51e3"
+			"ff399a1b-0cb6-42c8-bbdf-06483ce7244d"
 		)
 	)
 	(group "XL1509-5.0_DCDC Module"
