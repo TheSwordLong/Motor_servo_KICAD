@@ -1744,25 +1744,6 @@
 					(alternate "PE13" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 7.62 -43.18 180)
-					(length 3.81)
-					(name "TIMER0_CH3-FG1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "PE14" bidirectional line)
-				)
-				(pin bidirectional line
 					(at 7.62 6.35 180)
 					(length 3.81)
 					(name "DIR1"
@@ -1780,6 +1761,25 @@
 						)
 					)
 					(alternate "PE15" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 7.62 -43.18 180)
+					(length 3.81)
+					(name "TIMER1_CH2-FG1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "PB10" bidirectional line)
 				)
 				(pin output line
 					(at 7.62 25.4 180)
@@ -2881,25 +2881,6 @@
 					(alternate "PE13" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 7.62 -43.18 180)
-					(length 3.81)
-					(name "TIMER0_CH3-FG1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "PE14" bidirectional line)
-				)
-				(pin bidirectional line
 					(at 7.62 6.35 180)
 					(length 3.81)
 					(name "DIR1"
@@ -2917,6 +2898,25 @@
 						)
 					)
 					(alternate "PE15" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 7.62 -43.18 180)
+					(length 3.81)
+					(name "TIMER1_CH2-FG1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "PB10" bidirectional line)
 				)
 				(pin output line
 					(at 7.62 25.4 180)
@@ -4018,25 +4018,6 @@
 					(alternate "PE13" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 7.62 -43.18 180)
-					(length 3.81)
-					(name "TIMER0_CH3-FG1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "PE14" bidirectional line)
-				)
-				(pin bidirectional line
 					(at 7.62 6.35 180)
 					(length 3.81)
 					(name "DIR1"
@@ -4054,6 +4035,25 @@
 						)
 					)
 					(alternate "PE15" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 7.62 -43.18 180)
+					(length 3.81)
+					(name "TIMER1_CH2-FG1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "PB10" bidirectional line)
 				)
 				(pin output line
 					(at 7.62 25.4 180)
@@ -5155,25 +5155,6 @@
 					(alternate "PE13" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 7.62 -43.18 180)
-					(length 3.81)
-					(name "TIMER0_CH3-FG1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "PE14" bidirectional line)
-				)
-				(pin bidirectional line
 					(at 7.62 6.35 180)
 					(length 3.81)
 					(name "DIR1"
@@ -5191,6 +5172,25 @@
 						)
 					)
 					(alternate "PE15" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 7.62 -43.18 180)
+					(length 3.81)
+					(name "TIMER1_CH2-FG1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "PB10" bidirectional line)
 				)
 				(pin output line
 					(at 7.62 25.4 180)
@@ -11463,7 +11463,7 @@
 			(uuid "2d3b73ba-a583-415a-b60e-ce45223348fd")
 			(alternate "PA3")
 		)
-		(pin "45"
+		(pin "47"
 			(uuid "20171267-12f7-43db-bb1e-3786195bf4de")
 		)
 		(pin "32"
@@ -11955,7 +11955,7 @@
 		(pin "32"
 			(uuid "11709f9d-9948-42e1-90da-f47127dd9e2a")
 		)
-		(pin "45"
+		(pin "47"
 			(uuid "74a98f8d-fb91-461e-b349-8ff290d999ed")
 		)
 		(pin "15"
@@ -14138,7 +14138,7 @@
 		(pin "96"
 			(uuid "1697494e-61cc-4628-81ac-d3a01390179b")
 		)
-		(pin "45"
+		(pin "47"
 			(uuid "68f7c376-79db-477b-b68e-f127d8dd0736")
 		)
 		(pin "62"
@@ -16549,7 +16549,7 @@
 			(uuid "2d3b73ba-a583-415a-b60e-ce4522334901")
 			(alternate "PA3")
 		)
-		(pin "45"
+		(pin "47"
 			(uuid "20171267-12f7-43db-bb1e-3786195bf4e2")
 		)
 		(pin "32"

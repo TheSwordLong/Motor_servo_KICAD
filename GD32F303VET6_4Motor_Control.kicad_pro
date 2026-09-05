@@ -273,7 +273,15 @@
     },
     "layer_pairs": [],
     "layer_presets": [],
-    "viewports": []
+    "viewports": [
+      {
+        "h": 51998226.55298424,
+        "name": "丝印填写层",
+        "w": 70191259.43970776,
+        "x": 121406967.11328039,
+        "y": 83299123.02072144
+      }
+    ]
   },
   "boards": [],
   "component_class_settings": {

@@ -4531,6 +4531,16 @@
 		)
 		(uuid "738c09e1-d4d1-4848-9a32-4ef8d43b7bd1")
 	)
+	(label "FG1_1"
+		(at 215.9 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "767de44f-26ab-41d8-a1b8-f83c5e0de904")
+	)
 	(label "PWM1_3"
 		(at 52.07 34.29 0)
 		(effects
@@ -4660,6 +4670,16 @@
 			(justify left bottom)
 		)
 		(uuid "99312836-753c-4dd0-816c-5fa7f419f51e")
+	)
+	(label "DIR1_1"
+		(at 216.535 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b6e2b18-4da8-434a-b326-db7a22bd757e")
 	)
 	(label "DIR1_1"
 		(at 147.32 29.21 0)
@@ -4851,16 +4871,6 @@
 		)
 		(uuid "d33c9470-bd7b-45db-8680-e07d2699f34d")
 	)
-	(label "FG1_1"
-		(at 215.265 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8f88564-5da3-4c5a-ac85-95057376c663")
-	)
 	(label "BRAKE2_1"
 		(at 148.59 102.87 0)
 		(effects
@@ -4870,16 +4880,6 @@
 			(justify left bottom)
 		)
 		(uuid "d954bf7c-b93b-4d93-a7d1-b236ee995f6c")
-	)
-	(label "DIR1_1"
-		(at 215.9 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d9fbf608-6159-4a9e-8ba3-737efede1240")
 	)
 	(label "FG1_[1..4]"
 		(at 132.08 60.96 0)
