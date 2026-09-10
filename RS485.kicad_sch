@@ -3465,6 +3465,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.145 62.23) (xy 133.35 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d089235-6bdc-46f2-aa82-44266913d394")
+	)
+	(wire
+		(pts
 			(xy 171.45 111.76) (xy 171.45 113.03)
 		)
 		(stroke
@@ -3545,7 +3555,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 110.998) (xy 245.11 105.41)
+			(xy 243.84 111.125) (xy 243.84 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3622,16 +3632,6 @@
 			(type default)
 		)
 		(uuid "95df3dfd-96a3-44ea-b3a7-377458bd56d6")
-	)
-	(wire
-		(pts
-			(xy 100.33 62.23) (xy 105.41 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a033c9eb-ab5b-4c91-aa44-2f9ca6144ba1")
 	)
 	(wire
 		(pts
@@ -3795,6 +3795,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.075 62.23) (xy 105.41 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e22d6c-9dd5-41c5-b1b3-580624809164")
+	)
+	(wire
+		(pts
 			(xy 205.74 81.28) (xy 205.74 74.93)
 		)
 		(stroke
@@ -3845,7 +3855,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 79.248) (xy 245.11 85.09)
+			(xy 243.84 78.74) (xy 243.84 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5625,7 +5635,7 @@
 		(uuid "03a8f350-16e7-4e54-bb91-b1271fd25f7a")
 	)
 	(label "RS485B"
-		(at 245.11 110.998 0)
+		(at 243.84 111.125 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5634,18 +5644,8 @@
 		)
 		(uuid "297966c9-6dc6-4762-9531-585c081aefe6")
 	)
-	(label "RS485_RX"
-		(at 133.35 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b41001d-9cc9-4632-a7f6-8042c0941b51")
-	)
 	(label "RS485A"
-		(at 245.11 79.248 0)
+		(at 243.84 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5714,6 +5714,27 @@
 		)
 		(uuid "daebe6e3-4e2d-444b-b451-8a02f5898537")
 	)
+	(label "RS485_RX"
+		(at 92.075 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8756039-70e7-47c2-959a-d7ea0e1fb70a")
+	)
+	(hierarchical_label "MCU_RS485_TX"
+		(shape output)
+		(at 144.145 62.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78d53a6a-3820-44c9-b819-cc88946b892c")
+	)
 	(hierarchical_label "MCU_RS485_DE"
 		(shape input)
 		(at 87.63 46.99 90)
@@ -5726,17 +5747,6 @@
 		(uuid "90284949-d7cd-406a-ae60-2c35dcb721e3")
 	)
 	(hierarchical_label "MCU_RS485_RXD"
-		(shape input)
-		(at 100.33 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9d5c04d1-a0da-457a-ba9b-5bc4c24853bf")
-	)
-	(hierarchical_label "MCU_RS485_TX"
 		(shape output)
 		(at 105.41 57.15 180)
 		(effects
@@ -5909,7 +5919,7 @@
 	)
 	(symbol
 		(lib_id "WJ15EDGRC-3.81-2P:31330102")
-		(at 245.11 95.25 90)
+		(at 243.84 95.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5920,7 +5930,7 @@
 		(fields_autoplaced yes)
 		(uuid "2da6c4bd-5257-41b0-b738-21e596a1e83a")
 		(property "Reference" "CN4"
-			(at 247.65 93.9799 90)
+			(at 246.38 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5931,7 +5941,7 @@
 			)
 		)
 		(property "Value" "WJ15EDGRC-3.81-2P"
-			(at 247.65 96.5199 90)
+			(at 246.38 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5942,7 +5952,7 @@
 			)
 		)
 		(property "Footprint" "kicad_api_lib:WJ15EDGRC-3.81-2P"
-			(at 241.3 95.25 0)
+			(at 240.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5953,7 +5963,7 @@
 			)
 		)
 		(property "Datasheet" "http://file.elecfans.com/web1/M00/8F/66/o4YBAFzAJVGAapO-AAtZGykaSso280.pdf"
-			(at 241.3 95.25 0)
+			(at 240.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5964,7 +5974,7 @@
 			)
 		)
 		(property "Description" "Plug and pull terminal board end/socket - closed 2Pin spacing: 3.81mm, 1 row of bent pins green"
-			(at 241.3 95.25 0)
+			(at 240.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5975,7 +5985,7 @@
 			)
 		)
 		(property "MPN" "WJ15EDGRC-3.81-2P"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5986,7 +5996,7 @@
 			)
 		)
 		(property "Manufacturer" "KANGNEX"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5997,7 +6007,7 @@
 			)
 		)
 		(property "colour" "绿色"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6008,7 +6018,7 @@
 			)
 		)
 		(property "connector_type" "板端/插座-闭口"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6019,7 +6029,7 @@
 			)
 		)
 		(property "current" "7 A, 8 A"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6030,7 +6040,7 @@
 			)
 		)
 		(property "flammability_rating" "UL94V-0"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6041,7 +6051,7 @@
 			)
 		)
 		(property "holes_direction" "90°，直角"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6052,7 +6062,7 @@
 			)
 		)
 		(property "huaqiu_pn" "G4189957"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6063,7 +6073,7 @@
 			)
 		)
 		(property "lead_free" "Yes"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6074,7 +6084,7 @@
 			)
 		)
 		(property "mount" "弯针"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6085,7 +6095,7 @@
 			)
 		)
 		(property "number_of_rows" "1"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6096,7 +6106,7 @@
 			)
 		)
 		(property "package" "弯插,P=3.81mm"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6107,7 +6117,7 @@
 			)
 		)
 		(property "packaging" "500pcs"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6118,7 +6128,7 @@
 			)
 		)
 		(property "pin_number_in_each_row" "2"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6129,7 +6139,7 @@
 			)
 		)
 		(property "pins" "2"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6140,7 +6150,7 @@
 			)
 		)
 		(property "pitch" "3.81 mm"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6151,7 +6161,7 @@
 			)
 		)
 		(property "terminal_pitch" "3.81 mm"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6162,7 +6172,7 @@
 			)
 		)
 		(property "termination_type" "插拔式接线端子"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6173,7 +6183,7 @@
 			)
 		)
 		(property "voltage" "250 V, 300 V"
-			(at 245.11 95.25 0)
+			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7336,7 +7346,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bdb064c9-061c-4deb-a2bf-dcb394a48713")
 		(property "Reference" "#PWR062"
 			(at 148.59 68.58 0)
@@ -7349,8 +7358,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V_ISO"
-			(at 148.59 59.69 0)
+		(property "Value" "+3V3_ISO"
+			(at 153.035 64.135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8330,15 +8339,15 @@
 		(uuid "f2047699-2e8b-4f07-9008-53a56833965f")
 		(members "03a8f350-16e7-4e54-bb91-b1271fd25f7a" "23dfa473-4469-4f38-9314-589935e126c4"
 			"26108246-1be3-418f-a1b5-7bad52adde01" "297966c9-6dc6-4762-9531-585c081aefe6"
-			"2b41001d-9cc9-4632-a7f6-8042c0941b51" "31ddb25e-b6ab-4ced-8fe1-ae8fd7e62b07"
+			"2d089235-6bdc-46f2-aa82-44266913d394" "31ddb25e-b6ab-4ced-8fe1-ae8fd7e62b07"
 			"39d72b1f-3389-4232-b2b7-e1027b86fc17" "443484ec-33f8-42ee-8fbe-9dcb6f0eab62"
 			"51d99099-4acd-4cfe-9e93-c93f0b295e31" "55e09955-f414-4e01-bfcd-fa6c38337f1d"
 			"5ed6cc2d-ccac-414a-bf56-461902222bb2" "6140e6fe-5a83-46ff-9bce-0f7ebcf9845a"
 			"62dfcb28-a389-46d6-ba56-12e3dff38496" "6395606e-565f-416a-b7f2-155000fc9816"
 			"6b1a0329-4171-4786-ab80-74d0023dd190" "74e8b89f-2b7b-4e33-af30-98d2808c7b00"
-			"7c5fdb95-2271-450f-9337-2569b4fe3a41" "85949e1d-b856-4582-aba4-5c2c3af4942d"
-			"911a547e-cc1d-4754-95f0-e97177cc3de2" "91c43ad4-cd65-4974-b441-99beb5d14579"
-			"91f5d9a9-d8d1-4523-9239-8b167ad28e6b" "9d5c04d1-a0da-457a-ba9b-5bc4c24853bf"
+			"78d53a6a-3820-44c9-b819-cc88946b892c" "7c5fdb95-2271-450f-9337-2569b4fe3a41"
+			"85949e1d-b856-4582-aba4-5c2c3af4942d" "911a547e-cc1d-4754-95f0-e97177cc3de2"
+			"91c43ad4-cd65-4974-b441-99beb5d14579" "91f5d9a9-d8d1-4523-9239-8b167ad28e6b"
 			"9e0f76fc-b6ad-415d-96c8-e3aea2d579fc" "9e2a6550-1d09-4560-bf3a-ec5f651006ee"
 			"a2c2a655-3083-4d99-9996-2dea564f73bf" "a9ec83d8-c6ab-43e8-be1c-8cf4f626aac8"
 			"b3aac39a-25d6-497d-a2c7-c40feb76406f" "b5a734af-4b1c-4642-9e99-e5ce70eb4072"
@@ -8349,9 +8358,10 @@
 			"d0d78a06-ba3a-4898-aff4-5f6b6f7b6fa8" "d2467b82-d4ce-445e-8d2a-6adb26260aa8"
 			"d8c2b88a-e5a2-4701-a8e7-d50ea2202197" "d94ab396-6e04-47c4-8b06-94bd16d04516"
 			"daebe6e3-4e2d-444b-b451-8a02f5898537" "e22e755f-e53a-4c4c-ab14-083374453ef6"
-			"ebf69372-e787-4354-a53e-7b597cbd503f" "ed190d79-050e-4e15-9d3c-59789546445f"
-			"eea1b2e9-26ed-4bef-9e3e-f096e30246c9" "ef2ebefc-983b-4848-9a18-9d586aee4b7c"
-			"f08841d5-75c3-41d6-b8de-9fecd535c3ce" "f54a7dd2-8bd2-499d-b4d6-678f2f426bd6"
+			"e5e22d6c-9dd5-41c5-b1b3-580624809164" "ebf69372-e787-4354-a53e-7b597cbd503f"
+			"ed190d79-050e-4e15-9d3c-59789546445f" "eea1b2e9-26ed-4bef-9e3e-f096e30246c9"
+			"ef2ebefc-983b-4848-9a18-9d586aee4b7c" "f08841d5-75c3-41d6-b8de-9fecd535c3ce"
+			"f54a7dd2-8bd2-499d-b4d6-678f2f426bd6" "f8756039-70e7-47c2-959a-d7ea0e1fb70a"
 			"fdd4bf25-51b0-4703-9236-d98b0b2e5368" "fde634bd-a756-4e03-b0ca-3d5b3de6ddfc"
 		)
 	)

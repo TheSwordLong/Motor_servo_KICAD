@@ -1,0 +1,151 @@
+(footprint "IB0505S-2W3L"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "IB0505S-2W3L isolated DC-DC converter")
+	(tags "DC-DC SIP THT")
+	(property "Reference" "REF**"
+		(at 7.615 -2 0)
+		(layer "F.SilkS")
+		(uuid "eee3a1c0-40fd-4cf2-8aad-93ed3c084631")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IB0505S-2W3L"
+		(at 7.615 7.2 0)
+		(layer "F.Fab")
+		(uuid "7bde64d5-c5d3-4384-8e88-0bac1f95f3c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad787ad8-dc44-451b-8ff6-a9acb3e53285")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eabda971-8bdb-49fb-97da-d2205e5d7cf3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.8 -0.45)
+		(end -1.8 0.45)
+		(stroke
+			(width 0.35)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7e85e5c6-2649-40c8-b7ab-c2b40b4ca7f3")
+	)
+	(fp_line
+		(start -1.8 -0.45)
+		(end -0.9 -0.45)
+		(stroke
+			(width 0.35)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "51f87a98-5594-4f55-bdc0-60cebc2ee76e")
+	)
+	(fp_rect
+		(start -2.21 -0.9)
+		(end 17.44 6.15)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1b051b55-15c4-495f-8b48-498c86eba14f")
+	)
+	(fp_rect
+		(start -2.46 -1.15)
+		(end 17.69 6.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f7e178bb-6c55-4c97-9481-3e0c201c3e68")
+	)
+	(fp_rect
+		(start -2.21 -0.9)
+		(end 17.44 6.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f355a1d8-8fc6-48cf-8d71-60326a8648fc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.615 2.6 0)
+		(layer "F.Fab")
+		(uuid "ae743886-e2a3-4eab-8122-62af41a88a66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77127dd2-15f4-4af5-9997-a0f71631febc")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e56add9-d530-4308-8b65-c44886e43192")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e02c3644-a164-4cce-8e92-084b3c7b61a1")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "85a2c08f-16d5-42be-83af-88ce1b973b27")
+	)
+	(embedded_fonts no)
+)

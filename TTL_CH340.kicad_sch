@@ -11440,7 +11440,7 @@
 		)
 		(uuid "b91a4c47-3ca8-457a-ba9d-a41034eebf4f")
 	)
-	(label "CH_TX"
+	(label "CH_RX"
 		(at 123.19 68.58 180)
 		(effects
 			(font
@@ -11480,7 +11480,7 @@
 		)
 		(uuid "cd97d3df-890b-45f6-b9e7-6bd50dbc8ab9")
 	)
-	(label "CH_RX"
+	(label "CH_TX"
 		(at 123.19 66.04 180)
 		(effects
 			(font
@@ -16915,7 +16915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "905dab7b-8ae0-4bde-9b28-8492232f6de8")
-		(property "Reference" "#FLG013"
+		(property "Reference" "#FLG014"
 			(at 58.42 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -16975,7 +16975,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/1b78379e-163c-4192-b7b2-c6b42c88e9cb"
-					(reference "#FLG013")
+					(reference "#FLG014")
 					(unit 1)
 				)
 			)
