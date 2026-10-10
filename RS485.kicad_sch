@@ -3465,7 +3465,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.145 62.23) (xy 133.35 62.23)
+			(xy 143.51 61.595) (xy 133.35 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5726,7 +5726,7 @@
 	)
 	(hierarchical_label "MCU_RS485_TX"
 		(shape output)
-		(at 144.145 62.23 90)
+		(at 143.51 61.595 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -63,7 +63,7 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.2,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -598,7 +598,9 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(0, 255, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -2035,7 +2037,7 @@
         "uuid": "54005433-e3aa-4693-8f75-bb73943288d3"
       }
     ],
-    "used_designators": "U1-16,C1-59,D1-10,L1-8,#PWR1-102,#FLG1-15,R1-37,Y1-2,Q1-4,1,CN1-9,B1-2,SW1,H1-14,JP1-2,FL1-2,J1-2,FB1-2",
+    "used_designators": "U1-16,C1-59,D1-10,L1-8,#PWR1-102,#FLG1-21,#FLG119,R1-37,Y1-2,Q1-5,1,CN1-9,B1-2,SW1,H1-14,JP1-2,FL1-2,J1-2,FB1-2",
     "variants": []
   },
   "sheets": [

@@ -40,4 +40,7 @@
 	(lib (name "15EDGVC-3.81-06P-14-00A(H)") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/15EDGVC-3.81-06P-14-00A(H).kicad_sym") (options "") (descr ""))
 	(lib (name "MWTC201610S1R0MT") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/MWTC201610S1R0MT.kicad_sym") (options "") (descr ""))
 	(lib (name "IB0505S-2W3L") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/IB0505S-2W3L_KiCad10/IB0505S-2W3L_KiCad10/IB0505S-2W3L.kicad_sym") (options "") (descr ""))
+	(lib (name "LM66100DCKR") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/LM66100DCKR.kicad_sym") (options "") (descr ""))
+	(lib (name "CJE3134K") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/CJE3134K.kicad_sym") (options "") (descr ""))
+	(lib (name "SP3485EN-L_TR") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/SP3485EN-L_TR.kicad_sym") (options "") (descr ""))
 )
