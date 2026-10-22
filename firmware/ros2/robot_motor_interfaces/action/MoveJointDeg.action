@@ -1,0 +1,52 @@
+# Discrete joint motion. Field names and order follow the execution plan
+# (docs/ROS2_头部与双臂控制_代码生成执行方案.md section 6) so that goal, result and
+# feedback stay exactly as specified there.
+#
+# Semantics that the plan requires and this driver enforces:
+#  * angle_deg is an OUTPUT SHAFT angle in degrees; the driver converts with
+#    round-half-away-from-zero to 0.1 deg and never multiplies by the gear ratio.
+#  * motor_rpm is an ASSERTION about the speed the board already has stored for this
+#    channel, NOT a speed command. The firmware takes speed from the stored per-channel
+#    configuration (BSP/robot.c:334) and MOVE carries only the angle, so a goal cannot
+#    change speed. 0 means "use whatever the board has"; a non-zero value that differs
+#    from the board's stored rpm is REFUSED with error_code 111 and nothing is sent.
+#    To change speed, run /robot/apply_config (whole board quiet, writes flash).
+#  * RELATIVE needs position_valid unless allow_unreferenced_relative is enabled;
+#    ABSOLUTE always needs position_valid. The check is made against a reading taken
+#    by the worker immediately before the command, never against a published snapshot.
+#  * limits_deg null means the mechanical limits are unconfirmed: motion is refused
+#    with error_code 112 unless the node runs with commissioning:=true, and then each
+#    command is capped and reported as having NO soft-limit protection.
+#  * For BOTH modes the predicted endpoint is checked against limits_deg when the
+#    limits are known and the position is trusted.
+#  * A single MOVE is limited to +/-360 deg; larger goals are rejected, not split.
+#  * timeout_sec is a monitoring deadline, not a promised arrival time.
+#  * error_code carries the firmware business result 0..6, or a driver level code
+#    (>=100) documented in ros2/README.md.
+# Goal
+uint8 RELATIVE=0
+uint8 ABSOLUTE=1
+string joint_name
+uint8 mode
+float64 angle_deg
+uint16 motor_rpm
+float64 timeout_sec
+---
+# Result
+bool motion_completed
+bool persisted
+bool position_valid
+uint16 error_code
+string message
+float64 final_angle_deg
+---
+# Feedback
+uint16 command_sequence
+uint8 state
+uint8 fault
+bool position_valid
+bool brake
+bool communication_ok
+float64 current_angle_deg
+float64 target_angle_deg
+uint16 measured_motor_rpm

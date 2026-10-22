@@ -1,0 +1,40 @@
+{
+    "window.title": "${dirty}${activeEditorShort}${separator}GD32F303VET6_MotorControl${separator}${appName}",
+    "cmake.useCMakePresets": "always",
+    "cmake.configurePreset": "debug",
+    "cmake.buildPreset": "debug",
+
+    "EIDE.ARM.GCC.InstallDirectory": "E:/DevTools/arm-gnu-toolchain-15.3.rel1-mingw-w64-i686-arm-none-eabi",
+    "EIDE.ARM.GCC.Prefix": "arm-none-eabi-",
+    "EIDE.OpenOCD.ExePath": "E:/DevTools/OpenOCD/bin/openocd.exe",
+    "EIDE.Builder.EnvironmentVariables": [
+        "DOTNET_ROLL_FORWARD=Major"
+    ],
+    "EIDE.Option.ShowToolbarInEditerTitle": true,
+    "EIDE.Option.UseTaskToBuild": true,
+    "EIDE.Option.SilentWhenBuildOrFlash": false,
+
+    "C_Cpp.default.compilerPath": "E:/DevTools/arm-gnu-toolchain-15.3.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe",
+    "C_Cpp.default.intelliSenseMode": "gcc-arm",
+
+    "C_Cpp.default.defines": [
+        "GD32F30X_HD"
+    ],
+
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/Core/Inc",
+        "${workspaceFolder}/BSP",
+        "${workspaceFolder}/Drivers/CMSIS",
+        "${workspaceFolder}/Drivers/GD32F30x_standard_peripheral/Include",
+        "${workspaceFolder}/App/USB/Inc",
+        "${workspaceFolder}/Drivers/USB_Device/Core/Include",
+        "${workspaceFolder}/Drivers/USB_Device/LL/Include",
+        "${workspaceFolder}/Drivers/USB_Device/Class/CDC/Include"
+    ],
+
+    "files.associations": {
+        "*.h": "c",
+        "*.S": "arm"
+    },
+    "cortex-debug.variableUseNaturalFormat": false
+}

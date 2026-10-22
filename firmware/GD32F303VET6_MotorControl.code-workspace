@@ -1,0 +1,61 @@
+{
+    "folders": [
+        {
+            "name": "GD32F303VET6_MotorControl",
+            "path": "."
+        },
+        {
+            "path": "../GD32F303VET6_MotorControl_ROS2"
+        }
+    ],
+    "settings": {
+        "window.title": "${dirty}${activeEditorShort}${separator}GD32F303VET6_MotorControl${separator}${appName}",
+        "files.associations": {
+            "*.h": "c",
+            "*.S": "arm",
+            "*.ld": "plaintext"
+        },
+
+        "search.exclude": {
+            "**/build": true,
+            "**/build-eide": true,
+            "**/.obj": true,
+            "**/Debug/SVD": true
+        },
+
+        "files.watcherExclude": {
+            "**/build/**": true,
+            "**/build-eide/**": true
+        },
+
+        "C_Cpp.default.defines": [
+            "GD32F30X_HD"
+        ],
+        "C_Cpp.default.includePath": [
+            "${workspaceFolder}/Core/Inc",
+            "${workspaceFolder}/BSP",
+            "${workspaceFolder}/Drivers/CMSIS",
+            "${workspaceFolder}/Drivers/GD32F30x_standard_peripheral/Include",
+            "${workspaceFolder}/App/USB/Inc",
+            "${workspaceFolder}/Drivers/USB_Device/Core/Include",
+            "${workspaceFolder}/Drivers/USB_Device/LL/Include",
+            "${workspaceFolder}/Drivers/USB_Device/Class/CDC/Include"
+        ],
+        "C_Cpp.default.intelliSenseMode": "gcc-arm",
+
+        "EIDE.ARM.GCC.Prefix": "arm-none-eabi-",
+        "EIDE.OpenOCD.ExePath": "E:/DevTools/OpenOCD/bin/openocd.exe",
+        "EIDE.Option.UseTaskToBuild": true,
+        "EIDE.Option.ShowToolbarInEditerTitle": true,
+
+        "cortex-debug.variableUseNaturalFormat": true
+    },
+    "extensions": {
+        "recommendations": [
+            "cl.eide",
+            "ms-vscode.cpptools",
+            "marus25.cortex-debug",
+            "ms-vscode.cmake-tools"
+        ]
+    }
+}

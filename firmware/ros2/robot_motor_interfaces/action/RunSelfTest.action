@@ -1,0 +1,48 @@
+# Motor self test. The self test MOVES the joint briefly, so it is never started
+# automatically: not on node startup, not on reconnect, not on shutdown.
+#
+# SCOPE ALL IS SEQUENTIAL ON THE BOARD: after one channel finishes, the firmware
+# starts the next queued channel (BSP/robot.c:294-296). This action therefore only
+# returns when the whole batch is over, and `channels` reports every channel.
+#
+# "passed" means the firmware reported selftest state 4 (PASSED), which only proves
+# that at least three feedback pulses were captured on that channel. It does NOT
+# prove motor wiring, direction, or an accurate return to the start pose.
+#
+# A channel dropped from the queue (cancel, stop timeout, capture error, storage
+# failure) reads state 0 UNTESTED with executed=false: its result is UNKNOWN, not a
+# pass, and `batch_completed` is false.
+# Goal
+uint8 SINGLE=0
+uint8 ALL=1
+string joint_name
+uint8 scope
+uint8 direction            # 0 = positive probe, 1 = negative probe
+float64 timeout_sec
+---
+# Result
+bool completed             # single: this channel reached a terminal state.
+                           # batch: mirrors batch_completed
+bool passed                # single: this channel PASSED. batch: mirrors all_passed
+bool persisted             # dirty, storage_error and pending_save all zero afterwards
+uint8 selftest_state       # single scope: this channel's state; batch: first channel
+uint8 selftest_reason      # as above
+uint8 phase                # as above
+int32 outbound_pulses      # as above
+int32 return_pulses        # as above
+int32 residual_pulses      # as above
+bool batch_completed       # batch scope: the probe queue ran to the end, nothing dropped
+bool all_passed            # batch scope: every executed channel reported PASSED
+SelftestChannel[] channels # per-channel records, in protocol channel order
+uint16 error_code
+string message
+---
+# Feedback
+uint16 command_sequence
+uint8 active_channel       # channel the batch is currently energising
+uint8 phase
+uint8 state
+uint8 fault
+uint16 powered_ms
+uint16 return_ms
+bool communication_ok

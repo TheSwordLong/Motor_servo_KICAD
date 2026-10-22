@@ -1,0 +1,12 @@
+# Stop one joint, or the whole board when joint_name is empty.
+# "accepted" and "stop_confirmed" are reported separately: a command the board
+# took is not proof that the mechanism has settled, and a missing reply is
+# reported as unknown instead of being claimed as a success.
+string joint_name
+---
+bool accepted           # STOP/STOP_ALL reached the board and returned business result 0
+bool stop_confirmed     # board reports the channel settled: state not RUNNING/DECEL/SETTLING/SELFTEST and duty 0
+bool unknown            # no reply and reconciliation via 0x0036/0x0037 was inconclusive
+uint16 sequence         # sequence used for this request (0 when nothing was sent)
+uint16 result_code      # firmware business result 0..6, or driver code (see README)
+string message

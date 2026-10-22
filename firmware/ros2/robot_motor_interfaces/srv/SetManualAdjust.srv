@@ -1,0 +1,11 @@
+string joint_name
+bool enable
+---
+bool accepted
+uint16 sequence
+uint16 result_code
+bool active
+bool exiting
+bool position_valid
+bool persisted
+string message

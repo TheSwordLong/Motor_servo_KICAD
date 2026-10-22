@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="3">
+ <name>robot_motor_web</name><version>0.1.0</version>
+ <description>No-login LAN web console and ROS 2 API for robot motor boards.</description>
+ <maintainer email="xinhua@example.com">xinhua</maintainer><license>Apache-2.0</license>
+ <buildtool_depend>ament_cmake</buildtool_depend><buildtool_depend>ament_cmake_python</buildtool_depend>
+ <exec_depend>rclpy</exec_depend><exec_depend>std_srvs</exec_depend>
+ <exec_depend>robot_motor_driver</exec_depend><exec_depend>robot_motor_interfaces</exec_depend><exec_depend>robot_motor_bringup</exec_depend>
+ <test_depend>ament_cmake_pytest</test_depend><export><build_type>ament_cmake</build_type></export>
+</package>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>robot_motor_driver</name>
+  <version>0.1.0</version>
+  <description>
+    Modbus RTU driver for the GD32F303 robot motor board: protocol codec, board
+    session with UID binding and sequence reconciliation, a single-owner worker
+    with joint and board locks, a simulated board for hardware-free tests, and the
+    ROS 2 node. Read-only by default; motion needs an explicit allow_motion.
+  </description>
+  <maintainer email="xinhua@example.com">xinhua</maintainer>
+  <license>Apache-2.0</license>
+
+  <!--
+    Build type is ament_cmake on purpose: this host has a source-built Humble
+    without the ament_python package (verified with `ros2 pkg prefix ament_python`),
+    so ament_cmake_python provides the same install behaviour. See
+    docs/compatibility_audit.md section 4.
+  -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>robot_motor_interfaces</exec_depend>
+  <!-- python3-serial and python3-yaml are system packages on Ubuntu 20.04 -->
+  <exec_depend>python3-serial</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+
+  <!--
+    diagnostic_msgs is NOT declared as a dependency because it is not installed on
+    the target host. The node detects it at runtime and falls back to
+    /robot/diagnostics_json (std_msgs/String) instead of failing to build.
+  -->
+
+  <test_depend>ament_cmake_pytest</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

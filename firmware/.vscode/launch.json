@@ -1,0 +1,104 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GD32F303VET6 (EIDE)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build-eide/Debug/GD32F303VET6_MotorControl.elf",
+            "servertype": "openocd",
+            "serverpath": "E:/DevTools/OpenOCD/bin/openocd.exe",
+            "searchDir": [
+                "E:/DevTools/OpenOCD/openocd/scripts"
+            ],
+            "configFiles": [
+                "interface/cmsis-dap.cfg",
+                "target/gd32f30x.cfg"
+            ],
+            "compilerPath": "E:/DevTools/arm-gnu-toolchain-15.3.rel1-mingw-w64-i686-arm-none-eabi/bin",
+            "gdbPath": "E:/DevTools/arm-gnu-toolchain-15.3.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gdb.exe",
+            "svdFile": "${workspaceFolder}/Debug/SVD/GD32F30x_HD.svd",
+            "preLaunchTask": "EIDE Build Debug",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none",
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            }
+        },
+        {
+            "name": "GD32F303VET6 (CMake)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/debug/GD32F303VET6_MotorControl.elf",
+            "servertype": "openocd",
+            "serverpath": "E:/DevTools/OpenOCD/bin/openocd.exe",
+            "searchDir": [
+                "E:/DevTools/OpenOCD/openocd/scripts"
+            ],
+            "configFiles": [
+                "interface/cmsis-dap.cfg",
+                "target/gd32f30x.cfg"
+            ],
+            "gdbPath": "E:/DevTools/arm-gnu-toolchain-15.3.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gdb.exe",
+            "svdFile": "${workspaceFolder}/Debug/SVD/GD32F30x_HD.svd",
+            "preLaunchTask": "CMake Build Debug",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none",
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            }
+        },
+        {
+            "name": "GD32F303VET6 Attach (查看寄存器/不烧录)",
+            "type": "cortex-debug",
+            "request": "attach",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build-eide/Debug/GD32F303VET6_MotorControl.elf",
+            "servertype": "openocd",
+            "serverpath": "E:/DevTools/OpenOCD/bin/openocd.exe",
+            "searchDir": [
+                "E:/DevTools/OpenOCD/openocd/scripts"
+            ],
+            "configFiles": [
+                "interface/cmsis-dap.cfg",
+                "target/gd32f30x.cfg"
+            ],
+            "gdbPath": "E:/DevTools/arm-gnu-toolchain-15.3.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gdb.exe",
+            "svdFile": "${workspaceFolder}/Debug/SVD/GD32F30x_HD.svd",
+            "showDevDebugOutput": "none",
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            }
+        },
+        {
+            "name": "(gdb) 启动",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "输入程序名称，例如 ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

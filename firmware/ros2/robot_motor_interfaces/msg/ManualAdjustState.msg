@@ -1,0 +1,15 @@
+std_msgs/Header header
+string joint_name
+uint8 channel
+bool supported
+uint8 mode
+bool active
+bool exiting
+bool position_valid
+bool identity_ok
+bool communication_ok
+bool stale
+float64 age_sec
+bool dirty
+bool storage_error
+bool pending_save

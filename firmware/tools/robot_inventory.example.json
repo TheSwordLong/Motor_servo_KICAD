@@ -1,0 +1,76 @@
+{
+  "boards": {
+    "12345678ABCDEF0198765432": {
+      "protocol": 0,
+      "address": 1,
+      "node": 1,
+      "pwm_hz": 25000,
+      "channels": [
+        {
+          "enabled": false,
+          "role": "unassigned",
+          "gear": 0,
+          "inverted": 0,
+          "rpm": 8000
+        },
+        {
+          "enabled": false,
+          "role": "unassigned",
+          "gear": 0,
+          "inverted": 0,
+          "rpm": 8000
+        },
+        {
+          "enabled": false,
+          "role": "unassigned",
+          "gear": 0,
+          "inverted": 0,
+          "rpm": 8000
+        },
+        {
+          "enabled": false,
+          "role": "unassigned",
+          "gear": 0,
+          "inverted": 0,
+          "rpm": 8000
+        }
+      ]
+    },
+    "AAAAAAAAAAAAAAAAAAAAAAAA": {
+      "protocol": 0,
+      "address": 1,
+      "node": 2,
+      "pwm_hz": 25000,
+      "channels": [
+        {
+          "enabled": false,
+          "role": "unassigned",
+          "gear": 0,
+          "inverted": 0,
+          "rpm": 8000
+        },
+        {
+          "enabled": false,
+          "role": "unassigned",
+          "gear": 0,
+          "inverted": 0,
+          "rpm": 8000
+        },
+        {
+          "enabled": false,
+          "role": "unassigned",
+          "gear": 0,
+          "inverted": 0,
+          "rpm": 8000
+        },
+        {
+          "enabled": false,
+          "role": "unassigned",
+          "gear": 0,
+          "inverted": 0,
+          "rpm": 8000
+        }
+      ]
+    }
+  }
+}

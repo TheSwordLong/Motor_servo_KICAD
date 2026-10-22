@@ -1,0 +1,146 @@
+# 2026-10-10 binding: right wrist M2; M1/M3 unchanged. Board migration pending.
+# Dual-board configuration: board A (left arm + head) and board B (right arm).
+#
+# HOW THIS IS USED: one node process per board. Each process loads this whole file but
+# drives exactly one entry, selected with board_name:=
+#
+#   ros2 launch robot_motor_bringup bringup.launch.py transport:=modbus_rtu \
+#     config_file:=<this file> board_name:=main_board  board_namespace:=board_a \
+#     ros_domain_id:=72
+#   ros2 launch robot_motor_bringup bringup.launch.py transport:=modbus_rtu \
+#     config_file:=<this file> board_name:=right_board board_namespace:=board_b \
+#     ros_domain_id:=72
+#
+# or both at once with dual_board.launch.py (board_b_start defaults to false).
+#
+# Both boards use Modbus address 1. That is fine ONLY because each has its own serial
+# line: the two CH340 TTL adapters must never be wired onto one RS-485 bus, or the two
+# boards would answer the same address and frames would interleave. config.py rejects
+# two board entries that share a port, and rejects duplicate UIDs.
+#
+# WHY ONE PROCESS PER BOARD: each board then has its own serial-ownership thread, its
+# own sequence allocator and dedupe cache, and its own UNKNOWN halt, so one board
+# hanging or losing its port cannot stop the other from being polled or stopped. It
+# also lets each board carry its own policy -- board B can stay read-only while board A
+# moves. There is deliberately NO cross-board atomic stop, NO synchronised trajectory
+# and NO aggregate success: robot_stop_all() only affects the board that receives the
+# frame (BSP/robot.c:144-148), so "stop everything" means calling both boards' stop
+# services and checking BOTH confirmations.
+#
+# ---------------------------------------------------------------------------
+# BOARD A -- values below were cross-checked against the live board by a READ-ONLY
+# probe (UID C23B378115B092083830364A):
+#   M1 enabled=1 role=2 gear=516 rpm=8000   -> left_upper_arm_joint
+#   M2 enabled=1 role=1 gear=516 rpm=8000   -> head_joint
+#   M3 enabled=1 role=4 gear=290 rpm=8000   -> left_forearm_joint
+#   M4 enabled=1 role=6 gear=82  rpm=8000   -> left_wrist_joint
+# Board A was last seen with storage_error=true and pending_save=true, and M2/M4 with
+# fault 4. While storage_error is set the firmware refuses MOVE and SELFTEST with
+# R_STORAGE (BSP/robot.c:449,168), so this board cannot move until that is resolved.
+#
+# BOARD B -- THE THREE gear_ratio VALUES ARE STILL UNCONFIRMED. They were carried over
+# from board A on the statement that the two arms use identical interfaces; board B's
+# own flash was last read as M1=516, M2=516, M3=0, M4=516 with M4 holding role 2
+# (left_upper), a leftover from local testing. The operator has said the right arm's
+# channel-to-joint mapping and gear ratios were checked by a human, but the NUMBERS
+# have not been supplied, so nothing here was changed on that account.
+#
+# A wrong gear is not a cosmetic error: the firmware computes
+# steps = (arg*gear*6 +/- 1800)/3600 (BSP/robot.c:450), so if the configured gear is
+# larger than the real one the joint moves FURTHER than commanded -- configured 516
+# against a real 82 turns a 5 deg goal into roughly 31.7 deg.
+#
+# Until each ratio is confirmed against the actual motor, this file must only be used
+# with allow_motion:=false. Right wrist is now on M2; M4 is unassigned.
+# Board-side migration has not been applied: reconnect B and verify UID first.
+# ---------------------------------------------------------------------------
+
+driver:
+  allow_motion: false
+  allow_unreferenced_relative: false
+  polling_hz: 5.0
+  board_motion_policy: serial
+  speed_policy: keep_requested
+
+boards:
+  main_board:
+    uid: "C23B378115B092083830364A"
+    transport: modbus_rtu
+    # Stable by-path, never a bare ttyUSBn: this socket has re-enumerated as
+    # ttyUSB0/1/2 across sessions. The other CH340 (board B) is indistinguishable by
+    # by-id because neither adapter carries a USB serial number, so by-path plus the
+    # UID check is the only reliable binding.
+    port: "/dev/serial/by-path/platform-fc800000.usb-usb-0:1.2:1.0-port0"
+    address: 1
+    baudrate: 115200
+  right_board:
+    uid: "C23B37C715B092083830364A"
+    transport: modbus_rtu
+    port: "/dev/serial/by-path/platform-fc800000.usb-usb-0:1.4:1.0-port0"
+    address: 1
+    baudrate: 115200
+
+joints:
+  # ---- board A (left arm + head) ----
+  head_joint:
+    board: main_board
+    channel: 2
+    role: 1
+    gear_ratio: 516
+    inverted: 0
+    expected_motor_rpm: 400
+    limits_deg: null
+  left_upper_arm_joint:
+    board: main_board
+    channel: 1
+    role: 2
+    gear_ratio: 516
+    inverted: 0
+    expected_motor_rpm: 8000
+    limits_deg: null
+  left_forearm_joint:
+    board: main_board
+    channel: 3
+    role: 4
+    gear_ratio: 290
+    inverted: 0
+    expected_motor_rpm: 8000
+    limits_deg: null
+  left_wrist_joint:
+    board: main_board
+    channel: 4
+    role: 6
+    gear_ratio: 82
+    inverted: 0
+    expected_motor_rpm: 8000
+    limits_deg: null
+
+  # ---- board B (right arm) -- GEARS UNCONFIRMED, see the header ----
+  right_upper_arm_joint:
+    board: right_board
+    channel: 1            # M1
+    role: 3               # right_upper
+    gear_ratio: 516       # UNCONFIRMED -- carried over from the left arm
+    inverted: 0           # UNCONFIRMED -- mechanical direction never measured
+    expected_motor_rpm: 8000
+    limits_deg: null      # mechanical limits not confirmed
+  right_forearm_joint:
+    board: right_board
+    channel: 3            # M3
+    role: 5               # right_forearm
+    gear_ratio: 290       # UNCONFIRMED -- board flash was read as gear 0 here
+    inverted: 0           # UNCONFIRMED
+    expected_motor_rpm: 8000
+    limits_deg: null
+  right_wrist_joint:
+    board: right_board
+    channel: 2            # M2; moved from M4 on 2026-10-10
+    role: 7               # right_palm in the protocol; named wrist to mirror the left side
+    gear_ratio: 82        # UNCONFIRMED -- board flash was read as 516 with role 2
+    inverted: 0           # UNCONFIRMED
+    expected_motor_rpm: 8000
+    limits_deg: null
+  # right_board channel 4 (M4) is now unassigned after wrist moved to M2.
+  # Disable/unassign old M4 in board flash when reconnecting. Do NOT treat "all four channels pass a batch
+  # self test" as a right-arm acceptance criterion -- an unconnected channel cannot
+  # produce feedback pulses and will fail, which is the expected result, not a defect.

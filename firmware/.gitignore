@@ -1,0 +1,8 @@
+﻿build-eide/
+build/
+__pycache__/
+*.py[cod]
+.agents/
+.codex/
+.env
+.env.*

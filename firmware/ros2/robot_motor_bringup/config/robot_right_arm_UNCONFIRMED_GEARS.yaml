@@ -1,0 +1,73 @@
+# 2026-10-10 binding: right wrist M2; M1/M3 unchanged. Board migration pending.
+# Right-arm board mapping -- PROVISIONAL, created 2026-10-08.
+#
+# WHY THE FILENAME SHOUTS: the three gear_ratio values below are NOT confirmed.
+# They were carried over from the left-arm board on the user's statement that the
+# two arms use identical interfaces and the right board simply has no head motor.
+# Board B's own flash currently disagrees (M1=516, M2=516, M3=0, M4=516), so at
+# least M3 and M4 are wrong somewhere.
+#
+# A wrong gear_ratio is not a cosmetic error: the firmware turns the commanded
+# 0.1 deg argument into steps with  steps = (arg*gear*6 +/- 1800)/3600, so if the
+# configured gear is larger than the real one the joint moves FURTHER than
+# commanded (e.g. configured 516 vs real 82 turns a 5 deg goal into ~31.7 deg).
+# Therefore, until each ratio is confirmed against the actual motor:
+#   * run this file ONLY with allow_motion:=false (read-only), and
+#   * rename this file (dropping UNCONFIRMED_GEARS) as the explicit record that
+#     the ratios were verified.
+#
+# Board identity was verified read-only on 2026-10-08: UID C23B37C715B092083830364A,
+# command protocol 2, address 1, node 1, pwm 25000, save flags 0/0/0, last_sequence 28.
+#
+# Channel 2 (M2) is the head slot and is intentionally left without a joint: this
+# board has no head motor. It stays disabled/unassigned on the board.
+#
+# expected_motor_rpm is 8000 because that is the firmware default
+# (BSP/robot.c:9 robot_defaults) and no rpm value was ever read back from this board.
+# It is an EXPECTATION, not a command: the driver never writes rpm per move, and a
+# MoveJoint goal whose motor_rpm differs from the board's stored value is refused.
+# Confirm the real value with a read-only probe before enabling motion.
+
+driver:
+  allow_motion: false
+  allow_unreferenced_relative: false
+  polling_hz: 5.0
+  board_motion_policy: serial
+  speed_policy: keep_requested
+
+boards:
+  right_board:
+    uid: "C23B37C715B092083830364A"
+    transport: modbus_rtu
+    # Stable by-path, never a bare ttyUSBn: the two CH340 adapters have identical
+    # VID:PID and no serial number, so /dev/serial/by-id cannot tell them apart.
+    # Only the UID check below distinguishes this board from the left-arm board.
+    port: "/dev/serial/by-path/platform-fc800000.usb-usb-0:1.4:1.0-port0"
+    address: 1
+    baudrate: 115200
+
+joints:
+  right_upper_arm_joint:
+    board: right_board
+    channel: 1            # M1
+    role: 3               # right_upper
+    gear_ratio: 516       # UNCONFIRMED -- carried over from the left arm
+    inverted: 0           # UNCONFIRMED -- mechanical direction not measured
+    expected_motor_rpm: 8000
+    limits_deg: null      # mechanical limits not confirmed
+  right_forearm_joint:
+    board: right_board
+    channel: 3            # M3
+    role: 5               # right_forearm
+    gear_ratio: 290       # UNCONFIRMED -- board flash currently has gear 0 here
+    inverted: 0           # UNCONFIRMED
+    expected_motor_rpm: 8000
+    limits_deg: null
+  right_wrist_joint:
+    board: right_board
+    channel: 2            # M2; moved from M4 on 2026-10-10
+    role: 7               # right_palm in the protocol; named wrist to mirror the left side
+    gear_ratio: 82        # UNCONFIRMED -- board flash currently has 516 and role 2
+    inverted: 0           # UNCONFIRMED
+    expected_motor_rpm: 8000
+    limits_deg: null

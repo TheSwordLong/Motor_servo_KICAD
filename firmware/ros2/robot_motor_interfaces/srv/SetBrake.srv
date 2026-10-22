@@ -1,0 +1,12 @@
+# Engage or release the brake of one joint independently of motion.
+# engage=true is equivalent to STOP for that channel; engage=false is refused by
+# the firmware while the channel is busy or faulted, which is surfaced as a
+# non-zero result_code rather than being retried.
+string joint_name
+bool engage
+---
+bool accepted
+uint16 sequence
+uint16 result_code
+bool brake               # brake bit read back from the board
+string message

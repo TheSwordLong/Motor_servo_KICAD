@@ -1,0 +1,12 @@
+# Declare the CURRENT mechanical pose of one joint as its zero reference.
+# This is an operator decision, never automated: the driver will not call it to
+# "fix" position_valid. Requires the whole board to be quiet (500 ms without any
+# FG edge on any channel) and saves to flash.
+string joint_name
+---
+bool accepted
+uint16 sequence
+uint16 result_code
+bool position_valid      # valid bit read back; true means the zero was stored
+bool persisted           # dirty, storage_error and pending_save all zero afterwards
+string message

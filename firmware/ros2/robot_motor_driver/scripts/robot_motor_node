@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""Console entry point for `ros2 run robot_motor_driver robot_motor_node`.
+
+Installed by CMake into lib/robot_motor_driver, so it must not rely on setuptools
+console_scripts.
+"""
+
+import sys
+
+from robot_motor_driver.motor_node import main
+
+if __name__ == "__main__":
+    sys.exit(main())

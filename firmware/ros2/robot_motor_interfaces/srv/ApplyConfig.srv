@@ -1,0 +1,31 @@
+# Whole-board configuration transaction.
+#
+# The firmware only applies configuration through one CONFIG command that
+# validates the ENTIRE staged area, and CONFIG writes flash. Therefore this
+# service is a transaction, never a per-cycle write: the driver stages every
+# channel, compares the staged area against what was requested, sends CONFIG
+# once, then reads the effective values back and reports them.
+#
+# channels EMPTY means "keep what the board has": the driver reads the currently
+# APPLIED configuration of all four channels and re-stages those exact values. It does
+# NOT fall back to the YAML file -- silently replacing a board's stored role, gear or
+# rpm with a file default is how a working arm gets mis-configured.
+#
+# A partial list changes only the listed channels; every other channel keeps its
+# current board value. If the resulting staged area is identical to what the board
+# already has, CONFIG is NOT sent at all (no pointless flash write) and `changed`
+# comes back false.
+#
+# commit=false stages and reads back WITHOUT sending CONFIG, so an operator can
+# inspect the staged area before committing.
+ChannelConfig[] channels
+bool commit
+---
+bool accepted
+bool changed               # false when nothing differed, so CONFIG was not sent
+uint16 sequence
+uint16 result_code
+bool persisted             # dirty, storage_error and pending_save all zero after commit
+ChannelConfig[] staged     # staged area as read back (base+8..12 per channel)
+ChannelConfig[] applied    # effective configuration as read back (base+0..4 per channel)
+string message

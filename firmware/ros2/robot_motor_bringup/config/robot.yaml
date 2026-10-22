@@ -1,0 +1,80 @@
+# Robot motor driver configuration.
+#
+# Structure follows docs/ROS2_头部与双臂控制_代码生成执行方案.md section 7. The
+# channel numbers below are the YAML/human numbering 1..4 (= M1..M4); they are
+# converted to protocol channels 0..3 at the protocol boundary only.
+#
+# The role and gear values were cross-checked against the live board by a
+# READ-ONLY probe on 2026-09-29 (UID C23B378115B092083830364A):
+#   M1 enabled=1 role=2 gear=516 rpm=8000   -> left_upper_arm_joint
+#   M2 enabled=1 role=1 gear=516 rpm=8000   -> head_joint
+#   M3 enabled=1 role=4 gear=290 rpm=8000   -> left_forearm_joint
+#   M4 enabled=1 role=6 gear=82  rpm=8000   -> left_wrist_joint
+#
+# expected_motor_rpm is NOT a speed command. The firmware takes cruise speed from the
+# rpm stored in the board for that channel (BSP/robot.c:334), and MOVE carries only an
+# angle, so this driver can never set a speed per move. The value below is what the
+# driver EXPECTS the board to hold: it is compared at startup and reported in
+# diagnostics, and a MoveJoint goal whose motor_rpm is non-zero and differs from the
+# board's value is refused (error_code 111) instead of silently running at another
+# speed. To actually change speed, use /robot/apply_config with the whole board quiet
+# (it writes flash), then update this file to match.
+# The values are 8000 because that is what the board reported on 2026-09-29.
+#
+# limits_deg: null means the mechanical limits are NOT confirmed. The driver does not
+# invent limits, and it does not move a joint whose limits are unknown: motion on such
+# a joint is refused with error_code 112 unless the node is started with
+# commissioning:=true, which additionally caps every command at
+# max_commissioning_step_deg (default 10 deg) and publishes commissioning=true plus
+# soft_limits_enforced=false on /robot/motor_states and in diagnostics.
+
+driver:
+  allow_motion: false
+  allow_unreferenced_relative: false
+  polling_hz: 5.0
+  board_motion_policy: serial
+  speed_policy: keep_requested
+
+boards:
+  main_board:
+    uid: "C23B378115B092083830364A"
+    transport: modbus_rtu
+    # Stable path, not a bare ttyUSBn: this port re-enumerated from ttyUSB1 to
+    # ttyUSB0 between sessions on the same physical socket.
+    port: "/dev/serial/by-path/platform-fc800000.usb-usb-0:1.2:1.0-port0"
+    address: 1
+    baudrate: 115200
+
+joints:
+  head_joint:
+    board: main_board
+    channel: 2
+    role: 1
+    gear_ratio: 516
+    inverted: 0
+    expected_motor_rpm: 400
+    limits_deg: null
+  left_upper_arm_joint:
+    board: main_board
+    channel: 1
+    role: 2
+    gear_ratio: 516
+    inverted: 0
+    expected_motor_rpm: 8000
+    limits_deg: null
+  left_forearm_joint:
+    board: main_board
+    channel: 3
+    role: 4
+    gear_ratio: 290
+    inverted: 0
+    expected_motor_rpm: 8000
+    limits_deg: null
+  left_wrist_joint:
+    board: main_board
+    channel: 4
+    role: 6
+    gear_ratio: 82
+    inverted: 0
+    expected_motor_rpm: 8000
+    limits_deg: null

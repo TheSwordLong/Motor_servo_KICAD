@@ -1,0 +1,120 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake Configure Debug",
+            "type": "shell",
+            "command": "C:/Program Files/CMake/bin/cmake.exe",
+            "args": [
+                "--preset",
+                "debug"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CMake Build Debug",
+            "type": "shell",
+            "command": "C:/Program Files/CMake/bin/cmake.exe",
+            "args": [
+                "--build",
+                "--preset",
+                "debug"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "dependsOn": "CMake Configure Debug",
+            "problemMatcher": "$gcc",
+            "group": "build"
+        },
+        {
+            "label": "EIDE Build Debug",
+            "type": "shell",
+            "command": "${command:eide.project.build}",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "EIDE Rebuild Debug",
+            "type": "shell",
+            "command": "${command:eide.project.rebuild}",
+            "problemMatcher": []
+        },
+        {
+            "label": "EIDE Flash Debug",
+            "type": "shell",
+            "command": "E:/DevTools/OpenOCD/bin/openocd.exe",
+            "args": [
+                "-s",
+                "E:/DevTools/OpenOCD/openocd/scripts",
+                "-f",
+                "interface/cmsis-dap.cfg",
+                "-f",
+                "target/gd32f30x.cfg",
+                "-c",
+                "transport select swd",
+                "-c",
+                "adapter speed 1000",
+                "-c",
+                "program build-eide/Debug/GD32F303VET6_MotorControl.elf verify reset exit"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "dependsOn": "EIDE Build Debug",
+            "problemMatcher": []
+        },
+        {
+            "label": "EIDE Read Registers",
+            "type": "shell",
+            "command": "E:/DevTools/OpenOCD/bin/openocd.exe",
+            "args": [
+                "-s",
+                "E:/DevTools/OpenOCD/openocd/scripts",
+                "-f",
+                "interface/cmsis-dap.cfg",
+                "-f",
+                "target/gd32f30x.cfg",
+                "-c",
+                "transport select swd",
+                "-c",
+                "adapter speed 1000",
+                "-c",
+                "init; halt",
+                "-f",
+                "tools/openocd_regs.cfg",
+                "-c",
+                "resume; exit"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "EIDE Watch Registers (live)",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-ExecutionPolicy",
+                "Bypass",
+                "-File",
+                "tools/openocd_regs.ps1",
+                "-Count",
+                "20",
+                "-IntervalMs",
+                "500"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

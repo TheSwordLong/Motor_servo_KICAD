@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>机器人 · 电机工作台</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><header><div class="brand">R<span>·</span>M <small>ROBOT MOTOR / ROS 2</small></div><div class="top-actions"><span id="connection" class="badge">连接中</span><button id="check-connections">检查两板连接</button><button id="control">取得控制权</button><button id="release">交还控制权</button><button id="allstop" class="danger">■ 双板停止</button></div></header>
+<main><div class="intro"><div><p class="eyebrow">LOCAL DEVICE CONSOLE</p><h1>电机工作台</h1><p>按关节控制 · 输出轴角度以度为单位 · 不直接输出 PWM</p></div><a href="/api/docs" target="_blank">API 接口参考 ↗</a></div>
+<div class="notice">无需登录的局域网控制台。请先确认接线、机械活动空间并支撑负载。网页停止按钮不能代替硬件停机。</div>
+<div id="error" role="alert" hidden></div><div id="boards" class="boards"></div>
+<section><div class="section-title"><h2>头部</h2><span>HEAD / 优先控制</span></div><div id="head" class="joint-grid head-grid"></div></section>
+<section><div class="section-title"><h2>左臂</h2><span>LEFT ARM</span></div><div id="left" class="joint-grid"></div></section>
+<section><div class="section-title"><h2>右臂</h2><span>RIGHT ARM</span></div><div id="right" class="joint-grid"></div></section>
+<section class="activity"><div class="section-title"><h2>请求与结果</h2><span>接受 ≠ 完成 ≠ 保存</span></div><div id="jobs"></div></section>
+<footer>仅一个会话可以控制。浏览器失联超过5秒将尝试停止并制动网页操作的关节，必须核对停止确认。</footer></main>
+<dialog id="settings"><form method="dialog"><button class="close">关闭 ×</button></form><h2 id="settings-title"></h2><div id="settings-body"></div></dialog>
+<script src="/static/app.js" defer></script></body></html>

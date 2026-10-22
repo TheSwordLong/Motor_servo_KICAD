@@ -17,6 +17,22 @@ dfm/
 database/
 fabrication-toolkit-options.json
 
+# Local review reports and external-tool caches
+/outputs/
+/.dsh-drop/
+/.hq/
+/_sch_inventory.txt
+*.tmp
+*.bak
+
+# Firmware build/cache files; source snapshot is tracked in firmware/
+/firmware/build/
+/firmware/build-eide/
+/firmware/.pytest_cache/
+/firmware/**/__pycache__/
+/firmware/**/*.pyc
+/firmware/docs/verification/
+
 # Previous snapshots and production exports
 GD32F303.zip
 GD32F303_SCH_PCB/

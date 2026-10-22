@@ -1,0 +1,13 @@
+# Raw DIR output command, independent of angle sign and inverted configuration.
+# Requires stopped/braked channel, no manual/selftest/motion and fresh identity.
+# Next MOVE overwrites DIR using its angle sign XOR inverted.
+string joint_name
+bool high
+---
+bool accepted
+uint16 sequence
+uint16 result_code
+bool direction             # firmware DIR command bit, not measured voltage
+bool direction_confirmed   # fresh read-back equals request.high
+bool unknown
+string message

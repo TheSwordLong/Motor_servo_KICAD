@@ -1,0 +1,14 @@
+# Explicit board-wide SAVE retry. Does not zero, clear faults or move.
+# Requires all four channels stopped, braked and out of manual adjustment.
+bool confirm
+---
+bool accepted
+uint16 sequence
+uint16 result_code
+bool persisted
+bool flags_valid
+bool dirty
+bool storage_error
+bool pending_save
+bool unknown
+string message

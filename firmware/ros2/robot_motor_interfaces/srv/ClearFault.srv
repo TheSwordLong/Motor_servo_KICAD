@@ -1,0 +1,12 @@
+# Explicit operator acknowledgement of a fault. The driver never clears a fault
+# on its own and never resumes a motion afterwards. Note that CLEAR_FAULT does
+# not restore position_valid: a channel that lost its zero still needs a manual
+# SetZero before absolute moves are meaningful.
+string joint_name
+---
+bool accepted
+uint16 sequence
+uint16 result_code
+uint8 fault_after        # fault register read back after the command
+bool position_valid      # valid bit read back after the command
+string message

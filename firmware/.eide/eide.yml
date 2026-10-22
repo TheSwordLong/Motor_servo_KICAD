@@ -1,0 +1,201 @@
+version: "4.1"
+name: GD32F303VET6_MotorControl
+type: ARM
+deviceName: GD32F303VET6
+packDir: null
+srcDirs:
+  - Core/Src
+  - BSP
+  - Drivers/CMSIS
+  - Drivers/GD32F30x_standard_peripheral/Source
+  - startup
+  - Middlewares/Newlib
+  - App/USB/Src
+  - Drivers/USB_Device/Core/Source
+  - Drivers/USB_Device/LL/Source
+  - Drivers/USB_Device/Class/CDC/Source
+virtualFolder:
+  name: <virtual_root>
+  files: []
+  folders:
+    - name: App
+      files: []
+      folders:
+        - name: USB
+          files: []
+          folders:
+            - name: Src
+              files:
+                - path: App/USB/Src/usb_cdc_port.c
+                - path: App/USB/Src/usbd_hw.c
+              folders: []
+    - name: BSP
+      files:
+        - path: BSP/button.c
+        - path: BSP/can_bus.c
+        - path: BSP/capture.c
+        - path: BSP/led.c
+        - path: BSP/motor_io.c
+        - path: BSP/pwm.c
+        - path: BSP/robot.c
+        - path: BSP/robot_protocol.c
+        - path: BSP/robot_rtu.c
+        - path: BSP/robot_store.c
+        - path: BSP/robot_port.c
+        - path: BSP/rs485.c
+        - path: BSP/usart0.c
+        - path: BSP/usart2.c
+      folders: []
+    - name: Core
+      files: []
+      folders:
+        - name: Src
+          files:
+            - path: Core/Src/gd32f30x_it.c
+            - path: Core/Src/main.c
+            - path: Core/Src/systick.c
+          folders: []
+    - name: Drivers
+      files: []
+      folders:
+        - name: CMSIS
+          files:
+            - path: Drivers/CMSIS/system_gd32f30x.c
+          folders: []
+        - name: GD32F30x_standard_peripheral
+          files: []
+          folders:
+            - name: Source
+              files:
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_adc.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_bkp.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_can.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_ctc.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dbg.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_enet.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fmc.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_gpio.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_pmu.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rcu.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_sdio.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_spi.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_timer.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_usart.c
+                - path: Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_wwdgt.c
+              folders: []
+        - name: USB_Device
+          files: []
+          folders:
+            - name: Class
+              files: []
+              folders:
+                - name: CDC
+                  files: []
+                  folders:
+                    - name: Source
+                      files:
+                        - path: Drivers/USB_Device/Class/CDC/Source/cdc_acm_core.c
+                      folders: []
+            - name: Core
+              files: []
+              folders:
+                - name: Source
+                  files:
+                    - path: Drivers/USB_Device/Core/Source/usbd_core.c
+                    - path: Drivers/USB_Device/Core/Source/usbd_enum.c
+                    - path: Drivers/USB_Device/Core/Source/usbd_pwr.c
+                    - path: Drivers/USB_Device/Core/Source/usbd_transc.c
+                  folders: []
+            - name: LL
+              files: []
+              folders:
+                - name: Source
+                  files:
+                    - path: Drivers/USB_Device/LL/Source/usbd_lld_core.c
+                    - path: Drivers/USB_Device/LL/Source/usbd_lld_int.c
+                  folders: []
+    - name: Middlewares
+      files: []
+      folders:
+        - name: Newlib
+          files:
+            - path: Middlewares/Newlib/syscalls.c
+          folders: []
+    - name: startup
+      files:
+        - path: startup/startup_gd32f30x_hd.S
+      folders: []
+dependenceList: []
+outDir: build-eide
+miscInfo:
+  uid: b79eddb930374cf6b1bd39a5b258729f
+targets:
+  Debug:
+    cppPreprocessAttrs:
+      defineList:
+        - GD32F30X_HD
+      incList:
+        - Core/Inc
+        - BSP
+        - Drivers/CMSIS
+        - Drivers/GD32F30x_standard_peripheral/Include
+        - App/USB/Inc
+        - Drivers/USB_Device/Core/Include
+        - Drivers/USB_Device/LL/Include
+        - Drivers/USB_Device/Class/CDC/Include
+      libList: []
+    excludeList: []
+    settings:
+      debugger: cortex-debug
+    toolchain: GCC
+    toolchainConfigMap:
+      GCC:
+        archExtensions: ""
+        cpuType: Cortex-M4
+        floatingPointHardware: single
+        options:
+          version: 5
+          afterBuildTasks: []
+          asm-compiler: {}
+          beforeBuildTasks: []
+          c/cpp-compiler:
+            language-c: gnu11
+            optimization: level-debug
+            warnings: all-warnings
+          global:
+            $arch-extensions: ""
+            $float-abi-type: hard
+            arm-thumb-mode: thumb
+            microcontroller-cpu: cortex-m4-sp
+            microcontroller-float: cortex-m4-sp
+            microcontroller-fpu: cortex-m4-sp
+            misc-control:
+              - -fno-common
+            one-elf-section-per-data: true
+            one-elf-section-per-function: true
+            output-debug-info: enable
+            use-newlib-nano: true
+          linker:
+            not-print-mem-usage: false
+            remove-unused-input-sections: true
+        scatterFilePath: linker/gd32f303xE_flash.ld
+        storageLayout:
+          RAM: []
+          ROM: []
+        useCustomScatterFile: true
+    uploadConfigMap:
+      OpenOCD:
+        baseAddr: "0x08000000"
+        bin: ""
+        interface: cmsis-dap
+        target: gd32f30x
+    uploader: OpenOCD

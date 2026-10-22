@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+from robot_motor_web.cli import main
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,2527 @@
+(kicad_symbol_lib (version 20250114) (generator "kicad_symbol_editor")
+(symbol "CL10B104KB8NNNC_471bd30f"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 5.08 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100nF"
+				(at 5.08 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC 0603 (EIA), 100nF, 50V, 10%, X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "CL10B104KB8NNNC_471bd30f_0_1"
+				(polyline
+					(pts
+						(xy -2.032 2.032) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10B104KB8NNNC_471bd30f_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "CL10B104KB8NNNC" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Capacitance" "100nF" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "10%" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Voltage_Rating" "50V" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X7R" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "C_0603_*" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "CL10B104KB8NNNC_66bd0637"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 5.08 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100nF"
+				(at 5.08 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC 0603 (EIA), 100nF, 50V, 10%, X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "CL10B104KB8NNNC_66bd0637_0_1"
+				(polyline
+					(pts
+						(xy -2.032 2.032) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10B104KB8NNNC_66bd0637_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "CL10B104KB8NNNC" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Capacitance" "100nF" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "10%" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Voltage_Rating" "50V" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X7R" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "C_0603_*" (at 5.08 6.858 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "ERJPA3F1000V_a825e2f2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100"
+				(at 0 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/small-and-high-power-chip-resistors/models/ERJPA3F1000V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Chip resistor 0603 (EIA), 100 ohm, 1%, 0.33W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "ERJPA3F1000V_a825e2f2_0_1"
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 1.016 0.635) (xy 0 0.254) (xy -1.016 -0.127) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 1.016 -0.889) (xy 0 -1.27) (xy -1.016 -1.651) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 1.016 -2.413) (xy 0 -2.794) (xy -1.016 -3.175) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.556) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ERJPA3F1000V_a825e2f2_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "ERJPA3F1000V" (at 0 -10.16 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Panasonic" (at 0 -10.16 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 0 -10.16 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Resistance" "100" (at 0 -10.16 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "1%" (at 0 -10.16 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Power" "0.33W" (at 0 -10.16 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "R_0603_*" (at 0 -10.16 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "CL10C220JB8NNNC_46c1dd14"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22pF"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10C220JB8NNN.do"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC 0603 (EIA), 22pF, 50V, 5%, C0G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "CL10C220JB8NNNC_46c1dd14_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10C220JB8NNNC_46c1dd14_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "CL10C220JB8NNNC" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Capacitance" "22pF" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "5%" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Voltage_Rating" "50V" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "C0G" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "C_0603_*" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "CL10B104KB8NNNC_46c1dd14"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nF"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC 0603 (EIA), 100nF, 50V, 10%, X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "CL10B104KB8NNNC_46c1dd14_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10B104KB8NNNC_46c1dd14_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "CL10B104KB8NNNC" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Capacitance" "100nF" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "10%" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Voltage_Rating" "50V" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X7R" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "C_0603_*" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "CL10A226MP8NUNC_0447ed23"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22uF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MP8NUN.do"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC 0603 (EIA), 22uF, 10V, 20%, X5R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			(symbol "CL10A226MP8NUNC_0447ed23_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10A226MP8NUNC_0447ed23_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "CL10A226MP8NUNC" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Capacitance" "22uF" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "20%" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Voltage_Rating" "10V" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X5R" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Design_Note" "Verify effective capacitance under DC bias at operating voltage and regulator stability." (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "C_0603_*" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "CL10A226MP8NUNC_bf2966a3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22uF"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MP8NUN.do"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC 0603 (EIA), 22uF, 10V, 20%, X5R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "CL10A226MP8NUNC_bf2966a3_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10A226MP8NUNC_bf2966a3_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "CL10A226MP8NUNC" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Capacitance" "22uF" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "20%" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Voltage_Rating" "10V" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X5R" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Design_Note" "Verify effective capacitance under DC bias at operating voltage and regulator stability." (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "C_0603_*" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "RC0603JR-0710KL_3c0a9a7d"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10k"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603JR-0710KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Chip resistor 0603 (EIA), 10k ohm, 5%, 0.1W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "RC0603JR-0710KL_3c0a9a7d_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "RC0603JR-0710KL" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "YAGEO" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Resistance" "10k" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "5%" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Power" "0.1W" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "R_0603_*" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "CL10A226MP8NUNC_53f55199"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22uF"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MP8NUN.do"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC 0603 (EIA), 22uF, 10V, 20%, X5R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "CL10A226MP8NUNC_53f55199_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10A226MP8NUNC_53f55199_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "CL10A226MP8NUNC" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Capacitance" "22uF" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "20%" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Voltage_Rating" "10V" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X5R" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Design_Note" "Verify effective capacitance under DC bias at operating voltage and regulator stability." (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "C_0603_*" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "CL10C220JB8NNNC_0447ed23"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22pF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10C220JB8NNN.do"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC 0603 (EIA), 22pF, 50V, 5%, C0G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			(symbol "CL10C220JB8NNNC_0447ed23_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10C220JB8NNNC_0447ed23_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "CL10C220JB8NNNC" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Capacitance" "22pF" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "5%" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Voltage_Rating" "50V" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "C0G" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "C_0603_*" (at 0.635 2.54 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "CL10B104KB8NNNC_4873395a"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nF"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC 0603 (EIA), 100nF, 50V, 10%, X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "CL10B104KB8NNNC_4873395a_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10B104KB8NNNC_4873395a_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "CL10B104KB8NNNC" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Capacitance" "100nF" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "10%" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Voltage_Rating" "50V" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X7R" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "C_0603_*" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "CL10A105KA8NNNC_5d127244"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1uF"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A105KA8NNN.do"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC 0603 (EIA), 1uF, 25V, 10%, X5R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "CL10A105KA8NNNC_5d127244_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10A105KA8NNNC_5d127244_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "CL10A105KA8NNNC" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Capacitance" "1uF" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "10%" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Voltage_Rating" "25V" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X5R" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "C_0603_*" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "RC0402JR-070RL_f7672f5a"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Chip resistor 0402 (EIA), 0 ohm, jumper, 0.063W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "RC0402JR-070RL_f7672f5a_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "RC0402JR-070RL" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "YAGEO" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0402" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Resistance" "0" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Power" "0.063W" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "R_0402_*" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "RC0603JR-074K7L_d4074a4b"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4.7k"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603JR-074K7L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Chip resistor 0603 (EIA), 4.7k ohm, 5%, 0.1W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "RC0603JR-074K7L_d4074a4b_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "RC0603JR-074K7L" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "YAGEO" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Resistance" "4.7k" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "5%" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Power" "0.1W" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "R_0603_*" (at 0.762 0.508 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+(symbol "CL10B104KB8NNNC_3cb423e4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nF"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC 0603 (EIA), 100nF, 50V, 10%, X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			(symbol "CL10B104KB8NNNC_3cb423e4_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10B104KB8NNNC_3cb423e4_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		
+(property "MPN" "CL10B104KB8NNNC" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "package" "0603" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Capacitance" "100nF" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Tolerance" "10%" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Voltage_Rating" "50V" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X7R" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ki_fp_filters" "C_0603_*" (at 0.254 1.778 0) (hide yes) (effects (font (size 1.27 1.27))))
+)
+)
