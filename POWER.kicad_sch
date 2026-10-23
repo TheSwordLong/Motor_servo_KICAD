@@ -4472,7 +4472,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KF128L-5.08-2P:15ETYRC-3.5-02P-14-00AH"
+		(symbol "KF2EDGK-5.08-2P:KF2EDGK-5.08-2P"
 			(pin_names
 				(offset 1.0142)
 			)
@@ -4491,7 +4491,7 @@
 					)
 				)
 			)
-			(property "Value" "KF128L-5.08-2P"
+			(property "Value" "KF2EDGK-5.08-2P"
 				(at 0 5.2577 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4501,7 +4501,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kicad_api_lib:KF128L-5.08-2P"
+			(property "Footprint" "kicad_api_lib:KF2EDGR-5.08-2P"
 				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4512,7 +4512,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://file.elecfans.com/web1/M00/E3/BD/pIYBAGBBnUaAMkBFAAMGNHK6UP8913.pdf"
+			(property "Datasheet" "https://a0.ldycdn.com/KF2EDGR-5.08-aidqoBpqKirRlkSlqrkpklpj.pdf"
 				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4523,7 +4523,7 @@
 					)
 				)
 			)
-			(property "Description" "间距:5.08mm;结构:1x2P;排数:1;每排PIN数:2;安装方式:直针;额定电流:24A;额定电压:250V;线规 - AWG:12~22;线规 - mm2:2.5;工作温度范围:-40℃~+105℃;颜色:绿色;"
+			(property "Description" "5.08mm 2P pluggable terminal set: KF2EDGK cable plug + KF2EDGR right-angle PCB header; PCB footprint follows KEFA header drawing; verify purchased mating pair."
 				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4534,7 +4534,7 @@
 					)
 				)
 			)
-			(property "MPN" "KF128L-5.08-2P"
+			(property "MPN" "KF2EDGR-5.08-2P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4545,7 +4545,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "KEFA"
+			(property "Manufacturer" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4567,40 +4567,7 @@
 					)
 				)
 			)
-			(property "current" "10 A, 24 A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "current_rating" "24 A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "huaqiu_pn" "G3175735"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "mount" "直针"
+			(property "mount" "弯针板座 + 可插拔接线端子"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4622,18 +4589,7 @@
 					)
 				)
 			)
-			(property "operating_temperature" "-40 °C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "package" "插件,P=5.08mm"
+			(property "package" "THT, P=5.08mm, drill=1.6mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4688,7 +4644,7 @@
 					)
 				)
 			)
-			(property "termination_type" "螺钉"
+			(property "Mating_Plug" "KF2EDGK-5.08-2P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4699,7 +4655,7 @@
 					)
 				)
 			)
-			(property "voltage" "250 V, 300 V"
+			(property "Footprint_Source" "KEFA KF2EDGR-5.08 Rev B 2024-09-26; verify purchased part dimensions"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4710,29 +4666,7 @@
 					)
 				)
 			)
-			(property "voltage_rating" "250 V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "wire_gauge" "2.5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "15ETYRC-3.5-02P-14-00AH_1_1"
+			(symbol "KF2EDGK-5.08-2P_1_1"
 				(rectangle
 					(start -6.35 -1.27)
 					(end 6.35 1.27)
@@ -14638,6 +14572,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 155.194) (xy 81.28 157.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df5ed86-949b-4fa8-b2bb-05f5b0875dfc")
+	)
+	(wire
+		(pts
 			(xy 182.245 180.34) (xy 191.135 180.34)
 		)
 		(stroke
@@ -15088,6 +15032,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 165.608) (xy 81.28 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f962219-9ca7-4310-8c40-f89aefa2a1ec")
+	)
+	(wire
+		(pts
 			(xy 90.17 219.71) (xy 90.17 222.25)
 		)
 		(stroke
@@ -15478,16 +15432,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 183.134) (xy 81.28 177.038)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5cf1460-53d6-4614-b2bb-b846356d4491")
-	)
-	(wire
-		(pts
 			(xy 82.55 69.85) (xy 82.55 81.28)
 		)
 		(stroke
@@ -15738,16 +15682,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 169.418) (xy 81.28 166.116)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c942d6ee-11db-4d42-94d3-26a5054a515b")
-	)
-	(wire
-		(pts
 			(xy 518.16 173.99) (xy 518.16 177.8)
 		)
 		(stroke
@@ -15785,16 +15719,6 @@
 			(type default)
 		)
 		(uuid "ce1cf814-82e8-4922-b8ed-290cf47e880b")
-	)
-	(wire
-		(pts
-			(xy 81.28 155.194) (xy 81.28 158.496)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce3f0480-6a9c-495e-b57e-6b2be212458b")
 	)
 	(wire
 		(pts
@@ -16065,6 +15989,16 @@
 			(type default)
 		)
 		(uuid "eecc0daf-8b5d-45ac-b9d3-bb845ef75685")
+	)
+	(wire
+		(pts
+			(xy 81.28 175.26) (xy 81.28 183.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f040938d-1d9b-41cb-9a48-ced12b68d9c7")
 	)
 	(wire
 		(pts
@@ -41418,6 +41352,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 81.28 161.798 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11482dd1-6ba9-4261-9bb0-e015a01da5b6")
+		(property "Reference" "D4"
+			(at 85.09 162.1154 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 85.09 164.6554 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 81.28 161.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 161.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 81.28 161.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 161.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2a80901b-f92e-49a5-b753-2340f7a856d7")
+		)
+		(pin "1"
+			(uuid "0491962f-0f26-4ca8-bcf1-7de4ab26529d")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 81.28 218.44 0)
 		(unit 1)
@@ -45198,7 +45225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KF128L-5.08-2P:15ETYRC-3.5-02P-14-00AH")
+		(lib_id "KF2EDGK-5.08-2P:KF2EDGK-5.08-2P")
 		(at 55.88 45.085 180)
 		(unit 1)
 		(body_style 1)
@@ -45219,7 +45246,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "KF128L-5.08-2P"
+		(property "Value" "KF2EDGK-5.08-2P"
 			(at 55.88 50.3427 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45229,7 +45256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_api_lib:KF128L-5.08-2P"
+		(property "Footprint" "kicad_api_lib:KF2EDGR-5.08-2P"
 			(at 55.88 48.895 0)
 			(hide yes)
 			(show_name no)
@@ -45240,7 +45267,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://file.elecfans.com/web1/M00/E3/BD/pIYBAGBBnUaAMkBFAAMGNHK6UP8913.pdf"
+		(property "Datasheet" "https://a0.ldycdn.com/KF2EDGR-5.08-aidqoBpqKirRlkSlqrkpklpj.pdf"
 			(at 55.88 48.895 0)
 			(hide yes)
 			(show_name no)
@@ -45251,7 +45278,7 @@
 				)
 			)
 		)
-		(property "Description" "间距:5.08mm;结构:1x2P;排数:1;每排PIN数:2;安装方式:直针;额定电流:24A;额定电压:250V;线规 - AWG:12~22;线规 - mm2:2.5;工作温度范围:-40℃~+105℃;颜色:绿色;"
+		(property "Description" "5.08mm 2P pluggable terminal set: KF2EDGK cable plug + KF2EDGR right-angle PCB header; PCB footprint follows KEFA header drawing; verify purchased mating pair."
 			(at 55.88 48.895 0)
 			(hide yes)
 			(show_name no)
@@ -45262,7 +45289,7 @@
 				)
 			)
 		)
-		(property "MPN" "KF128L-5.08-2P"
+		(property "MPN" "KF2EDGR-5.08-2P"
 			(at 55.88 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -45273,7 +45300,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KEFA"
+		(property "Manufacturer" ""
 			(at 55.88 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -45295,40 +45322,7 @@
 				)
 			)
 		)
-		(property "current" "10 A, 24 A"
-			(at 55.88 45.085 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "current_rating" "24 A"
-			(at 55.88 45.085 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "huaqiu_pn" "G3175735"
-			(at 55.88 45.085 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mount" "直针"
+		(property "mount" "弯针板座 + 可插拔接线端子"
 			(at 55.88 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -45350,18 +45344,7 @@
 				)
 			)
 		)
-		(property "operating_temperature" "-40 °C"
-			(at 55.88 45.085 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "package" "插件,P=5.08mm"
+		(property "package" "THT, P=5.08mm, drill=1.6mm"
 			(at 55.88 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -45416,7 +45399,7 @@
 				)
 			)
 		)
-		(property "termination_type" "螺钉"
+		(property "Mating_Plug" "KF2EDGK-5.08-2P"
 			(at 55.88 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -45427,29 +45410,7 @@
 				)
 			)
 		)
-		(property "voltage" "250 V, 300 V"
-			(at 55.88 45.085 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "voltage_rating" "250 V"
-			(at 55.88 45.085 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "wire_gauge" "2.5"
+		(property "Footprint_Source" "KEFA KF2EDGR-5.08 Rev B 2024-09-26; verify purchased part dimensions"
 			(at 55.88 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -46807,7 +46768,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 81.28 162.306 0)
+		(at 81.28 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -46818,7 +46779,7 @@
 		(fields_autoplaced yes)
 		(uuid "83a9c7e6-c47e-49ed-85fd-957046f556f8")
 		(property "Reference" "R3"
-			(at 83.82 161.0359 0)
+			(at 83.82 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46829,7 +46790,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 83.82 163.5759 0)
+			(at 83.82 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46840,7 +46801,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 82.296 162.56 90)
+			(at 82.296 171.704 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46851,7 +46812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 162.306 0)
+			(at 81.28 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46862,7 +46823,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 81.28 162.306 0)
+			(at 81.28 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51806,99 +51767,6 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 81.28 173.228 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eafc0568-7b1c-43c5-9958-0d6a5a75c304")
-		(property "Reference" "D4"
-			(at 85.09 173.5454 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 85.09 176.0854 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 81.28 173.228 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 173.228 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 81.28 173.228 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 81.28 173.228 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e08c07ac-0423-4b33-8cc8-546f19b1e6ee")
-		)
-		(pin "1"
-			(uuid "9891da6b-4ffe-452b-b34f-8694c9b327cb")
-		)
-		(instances
-			(project "GD32F303VET6_4Motor_Control"
-				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
-					(reference "D4")
 					(unit 1)
 				)
 			)

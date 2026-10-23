@@ -94,4 +94,5 @@
 	(lib (name "GD25Q16ESIGR") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/GD25Q16ESIGR.kicad_sym") (options "") (descr ""))
 	(lib (name "Project_Passives") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/Project_Passives.kicad_sym") (options "") (descr "Verified passive parts matched to assigned package sizes"))
 	(lib (name "P25Q40SH-SSH-IT") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/P25Q40SH-SSH-IT.kicad_sym") (options "") (descr ""))
+	(lib (name "ESP32-C3-WROOM-02U-N4") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/ESP32-C3-WROOM-02U-N4.kicad_sym") (options "") (descr ""))
 )

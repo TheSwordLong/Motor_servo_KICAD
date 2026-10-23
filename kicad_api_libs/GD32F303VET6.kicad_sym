@@ -2825,24 +2825,9 @@
 				)
 				(alternate "PA0-WKUP" bidirectional line)
 			)
-			(pin bidirectional line
-				(at 7.62 -15.24 180)
-				(length 3.81)
-				(name "PA7/SPI0_MOSI/ADC01_IN7/TIMER2_CH1/TIMER7_CH0_ON"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "TIMER0_CH0_ON" bidirectional line)
+			(pin bidirectional line (at 7.62 -15.24 180) (length 3.81)
+				(name "PC4/ADC01_IN14" (effects (font (size 1.27 1.27))))
+				(number "33" (effects (font (size 1.27 1.27))))
 			)
 			(pin bidirectional line
 				(at 7.62 2.54 180)
@@ -3416,11 +3401,11 @@
 				(number "31" (effects (font (size 1.27 1.27))))
 				(alternate "TIMER0_BRKIN" bidirectional line)
 			)
-			(pin bidirectional line (at -21.59 53.34 0) (length 3.81)
+			(pin bidirectional line (at -21.59 50.8 0) (length 3.81)
 				(name "PA8/USART0_CK/TIMER0_CH0/CK_OUT0/CTC_SYNC" (effects (font (size 1.27 1.27))))
 				(number "67" (effects (font (size 1.27 1.27))))
 			)
-			(pin bidirectional line (at -21.59 50.8 0) (length 3.81)
+			(pin bidirectional line (at -21.59 48.26 0) (length 3.81)
 				(name "PA15/JTDI/SPI2_NSS/I2S2_WS" (effects (font (size 1.27 1.27))))
 				(number "77" (effects (font (size 1.27 1.27))))
 				(alternate "TIMER1_CH0/TIMER1_ETI/SPI0_NSS" bidirectional line)
@@ -3476,9 +3461,24 @@
 				(name "PB15/SPI1_MOSI/TIMER0_CH2_ON/I2S1_SD" (effects (font (size 1.27 1.27))))
 				(number "54" (effects (font (size 1.27 1.27))))
 			)
-			(pin bidirectional line (at -21.59 15.24 0) (length 3.81)
-				(name "PC4/ADC01_IN14" (effects (font (size 1.27 1.27))))
-				(number "33" (effects (font (size 1.27 1.27))))
+			(pin bidirectional line
+				(at -21.59 53.34 0)
+				(length 3.81)
+				(name "PA7/SPI0_MOSI/ADC01_IN7/TIMER2_CH1/TIMER7_CH0_ON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "TIMER0_CH0_ON" bidirectional line)
 			)
 			(pin bidirectional line (at -21.59 12.7 0) (length 3.81)
 				(name "PC6/I2S1_MCK/TIMER7_CH0/SDIO_D6" (effects (font (size 1.27 1.27))))

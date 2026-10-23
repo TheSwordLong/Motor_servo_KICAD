@@ -1135,6 +1135,466 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ESP32-C3-WROOM-02U-N4:ESP32-C3-WROOM-02U-N4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESP32-C3-WROOM-02U-N4"
+				(at 0 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_api_lib:ESP32-C3-WROOM-02U-N4"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://file.elecfans.com/web2/M00/7A/F3/pYYBAGNyANqAHlPvABKJQnq1WQQ911.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD MODULE, ESP32-C3, 4MB SPI FL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "ESP32-C3-WROOM-02U-N4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Espressif Systems"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "huaqiu_pn" "G6632883"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "package" "SMD-19P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32-C3-WROOM-02U-N4_1_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "IO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "IO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "IO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "IO7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "IO8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "IO9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "IO10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "IO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "IO19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "IO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "IO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GD25Q16ESIGR:GD25Q32CTIGR"
 			(pin_names
 				(offset 1.0142)
@@ -2041,21 +2501,20 @@
 				(pin bidirectional line
 					(at 7.62 -15.24 180)
 					(length 3.81)
-					(name "PA7/SPI0_MOSI/ADC01_IN7/TIMER2_CH1/TIMER7_CH0_ON"
+					(name "PC4/ADC01_IN14"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "32"
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(alternate "TIMER0_CH0_ON" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 7.62 2.54 180)
@@ -2790,22 +3249,23 @@
 					(alternate "TIMER0_BRKIN" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -21.59 15.24 0)
+					(at -21.59 53.34 0)
 					(length 3.81)
-					(name "PC4/ADC01_IN14"
+					(name "PA7/SPI0_MOSI/ADC01_IN7/TIMER2_CH1/TIMER7_CH0_ON"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "33"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+					(alternate "TIMER0_CH0_ON" bidirectional line)
 				)
 				(pin bidirectional line
 					(at -21.59 45.72 0)
@@ -3203,7 +3663,7 @@
 					(alternate "TIMER2_CH3" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -21.59 53.34 0)
+					(at -21.59 50.8 0)
 					(length 3.81)
 					(name "PA8/USART0_CK/TIMER0_CH0/CK_OUT0/CTC_SYNC"
 						(effects
@@ -3239,7 +3699,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -21.59 50.8 0)
+					(at -21.59 48.26 0)
 					(length 3.81)
 					(name "PA15/JTDI/SPI2_NSS/I2S2_WS"
 						(effects
@@ -4020,21 +4480,20 @@
 				(pin bidirectional line
 					(at 7.62 -15.24 180)
 					(length 3.81)
-					(name "PA7/SPI0_MOSI/ADC01_IN7/TIMER2_CH1/TIMER7_CH0_ON"
+					(name "PC4/ADC01_IN14"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "32"
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(alternate "TIMER0_CH0_ON" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 7.62 2.54 180)
@@ -4769,22 +5228,23 @@
 					(alternate "TIMER0_BRKIN" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -21.59 15.24 0)
+					(at -21.59 53.34 0)
 					(length 3.81)
-					(name "PC4/ADC01_IN14"
+					(name "PA7/SPI0_MOSI/ADC01_IN7/TIMER2_CH1/TIMER7_CH0_ON"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "33"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+					(alternate "TIMER0_CH0_ON" bidirectional line)
 				)
 				(pin bidirectional line
 					(at -21.59 45.72 0)
@@ -5182,7 +5642,7 @@
 					(alternate "TIMER2_CH3" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -21.59 53.34 0)
+					(at -21.59 50.8 0)
 					(length 3.81)
 					(name "PA8/USART0_CK/TIMER0_CH0/CK_OUT0/CTC_SYNC"
 						(effects
@@ -5218,7 +5678,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -21.59 50.8 0)
+					(at -21.59 48.26 0)
 					(length 3.81)
 					(name "PA15/JTDI/SPI2_NSS/I2S2_WS"
 						(effects
@@ -5999,21 +6459,20 @@
 				(pin bidirectional line
 					(at 7.62 -15.24 180)
 					(length 3.81)
-					(name "PA7/SPI0_MOSI/ADC01_IN7/TIMER2_CH1/TIMER7_CH0_ON"
+					(name "PC4/ADC01_IN14"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "32"
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(alternate "TIMER0_CH0_ON" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 7.62 2.54 180)
@@ -6748,22 +7207,23 @@
 					(alternate "TIMER0_BRKIN" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -21.59 15.24 0)
+					(at -21.59 53.34 0)
 					(length 3.81)
-					(name "PC4/ADC01_IN14"
+					(name "PA7/SPI0_MOSI/ADC01_IN7/TIMER2_CH1/TIMER7_CH0_ON"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "33"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+					(alternate "TIMER0_CH0_ON" bidirectional line)
 				)
 				(pin bidirectional line
 					(at -21.59 45.72 0)
@@ -7161,7 +7621,7 @@
 					(alternate "TIMER2_CH3" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -21.59 53.34 0)
+					(at -21.59 50.8 0)
 					(length 3.81)
 					(name "PA8/USART0_CK/TIMER0_CH0/CK_OUT0/CTC_SYNC"
 						(effects
@@ -7197,7 +7657,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -21.59 50.8 0)
+					(at -21.59 48.26 0)
 					(length 3.81)
 					(name "PA15/JTDI/SPI2_NSS/I2S2_WS"
 						(effects
@@ -7978,21 +8438,20 @@
 				(pin bidirectional line
 					(at 7.62 -15.24 180)
 					(length 3.81)
-					(name "PA7/SPI0_MOSI/ADC01_IN7/TIMER2_CH1/TIMER7_CH0_ON"
+					(name "PC4/ADC01_IN14"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "32"
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(alternate "TIMER0_CH0_ON" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 7.62 2.54 180)
@@ -8727,22 +9186,23 @@
 					(alternate "TIMER0_BRKIN" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -21.59 15.24 0)
+					(at -21.59 53.34 0)
 					(length 3.81)
-					(name "PC4/ADC01_IN14"
+					(name "PA7/SPI0_MOSI/ADC01_IN7/TIMER2_CH1/TIMER7_CH0_ON"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "33"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+					(alternate "TIMER0_CH0_ON" bidirectional line)
 				)
 				(pin bidirectional line
 					(at -21.59 45.72 0)
@@ -9140,7 +9600,7 @@
 					(alternate "TIMER2_CH3" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -21.59 53.34 0)
+					(at -21.59 50.8 0)
 					(length 3.81)
 					(name "PA8/USART0_CK/TIMER0_CH0/CK_OUT0/CTC_SYNC"
 						(effects
@@ -9176,7 +9636,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -21.59 50.8 0)
+					(at -21.59 48.26 0)
 					(length 3.81)
 					(name "PA15/JTDI/SPI2_NSS/I2S2_WS"
 						(effects
@@ -9957,21 +10417,20 @@
 				(pin bidirectional line
 					(at 7.62 -15.24 180)
 					(length 3.81)
-					(name "PA7/SPI0_MOSI/ADC01_IN7/TIMER2_CH1/TIMER7_CH0_ON"
+					(name "PC4/ADC01_IN14"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "32"
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(alternate "TIMER0_CH0_ON" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 7.62 2.54 180)
@@ -10706,22 +11165,23 @@
 					(alternate "TIMER0_BRKIN" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -21.59 15.24 0)
+					(at -21.59 53.34 0)
 					(length 3.81)
-					(name "PC4/ADC01_IN14"
+					(name "PA7/SPI0_MOSI/ADC01_IN7/TIMER2_CH1/TIMER7_CH0_ON"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "33"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+					(alternate "TIMER0_CH0_ON" bidirectional line)
 				)
 				(pin bidirectional line
 					(at -21.59 45.72 0)
@@ -11119,7 +11579,7 @@
 					(alternate "TIMER2_CH3" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -21.59 53.34 0)
+					(at -21.59 50.8 0)
 					(length 3.81)
 					(name "PA8/USART0_CK/TIMER0_CH0/CK_OUT0/CTC_SYNC"
 						(effects
@@ -11155,7 +11615,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -21.59 50.8 0)
+					(at -21.59 48.26 0)
 					(length 3.81)
 					(name "PA15/JTDI/SPI2_NSS/I2S2_WS"
 						(effects
@@ -14111,8 +14571,8 @@
 		(uuid "aba10f4a-dc92-45ea-ab98-71d8ca95a897")
 	)
 	(rectangle
-		(start 253 118)
-		(end 339 254)
+		(start 259.096 151.528)
+		(end 345.096 287.528)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -14173,7 +14633,7 @@
 	)
 	(text "MCU-06  扩展 GPIO 与总使能"
 		(exclude_from_sim no)
-		(at 257 119 0)
+		(at 263.096 152.528 0)
 		(effects
 			(font
 				(face "宋体")
@@ -14382,6 +14842,12 @@
 		(uuid "64664e27-cb72-4a7d-b582-9c1fdb55f811")
 	)
 	(junction
+		(at 56.642 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "665760a1-c76a-4187-a807-3cf1f33b1957")
+	)
+	(junction
 		(at 33.02 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14544,12 +15010,6 @@
 		(uuid "e11b52c7-1b67-414e-a223-9eb4afba5575")
 	)
 	(junction
-		(at 67.31 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7d8ce6f-3c42-4487-831a-65a0d301e3e5")
-	)
-	(junction
 		(at 102.87 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14580,39 +15040,35 @@
 		(uuid "fa904bd7-d99e-468c-aabd-9a759424a5ca")
 	)
 	(no_connect
-		(at 258.318 208.534)
+		(at 264.414 242.062)
 		(uuid "04a8172b-9440-4aac-873a-90d4a906046b")
 	)
 	(no_connect
-		(at 258.318 137.414)
+		(at 264.414 173.482)
 		(uuid "04ebed1b-1f3f-4d4d-a391-02ee8f79c811")
 	)
 	(no_connect
-		(at 258.318 145.034)
+		(at 264.414 178.562)
 		(uuid "06b65335-7ae4-4f08-9a71-e1b17bc4d8de")
 	)
 	(no_connect
-		(at 258.318 198.374)
+		(at 264.414 231.902)
 		(uuid "10d26643-4632-438b-ab10-fe52bf23f6b1")
 	)
 	(no_connect
-		(at 258.318 233.934)
+		(at 264.414 267.462)
 		(uuid "27b9d92c-51e9-4df5-85c1-b51e6aaf1e52")
 	)
 	(no_connect
-		(at 258.318 132.334)
-		(uuid "2cdd00a8-d624-4f9b-9450-9f7e25633199")
-	)
-	(no_connect
-		(at 258.318 244.094)
+		(at 264.414 277.622)
 		(uuid "4329438b-0d03-456b-91d5-851e56ed62ea")
 	)
 	(no_connect
-		(at 258.318 175.514)
+		(at 264.414 209.042)
 		(uuid "4651664a-5f0f-40d2-8386-2adf3688b32a")
 	)
 	(no_connect
-		(at 258.318 142.494)
+		(at 264.414 176.022)
 		(uuid "490816e2-e970-405e-9c79-c4c4a0330ad3")
 	)
 	(no_connect
@@ -14624,124 +15080,128 @@
 		(uuid "50653fed-52fe-4d77-b2a3-d9a11cfe49e4")
 	)
 	(no_connect
-		(at 258.318 221.234)
+		(at 264.414 254.762)
 		(uuid "5a00956c-cd6e-410f-86f4-59c130ae5b27")
 	)
 	(no_connect
-		(at 258.318 152.654)
+		(at 264.414 186.182)
 		(uuid "5bed0495-ed94-41a5-8a9c-3ba940161845")
 	)
 	(no_connect
-		(at 258.318 223.774)
+		(at 264.414 257.302)
 		(uuid "5eca971d-8001-4c3e-80e1-4640f9a9c340")
 	)
 	(no_connect
-		(at 258.318 193.294)
+		(at 264.414 226.822)
 		(uuid "62d18fe6-70c3-4c7d-9bc6-07dea1c67149")
 	)
 	(no_connect
-		(at 258.318 183.134)
+		(at 264.414 216.662)
 		(uuid "63b715ac-47de-468f-8802-cbbadd1c573a")
 	)
 	(no_connect
-		(at 258.318 195.834)
+		(at 264.414 229.362)
 		(uuid "6c7f750e-279d-4f4a-b172-a86ef1e4ea96")
 	)
 	(no_connect
-		(at 258.318 150.114)
+		(at 264.414 183.642)
 		(uuid "705ede38-f235-41c7-aa4a-ff802f10bf97")
 	)
 	(no_connect
-		(at 258.318 134.874)
+		(at 264.414 170.942)
 		(uuid "758c0c6a-06d8-48a0-b50d-9f2d76c7c009")
 	)
 	(no_connect
-		(at 258.318 228.854)
+		(at 264.414 262.382)
 		(uuid "772c2f78-eada-4e85-9bdd-04f2915581e6")
 	)
 	(no_connect
-		(at 258.318 226.314)
+		(at 264.414 198.882)
+		(uuid "79e52b94-0c8e-415f-ad4e-cbfce1ee7c74")
+	)
+	(no_connect
+		(at 264.414 196.342)
+		(uuid "7dc86731-c5d5-48aa-a430-c9f7d1ae07db")
+	)
+	(no_connect
+		(at 264.414 259.842)
 		(uuid "7f7879be-c833-492c-8f33-c08233642ff2")
 	)
 	(no_connect
-		(at 258.318 203.454)
+		(at 264.414 236.982)
 		(uuid "7fa78c86-99a0-4a65-a541-4f463153db4b")
 	)
 	(no_connect
-		(at 258.318 239.014)
+		(at 264.414 272.542)
 		(uuid "8665c851-07f3-4a62-8df3-16c6a5534f32")
 	)
 	(no_connect
-		(at 258.318 180.594)
+		(at 264.414 214.122)
 		(uuid "87d3f897-dd18-4dfc-babb-80c0ec851318")
 	)
 	(no_connect
-		(at 258.318 157.734)
+		(at 264.414 191.262)
 		(uuid "938ea92f-c707-4a6e-ad1c-ccd75da2696b")
 	)
 	(no_connect
-		(at 258.318 155.194)
+		(at 264.414 188.722)
 		(uuid "a1a7f3b2-a467-45d3-97b6-72b2b5ebc19e")
 	)
 	(no_connect
-		(at 258.318 188.214)
+		(at 264.414 221.742)
 		(uuid "a56c4733-3983-4ba6-9340-0f1f91440fb6")
 	)
 	(no_connect
-		(at 258.318 129.794)
-		(uuid "aa4d803c-3f53-4e29-9135-70c44cec969c")
-	)
-	(no_connect
-		(at 258.318 200.914)
+		(at 264.414 234.442)
 		(uuid "b25fe3b9-35df-4a40-9e12-9919957bb4ba")
 	)
 	(no_connect
-		(at 258.318 231.394)
+		(at 264.414 264.922)
 		(uuid "b3eb5c73-1ab2-4abd-b912-c25ac082d7e6")
 	)
 	(no_connect
-		(at 258.318 205.994)
+		(at 264.414 239.522)
 		(uuid "b4e0c043-a278-43e9-a65f-d32fb3c8d0f3")
 	)
 	(no_connect
-		(at 258.318 185.674)
+		(at 264.414 219.202)
 		(uuid "b50309ea-f850-4a92-8592-27abe14b5c37")
 	)
 	(no_connect
-		(at 258.318 236.474)
+		(at 264.414 270.002)
 		(uuid "b8d8c0e4-7c5a-49ea-8725-3d3a3afa6c08")
 	)
 	(no_connect
-		(at 258.318 147.574)
+		(at 264.414 181.102)
 		(uuid "bb0aed69-7ee3-4b1a-8af1-e66ae7055300")
 	)
 	(no_connect
-		(at 258.318 218.694)
+		(at 264.414 252.222)
 		(uuid "bb5b8440-f520-413a-8b77-45652100a5c5")
 	)
 	(no_connect
-		(at 258.318 246.634)
+		(at 264.414 280.162)
 		(uuid "c7292ad1-ed78-4230-bd38-64efa56560dc")
 	)
 	(no_connect
-		(at 258.318 241.554)
+		(at 264.414 275.082)
 		(uuid "d123db97-b91d-4934-ba18-fa7df935fe33")
 	)
 	(no_connect
-		(at 258.318 172.974)
-		(uuid "da80eec7-3dad-4032-b256-09147973b0ba")
-	)
-	(no_connect
-		(at 258.318 216.154)
+		(at 264.414 249.682)
 		(uuid "dbcf6605-5e2b-4ae0-8888-e75ad01662a8")
 	)
 	(no_connect
-		(at 258.318 178.054)
-		(uuid "e7fa9d1f-dec1-4147-94ab-e81493912228")
+		(at 264.414 193.802)
+		(uuid "e161ef32-7626-497e-8782-23ef33db53d2")
 	)
 	(no_connect
-		(at 258.318 127.254)
-		(uuid "ed1de1ef-4473-4905-b34d-d429d599ab95")
+		(at 264.414 201.422)
+		(uuid "e7756fa0-ac91-4ccf-94c7-c4d4539496cb")
+	)
+	(no_connect
+		(at 264.414 211.582)
+		(uuid "e7fa9d1f-dec1-4147-94ab-e81493912228")
 	)
 	(bus_entry
 		(at 221.615 84.455)
@@ -15205,16 +15665,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.078 162.814) (xy 258.318 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21d634d7-dc28-440f-91a8-b973a240ca4d")
-	)
-	(wire
-		(pts
 			(xy 33.655 106.68) (xy 29.21 106.68)
 		)
 		(stroke
@@ -15395,16 +15845,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.078 160.274) (xy 258.318 160.274)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "402d53fc-a010-49ec-8e96-83e3437c660b")
-	)
-	(wire
-		(pts
 			(xy 192.278 125.476) (xy 196.088 125.476)
 		)
 		(stroke
@@ -15512,6 +15952,16 @@
 			(type default)
 		)
 		(uuid "50fe225d-d6ca-4e49-9088-121e947861cf")
+	)
+	(wire
+		(pts
+			(xy 249.174 168.402) (xy 264.414 168.402)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513275f1-ab0a-4a2b-8d63-dbf2e6f24b40")
 	)
 	(bus
 		(pts
@@ -15995,16 +16445,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 48.26) (xy 71.12 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8433614c-feb5-4fdd-b335-55d7173009b3")
-	)
-	(wire
-		(pts
 			(xy 64.77 102.87) (xy 64.77 100.33)
 		)
 		(stroke
@@ -16265,7 +16705,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 48.26) (xy 67.31 48.26)
+			(xy 50.8 48.26) (xy 56.642 48.26)
 		)
 		(stroke
 			(width 0)
@@ -16292,16 +16732,6 @@
 			(type default)
 		)
 		(uuid "a2665446-17fe-4e09-82f4-a2a36e811743")
-	)
-	(wire
-		(pts
-			(xy 243.078 165.354) (xy 258.318 165.354)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a669439f-c3d0-4848-8e0e-54c9c25465bd")
 	)
 	(wire
 		(pts
@@ -16382,6 +16812,16 @@
 			(type default)
 		)
 		(uuid "adbe0dbe-dfef-4f39-81b5-76829d7e7954")
+	)
+	(wire
+		(pts
+			(xy 249.174 160.782) (xy 264.414 160.782)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5e5751-c2eb-4b15-9357-6338350e84be")
 	)
 	(wire
 		(pts
@@ -16625,6 +17065,26 @@
 	)
 	(wire
 		(pts
+			(xy 249.174 163.322) (xy 264.414 163.322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4c7fb8-fecd-4306-9178-fdf162281430")
+	)
+	(wire
+		(pts
+			(xy 249.174 165.862) (xy 264.414 165.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda3d388-3911-4ed5-92b5-45722a8aa920")
+	)
+	(wire
+		(pts
 			(xy 184.15 231.14) (xy 195.58 231.14)
 		)
 		(stroke
@@ -16765,16 +17225,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.078 167.894) (xy 258.318 167.894)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de09de16-c891-424e-938e-1a54d8396f15")
-	)
-	(wire
-		(pts
 			(xy 64.77 110.49) (xy 64.77 113.03)
 		)
 		(stroke
@@ -16795,13 +17245,23 @@
 	)
 	(wire
 		(pts
-			(xy 246.126 211.074) (xy 258.318 211.074)
+			(xy 252.222 244.602) (xy 264.414 244.602)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e2ea8d39-b066-4527-bbd0-3cb9e73edbbf")
+	)
+	(wire
+		(pts
+			(xy 56.642 48.26) (xy 71.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a195d4-88d3-4c38-bc63-c4e659ece69c")
 	)
 	(wire
 		(pts
@@ -16983,16 +17443,6 @@
 		)
 		(uuid "ffafe9da-0fea-4731-8306-5c3336963a18")
 	)
-	(label "MCU_SPI_MISO"
-		(at 243.078 165.354 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0656ed97-656d-4550-933b-ab398c2ccb88")
-	)
 	(label "BRAKE1_[1..4]"
 		(at 199.39 237.49 0)
 		(effects
@@ -17042,6 +17492,16 @@
 			(justify right bottom)
 		)
 		(uuid "100d2eb9-d753-4c3d-babc-4d5536d2059f")
+	)
+	(label "MCU_SPI_SLK"
+		(at 249.174 163.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "101e3f1b-7599-4503-b44e-4718c33bf0b9")
 	)
 	(label "SWDIO"
 		(at 77.47 124.46 0)
@@ -17263,16 +17723,6 @@
 		)
 		(uuid "647b32af-1d15-4f16-93ea-450fc24328de")
 	)
-	(label "MCU_SPI_MOSI"
-		(at 243.078 167.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "671b18d9-7d04-4f42-89c2-d78b645729ff")
-	)
 	(label "USART0_RX"
 		(at 221.615 65.405 0)
 		(effects
@@ -17443,16 +17893,6 @@
 		)
 		(uuid "a270f443-85a2-42b5-8720-741efb31dec8")
 	)
-	(label "MCU_SPI_SLK"
-		(at 243.078 162.814 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a3d52e23-1c70-4c66-9e1f-ca84b1f17294")
-	)
 	(label "SWCLK"
 		(at 86.36 133.35 0)
 		(effects
@@ -17474,7 +17914,7 @@
 		(uuid "a606579e-d489-4051-bd24-e15d3c242fe9")
 	)
 	(label "Motor_start"
-		(at 246.126 211.074 0)
+		(at 252.222 244.602 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17543,16 +17983,6 @@
 		)
 		(uuid "b6ee5400-87e7-44ce-a5b6-f74f8da5db81")
 	)
-	(label "MCU_SPI_NSS"
-		(at 243.078 160.274 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b87272d6-4c2a-48be-9749-6700391ce280")
-	)
 	(label "PWM1_[1..4]"
 		(at 199.39 200.66 0)
 		(effects
@@ -17602,6 +18032,36 @@
 			(justify left bottom)
 		)
 		(uuid "c7e30dac-86d8-4107-96c4-903fcb69403f")
+	)
+	(label "MCU_SPI_MOSI"
+		(at 249.174 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c95b8636-17d0-4c26-bddf-7e446e8b33f1")
+	)
+	(label "MCU_SPI_NSS"
+		(at 249.174 160.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1516f96-7c31-4c78-a4bb-6b6cfbe33966")
+	)
+	(label "MCU_SPI_MISO"
+		(at 249.174 165.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6e53851-7bfd-4e8e-9294-3b28e9f66b59")
 	)
 	(label "FG1_1"
 		(at 186.055 273.05 0)
@@ -18204,6 +18664,7 @@
 		)
 		(pin "79"
 			(uuid "af7a5f2d-472f-44aa-a7b8-a136a6f10bd9")
+			(alternate "USART2_RX/SPI2_MISO")
 		)
 		(pin "8"
 			(uuid "37df7f6a-5d1a-4be4-942c-99732c8319d6")
@@ -18225,6 +18686,7 @@
 		)
 		(pin "78"
 			(uuid "45439277-9269-4cdb-9020-3c6ac782e836")
+			(alternate "USART2_TX/SPI2_SCK/I2S2_CK")
 		)
 		(pin "37"
 			(uuid "4e9dd0df-1957-438e-9a94-5f2cb34fd539")
@@ -18391,7 +18853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "205be133-016e-4974-9041-3c028f84f646")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 59.69 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -18452,7 +18914,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -18470,7 +18932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "220c865b-e71e-4cd0-9e29-967c77c1bdd3")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 240.03 153.162 0)
 			(hide yes)
 			(show_name no)
@@ -18530,7 +18992,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -18902,6 +19364,7 @@
 		)
 		(pin "79"
 			(uuid "af7a5f2d-472f-44aa-a7b8-a136a6f10bda")
+			(alternate "USART2_RX/SPI2_MISO")
 		)
 		(pin "8"
 			(uuid "37df7f6a-5d1a-4be4-942c-99732c8319d7")
@@ -18923,6 +19386,7 @@
 		)
 		(pin "78"
 			(uuid "45439277-9269-4cdb-9020-3c6ac782e837")
+			(alternate "USART2_TX/SPI2_SCK/I2S2_CK")
 		)
 		(pin "37"
 			(uuid "9c1b293d-78b7-4853-823a-2d9bd75d2e19")
@@ -19403,85 +19867,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 67.31 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "372ee1c5-dde6-4cee-9437-8832f4fd4e14")
-		(property "Reference" "#FLG011"
-			(at 67.31 46.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 69.85 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 67.31 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "365c680c-d146-4687-a22a-ee380a3a88c7")
-		)
-		(instances
-			(project "GD32F303VET6_4Motor_Control"
-				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#FLG011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "X9254WR-04-N0SN:220S-1_4P H=8.5MM")
 		(at 67.31 129.54 0)
 		(unit 1)
@@ -19813,7 +20198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c5a484e-69e2-4ca2-86d5-258e32059e34")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 71.12 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -19825,7 +20210,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 71.12 49.784 0)
+			(at 68.072 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19873,7 +20258,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -19964,10 +20349,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "40e8ef3c-3ab6-4582-92ca-7cea00742aeb")
 		(property "Reference" "#FLG010"
@@ -20130,7 +20515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "443ae953-3a04-491d-b459-b1c36ac7a069")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 87.63 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -20191,7 +20576,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -20281,7 +20666,7 @@
 	(symbol
 		(lib_name "GD32F303VET6_Mulit_1")
 		(lib_id "GD32F303VET6:GD32F303VET6_Mulit")
-		(at 279.908 188.214 0)
+		(at 286.004 221.742 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20292,7 +20677,7 @@
 		(fields_autoplaced yes)
 		(uuid "47795e33-b928-444d-b304-1efab1d1463d")
 		(property "Reference" "U7"
-			(at 272.288 155.194 0)
+			(at 278.384 188.722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20303,7 +20688,7 @@
 			)
 		)
 		(property "Value" "GD32F303VET6"
-			(at 272.288 157.734 0)
+			(at 278.384 191.262 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20314,7 +20699,7 @@
 			)
 		)
 		(property "Footprint" "kicad_api_lib:GD32F303VET6"
-			(at 272.796 155.448 0)
+			(at 278.892 188.976 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20325,7 +20710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.908 188.214 0)
+			(at 286.004 221.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20336,7 +20721,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.908 188.214 0)
+			(at 286.004 221.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20515,9 +20900,11 @@
 		)
 		(pin "78"
 			(uuid "7e3c090f-8328-4202-8f12-d3c7208e212f")
+			(alternate "USART2_TX/SPI2_SCK/I2S2_CK")
 		)
 		(pin "79"
 			(uuid "7ef353c0-f68c-4a2c-9286-73bf22526031")
+			(alternate "USART2_RX/SPI2_MISO")
 		)
 		(pin "82"
 			(uuid "08639572-798a-4cf4-b135-9484c1f352e0")
@@ -20760,7 +21147,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 246.634 107.95 90)
+			(at 248.92 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20909,7 +21296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54847580-1647-4446-af7f-375a97765292")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 106.68 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -20970,7 +21357,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -20988,7 +21375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54fd1a89-5ef7-4d09-938a-187dde5df489")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 102.87 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -21049,7 +21436,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -21147,7 +21534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58ce7885-390b-40f3-a037-8a2e7ebc93ab")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 243.332 135.636 0)
 			(hide yes)
 			(show_name no)
@@ -21159,7 +21546,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 247.396 137.668 90)
+			(at 246.126 137.668 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21208,7 +21595,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -21220,13 +21607,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5931cc0d-100b-4e8c-865d-9b406077262c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -21287,7 +21674,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -21740,6 +22127,7 @@
 		)
 		(pin "79"
 			(uuid "af7a5f2d-472f-44aa-a7b8-a136a6f10bdb")
+			(alternate "USART2_RX/SPI2_MISO")
 		)
 		(pin "8"
 			(uuid "37df7f6a-5d1a-4be4-942c-99732c8319d8")
@@ -21761,6 +22149,7 @@
 		)
 		(pin "78"
 			(uuid "45439277-9269-4cdb-9020-3c6ac782e838")
+			(alternate "USART2_TX/SPI2_SCK/I2S2_CK")
 		)
 		(pin "37"
 			(uuid "cdd9cdd2-78f6-45bb-bd46-ee79d1d6c72b")
@@ -22078,10 +22467,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6f52c698-4a39-4d7b-a6b8-aa07cd1919fd")
 		(property "Reference" "#PWR045"
@@ -22638,7 +23027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94f55881-95c8-48f2-9c8f-f70895652a7a")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 74.93 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -22699,7 +23088,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -22799,7 +23188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99caae99-8c1c-4810-b8ed-75c25aee53e7")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 77.47 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -22859,7 +23248,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -23035,7 +23424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a822b31f-373f-405d-86aa-3229fd29867a")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 246.634 105.664 0)
 			(hide yes)
 			(show_name no)
@@ -23095,7 +23484,182 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR059")
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32-C3-WROOM-02U-N4:ESP32-C3-WROOM-02U-N4")
+		(at 413.766 221.742 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac5b2b8c-49d9-44af-b891-1e2b16646c19")
+		(property "Reference" "U27"
+			(at 413.766 198.628 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-C3-WROOM-02U-N4"
+			(at 413.766 201.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:ESP32-C3-WROOM-02U-N4"
+			(at 413.766 236.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://file.elecfans.com/web2/M00/7A/F3/pYYBAGNyANqAHlPvABKJQnq1WQQ911.pdf"
+			(at 413.766 221.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD MODULE, ESP32-C3, 4MB SPI FL"
+			(at 413.766 221.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESP32-C3-WROOM-02U-N4"
+			(at 413.766 221.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Espressif Systems"
+			(at 413.766 221.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G6632883"
+			(at 413.766 221.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "SMD-19P"
+			(at 413.766 221.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "16d9d6b7-e2c8-4834-bf63-8151e710205e")
+		)
+		(pin "15"
+			(uuid "1c50762d-dc4b-49e7-aac8-e5cd1a8e5165")
+		)
+		(pin "19"
+			(uuid "42874cf5-f9ee-4b59-ac75-7a6f083bc2fe")
+		)
+		(pin "1"
+			(uuid "e37459f8-67bd-487e-bd53-3cb6227b7d46")
+		)
+		(pin "3"
+			(uuid "e47c3ed3-295d-4088-ae04-f49b18973326")
+		)
+		(pin "5"
+			(uuid "32383874-d386-4800-a1f2-dace05058a86")
+		)
+		(pin "10"
+			(uuid "9601399b-f91d-4021-9b71-cc8622d44c67")
+		)
+		(pin "16"
+			(uuid "2579e374-a357-48bc-96e6-8b2f4ba4bfef")
+		)
+		(pin "12"
+			(uuid "60c3c17b-674d-4a62-a343-75cd3a675c06")
+		)
+		(pin "2"
+			(uuid "b5a4febe-a66f-46e1-be69-a069dccc0909")
+		)
+		(pin "13"
+			(uuid "75d570f1-4f47-47c9-9285-bdd3fcd2f1bd")
+		)
+		(pin "6"
+			(uuid "ed1413da-a7ef-490b-9fdd-80abd19525a2")
+		)
+		(pin "8"
+			(uuid "4e43e55e-a842-4d19-b577-7da749269fc9")
+		)
+		(pin "7"
+			(uuid "3621498f-e79a-4fac-aeca-9eacae7264a2")
+		)
+		(pin "11"
+			(uuid "5e17eb36-3991-4e53-839e-4bf3415d4ab3")
+		)
+		(pin "4"
+			(uuid "b969ed8c-ebb3-453e-8593-1ae621dc0f7d")
+		)
+		(pin "9"
+			(uuid "73125ef9-b1b0-4ffe-8316-0d04710bfcba")
+		)
+		(pin "17"
+			(uuid "92877c43-bc67-4ec1-b529-4438afc6d438")
+		)
+		(pin "18"
+			(uuid "3687f4b8-a8ba-47e5-8490-ed7d05a3afa8")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
+					(reference "U27")
 					(unit 1)
 				)
 			)
@@ -23280,7 +23844,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 242.824 107.95 90)
+			(at 242.824 108.204 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23646,6 +24210,181 @@
 		)
 	)
 	(symbol
+		(lib_id "ESP32-C3-WROOM-02U-N4:ESP32-C3-WROOM-02U-N4")
+		(at 525.272 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc3245c1-4d4c-4dfd-a796-6cbcb404f1d3")
+		(property "Reference" "U26"
+			(at 525.272 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-C3-WROOM-02U-N4"
+			(at 525.272 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:ESP32-C3-WROOM-02U-N4"
+			(at 525.272 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://file.elecfans.com/web2/M00/7A/F3/pYYBAGNyANqAHlPvABKJQnq1WQQ911.pdf"
+			(at 525.272 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD MODULE, ESP32-C3, 4MB SPI FL"
+			(at 525.272 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESP32-C3-WROOM-02U-N4"
+			(at 525.272 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Espressif Systems"
+			(at 525.272 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "huaqiu_pn" "G6632883"
+			(at 525.272 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "package" "SMD-19P"
+			(at 525.272 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "30eb4daf-e0c9-46fe-bfe4-57a5de947356")
+		)
+		(pin "3"
+			(uuid "c8a6fff4-2a81-4536-bfdb-ca7b0944a48b")
+		)
+		(pin "13"
+			(uuid "ae2007e4-1365-47ee-ac06-d1c76ffa8d08")
+		)
+		(pin "1"
+			(uuid "7ceeae04-4f04-4af1-9fe4-658b7d608c41")
+		)
+		(pin "4"
+			(uuid "40f311f7-b98e-48f6-b32c-7e979b5187d5")
+		)
+		(pin "18"
+			(uuid "b284cd6a-c6af-4e96-aaef-a59875670f9e")
+		)
+		(pin "5"
+			(uuid "dc9f54f5-0e43-45e9-b61a-443efbb7f059")
+		)
+		(pin "6"
+			(uuid "c9426df5-5f4c-4261-9e38-c2866bd0a35a")
+		)
+		(pin "7"
+			(uuid "e17b2b0c-b867-4f94-b1c5-59f9456923fd")
+		)
+		(pin "8"
+			(uuid "34b1c639-9138-4df3-b40a-58a7fe034245")
+		)
+		(pin "2"
+			(uuid "def8b74c-27f0-4512-990c-9bca9f180b8d")
+		)
+		(pin "9"
+			(uuid "6c5ffb45-237b-4992-936d-974725722e8c")
+		)
+		(pin "11"
+			(uuid "514d912e-9ab3-4b8f-b6f0-16d64dde785a")
+		)
+		(pin "12"
+			(uuid "e0d7a52b-8222-4ec0-9ab0-0f16504fe5aa")
+		)
+		(pin "14"
+			(uuid "f9533939-0fff-4c9e-b097-639780595d87")
+		)
+		(pin "15"
+			(uuid "7931bdc6-1169-4ba1-9ffa-773337a8e8f4")
+		)
+		(pin "16"
+			(uuid "01831af2-d7c2-48e6-9113-37fdd705d228")
+		)
+		(pin "17"
+			(uuid "4463bcd4-b39e-4ab6-9e31-2a15c3d4bc31")
+		)
+		(pin "19"
+			(uuid "57c55754-e66b-425d-825a-0b0c2c6291b2")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
+					(reference "U26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TAXM8M4RDBCCT2T:YXC_YSX321SL")
 		(at 26.67 102.87 90)
 		(unit 1)
@@ -23961,6 +24700,85 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 56.642 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceb5209d-007a-4058-8320-f73e980a11a8")
+		(property "Reference" "#PWR047"
+			(at 56.642 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 59.182 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.642 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.642 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 56.642 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58b032f6-bfe4-494c-a519-2616d9afe4ec")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -24507,7 +25325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f52ed08c-56dd-4895-a06c-43f96f5596ed")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 188.468 150.622 0)
 			(hide yes)
 			(show_name no)
@@ -24567,7 +25385,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -24696,7 +25514,6 @@
 		)
 		(pin "60"
 			(uuid "c513e919-5e9f-4d93-b567-97f76987ca2b")
-			(alternate "TIMER3_CH1")
 		)
 		(pin "70"
 			(uuid "5610b7b9-544d-4ce0-b86c-503f0e9f36ef")
@@ -24709,7 +25526,6 @@
 		)
 		(pin "42"
 			(uuid "9d84469c-5889-4c53-ab6b-7cb92327e61e")
-			(alternate "TIMER0_CH1")
 		)
 		(pin "84"
 			(uuid "677e06e0-d4b2-440a-a2db-49bc083f4064")
@@ -24734,14 +25550,12 @@
 		)
 		(pin "47"
 			(uuid "20171267-12f7-43db-bb1e-3786195bf4e2")
-			(alternate "TIMER1_CH2")
 		)
 		(pin "32"
 			(uuid "11709f9d-9948-42e1-90da-f47127dd9e2d")
 		)
 		(pin "90"
 			(uuid "74a98f8d-fb91-461e-b349-8ff290d999f0")
-			(alternate "TIMER2_CH0/SPI0_MISO")
 		)
 		(pin "15"
 			(uuid "e3e8fa9d-4f34-456e-b443-76ef8b918e5d")
@@ -24768,7 +25582,6 @@
 		)
 		(pin "59"
 			(uuid "c631d82a-cecc-4e54-a48b-201c989ed0f2")
-			(alternate "TIMER3_CH0/USART2_RTS")
 		)
 		(pin "13"
 			(uuid "614975d1-dd8e-4caa-9725-965d9663bc68")
@@ -24781,6 +25594,7 @@
 		)
 		(pin "79"
 			(uuid "af7a5f2d-472f-44aa-a7b8-a136a6f10bdd")
+			(alternate "USART2_RX/SPI2_MISO")
 		)
 		(pin "8"
 			(uuid "37df7f6a-5d1a-4be4-942c-99732c8319da")
@@ -24802,6 +25616,7 @@
 		)
 		(pin "78"
 			(uuid "45439277-9269-4cdb-9020-3c6ac782e83a")
+			(alternate "USART2_TX/SPI2_SCK/I2S2_CK")
 		)
 		(pin "37"
 			(uuid "42b543da-4fbd-4f8f-a891-7609bf28250c")
@@ -24967,7 +25782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb631570-af7b-495d-9fb0-3c43590db7fe")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 80.01 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -25028,7 +25843,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -25117,10 +25932,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fe24e165-579b-42ea-87f8-64eef0a0d49b")
 		(property "Reference" "D8"
@@ -25627,7 +26442,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fff7c430-3ed5-4044-96b7-89d45dab9a32")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 100.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -25688,7 +26503,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

@@ -3362,7 +3362,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "122039d8-cfa0-4270-b35d-ba9a19be984f")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 73.025 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3423,7 +3423,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/46739a1c-a686-46fc-8f12-984396225a7f"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3440,7 +3440,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "204fc631-c625-494f-b997-aec328e1ed60")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 60.325 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3500,7 +3500,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/46739a1c-a686-46fc-8f12-984396225a7f"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4074,7 +4074,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6662fb57-c25f-4974-a511-3a6585e339b2")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 125.095 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4135,7 +4135,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/46739a1c-a686-46fc-8f12-984396225a7f"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4153,7 +4153,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6b18029e-7a1c-4455-8722-15498b0ef1ea")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 116.205 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4214,7 +4214,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/46739a1c-a686-46fc-8f12-984396225a7f"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5160,7 +5160,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "f36c973c-9238-4bfa-9c45-f6b014b4cacf")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 140.335 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5220,7 +5220,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/46739a1c-a686-46fc-8f12-984396225a7f"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
