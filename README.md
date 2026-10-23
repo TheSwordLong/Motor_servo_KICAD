@@ -38,6 +38,17 @@
 
 若文件在 KiCad 窗口外更新，请先处理窗口中的未保存修改，再重新载入；不要用旧窗口覆盖磁盘上的新版本。
 
+## Wi-Fi / OTA 硬件更新（2026-10-23）
+
+- 新增 `MCU_Core → WiFi_OTA` 子页，使用 ESP32-C3-WROOM-02-N4；精简后连模块共 15 个元件。
+- Type-C 原生 USB：GPIO19 接 D+，GPIO18 接 D−；R87～R90 为 0402。USB 不给板卡供电，需先接原有板卡电源；精简版未配置外置 USB ESD 保护。
+- ESP GPIO4 TX → GD32 PD9 RX，ESP GPIO5 RX ← GD32 PD8 TX；GD32 固件需启用 USART2 全重映射。
+- ESP GPIO10 直连 GD32 NRST，必须使用开漏：低电平复位、高阻释放，启用开漏前先将输出锁存置 1；禁止推挽输出高电平。
+- OTA/IAP 目前完成硬件和方案，尚未实现升级固件；现有应用链接地址及串口配置仍需调整。
+- 原理图精简时 ERC 为 0 错误、554 条原有警告，无新增项；PCB 保存为当前工作版本，尚未完成与 Wi-Fi 原理图的同步及布线验收。
+
+[原理图预览](docs/wifi_ota/WiFi_OTA.svg) · [OTA / IAP 设计说明](docs/wifi_ota/WiFi_OTA_IAP_design.html) · [原理图检查记录](docs/wifi_ota/verification.json)
+
 ## 固件与软件
 
 源码入口：[firmware/README.md](firmware/README.md)；详细说明：[firmware/docs/README.md](firmware/docs/README.md)。

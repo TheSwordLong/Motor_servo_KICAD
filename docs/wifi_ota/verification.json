@@ -1,0 +1,25 @@
+{
+  "retained_physical_components": 15,
+  "removed": [
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "Q18",
+    "D22",
+    "C71"
+  ],
+  "critical_connections_verified": true,
+  "other_circuits_unchanged": true,
+  "GPIO10_low_asserts_NRST_highZ_releases": true,
+  "GPIO10_requires_open_drain_firmware": true,
+  "VBUS_unconnected_verified": true,
+  "pcb_unchanged": true,
+  "erc_before": {
+    "warning": 554
+  },
+  "erc_after": {
+    "warning": 554
+  },
+  "new_erc": []
+}
