@@ -27014,9 +27014,9 @@
 		(at 391.16 241.3)
 		(size 63.5 35.56)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
