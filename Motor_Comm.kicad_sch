@@ -3658,7 +3658,7 @@
 		)
 		(uuid "725c9961-f8a3-4495-8842-27b3378ed2aa")
 	)
-	(text "MOT-01：U15 将四路 PWM 从 3V3 转为 5V。Motor_start 高使能；R41 下拉默认关闭。\nMOT-02：CN5~CN8：1=PWM，2=BRAKE，3=DIR，4=FG，5=24V，6=GND。\nFG 为无内部上拉的开集电极输出，板端 4.7k 上拉；6 脉冲/电机转。\n\nMOT-04~07：每路一颗 SN74LVC2G06DBVR；3V3 供电，开漏反相输出。\nDIR1_x 高 → 电机 DIR 低；DIR 输入 10k 下拉。\nBRAKE1_x 高 → 刹车；低 → 释放；BRAKE 输入 10k 上拉。\n默认刹车条件：3V3 已稳定且 MCU 引脚高阻；逻辑掉电时不能保证刹车。\n电机 DIR / BRAKE / PWM 自带 5V 上拉；PWM 高为停止。\n先保持 PWM 停止，初始化 DIR / BRAKE 后再允许运行；换向前先停机。\n\nD10~D17 为 MCU 命令指示：DIR 高点亮；RELEASE 低点亮。\nLED 不代表电机实际反馈。BRAKE 软件极性相对原双 MOS 电路已反转。\nMOT-03 与 H6~H10 为 DNP 预留，当前版本不装。"
+	(text "MOT-01：U15 将四路 PWM 从 3V3 转为 5V。Motor_start 高使能；R41 下拉默认关闭。\nMOT-02：CN5~CN8：1=PWM，2=BRAKE，3=DIR，4=FG，5=24V，6=GND。\nFG 为无内部上拉的开集电极输出，板端 4.7k 上拉；6 脉冲/电机转。\n\nMOT-04~07：每路一颗 SN74LVC2G06DBVR；3V3 供电，开漏反相输出。\nDIRx 高 → 电机 DIR 低；DIR 输入 10k 下拉。\nBRAKEx 高 → 刹车；低 → 释放；BRAKE 输入 10k 上拉。\n默认刹车条件：3V3 已稳定且 MCU 引脚高阻；逻辑掉电时不能保证刹车。\n电机 DIR / BRAKE / PWM 自带 5V 上拉；PWM 高为停止。\n先保持 PWM 停止，初始化 DIR / BRAKE 后再允许运行；换向前先停机。\n\nD10~D17 为 MCU 命令指示：DIR 高点亮；RELEASE 低点亮。\nLED 不代表电机实际反馈。BRAKE 软件极性相对原双 MOS 电路已反转。\nMOT-03 与 H6~H10 为 DNP 预留，当前版本不装。"
 		(exclude_from_sim no)
 		(at 305 37 0)
 		(effects
@@ -6445,7 +6445,7 @@
 		)
 		(uuid "fd070e87-73b6-4f17-8d41-fb8bf7b24b06")
 	)
-	(label "DIR1_[1..4]"
+	(label "DIR[1..4]"
 		(at 133.35 24.13 0)
 		(effects
 			(font
@@ -6455,7 +6455,7 @@
 		)
 		(uuid "0028f96d-eda4-4803-9c4a-723c79ad2e47")
 	)
-	(label "FG2_3"
+	(label "FG7"
 		(at 147.32 127 0)
 		(effects
 			(font
@@ -6465,7 +6465,7 @@
 		)
 		(uuid "004a808d-69dd-444b-a6b0-ba6d3fb97825")
 	)
-	(label "PWM1_[1..4]"
+	(label "PWM[1..4]"
 		(at 36.83 27.94 0)
 		(effects
 			(font
@@ -6475,7 +6475,7 @@
 		)
 		(uuid "02987584-e2c7-44b1-adaf-db61aa80a596")
 	)
-	(label "DIR1_2"
+	(label "DIR2"
 		(at 307.34 198.12 0)
 		(effects
 			(font
@@ -6485,7 +6485,7 @@
 		)
 		(uuid "03f3ce05-2093-433d-a0ab-13fbb3a5cf40")
 	)
-	(label "DIR1_2"
+	(label "DIR2"
 		(at 307.34 246.38 0)
 		(effects
 			(font
@@ -6495,7 +6495,7 @@
 		)
 		(uuid "05490a9a-0b9c-43cb-9201-e871199201a8")
 	)
-	(label "DIR2_2"
+	(label "DIR6"
 		(at 201.93 101.6 0)
 		(effects
 			(font
@@ -6505,7 +6505,7 @@
 		)
 		(uuid "0756ae63-d5ec-493c-b674-ef90cacd5f33")
 	)
-	(label "DIR1_3"
+	(label "DIR3"
 		(at 147.32 34.29 0)
 		(effects
 			(font
@@ -6535,7 +6535,7 @@
 		)
 		(uuid "11146e0d-7b2e-4993-b593-5d6a4b0baec0")
 	)
-	(label "PWM1_5V_1"
+	(label "PWM_5V1"
 		(at 209.55 27.94 0)
 		(effects
 			(font
@@ -6545,7 +6545,7 @@
 		)
 		(uuid "116e750c-5004-4013-b8d4-330d0983f713")
 	)
-	(label "PWM1_4"
+	(label "PWM4"
 		(at 52.07 31.75 0)
 		(effects
 			(font
@@ -6565,7 +6565,7 @@
 		)
 		(uuid "1c7b366c-3d00-49a1-9ee5-92c224c881cd")
 	)
-	(label "MOTOR_DIR1_2"
+	(label "MOTOR_DIR2"
 		(at 218.44 55.88 0)
 		(effects
 			(font
@@ -6575,7 +6575,7 @@
 		)
 		(uuid "1df0667d-d21b-4515-8965-768c99a9eb0b")
 	)
-	(label "BRAKE2_3"
+	(label "BRAKE7"
 		(at 148.59 107.95 0)
 		(effects
 			(font
@@ -6585,7 +6585,7 @@
 		)
 		(uuid "2213208d-c389-4e04-a09a-3a256db9e5f1")
 	)
-	(label "BRAKE1_3"
+	(label "BRAKE3"
 		(at 25.4 337.82 0)
 		(effects
 			(font
@@ -6595,7 +6595,7 @@
 		)
 		(uuid "2b904708-3b39-4f29-b0d7-629d3b360f6c")
 	)
-	(label "FG1_3"
+	(label "FG3"
 		(at 146.05 71.12 0)
 		(effects
 			(font
@@ -6605,7 +6605,7 @@
 		)
 		(uuid "2c400be2-cf41-4c51-b8c3-7414e5350bb8")
 	)
-	(label "PWM1_5V_1"
+	(label "PWM_5V1"
 		(at 52.07 52.07 0)
 		(effects
 			(font
@@ -6615,7 +6615,7 @@
 		)
 		(uuid "2f3f7a6a-b1fe-41e4-b4ee-80fed28f58c1")
 	)
-	(label "BRAKE1_4"
+	(label "BRAKE4"
 		(at 408.94 375.92 0)
 		(effects
 			(font
@@ -6625,7 +6625,7 @@
 		)
 		(uuid "2f78c2e4-3c6b-49a8-9778-227f1408072e")
 	)
-	(label "DIR1_1"
+	(label "DIR1"
 		(at 25.4 198.12 0)
 		(effects
 			(font
@@ -6635,7 +6635,7 @@
 		)
 		(uuid "31f9d93c-fd4b-4c78-8d31-c726773d351c")
 	)
-	(label "MOTOR_DIR1_4"
+	(label "MOTOR_DIR4"
 		(at 441.96 312.42 0)
 		(effects
 			(font
@@ -6645,7 +6645,7 @@
 		)
 		(uuid "381d35c5-a47e-47d0-bfdb-a84c90f2e9cb")
 	)
-	(label "MOTOR_BRAKE1_4"
+	(label "MOTOR_BRAKE4"
 		(at 224.155 104.14 0)
 		(effects
 			(font
@@ -6655,7 +6655,7 @@
 		)
 		(uuid "391d4f31-cb55-457e-a4fe-4532e682573e")
 	)
-	(label "MOTOR_DIR1_4"
+	(label "MOTOR_DIR4"
 		(at 224.155 106.68 0)
 		(effects
 			(font
@@ -6665,7 +6665,7 @@
 		)
 		(uuid "3b7aebd1-6dbe-49c9-9c8f-2e703e534a6c")
 	)
-	(label "PWM2_4"
+	(label "PWM8"
 		(at 53.34 96.52 0)
 		(effects
 			(font
@@ -6675,7 +6675,7 @@
 		)
 		(uuid "3b9e3e48-cc85-4cb4-ac22-dc4a1bb7c54c")
 	)
-	(label "PWM2_3"
+	(label "PWM7"
 		(at 53.34 93.98 0)
 		(effects
 			(font
@@ -6685,7 +6685,7 @@
 		)
 		(uuid "3dce3dfe-9bef-4191-ba05-720db8c6da88")
 	)
-	(label "PWM2_5V_3"
+	(label "PWM_5V7"
 		(at 165.1 114.3 0)
 		(effects
 			(font
@@ -6695,7 +6695,7 @@
 		)
 		(uuid "3f66b056-53e6-4251-b76e-817bf4ab52f2")
 	)
-	(label "FG2_[1..4]"
+	(label "FG[5..8]"
 		(at 133.35 116.84 0)
 		(effects
 			(font
@@ -6705,7 +6705,7 @@
 		)
 		(uuid "41a9b59a-d867-4985-b5de-90d16afa9c56")
 	)
-	(label "DIR2_3"
+	(label "DIR7"
 		(at 203.2 114.3 0)
 		(effects
 			(font
@@ -6715,7 +6715,7 @@
 		)
 		(uuid "43b7d470-d251-4d28-9212-d871ad655869")
 	)
-	(label "DIR2_3"
+	(label "DIR7"
 		(at 148.59 90.17 0)
 		(effects
 			(font
@@ -6725,7 +6725,7 @@
 		)
 		(uuid "44c29eb3-f13e-4323-b629-91c3214f3d3a")
 	)
-	(label "PWM1_5V_2"
+	(label "PWM_5V2"
 		(at 218.44 50.8 0)
 		(effects
 			(font
@@ -6735,7 +6735,7 @@
 		)
 		(uuid "45ff4fbd-a9d4-48be-b8b3-af0a0764b8a5")
 	)
-	(label "PWM2_5V_1"
+	(label "PWM_5V5"
 		(at 166.37 88.9 0)
 		(effects
 			(font
@@ -6745,7 +6745,7 @@
 		)
 		(uuid "48937935-c9fa-4724-8f91-53cc8ab72bb4")
 	)
-	(label "FG1_1"
+	(label "FG1"
 		(at 146.05 66.04 0)
 		(effects
 			(font
@@ -6755,7 +6755,7 @@
 		)
 		(uuid "4a91c0d4-b4e7-4e79-a086-1d6d3892f9ec")
 	)
-	(label "FG2_2"
+	(label "FG6"
 		(at 147.32 124.46 0)
 		(effects
 			(font
@@ -6765,7 +6765,7 @@
 		)
 		(uuid "4b018feb-23b2-4042-ab2b-6e1693aa69f4")
 	)
-	(label "PWM2_2"
+	(label "PWM6"
 		(at 53.34 91.44 0)
 		(effects
 			(font
@@ -6775,7 +6775,7 @@
 		)
 		(uuid "4db5b427-65ea-4afc-84e4-3c0ae34277d6")
 	)
-	(label "FG2_3"
+	(label "FG7"
 		(at 203.2 116.84 0)
 		(effects
 			(font
@@ -6785,7 +6785,7 @@
 		)
 		(uuid "4ddf7c67-8203-44d0-9432-cec885962162")
 	)
-	(label "BRAKE2_4"
+	(label "BRAKE8"
 		(at 163.83 129.54 0)
 		(effects
 			(font
@@ -6795,7 +6795,7 @@
 		)
 		(uuid "4e37155a-9f36-4539-9c3d-3c6c339c66d8")
 	)
-	(label "DIR1_3"
+	(label "DIR3"
 		(at 25.4 312.42 0)
 		(effects
 			(font
@@ -6805,7 +6805,7 @@
 		)
 		(uuid "533c5874-f529-48b9-a691-cd1fd666ac55")
 	)
-	(label "DIR2_4"
+	(label "DIR8"
 		(at 148.59 92.71 0)
 		(effects
 			(font
@@ -6815,7 +6815,7 @@
 		)
 		(uuid "53fb5abf-021d-4596-a567-18314c6c758f")
 	)
-	(label "MOTOR_DIR1_2"
+	(label "MOTOR_DIR2"
 		(at 441.96 198.12 0)
 		(effects
 			(font
@@ -6825,7 +6825,7 @@
 		)
 		(uuid "5462b610-5949-400c-8f5c-8457f974b6fe")
 	)
-	(label "FG2_4"
+	(label "FG8"
 		(at 204.47 129.54 0)
 		(effects
 			(font
@@ -6835,7 +6835,7 @@
 		)
 		(uuid "546ce1c0-0133-468a-9a25-4ab23e52cf6a")
 	)
-	(label "BRAKE2_2"
+	(label "BRAKE6"
 		(at 148.59 105.41 0)
 		(effects
 			(font
@@ -6845,7 +6845,7 @@
 		)
 		(uuid "56a728fc-c09d-4b92-9322-bba06938f812")
 	)
-	(label "DIR1_2"
+	(label "DIR2"
 		(at 147.32 31.75 0)
 		(effects
 			(font
@@ -6855,7 +6855,7 @@
 		)
 		(uuid "56b67fc3-0575-46f8-b71a-7f040c3925b8")
 	)
-	(label "BRAKE1_2"
+	(label "BRAKE2"
 		(at 408.94 261.62 0)
 		(effects
 			(font
@@ -6865,7 +6865,7 @@
 		)
 		(uuid "5739ae30-dbf1-4581-b0e1-31a1985ffbe9")
 	)
-	(label "FG1_4"
+	(label "FG4"
 		(at 224.155 109.22 0)
 		(effects
 			(font
@@ -6875,7 +6875,7 @@
 		)
 		(uuid "58f2efe7-6cbc-4053-9d6f-1f8a8ffde07a")
 	)
-	(label "BRAKE1_2"
+	(label "BRAKE2"
 		(at 307.34 223.52 0)
 		(effects
 			(font
@@ -6885,7 +6885,7 @@
 		)
 		(uuid "5a6f2ca7-6514-4b43-b566-81ffdda87b64")
 	)
-	(label "MOTOR_DIR1_3"
+	(label "MOTOR_DIR3"
 		(at 160.02 312.42 0)
 		(effects
 			(font
@@ -6895,7 +6895,7 @@
 		)
 		(uuid "5d20fbaf-d657-406c-91a7-5bda88e9d5f0")
 	)
-	(label "BRAKE1_1"
+	(label "BRAKE1"
 		(at 127 261.62 0)
 		(effects
 			(font
@@ -6905,7 +6905,7 @@
 		)
 		(uuid "5f0850b5-9dba-414f-bfcc-923fcb48dfae")
 	)
-	(label "MOTOR_BRAKE1_1"
+	(label "MOTOR_BRAKE1"
 		(at 209.55 30.48 0)
 		(effects
 			(font
@@ -6915,7 +6915,7 @@
 		)
 		(uuid "613e00e7-dab0-4f8f-b4f1-8191d259ea9f")
 	)
-	(label "BRAKE1_3"
+	(label "BRAKE3"
 		(at 147.32 52.07 0)
 		(effects
 			(font
@@ -6925,7 +6925,7 @@
 		)
 		(uuid "661771de-a83b-4887-8a9d-55d475d4161d")
 	)
-	(label "MOTOR_BRAKE1_4"
+	(label "MOTOR_BRAKE4"
 		(at 441.96 337.82 0)
 		(effects
 			(font
@@ -6935,7 +6935,7 @@
 		)
 		(uuid "67fb6a9e-8dff-4106-89aa-4f54d1d00072")
 	)
-	(label "MOTOR_BRAKE1_2"
+	(label "MOTOR_BRAKE2"
 		(at 441.96 223.52 0)
 		(effects
 			(font
@@ -6945,7 +6945,7 @@
 		)
 		(uuid "69710556-28a3-4928-a12a-0cd9b2754a00")
 	)
-	(label "BRAKE1_4"
+	(label "BRAKE4"
 		(at 147.32 54.61 0)
 		(effects
 			(font
@@ -6955,7 +6955,7 @@
 		)
 		(uuid "699e055f-c9d0-48dd-8e16-6429887f31b7")
 	)
-	(label "DIR2_2"
+	(label "DIR6"
 		(at 148.59 87.63 0)
 		(effects
 			(font
@@ -6965,7 +6965,7 @@
 		)
 		(uuid "6b44484d-ac0e-4faa-8fb5-7508d8324a0c")
 	)
-	(label "PWM1_5V_4"
+	(label "PWM_5V4"
 		(at 224.155 101.6 0)
 		(effects
 			(font
@@ -6975,7 +6975,7 @@
 		)
 		(uuid "6c0e7b91-17a4-44d9-98ef-6aba6620fb95")
 	)
-	(label "FG1_2"
+	(label "FG2"
 		(at 146.05 68.58 0)
 		(effects
 			(font
@@ -6985,7 +6985,7 @@
 		)
 		(uuid "732eb050-92d9-4018-af4e-a343e06eb1d9")
 	)
-	(label "FG2_2"
+	(label "FG6"
 		(at 201.93 104.14 0)
 		(effects
 			(font
@@ -6995,7 +6995,7 @@
 		)
 		(uuid "7355e041-479f-461e-94f7-beb1fce701b8")
 	)
-	(label "FG2_1"
+	(label "FG5"
 		(at 147.32 121.92 0)
 		(effects
 			(font
@@ -7005,7 +7005,7 @@
 		)
 		(uuid "738c09e1-d4d1-4848-9a32-4ef8d43b7bd1")
 	)
-	(label "FG1_1"
+	(label "FG1"
 		(at 215.9 35.56 180)
 		(effects
 			(font
@@ -7015,7 +7015,7 @@
 		)
 		(uuid "767de44f-26ab-41d8-a1b8-f83c5e0de904")
 	)
-	(label "PWM1_3"
+	(label "PWM3"
 		(at 52.07 34.29 0)
 		(effects
 			(font
@@ -7025,7 +7025,7 @@
 		)
 		(uuid "7776b7de-e9a9-4887-b5f2-6aea591406a3")
 	)
-	(label "PWM1_2"
+	(label "PWM2"
 		(at 52.07 36.83 0)
 		(effects
 			(font
@@ -7035,7 +7035,7 @@
 		)
 		(uuid "78185350-3805-4200-bd7a-2f6d7ea731ec")
 	)
-	(label "DIR2_[1..4]"
+	(label "DIR[5..8]"
 		(at 134.62 80.01 0)
 		(effects
 			(font
@@ -7045,7 +7045,7 @@
 		)
 		(uuid "7b8620d7-8b8e-4227-bbc1-150cae7aa596")
 	)
-	(label "DIR1_4"
+	(label "DIR4"
 		(at 307.34 360.68 0)
 		(effects
 			(font
@@ -7065,7 +7065,7 @@
 		)
 		(uuid "7e635a4a-55cf-4c08-8154-92030c4d6b9c")
 	)
-	(label "MOTOR_BRAKE1_3"
+	(label "MOTOR_BRAKE3"
 		(at 223.52 80.01 0)
 		(effects
 			(font
@@ -7075,7 +7075,7 @@
 		)
 		(uuid "7fec95e7-9354-42f3-b384-32742bdaa2c2")
 	)
-	(label "BRAKE1_2"
+	(label "BRAKE2"
 		(at 147.32 49.53 0)
 		(effects
 			(font
@@ -7085,7 +7085,7 @@
 		)
 		(uuid "83edddb9-fcbe-46e1-9368-4596e1349b3b")
 	)
-	(label "PWM1_5V_3"
+	(label "PWM_5V3"
 		(at 223.52 77.47 0)
 		(effects
 			(font
@@ -7095,7 +7095,7 @@
 		)
 		(uuid "84624ae2-f480-4a9a-8075-830c52af851d")
 	)
-	(label "PWM2_[1..4]"
+	(label "PWM[5..8]"
 		(at 35.56 85.09 0)
 		(effects
 			(font
@@ -7105,7 +7105,7 @@
 		)
 		(uuid "8ba16c51-865f-4ea0-a30a-42c5431eb21e")
 	)
-	(label "BRAKE1_[1..4]"
+	(label "BRAKE[1..4]"
 		(at 132.08 41.91 0)
 		(effects
 			(font
@@ -7115,7 +7115,7 @@
 		)
 		(uuid "8bc2036d-1b1e-4612-a4e6-0ad28541646a")
 	)
-	(label "MOTOR_DIR1_1"
+	(label "MOTOR_DIR1"
 		(at 160.02 198.12 0)
 		(effects
 			(font
@@ -7125,7 +7125,7 @@
 		)
 		(uuid "8ecf18a5-ab8c-4635-af62-60b3ef209a06")
 	)
-	(label "BRAKE1_3"
+	(label "BRAKE3"
 		(at 127 375.92 0)
 		(effects
 			(font
@@ -7145,7 +7145,7 @@
 		)
 		(uuid "90cf8864-7ea2-45a0-907b-24f3e8495500")
 	)
-	(label "BRAKE1_1"
+	(label "BRAKE1"
 		(at 147.32 46.99 0)
 		(effects
 			(font
@@ -7155,7 +7155,7 @@
 		)
 		(uuid "9528bb49-3c04-4845-820d-2647577c2936")
 	)
-	(label "PWM2_5V_4"
+	(label "PWM_5V8"
 		(at 163.83 127 0)
 		(effects
 			(font
@@ -7165,7 +7165,7 @@
 		)
 		(uuid "982f521e-b435-4eab-ab59-1fee557103b5")
 	)
-	(label "DIR1_4"
+	(label "DIR4"
 		(at 147.32 36.83 0)
 		(effects
 			(font
@@ -7175,7 +7175,7 @@
 		)
 		(uuid "99312836-753c-4dd0-816c-5fa7f419f51e")
 	)
-	(label "DIR1_3"
+	(label "DIR3"
 		(at 25.4 360.68 0)
 		(effects
 			(font
@@ -7185,7 +7185,7 @@
 		)
 		(uuid "9a4d4a2e-39a1-443c-9f01-7f07325ce7ef")
 	)
-	(label "MOTOR_DIR1_1"
+	(label "MOTOR_DIR1"
 		(at 209.55 33.02 0)
 		(effects
 			(font
@@ -7195,7 +7195,7 @@
 		)
 		(uuid "9b6e2b18-4da8-434a-b326-db7a22bd757e")
 	)
-	(label "DIR1_1"
+	(label "DIR1"
 		(at 147.32 29.21 0)
 		(effects
 			(font
@@ -7205,7 +7205,7 @@
 		)
 		(uuid "9c92cd63-d9ee-4808-b797-f38f8a64f39b")
 	)
-	(label "MOTOR_BRAKE1_3"
+	(label "MOTOR_BRAKE3"
 		(at 160.02 337.82 0)
 		(effects
 			(font
@@ -7215,7 +7215,7 @@
 		)
 		(uuid "9f80a4d7-c4a9-4843-b681-422383f93182")
 	)
-	(label "MOTOR_DIR1_3"
+	(label "MOTOR_DIR3"
 		(at 223.52 82.55 0)
 		(effects
 			(font
@@ -7225,7 +7225,7 @@
 		)
 		(uuid "a1e1f2bd-70f3-422c-8807-1d44f02320c8")
 	)
-	(label "PWM1_5V_[1..4]"
+	(label "PWM_5V[1..4]"
 		(at 35.56 40.64 0)
 		(effects
 			(font
@@ -7235,7 +7235,7 @@
 		)
 		(uuid "a4c04ba4-a330-471d-87e7-2b476a3a25bd")
 	)
-	(label "BRAKE2_1"
+	(label "BRAKE5"
 		(at 166.37 91.44 0)
 		(effects
 			(font
@@ -7255,7 +7255,7 @@
 		)
 		(uuid "a75f278b-ea5b-4dfa-807e-f65ca570bb80")
 	)
-	(label "DIR2_4"
+	(label "DIR8"
 		(at 204.47 127 0)
 		(effects
 			(font
@@ -7265,7 +7265,7 @@
 		)
 		(uuid "ab501a9a-cf6f-4231-a076-537f7feea56e")
 	)
-	(label "DIR1_4"
+	(label "DIR4"
 		(at 307.34 312.42 0)
 		(effects
 			(font
@@ -7275,7 +7275,7 @@
 		)
 		(uuid "ae35d134-07ec-4144-9054-232ef028b783")
 	)
-	(label "BRAKE1_1"
+	(label "BRAKE1"
 		(at 25.4 223.52 0)
 		(effects
 			(font
@@ -7285,7 +7285,7 @@
 		)
 		(uuid "aecd8af3-ff95-4b1d-b154-685e266dccb2")
 	)
-	(label "BRAKE2_[1..4]"
+	(label "BRAKE[5..8]"
 		(at 133.35 97.79 0)
 		(effects
 			(font
@@ -7295,7 +7295,7 @@
 		)
 		(uuid "b1fcd2c7-c728-4609-b165-d8544e13c7ab")
 	)
-	(label "MOTOR_BRAKE1_1"
+	(label "MOTOR_BRAKE1"
 		(at 160.02 223.52 0)
 		(effects
 			(font
@@ -7305,7 +7305,7 @@
 		)
 		(uuid "b6af9fe6-36a7-463a-bd13-65c25d98a5d1")
 	)
-	(label "PWM2_5V_2"
+	(label "PWM_5V6"
 		(at 53.34 104.14 0)
 		(effects
 			(font
@@ -7315,7 +7315,7 @@
 		)
 		(uuid "bbe21b76-8a8f-440e-8679-807f00939063")
 	)
-	(label "PWM1_5V_2"
+	(label "PWM_5V2"
 		(at 52.07 49.53 0)
 		(effects
 			(font
@@ -7325,7 +7325,7 @@
 		)
 		(uuid "bd8b8bf9-a713-4092-b8b2-14378588077c")
 	)
-	(label "PWM2_5V_4"
+	(label "PWM_5V8"
 		(at 53.34 109.22 0)
 		(effects
 			(font
@@ -7335,7 +7335,7 @@
 		)
 		(uuid "be0c857b-e5bd-4c8e-950b-7007412a8e85")
 	)
-	(label "DIR2_1"
+	(label "DIR5"
 		(at 148.59 85.09 0)
 		(effects
 			(font
@@ -7345,7 +7345,7 @@
 		)
 		(uuid "be7db8ea-5e92-4172-8ba5-2a6644f3f52b")
 	)
-	(label "BRAKE2_4"
+	(label "BRAKE8"
 		(at 148.59 110.49 0)
 		(effects
 			(font
@@ -7355,7 +7355,7 @@
 		)
 		(uuid "c1f8df80-3a5d-4476-a24a-44f992bfb440")
 	)
-	(label "PWM2_5V_[1..4]"
+	(label "PWM_5V[5..8]"
 		(at 36.83 97.79 0)
 		(effects
 			(font
@@ -7365,7 +7365,7 @@
 		)
 		(uuid "c2a8117c-eda0-44a0-b00a-c2eb18e97b05")
 	)
-	(label "DIR2_1"
+	(label "DIR5"
 		(at 203.2 88.9 0)
 		(effects
 			(font
@@ -7375,7 +7375,7 @@
 		)
 		(uuid "c52c2012-04a7-41c2-ba6c-debcb83360d9")
 	)
-	(label "MOTOR_BRAKE1_2"
+	(label "MOTOR_BRAKE2"
 		(at 218.44 53.34 0)
 		(effects
 			(font
@@ -7385,7 +7385,7 @@
 		)
 		(uuid "cb80975b-9bb4-470d-8ad9-56573d373c3d")
 	)
-	(label "FG1_4"
+	(label "FG4"
 		(at 146.05 73.66 0)
 		(effects
 			(font
@@ -7395,7 +7395,7 @@
 		)
 		(uuid "cc6ec3c6-ffec-4f88-98d4-ac4796f4ca2d")
 	)
-	(label "DIR1_1"
+	(label "DIR1"
 		(at 25.4 246.38 0)
 		(effects
 			(font
@@ -7405,7 +7405,7 @@
 		)
 		(uuid "cdd130f3-f2fd-4d43-9e57-5fddc7516502")
 	)
-	(label "BRAKE2_2"
+	(label "BRAKE6"
 		(at 163.83 104.14 0)
 		(effects
 			(font
@@ -7415,7 +7415,7 @@
 		)
 		(uuid "ce5393da-5d78-42de-8684-d167dc579eab")
 	)
-	(label "PWM2_1"
+	(label "PWM5"
 		(at 53.34 88.9 0)
 		(effects
 			(font
@@ -7425,7 +7425,7 @@
 		)
 		(uuid "d12cd459-012b-4232-afc3-4876d17b18a5")
 	)
-	(label "FG1_3"
+	(label "FG3"
 		(at 223.52 85.09 0)
 		(effects
 			(font
@@ -7435,7 +7435,7 @@
 		)
 		(uuid "d33c9470-bd7b-45db-8680-e07d2699f34d")
 	)
-	(label "BRAKE2_1"
+	(label "BRAKE5"
 		(at 148.59 102.87 0)
 		(effects
 			(font
@@ -7445,7 +7445,7 @@
 		)
 		(uuid "d954bf7c-b93b-4d93-a7d1-b236ee995f6c")
 	)
-	(label "FG1_[1..4]"
+	(label "FG[1..4]"
 		(at 132.08 60.96 0)
 		(effects
 			(font
@@ -7455,7 +7455,7 @@
 		)
 		(uuid "dafc4ac3-00d1-4b18-82ac-73e8983312a4")
 	)
-	(label "BRAKE1_4"
+	(label "BRAKE4"
 		(at 307.34 337.82 0)
 		(effects
 			(font
@@ -7465,7 +7465,7 @@
 		)
 		(uuid "dbd0623a-34cb-4e39-861b-e58529636371")
 	)
-	(label "PWM1_5V_4"
+	(label "PWM_5V4"
 		(at 52.07 44.45 0)
 		(effects
 			(font
@@ -7475,7 +7475,7 @@
 		)
 		(uuid "e14d812a-33a6-4e6d-9e58-80b7a4796c6f")
 	)
-	(label "PWM2_5V_1"
+	(label "PWM_5V5"
 		(at 53.34 101.6 0)
 		(effects
 			(font
@@ -7485,7 +7485,7 @@
 		)
 		(uuid "e1ae7832-312a-4150-babf-37f96576aff9")
 	)
-	(label "FG1_2"
+	(label "FG2"
 		(at 216.662 58.42 0)
 		(effects
 			(font
@@ -7495,7 +7495,7 @@
 		)
 		(uuid "e71800e9-1877-4dd1-b412-c093da2844af")
 	)
-	(label "FG2_1"
+	(label "FG5"
 		(at 203.2 91.44 0)
 		(effects
 			(font
@@ -7525,7 +7525,7 @@
 		)
 		(uuid "ef29cb7d-7168-43d7-9edf-d4bea2de5f6a")
 	)
-	(label "PWM1_1"
+	(label "PWM1"
 		(at 52.07 39.37 0)
 		(effects
 			(font
@@ -7535,7 +7535,7 @@
 		)
 		(uuid "eff26b5b-480a-4032-86d0-551f234cbccf")
 	)
-	(label "PWM1_5V_3"
+	(label "PWM_5V3"
 		(at 52.07 46.99 0)
 		(effects
 			(font
@@ -7545,7 +7545,7 @@
 		)
 		(uuid "f31a186f-28dd-4df0-bf1f-3c4855ca68e4")
 	)
-	(label "PWM2_5V_3"
+	(label "PWM_5V7"
 		(at 53.34 106.68 0)
 		(effects
 			(font
@@ -7565,7 +7565,7 @@
 		)
 		(uuid "f3d4bd6e-09a4-4f30-b757-d1d343261dcd")
 	)
-	(label "FG2_4"
+	(label "FG8"
 		(at 147.32 129.54 0)
 		(effects
 			(font
@@ -7575,7 +7575,7 @@
 		)
 		(uuid "f5f6f8e0-0f97-4453-af8f-31e0233afbae")
 	)
-	(label "PWM2_5V_2"
+	(label "PWM_5V6"
 		(at 163.83 101.6 0)
 		(effects
 			(font
@@ -7585,7 +7585,7 @@
 		)
 		(uuid "f8f0e987-ac69-4f24-bbcb-754cc9713bb0")
 	)
-	(label "BRAKE2_3"
+	(label "BRAKE7"
 		(at 165.1 116.84 0)
 		(effects
 			(font
@@ -7595,7 +7595,7 @@
 		)
 		(uuid "fb10830c-0741-4df4-a6b1-533e16474b1a")
 	)
-	(hierarchical_label "FG2_[1..4]"
+	(hierarchical_label "FG[5..8]"
 		(shape output)
 		(at 132.08 116.84 180)
 		(effects
@@ -7617,7 +7617,7 @@
 		)
 		(uuid "1fbb31d3-bc94-4075-a1f9-898a15b5419d")
 	)
-	(hierarchical_label "FG1_[1..4]"
+	(hierarchical_label "FG[1..4]"
 		(shape output)
 		(at 130.81 60.96 180)
 		(effects
@@ -7628,7 +7628,7 @@
 		)
 		(uuid "503ba622-89ef-41d6-9f8f-b4275c03172e")
 	)
-	(hierarchical_label "PWM1_[1..4]"
+	(hierarchical_label "PWM[1..4]"
 		(shape input)
 		(at 34.29 27.94 180)
 		(effects
@@ -7639,7 +7639,7 @@
 		)
 		(uuid "58d4ba4a-f881-4389-bbc9-899b76c8420a")
 	)
-	(hierarchical_label "BRAKE1_[1..4]"
+	(hierarchical_label "BRAKE[1..4]"
 		(shape input)
 		(at 132.08 41.91 180)
 		(effects
@@ -7650,7 +7650,7 @@
 		)
 		(uuid "8efa8d65-25d1-4133-adc3-f911ef1549ca")
 	)
-	(hierarchical_label "BRAKE2_[1..4]"
+	(hierarchical_label "BRAKE[5..8]"
 		(shape input)
 		(at 133.35 97.79 180)
 		(effects
@@ -7661,7 +7661,7 @@
 		)
 		(uuid "d32e9276-1865-4232-828b-c861cf0cc640")
 	)
-	(hierarchical_label "DIR1_[1..4]"
+	(hierarchical_label "DIR[1..4]"
 		(shape input)
 		(at 132.08 24.13 180)
 		(effects
@@ -7683,7 +7683,7 @@
 		)
 		(uuid "e2b26eea-8fb7-42cd-ac78-87461d7f171a")
 	)
-	(hierarchical_label "PWM2_[1..4]"
+	(hierarchical_label "PWM[5..8]"
 		(shape input)
 		(at 34.29 85.09 180)
 		(effects
@@ -7694,7 +7694,7 @@
 		)
 		(uuid "e8dc04f4-538d-46b3-844b-653230ad7c2d")
 	)
-	(hierarchical_label "DIR2_[1..4]"
+	(hierarchical_label "DIR[5..8]"
 		(shape input)
 		(at 133.35 80.01 180)
 		(effects

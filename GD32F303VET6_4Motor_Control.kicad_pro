@@ -61,7 +61,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.0,
-          "min_island_area": 10.0,
+          "min_island_area": 9.99999999996,
           "min_thickness": 0.2,
           "pad_connection": 2,
           "remove_islands": 0,
@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1524,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
@@ -158,10 +158,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.6,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_through_hole_diameter": 0.3048,
+        "min_track_width": 0.1524,
+        "min_via_annular_width": 0.1524,
+        "min_via_diameter": 0.508,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -666,45 +666,62 @@
         "clearance": 0.1,
         "name": "+3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.381,
         "tuning_profile": ""
       },
       {
         "clearance": 0.2,
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "tuning_profile": ""
       },
       {
-        "clearance": 0.4,
+        "clearance": 0.4064,
         "name": "24V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.2,
         "tuning_profile": ""
       },
       {
-        "clearance": 0.25,
+        "clearance": 0.2032,
         "name": "CAN/RS485",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": ""
       },
       {
-        "clearance": 0.12,
+        "clearance": 0.2032,
         "name": "SIGNAL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2032,
+        "name": "USB_DATA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2032,
+        "name": "USB_POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.508,
         "tuning_profile": ""
       }
     ],
@@ -715,32 +732,28 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
+        "netclass": "24V",
+        "pattern": "+24V"
+      },
+      {
         "netclass": "+3V3",
         "pattern": "+3V3"
       },
       {
         "netclass": "+5V",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "24V",
-        "pattern": "+24V"
+        "pattern": "^(\\+5V|BOARD_5V_RAW)$"
       },
       {
         "netclass": "CAN/RS485",
         "pattern": "CAN*"
       },
       {
-        "netclass": "CAN/RS485",
-        "pattern": "RS485*"
-      },
-      {
         "netclass": "SIGNAL",
         "pattern": "PWM*"
       },
       {
-        "netclass": "SIGNAL",
-        "pattern": "PWM1_1"
+        "netclass": "CAN/RS485",
+        "pattern": "RS485*"
       }
     ]
   },
@@ -2148,7 +2161,7 @@
         "uuid": "54005433-e3aa-4693-8f75-bb73943288d3"
       }
     ],
-    "used_designators": "U1-22,U26-28,C1-63,#PWR1-153,L1-8,D1-22,#FLG1-21,#FLG119,R1-78,Y1-2,Q1-17,1,CN1-9,B1-2,SW1,H1-14,+3V1,JP1-2,FL1-2,J1-2,FB1-2,+24V1,+5V1",
+    "used_designators": "U1-22,U26-28,C1-63,D1-22,L1-8,#PWR1-153,#FLG1-21,#FLG119,R1-78,Y1-2,Q1-17,1,CN1-9,B1-2,SW1,H1-14,JP1-2,+3V1,FL1-2,J1-2,FB1-2,+24V1,+5V1",
     "variants": []
   },
   "sheets": [
