@@ -1,0 +1,94 @@
+{
+  "PTH": {
+    "hole_count": 296,
+    "slots": 8,
+    "max_coordinate_or_size_rounding_error_mm": 0.0005000000000165983,
+    "all_coordinates_diameters_slot_axes_and_plating_match": true
+  },
+  "NPTH": {
+    "hole_count": 4,
+    "slots": 0,
+    "max_coordinate_or_size_rounding_error_mm": 0,
+    "all_coordinates_diameters_slot_axes_and_plating_match": true
+  },
+  "explicit_filled_and_capped_vias": 250,
+  "gerbers": [
+    {
+      "file": "GD32F303VET6_4Motor_Control-+24V.g2",
+      "function": "Copper,L3,Inr",
+      "sha256": "a31d54f193d64920d4aabfdd703fc58b713da58891bff6d6b4a2d91619b88f77",
+      "manufacturing_payload_unchanged": true
+    },
+    {
+      "file": "GD32F303VET6_4Motor_Control-B_Cu.gbl",
+      "function": "Copper,L6,Bot",
+      "sha256": "613336cadb402951660ec1397b3a292b40ba9c8a16d2bc0d2ee854753164c0a2",
+      "manufacturing_payload_unchanged": true
+    },
+    {
+      "file": "GD32F303VET6_4Motor_Control-B_Mask.gbs",
+      "function": "Soldermask,Bot",
+      "sha256": "e32d228e66a1938490d0d19371da79197b8f03ca8e99f42cd285ed82462ff0bb",
+      "manufacturing_payload_unchanged": true
+    },
+    {
+      "file": "GD32F303VET6_4Motor_Control-B_Silkscreen.gbo",
+      "function": "Legend,Bot",
+      "sha256": "a810290d4d67e694a7980a19ef17c77a5ff7a61bed3bfe9ad8829c951c5c437d",
+      "manufacturing_payload_unchanged": true
+    },
+    {
+      "file": "GD32F303VET6_4Motor_Control-Edge_Cuts.gm1",
+      "function": "Profile,NP",
+      "sha256": "c89cd8ee9fdd999ce148d698dfc97014950e93a1e3a1a4a1cd39c1b366332421",
+      "manufacturing_payload_unchanged": true
+    },
+    {
+      "file": "GD32F303VET6_4Motor_Control-F_Cu.gtl",
+      "function": "Copper,L1,Top",
+      "sha256": "15efa15528dd8288a6cf3244a8df28180951b359139d579483720fa58712a2f2",
+      "manufacturing_payload_unchanged": true
+    },
+    {
+      "file": "GD32F303VET6_4Motor_Control-F_Mask.gts",
+      "function": "Soldermask,Top",
+      "sha256": "93d4675cb58727ece74a68c6f4c9bbe01daeb15a32a881b9c82a2c7dfb1ac98c",
+      "manufacturing_payload_unchanged": true
+    },
+    {
+      "file": "GD32F303VET6_4Motor_Control-F_Silkscreen.gto",
+      "function": "Legend,Top",
+      "sha256": "854c7988bfe207d19cccbf51b78feb674fe10835f9e334952ad45aeb23e9610f",
+      "manufacturing_payload_unchanged": true
+    },
+    {
+      "file": "GD32F303VET6_4Motor_Control-GND.g1",
+      "function": "Copper,L2,Inr",
+      "sha256": "5826a7a4f5c04f9d409231b24f0a41721a9f43f34fe0669c6897a587fb8bafad",
+      "manufacturing_payload_unchanged": true
+    },
+    {
+      "file": "GD32F303VET6_4Motor_Control-GND2.g4",
+      "function": "Copper,L5,Inr",
+      "sha256": "26cbed11ee3de587e001f0a5ccef5cc2fb78d14864892b852ef79ba6b1d85012",
+      "manufacturing_payload_unchanged": true
+    },
+    {
+      "file": "GD32F303VET6_4Motor_Control-In3_Cu.g3",
+      "function": "Copper,L4,Inr",
+      "sha256": "066bdcb36f31b3558c57922d801a2930751ef138a52b6858f04aa7e7c86760a5",
+      "manufacturing_payload_unchanged": true
+    }
+  ],
+  "same_origin_all_layers": true,
+  "absolute_origin_mm": true,
+  "outline_closed": true,
+  "nominal_outline_mm": [
+    100,
+    60
+  ],
+  "order_thickness_mm": 1.6,
+  "copper_dielectric_stack_sum_mm": 1.5384,
+  "cad_stack_including_nominal_soldermask_mm": 1.5584,
+  "all_manufacturing_payloads_equal_to_prior_package": true
+}

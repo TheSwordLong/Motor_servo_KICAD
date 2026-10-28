@@ -97,4 +97,7 @@
 	(lib (name "ESP32-C3-WROOM-02U-N4") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/ESP32-C3-WROOM-02U-N4.kicad_sym") (options "") (descr ""))
 	(lib (name "ESP32-C3-WROOM-02-N4") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/ESP32-C3-WROOM-02-N4.kicad_sym") (options "") (descr ""))
 	(lib (name "ESP32-C3-MINI-1-H4") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/ESP32-C3-MINI-1-H4.kicad_sym") (options "") (descr ""))
+	(lib (name "0402WGF1001TCE") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/0402WGF1001TCE.kicad_sym") (options "") (descr ""))
+	(lib (name "GZ1608D601TF") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/GZ1608D601TF.kicad_sym") (options "") (descr ""))
+	(lib (name "PRTR5V0U2X") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/PRTR5V0U2X.kicad_sym") (options "") (descr ""))
 )

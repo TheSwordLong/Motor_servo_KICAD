@@ -15,7 +15,19 @@
 		(fill
 			(type none)
 		)
-		(uuid "762ec426-d054-463d-85ce-3eec057b3031")
+		(uuid "0d217577-67d7-46fc-846b-1af56561097c")
+	)
+	(rectangle
+		(start 20 175)
+		(end 265 221)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "48e80cf6-dd9f-4083-a244-d3ba1c24f597")
 	)
 	(rectangle
 		(start 119 84)
@@ -27,81 +39,107 @@
 		(fill
 			(type none)
 		)
-		(uuid "a1c7c95f-9ea5-4d80-a01c-f555e69cda43")
+		(uuid "80736dd6-b791-4d1e-8ee4-0ada9735cf44")
 	)
-	(text "GD32F303 四路无刷电机控制板\n系统总览 / 功能分区"
+	(rectangle
+		(start 265 14)
+		(end 405 164)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a5d35315-5014-467d-b623-e706d4e980a6")
+	)
+	(text "POWER：24V 输入、5V / 3V3、电源指示、Earth。\nMCU_Core：主控、时钟、复位、SWD、SPI Flash。\nMotor_Comm：四路 PWM、DIR、BRAKE、FG。\n新增 MOT-08：PA15 可编程 LED，低电平亮。\nUSB_TTL_CH340：串口桥、原生 USB、供电汇合。\nCH340 使用 USART2：PD8 TX / PD9 RX。\nRS485：USART1 自动收发，共地接口。\nCAN / RS232：保留电路，当前不装配。\nWiFi_OTA：备用不装配，USART0 / PA9、PA10。\n\n实线：功能分区；虚线：备用 DNP。\n具体装配及 PCB 排除状态以元件属性为准。\n注释说明当前接线，不代表电气验收通过。"
+		(exclude_from_sim no)
+		(at 270 27 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "094b708a-53da-41c6-907b-b7c9b160a74b")
+	)
+	(text "SYS-04  供电与接地路径"
+		(exclude_from_sim no)
+		(at 23 178 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "18f98203-bbbb-4d64-b881-bc63bac00396")
+	)
+	(text "24V → BOARD_5V_RAW → +5V → +3V3。\nUSB1_VBUS / USB2_VBUS 经各自 LM66100 汇入 +5V。\n四路电机合计最大电流按 3A；控制与电机共地。\nEarth 为机壳 / 金属安装板网络，是否连接 PE 由整机接线决定。"
+		(exclude_from_sim no)
+		(at 25 187 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "3e9754aa-3cf2-4d6e-94a3-1cb4d3bbb9c6")
+	)
+	(text "SYS-01  电源系统"
+		(exclude_from_sim no)
+		(at 141 64 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "9a4e9b07-8f39-46c3-9b5a-33394c02be93")
+	)
+	(text "SYS-02  主控与总线接口"
+		(exclude_from_sim no)
+		(at 125 154 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "b454c203-a8e4-4484-b685-96db2449d6ef")
+	)
+	(text "SYS-03  功能目录与装配状态"
+		(exclude_from_sim no)
+		(at 268 17 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "ef655e99-faaf-444a-b4ca-65badbb6d95c")
+	)
+	(text "GD32F303 四路电机控制板\n系统功能目录"
 		(exclude_from_sim no)
 		(at 20 20 0)
 		(effects
 			(font
-				(face "宋体")
+				(face "Microsoft YaHei")
 				(size 3 3)
 			)
 			(justify left top)
 		)
-		(uuid "4058053c-051d-4097-9b12-cc865fd068f5")
-	)
-	(text "SYS-02  主控与通信互联"
-		(exclude_from_sim no)
-		(at 126 154 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "be7ea3c0-3589-4bf4-8377-39f2fee123b2")
-	)
-	(text "供电路径：24 V → BOARD_5V_RAW → +5V → +3V3\nUSB1_VBUS、USB2_VBUS 经各自 LM66100 接入 +5V。\n电机 24 V 回路与控制板共地；四路电机合计最大电流按 3 A 设计。\nEarth 表示机壳 / 金属安装板网络，是否接保护地 PE 由整机接线决定。"
-		(exclude_from_sim no)
-		(at 30 190 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
-			)
-			(justify left top)
-		)
-		(uuid "bfc0c3f4-7c9f-4d80-b7b9-46cb7c195993")
-	)
-	(text "POWER：24 V 输入、5 V / +3V3 电源、供电指示、机壳连接。\nMCU_Core：主控、时钟、启动 / 复位、SWD、SPI Flash。\nMotor_Comm：四路 PWM、DIR、BRAKE、FG 与电机接口。\nUSB_TTL_CH340：USB 转串口、MCU USB、5 V 电源汇合。"
-		(exclude_from_sim no)
-		(at 270 25 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "ccf2680e-3306-45b5-92d8-67aa4a2946b6")
-	)
-	(text "SYS-01  电源系统"
-		(exclude_from_sim no)
-		(at 142 64 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "d3ad192f-2a20-41b8-85ed-e46f5de64175")
-	)
-	(text "RS485：当前装配的自动收发接口。\nCAN：隔离 CAN 备用电路，当前 DNP。\nRS232：电平转换备用电路，当前 DNP。\n\n阅读约定\n实线框：功能分区；虚线框：备用不装配区域。\n具体装配状态以元件 DNP 属性为准。\n分区编号仅用于阅读，不改变网络连接。"
-		(exclude_from_sim no)
-		(at 265 96 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "ddcdee23-4a1a-4fe9-a3e5-a6fa8c5ba958")
+		(uuid "f86e13e7-7d04-46b1-8671-7429ed527df3")
 	)
 	(no_connect
 		(at 163.83 138.43)

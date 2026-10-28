@@ -2181,151 +2181,164 @@
 		)
 	)
 	(rectangle
-		(start 170 12)
-		(end 285 148)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6d071da5-bb52-4046-aa2a-a84b46daf1fa")
-	)
-	(rectangle
-		(start 295 12)
-		(end 408 148)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "81122034-cf47-49aa-add8-5c6fa110d804")
-	)
-	(rectangle
 		(start 12 156)
 		(end 408 278)
 		(stroke
 			(width 0.254)
-			(type default)
+			(type dash)
 		)
 		(fill
 			(type none)
 		)
-		(uuid "ce66ed52-0103-4c21-8236-f635080d45de")
+		(uuid "38cc2dc3-7c4e-451b-8f50-af8dd4832174")
+	)
+	(rectangle
+		(start 170 12)
+		(end 285 148)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "42137026-f2fd-4db4-b72e-5faa0eacc064")
 	)
 	(rectangle
 		(start 12 12)
 		(end 160 148)
 		(stroke
 			(width 0.254)
-			(type default)
+			(type dash)
 		)
 		(fill
 			(type none)
 		)
-		(uuid "fa7a83b3-7447-447a-a4bd-065005ebdd7b")
+		(uuid "72f1d1c3-b425-4b4b-9e4d-0abfeb8e6cf9")
 	)
-	(text "R87/R88：CC1/CC2 各自 5.1k 下拉，不可短接。\nR89/R90：22R，靠近模块；USB 差分线短、无长支线。\nD+ 接 GPIO19/14 脚，D- 接 GPIO18/13 脚。\nVBUS 未接；先给板卡上电，再接 Type-C 数据线。\n精简版无外置 USB ESD 保护；保留 BOOT/RESET 恢复。"
-		(exclude_from_sim no)
-		(at 170 233 0)
-		(effects
-			(font
-				(size 1.45 1.45)
-			)
-			(justify left top)
+	(rectangle
+		(start 295 12)
+		(end 408 148)
+		(stroke
+			(width 0.254)
+			(type dash)
 		)
-		(uuid "028b6d1a-d804-461f-977f-613646407641")
-	)
-	(text "WIFI-02  电源 / EN / RESET"
-		(exclude_from_sim no)
-		(at 173 15 0)
-		(effects
-			(font
-				(size 1.9 1.9)
-			)
-			(justify left top)
+		(fill
+			(type none)
 		)
-		(uuid "19dcc4a7-38e8-4269-957b-d4c50271c80e")
+		(uuid "da855abc-10d2-41ed-92f3-a592292138fb")
 	)
-	(text "GPIO4/3 脚 TX → GD32 PD9/56 RX。\nGD32 PD8/55 TX → GPIO5/4 脚 RX；UART 直连。\nGPIO10/10 脚 → GD32 NRST，双方共用板上 3V3。\nGPIO10 必须开漏：拉低复位，高阻释放；禁止推挽高。\n与旧 MOS 方案相比，复位命令极性已反转。\n未用 GPIO 标 NC；9/19 脚接地。"
-		(exclude_from_sim no)
-		(at 20 107 0)
-		(effects
-			(font
-				(size 1.35 1.35)
-			)
-			(justify left top)
-		)
-		(uuid "353f069b-4a0f-4fb1-a94e-4df8b725711f")
-	)
-	(text "WIFI-03  启动上拉 / BOOT"
-		(exclude_from_sim no)
-		(at 298 15 0)
-		(effects
-			(font
-				(size 1.9 1.9)
-			)
-			(justify left top)
-		)
-		(uuid "42c3ead1-9cb4-40ed-8b5c-c5c8b9f6fc7c")
-	)
-	(text "沿用板上 3V3，不另加 AMS1117。\nC68=10uF，C69=100nF 靠近模块。\nEN：R79=10k 上拉，C70=1uF 延时。"
-		(exclude_from_sim no)
-		(at 178 129 0)
-		(effects
-			(font
-				(size 1.35 1.35)
-			)
-			(justify left top)
-		)
-		(uuid "430b289c-4026-4cce-bc05-25b914f0b373")
-	)
-	(text "R80/R81/R82 = 10k，确保启动电平。\n正常：GPIO9 高；下载：GPIO9 低。\n按住 BOOT → 按放 RESET → 释放 BOOT。\n不加 LED，避免给启动脚增加负载。"
-		(exclude_from_sim no)
-		(at 303 121 0)
-		(effects
-			(font
-				(size 1.35 1.35)
-			)
-			(justify left top)
-		)
-		(uuid "8efd5b72-38fa-4417-8c59-635cb8a135df")
-	)
-	(text "WIFI-04  原生 Type-C USB / 最简下载接口"
-		(exclude_from_sim no)
-		(at 15 159 0)
-		(effects
-			(font
-				(size 1.9 1.9)
-			)
-			(justify left top)
-		)
-		(uuid "a86c218c-390d-42e3-8935-7e16575e0966")
-	)
-	(text "OTA/IAP：HTTPS → ESP → UART → GD32/U8 → Bootloader。固件待实现；GPIO10 复位改为低有效。"
-		(exclude_from_sim no)
-		(at 15 284 0)
-		(effects
-			(font
-				(size 1.4 1.4)
-			)
-			(justify left top)
-		)
-		(uuid "ea741e7a-046e-42dc-ab16-5490928e3932")
-	)
-	(text "WIFI-01  WROOM-02-N4 与 GD32 通信"
+	(text "WIFI-01  ESP32 与 GD32 通信【DNP】"
 		(exclude_from_sim no)
 		(at 15 15 0)
 		(effects
 			(font
-				(size 1.9 1.9)
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "fe606409-5e68-464d-9d42-9183a186603f")
+		(uuid "1c673f29-9d3c-4071-b389-66cb2c547f9b")
+	)
+	(text "C68=10uF、C70=100nF：3V3 去耦。\nR68=10k、C69=1uF：EN 延时。\nSW2：复位 ESP；沿用板上 +3V3。"
+		(exclude_from_sim no)
+		(at 177 130 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.65 1.65)
+			)
+			(justify left top)
+		)
+		(uuid "3de77031-b804-44ae-8550-bf726e559b53")
+	)
+	(text "WIFI-04  原生 USB 下载接口【DNP】"
+		(exclude_from_sim no)
+		(at 15 159 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "56a086dc-57a7-46e2-aac8-279f13332c72")
+	)
+	(text "U26：ESP32-C3-WROOM-02-N4。\nGPIO4 / 3 脚 TX → GD32 PA10 / 69 RX。\nGD32 PA9 / 68 TX → GPIO5 / 4 脚 RX。\nGD32 使用 USART0；UART 为 3.3V 直连。\nGPIO10 当前未接，不控制 GD32 NRST。\n9 / 19 脚接地；其余不用引脚保留 NC。"
+		(exclude_from_sim no)
+		(at 20 106 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "919a1b37-febc-4992-b49a-df4399c6881f")
+	)
+	(text "R66 / R67：CC1 / CC2 各 5.1k 下拉。\nR69 / R70：USB 串联 22Ω，靠近模块。\nD+ → GPIO19 / 14；D- → GPIO18 / 13。\nVBUS 未接，使用时须由板卡供电。\n当前无外置 USB ESD；本页全部不装配。"
+		(exclude_from_sim no)
+		(at 170 236 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "a109834c-e574-48f5-a55e-9e7434bcf4c3")
+	)
+	(text "WIFI-03  启动配置 / BOOT【DNP】"
+		(exclude_from_sim no)
+		(at 298 15 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "a428263a-e33b-46b7-9cc4-d132b88a11c4")
+	)
+	(text "备用页：原理图保留，元件排除 PCB / BOM。\nOTA/IAP 规划：网络 → ESP → UART → GD32 / U8 → Bootloader；升级固件尚未实现。"
+		(exclude_from_sim no)
+		(at 16 286 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "e7097a72-681d-4ce2-86a3-fb194de47747")
+	)
+	(text "R71 / R72 / R73：各 10k 启动上拉。\n正常 GPIO9 高；下载时拉低。\n按住 BOOT → 按放 RESET → 松开 BOOT。"
+		(exclude_from_sim no)
+		(at 302 123 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.65 1.65)
+			)
+			(justify left top)
+		)
+		(uuid "e8b8e36d-cb97-4237-b6b1-8a04a25ba6c1")
+	)
+	(text "WIFI-02  供电 / EN / RESET【DNP】"
+		(exclude_from_sim no)
+		(at 173 15 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "f7d7f28f-003c-435f-b77d-41a44c314d8b")
 	)
 	(junction
 		(at 96.52 213.36)
@@ -3484,7 +3497,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "04687b90-992b-4e8d-9cc9-fbdd98e854b3")
-		(property "Reference" "R80"
+		(property "Reference" "R71"
 			(at 314.96 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3536,6 +3549,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "4de218c9-8522-4004-ac24-60302074f0e0")
 		)
@@ -3545,7 +3604,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "R80")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -3562,7 +3621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bae34c2-75dc-4b0b-8c7f-b56f720217d0")
-		(property "Reference" "#PWR0231"
+		(property "Reference" "#PWR0170"
 			(at 342.9 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3619,7 +3678,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0231")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -3688,6 +3747,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "A1"
 			(uuid "5d0dc64c-e96b-4ec6-980e-3a4b38098a0b")
 		)
@@ -3768,7 +3873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20ae487a-6b19-45b5-bf7a-4403365a0e43")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0160"
 			(at 110.49 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3825,7 +3930,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0222")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -3842,7 +3947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24447746-eb25-4fac-9b23-b0408905020d")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0161"
 			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3899,7 +4004,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0223")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -3916,7 +4021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27f01f6c-18a4-4911-b5db-39d744c3a81d")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0156"
 			(at 48.26 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3973,7 +4078,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0221")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -3990,7 +4095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a5dd846-3a70-4ce4-9db6-59ff763c02aa")
-		(property "Reference" "#PWR0234"
+		(property "Reference" "#PWR0158"
 			(at 96.52 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -4047,7 +4152,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0234")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -4064,7 +4169,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "4b929f46-f45d-490c-8df5-486ca4c7ba36")
-		(property "Reference" "R90"
+		(property "Reference" "R70"
 			(at 294.64 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,6 +4221,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "21bb3141-0fc1-4ae2-911b-16a0af42be9a")
 		)
@@ -4125,7 +4276,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "R90")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -4142,7 +4293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64bd89c6-ee93-413f-a562-259fc17a05e5")
-		(property "Reference" "#PWR0237"
+		(property "Reference" "#PWR0159"
 			(at 101.6 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -4199,7 +4350,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0237")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -4216,7 +4367,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "6a207b6d-d136-4a8e-9fd6-a5137940973a")
-		(property "Reference" "C70"
+		(property "Reference" "C69"
 			(at 193.04 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4268,6 +4419,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "56e5a720-01ae-497b-93d2-d05a2dc67fd4")
 		)
@@ -4277,7 +4474,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "C70")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -4294,7 +4491,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "75d0fa21-3dd5-4212-b7d9-d595326e8243")
-		(property "Reference" "R87"
+		(property "Reference" "R66"
 			(at 58.42 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4346,6 +4543,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "30f45b23-39d5-4455-83e4-6c2e45d20548")
 		)
@@ -4355,7 +4598,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "R87")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -4424,6 +4667,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "3"
 			(uuid "5a67cc27-1d3d-46ae-bd2d-e52b477a4cc4")
 		)
@@ -4456,7 +4745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d77cdb3-4ec0-4de2-ad04-d01b768018e1")
-		(property "Reference" "#PWR0235"
+		(property "Reference" "#PWR0155"
 			(at 45.72 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -4513,7 +4802,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0235")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -4530,7 +4819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f73f0fc-a8a7-449d-9af6-c176118e8da1")
-		(property "Reference" "#PWR0230"
+		(property "Reference" "#PWR0168"
 			(at 307.34 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4587,7 +4876,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0230")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -4604,7 +4893,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8be63ba4-7a3c-4b71-8424-46ddafe92ea7")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0154"
 			(at 45.72 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4661,7 +4950,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0220")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -4678,7 +4967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9798daf5-3add-421c-a542-f304d99ace51")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0163"
 			(at 185.42 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4735,7 +5024,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0227")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -4752,7 +5041,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "9da91b78-a88c-4e5a-9bca-471faadef139")
-		(property "Reference" "R82"
+		(property "Reference" "R73"
 			(at 386.08 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4804,6 +5093,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "5f8e3f18-0dac-4223-8ad8-57b4e314c4fd")
 		)
@@ -4813,7 +5148,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "R82")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -4830,7 +5165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a27a1805-b45e-4b21-a450-3991bceddc86")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0165"
 			(at 223.52 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4887,7 +5222,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0225")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -4956,6 +5291,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "3"
 			(uuid "2e91982a-c279-4355-99a3-c19a1ad0d03c")
 		)
@@ -4988,7 +5369,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "a9eed7fd-3020-42b0-9210-d7332bc5ca62")
-		(property "Reference" "R79"
+		(property "Reference" "R68"
 			(at 193.04 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5040,6 +5421,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "ade757ca-7824-4024-b540-4a41dd379881")
 		)
@@ -5049,7 +5476,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "R79")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -5066,7 +5493,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af575413-68a5-46c5-a326-6abc41c89673")
-		(property "Reference" "#PWR0233"
+		(property "Reference" "#PWR0169"
 			(at 325.12 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5123,7 +5550,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0233")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -5282,6 +5709,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "056378c3-3d9c-4a0d-b2c2-1d7098a6923a")
 		)
@@ -5359,7 +5832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc7bf570-62c1-4123-8a2f-3244ff77b020")
-		(property "Reference" "#PWR0232"
+		(property "Reference" "#PWR0171"
 			(at 378.46 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5416,7 +5889,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0232")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -5433,7 +5906,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcd36cbd-2f5a-4e0d-b9f4-6dfe54de1305")
-		(property "Reference" "#PWR0236"
+		(property "Reference" "#PWR0157"
 			(at 50.8 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -5490,7 +5963,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0236")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -5507,7 +5980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4535ba9-38f5-4d51-b893-e2106b9cf463")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR0167"
 			(at 236.22 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5564,7 +6037,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0229")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -5581,7 +6054,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "d590631a-9597-40fa-8308-652f4be53a68")
-		(property "Reference" "R81"
+		(property "Reference" "R72"
 			(at 350.52 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5633,6 +6106,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "d89332de-f3c3-40dd-bd25-c85ed8317409")
 		)
@@ -5642,7 +6161,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "R81")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -5659,7 +6178,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "d77b43a2-d105-4367-a758-076293da2a64")
-		(property "Reference" "R88"
+		(property "Reference" "R67"
 			(at 109.22 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5711,6 +6230,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "31072a74-1762-4a30-a4af-0b08489490bd")
 		)
@@ -5720,7 +6285,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "R88")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -5789,6 +6354,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "b7478bf2-b1ea-4d22-9f59-1739248bc71c")
 		)
@@ -5815,7 +6426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eee9f4c5-24bc-4aac-a04b-46ce24d8a8e9")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0162"
 			(at 185.42 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5872,7 +6483,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0224")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -5889,7 +6500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0356a4f-9c47-4470-9ae0-bd7d8d354cfe")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR0164"
 			(at 185.42 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5946,7 +6557,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0228")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -5963,7 +6574,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "f451eb20-639e-4351-883d-1e8bfccc0780")
-		(property "Reference" "R89"
+		(property "Reference" "R69"
 			(at 294.64 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6015,6 +6626,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "2d0ea89d-5387-48e3-92db-59a08d3ad8ee")
 		)
@@ -6024,7 +6681,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "R89")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -6041,7 +6698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f577393b-796f-4a2d-adac-642cb4abbec0")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0166"
 			(at 223.52 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +6755,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "#PWR0226")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -6115,7 +6772,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "fe6cf277-0ad3-4b0d-b8a3-e14d851c0b54")
-		(property "Reference" "C69"
+		(property "Reference" "C70"
 			(at 231.14 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,6 +6824,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "cd9d34c8-78dd-443c-ad72-d287078d9940")
 		)
@@ -6176,7 +6879,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/258769ac-c735-45c1-a21b-db39ac67c09c"
-					(reference "C69")
+					(reference "C70")
 					(unit 1)
 				)
 			)

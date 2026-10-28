@@ -1,0 +1,2 @@
+# Preserve exact delivered bytes so the published SHA256 manifest stays valid.
+/打板文件与BOM/** -text

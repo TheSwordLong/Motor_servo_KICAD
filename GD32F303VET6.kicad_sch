@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "4e6bd6d7-7a59-4270-a8e2-cbc14695e15b")
-	(paper "User" 480 340)
+	(paper "User" 480 450)
 	(lib_symbols
 		(symbol "BAT54CTA:BAT54C"
 			(pin_names
@@ -674,6 +674,129 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7401,7 +7524,43 @@
 		(fill
 			(type none)
 		)
-		(uuid "02ca21b1-3919-4df8-9c8e-c8069cb77eaf")
+		(uuid "6982afa4-8047-4aae-9844-9f878e2ca676")
+	)
+	(rectangle
+		(start 249 25)
+		(end 466 94)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7ad5747d-3643-4242-aa67-5e950bfad25a")
+	)
+	(rectangle
+		(start 136 155.5)
+		(end 345 347)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7b76115d-3ed6-4163-8ab4-5ec6ab024248")
+	)
+	(rectangle
+		(start 40 20)
+		(end 107 46)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8914d182-e387-4ea9-9304-2e0cfdc8732b")
 	)
 	(rectangle
 		(start 12 91)
@@ -7413,11 +7572,11 @@
 		(fill
 			(type none)
 		)
-		(uuid "2c845d2c-f3f5-4594-9370-c9c22d31b068")
+		(uuid "9b3ba4be-792a-4198-8122-f34533190410")
 	)
 	(rectangle
-		(start 249 25)
-		(end 382 94)
+		(start 351 100)
+		(end 466 219)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -7425,7 +7584,19 @@
 		(fill
 			(type none)
 		)
-		(uuid "8e675ce6-bcfe-4abb-8769-f039e9ab0a31")
+		(uuid "f039f781-403b-4481-b1f1-292e0216f5a9")
+	)
+	(rectangle
+		(start 351 226)
+		(end 466 300)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f2ca9d81-1b83-4221-b42f-24cb6e3f6cc6")
 	)
 	(rectangle
 		(start 14 16)
@@ -7437,126 +7608,158 @@
 		(fill
 			(type none)
 		)
-		(uuid "de08dc14-f171-4749-8115-17752fe0301f")
+		(uuid "fdf07d0f-81a1-4f78-b1ec-5c2329be5f22")
 	)
-	(text "PD12～PD15：备用，未连接。\nFG4：PE0 / 97，TIMER3_ETI；PA0 备用。\n固件尚未适配 PWM / FG4 新映射。\n完整复用名称保留在符号的备用引脚功能中。"
+	(text "MCU-02  时钟 / 启动 / 复位 / SWD"
 		(exclude_from_sim no)
-		(at 207.01 250.19 0)
+		(at 16 176 0)
 		(effects
 			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "09d5ff46-bb1e-5f02-8de9-c330b5709eb6")
-	)
-	(text "MCU-05  SPI 非易失存储"
-		(exclude_from_sim no)
-		(at 174 96 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "1ce9ba08-aaf8-4a41-b84d-de5445f9cdbb")
+		(uuid "3bc458ff-70b8-499e-a7bf-43e34354fb04")
 	)
-	(text "接口命名说明：MCU_SPI_SLK 保留现有名称，实际连接 Flash 的 SCLK。\nMotor_start 控制 PWM 通道使能；它不直接表示电机正在转动。"
+	(text "供电：+3V3 接 VDD / VDDA / VBAT；D8、B01、C37、C38 为 DNP。\nY1：主时钟；Y2：RTC 时钟；JP1 / JP2：BOOT 配置；SW1：复位。\nR17 / C39：NRST 上拉及滤波；H5：SWD；U8：SPI Flash。"
 		(exclude_from_sim no)
-		(at 22 300 0)
+		(at 16 353 0)
 		(effects
 			(font
-				(face "宋体")
+				(face "Microsoft YaHei")
 				(size 1.7 1.7)
 			)
 			(justify left top)
 		)
-		(uuid "3c72d056-83c7-47a1-b310-135d3ab2266c")
+		(uuid "456a49a5-f64a-477e-b9cc-11ab0f94bd73")
 	)
-	(text "MCU-03  |  GPIO / 外设\n76 引脚 · LQFP100 顶视图顺序"
+	(text "MCU-05  SPI 非易失存储"
 		(exclude_from_sim no)
-		(at 240.03 215.9 0)
+		(at 173 98 0)
 		(effects
 			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "65216867-745f-418a-a3d6-2c4e0ff1ca55")
-	)
-	(text "MCU-09  Wi-Fi / OTA 备用接口\n本版不装配，已排除 PCB / BOM。\n原理图及 PD8 / PD9 连接保留。\nPD8 / 55：USART2_TX；PD9 / 56：USART2_RX。\n原设计使用 USART2 全重映射。"
-		(exclude_from_sim no)
-		(at 357 193 0)
-		(effects
-			(font
-				(size 1.5 1.5)
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "827dbb93-91b9-4176-80bb-279f25d751a3")
+		(uuid "66843795-ea92-4739-910a-18b8b746cb62")
 	)
-	(text "PWM 网络       GPIO / 脚号       定时器通道\nPWM1          PC6 / 63          TIMER7_CH0\nPWM2          PC7 / 64          TIMER7_CH1\nPWM3          PC8 / 65          TIMER7_CH2\nPWM4          PC9 / 66          TIMER7_CH3"
+	(text "MCU-07  Wi-Fi / OTA 备用子页【DNP】"
 		(exclude_from_sim no)
-		(at 207.01 232.41 0)
+		(at 354 229 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "9a958ea6-3f80-521f-bd5e-8fbec7dd1247")
+		(uuid "82141647-c188-4ce9-ba1f-664f4ea7558c")
+	)
+	(text "MCU-01  主控供电与去耦"
+		(exclude_from_sim no)
+		(at 17 12 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "98ce2afb-b40b-412b-9a76-a507e15390eb")
 	)
 	(text "MCU-04  USB / 电机子页接口"
 		(exclude_from_sim no)
-		(at 254 26 0)
+		(at 252 28 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "a4909303-4bac-4d48-bebc-bc2274b39540")
+		(uuid "a51b95a8-1e4d-4c7b-aae4-cd00ca08adaf")
 	)
-	(text "MCU-02  时钟 / 启动 / 调试"
+	(text "PA15 / 77 → Motor_Comm / MOT-08。\nLED_PA15_N：低亮、高灭。\n关闭 JTAG、保留 PA13/PA14 的 SWD。\n先置输出高，再配置推挽，默认熄灭。\nBUTTON_ESTOP_ENABLE 保持为 0。\n\nUSB：PA11 D- / PA12 D+。\nCH340：USART2，PD8 TX / PD9 RX。\nWi-Fi 备用：USART0，PA9 TX / PA10 RX。\nSPI0：PA4 NSS、PA5 SCK、PA6/7 数据。\nMCU_SPI_SLK 为现有 SCLK 网络名称。\n\nPWM1～4：PC6～PC9 / TIMER7_CH0～3。\nFG4：PE0 / TIMER3_ETI；PD12～15 备用。\nMotor_start：PD11，高使能 U15。\n固件尚需适配当前 PWM / FG 映射。"
 		(exclude_from_sim no)
-		(at 16 177 0)
+		(at 355 112 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 1.65 1.65)
+			)
+			(justify left top)
+		)
+		(uuid "b2fcd72f-6304-497a-a66b-2e5f1a36f687")
+	)
+	(text "本版不装配，保持 PCB / BOM 排除属性。\nUART 接 PA9 / PA10；GPIO10 未连接 NRST。\nOTA/IAP 固件尚未实现。"
+		(exclude_from_sim no)
+		(at 355 285 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "c06555e9-8b59-401e-9edc-33e1d6715a6a")
+	)
+	(text "SPI / MCU TEST POINTS"
+		(exclude_from_sim no)
+		(at 30.48 370.84 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc22f1b2-b6e5-45c5-9c32-59976b4f46ff")
+	)
+	(text "MCU-06  接口与初始化说明"
+		(exclude_from_sim no)
+		(at 354 103 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "b0127e29-e62f-4c2f-b74e-5c4992fd17cc")
+		(uuid "eb8b1364-c63e-44ba-8dec-e877f3c331ac")
 	)
-	(text "MCU-01｜+3V3 供电与各电源引脚旁路。\nD8 为 VBAT 供电选择支路。\nB01 / C37 / C38 为备用区域，当前 DNP。\n\nMCU-02｜Y1：主时钟；Y2：低速时钟。\nJP1 / JP2：BOOT 配置；SW1：手动复位。\nR17 / C39：NRST 上拉与滤波。\nH5：SWD 下载 / 调试接口。\n\nMCU-05｜U8：GD25Q16 SPI Flash。\nR18 / R19 / R20 保持控制脚默认电平；C40 去耦。\n\n电机使能｜Motor_start 输出至电机页 U15.OE。\n高电平允许 PWM 电平转换；低电平关闭。\n此处没有硬件锁存，需 MCU 持续维持使能。\n\n四路电机｜PWM1～4、DIR1～4、BRAKE1～4 为控制输出；\nFG1～4 为测速输入，按电机通道编号对应。\n\nPWM1~4: PC6~PC9 / TIMER7_CH0~CH3.\nPD12~PD15: NC / reserved.\nFirmware still uses TIMER3; update before use."
+	(text "MCU-01A  VBAT 备用支路【DNP】"
 		(exclude_from_sim no)
-		(at 350 105 0)
+		(at 42 22 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.6 1.6)
-			)
-			(justify left top)
-		)
-		(uuid "cda3c98e-796b-4f8f-9b8d-c7f8117b9f6d")
-	)
-	(text "MCU-01  供电与去耦"
-		(exclude_from_sim no)
-		(at 17 17 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 1.5 1.5)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "db44aa3e-e0cc-486b-8a15-2d68ac6d4d40")
+		(uuid "f22f19c8-9631-4513-9d36-d8a09f34d9ac")
+	)
+	(text "MCU-03  GPIO 与外设连接"
+		(exclude_from_sim no)
+		(at 142 160 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "fdfa7d3c-77a9-4fef-b2db-2330e55a336e")
 	)
 	(junction
 		(at 76.2 33.02)
@@ -7881,10 +8084,6 @@
 		(uuid "04a8172b-9440-4aac-873a-90d4a906046b")
 	)
 	(no_connect
-		(at 189.23 311.15)
-		(uuid "04ebed1b-1f3f-4d4d-a391-02ee8f79c811")
-	)
-	(no_connect
 		(at 247.65 171.45)
 		(uuid "06b65335-7ae4-4f08-9a71-e1b17bc4d8de")
 	)
@@ -8064,6 +8263,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 311.15) (xy 189.23 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0531e7f4-7c33-48ce-ad29-fdde00a56dd7")
+	)
+	(wire
+		(pts
 			(xy 275.59 311.15) (xy 275.59 312.42)
 		)
 		(stroke
@@ -8194,6 +8403,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 386.08) (xy 96.52 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11797f0b-2cb3-4a2c-b962-2dbe75761dc7")
+	)
+	(wire
+		(pts
 			(xy 31.75 60.96) (xy 38.1 60.96)
 		)
 		(stroke
@@ -8201,6 +8420,16 @@
 			(type default)
 		)
 		(uuid "125bcc05-6105-473c-a623-766c3475ae50")
+	)
+	(wire
+		(pts
+			(xy 152.4 386.08) (xy 152.4 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c87fa7-e5f7-4019-84ea-cc96ea95579e")
 	)
 	(wire
 		(pts
@@ -8484,6 +8713,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 40.64) (xy 403.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7ba020-f4ec-40d3-839a-a02422f9993c")
+	)
+	(wire
+		(pts
 			(xy 54.61 113.03) (xy 59.69 113.03)
 		)
 		(stroke
@@ -8532,6 +8771,17 @@
 		)
 		(uuid "43402735-2a6e-4ce6-86ff-48eb96323234")
 	)
+	(wire
+		(pts
+			(xy 152.4 414.02) (xy 152.4 419.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fdb7c2-2ca5-4187-a095-2c3ab29c194c")
+	)
+	
 	(wire
 		(pts
 			(xy 83.82 110.49) (xy 93.98 110.49)
@@ -8771,6 +9021,16 @@
 			(type default)
 		)
 		(uuid "6e1558f3-5c03-4a07-882b-32ec67e4e98e")
+	)
+	(wire
+		(pts
+			(xy 208.28 386.08) (xy 208.28 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e700845-d23a-42a4-9087-aded5ee2768f")
 	)
 	(wire
 		(pts
@@ -9634,6 +9894,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 386.08) (xy 40.64 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1cca2ee-5b31-4053-bd07-6249e3a8bb6f")
+	)
+	(wire
+		(pts
 			(xy 83.82 106.68) (xy 93.98 106.68)
 		)
 		(stroke
@@ -9811,6 +10081,16 @@
 			(type default)
 		)
 		(uuid "e98d158a-b0c8-5dec-ab64-88ad76f4a1f4")
+	)
+	(wire
+		(pts
+			(xy 40.64 414.02) (xy 40.64 419.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f6f872-0420-4f01-9694-ea6de9ca7a3b")
 	)
 	(wire
 		(pts
@@ -10072,7 +10352,7 @@
 		)
 		(uuid "23d9e049-4e94-4a33-a2e9-c5d83f419905")
 	)
-	(label "USART0_RX"
+	(label "USART2_RX"
 		(at 282.575 59.69 0)
 		(effects
 			(font
@@ -10081,6 +10361,16 @@
 			(justify left bottom)
 		)
 		(uuid "2dc9ef97-d1a6-4c23-ab55-5aaf4af07306")
+	)
+	(label "MCU_SPI_MISO"
+		(at 152.4 391.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f1f8481-7ba1-49ab-a6ae-90746ee86611")
 	)
 	(label "MCU_SPI_MOSI"
 		(at 251.714 125.476 180)
@@ -10102,6 +10392,7 @@
 		)
 		(uuid "34150a9e-657a-593c-b336-bc3f1518bbcc")
 	)
+	
 	(label "DIR[5..8]"
 		(at 313.69 76.2 180)
 		(effects
@@ -10252,7 +10543,7 @@
 		)
 		(uuid "7222550c-f422-5678-b6f2-eb5c3423aac8")
 	)
-	(label "USART0_TX"
+	(label "USART2_TX"
 		(at 158.75 208.28 180)
 		(effects
 			(font
@@ -10332,6 +10623,26 @@
 		)
 		(uuid "8a8fd51f-756c-5d4e-ae4a-197b2cb441f3")
 	)
+	(label "LED_PA15_N"
+		(at 189.23 330.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d47fdb7-5722-4a45-b149-07f30ed57f4b")
+	)
+	(label "MCU_SPI_MOSI"
+		(at 96.52 391.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fc515cc-d962-4faa-b231-5d274b3353eb")
+	)
 	(label "PWM4"
 		(at 158.75 264.16 180)
 		(effects
@@ -10381,6 +10692,16 @@
 			(justify right bottom)
 		)
 		(uuid "9a23e305-2784-4f36-a2b7-5c5b8df0ef74")
+	)
+	(label "LED_PA15_N"
+		(at 403.86 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b9890ab-72bb-4d86-871e-97d4ff7d6b9b")
 	)
 	(label "OSCOUT"
 		(at 83.82 102.87 0)
@@ -10472,7 +10793,17 @@
 		)
 		(uuid "b8000807-0526-59b5-892c-526a2bb86bf3")
 	)
-	(label "USART0_TX"
+	(label "MCU_SPI_SLK"
+		(at 40.64 391.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b933ef4d-8c11-4e26-aa84-df96c45b9097")
+	)
+	(label "USART2_TX"
 		(at 282.575 54.61 0)
 		(effects
 			(font
@@ -10481,6 +10812,16 @@
 			(justify left bottom)
 		)
 		(uuid "c1f79360-06be-4586-a471-edb8d8ae8770")
+	)
+	(label "MCU_SPI_NSS"
+		(at 208.28 391.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c38cd7d3-8c54-4d03-90d0-43558ef4275a")
 	)
 	(label "WIFI_RX"
 		(at 158.75 279.4 180)
@@ -10592,7 +10933,7 @@
 		)
 		(uuid "efee848a-3632-5a12-941c-5cba9536c272")
 	)
-	(label "USART0_RX"
+	(label "USART2_RX"
 		(at 158.75 213.36 180)
 		(effects
 			(font
@@ -10672,6 +11013,38 @@
 		)
 		(uuid "fed36aed-fd76-5e87-ba21-44e1e98ed069")
 	)
+	(label "NRST"
+		(at 40.64 419.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff24a702-d8fd-467a-abbd-30aaddd70f70")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 152.4 419.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73229ebb-2c35-4793-9028-bd71a68dbb61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 419.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
 		(at 209.55 312.42 270)
@@ -10748,6 +11121,128 @@
 			(justify left)
 		)
 		(uuid "d0b708ca-437d-5733-852d-7feefa6785f6")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 208.28 386.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "091baebd-ce5d-4e42-b522-368a285ff6d6")
+		(property "Reference" "TP_SPI_CS1"
+			(at 212.09 381 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SPI_CS"
+			(at 212.09 383.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 208.28 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 386.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 386.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "e6d43a46-e63a-4e07-9f14-528096d11f3a")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
+					(reference "TP_SPI_CS1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10894,6 +11389,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "24ee3de5-2ee1-409f-92fc-027d5840545b")
 		)
@@ -10976,6 +11517,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "6"
 			(uuid "a89d4389-2fac-4b66-9e66-3869fe988a47")
 		)
@@ -11447,6 +12034,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 414.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "23601c55-6df9-46e3-89e9-9e7700181716")
+		(property "Reference" "TP_NRST1"
+			(at 44.45 408.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NRST"
+			(at 44.45 411.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 414.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 414.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 414.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "43a4bdcd-1154-43d6-8e7f-466e3518dda2")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
+					(reference "TP_NRST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 31.75 64.77 0)
 		(unit 1)
@@ -11512,6 +12221,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "a68b66bc-9f87-43b6-a2c7-ddb11938e7d7")
 		)
@@ -11593,6 +12348,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "379c8a4f-8a2f-45a9-a11c-22adf16024ca")
 		)
@@ -11675,6 +12476,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "6"
 			(uuid "a89d4389-2fac-4b66-9e66-3869fe988a48")
 		)
@@ -12054,6 +12901,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "b1ebf2a3-959b-4525-97cd-9a355f7ee27f")
 		)
@@ -12135,6 +13028,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "d854762e-e607-4206-98f1-6e94ef3b93ee")
 		)
@@ -12217,6 +13156,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "e9595f2f-bd97-4012-a07f-9de5333310da")
 		)
@@ -12298,6 +13283,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "161674ca-b0ec-4378-aecd-6ad333171269")
 		)
@@ -12532,6 +13563,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "ad948de4-4e2e-4bf4-868d-6343bcbbf6d8")
 		)
@@ -12619,6 +13696,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "27ef3a20-be19-45da-8dbc-d3fa4f4a8d63")
 		)
@@ -12775,6 +13898,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "d39f14de-6ad9-49a5-954e-abc7932b10dd")
 		)
@@ -12935,6 +14104,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "b645bf7d-8e95-4f83-a2ce-f073d0e7bc2b")
 		)
@@ -13095,6 +14310,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "df94bcf1-bc46-4c69-86ea-ed8c1767f91e")
 		)
@@ -13176,6 +14437,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "f6a54a29-52cd-4079-86b3-9be434436b05")
 		)
@@ -13255,6 +14562,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "f03e16dd-d6c2-4cc7-9021-266b6b658ec2")
 		)
@@ -13336,6 +14689,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "9add3102-ecd2-43ad-b367-05211776ed85")
 		)
@@ -13574,6 +14973,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "50995404-c4bb-435b-a91f-50c5739f745e")
 		)
@@ -13747,6 +15192,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 152.4 386.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "608a4cbf-e23f-4b4f-87e1-a285813e1e00")
+		(property "Reference" "TP_SPI_MISO1"
+			(at 156.21 381 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SPI_MISO"
+			(at 156.21 383.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 152.4 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 386.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 386.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "23f43082-2f24-4c58-adc2-df4b2575707d")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
+					(reference "TP_SPI_MISO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 36.83 48.26 270)
 		(mirror x)
@@ -13812,6 +15379,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "c350dc04-a887-4909-8430-228fa5dad69a")
 		)
@@ -13893,6 +15506,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "5669dc4c-82b4-4969-ae93-9a744ae194e4")
 		)
@@ -13974,6 +15633,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "eb4b2cba-aa6d-4866-80c0-12d110b5758b")
 		)
@@ -14131,6 +15836,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "65120efc-c91d-4e71-8d47-5c9edd0944be")
 		)
@@ -14368,6 +16119,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "0c0620a9-e0ad-4797-b1eb-46f4577bb1c5")
 		)
@@ -14378,6 +16175,128 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 386.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "8a2abb9f-e0f2-429f-901a-164722a8c28c")
+		(property "Reference" "TP_SPI_MOSI1"
+			(at 100.33 381 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SPI_MOSI"
+			(at 100.33 383.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 96.52 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 386.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 386.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "39965b7e-7d67-47eb-8981-87140e9a6870")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
+					(reference "TP_SPI_MOSI1")
 					(unit 1)
 				)
 			)
@@ -14493,7 +16412,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
 			(at 26.67 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14526,6 +16445,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "2a6eea91-3450-42d3-87b7-812ae391f3f0")
 		)
@@ -14685,6 +16650,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "c5130e77-93e4-4f1b-951c-5664ca5f2073")
 		)
@@ -14846,6 +16857,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "6852457b-0a1c-4da5-a3f0-16745f1713fb")
 		)
@@ -14970,7 +17027,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 52.07 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -15003,6 +17060,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "82af6757-e52f-4c84-8e8a-4352e7e699fe")
 		)
@@ -15082,6 +17185,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "4fea408d-f22b-41b7-835e-2449acad7a4c")
 		)
@@ -15317,6 +17466,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "7d249fb2-e70f-4df9-91a3-c92070bfbc47")
 		)
@@ -15396,6 +17591,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "a3b023f7-d014-49c7-ab1a-4eaba7b1e694")
 		)
@@ -15608,6 +17849,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "3"
 			(uuid "09a5dcf0-d47e-4904-84ce-5d442f7d0ed7")
 		)
@@ -15714,6 +18001,250 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 386.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "c3181444-fefa-4e1e-9619-6b8f26c8195e")
+		(property "Reference" "TP_SPI_CLK1"
+			(at 44.45 381 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SPI_CLK"
+			(at 44.45 383.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 40.64 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 386.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 386.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "5a1b98a2-f33b-47bc-93a9-d357b9402e7c")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
+					(reference "TP_SPI_CLK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 152.4 414.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "c492e998-9a66-428c-8e74-9a0824052435")
+		(property "Reference" "TP_GND_MCU1"
+			(at 156.21 408.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND_MCU"
+			(at 156.21 411.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D1.016mm"
+			(at 152.4 414.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 414.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 414.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "be3ce0d8-2179-488d-8212-ba768805273e")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92"
+					(reference "TP_GND_MCU1")
 					(unit 1)
 				)
 			)
@@ -15937,6 +18468,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "4"
 			(uuid "241e9cc5-1309-43bd-ba98-1b569a40dea9")
 		)
@@ -16025,6 +18602,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "788c3ba7-415b-45df-9012-2f258554f450")
 		)
@@ -16185,6 +18808,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "e7c5046b-05b9-4528-9517-29aa9f954ae8")
 		)
@@ -16266,6 +18935,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "23d4bb89-4f69-411f-9fd1-22584b434999")
 		)
@@ -16467,6 +19182,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "4"
 			(uuid "52831b0f-9a36-4a9d-84e7-7ae37409096d")
 		)
@@ -16552,6 +19313,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "dad4db6a-1089-4b21-b681-c3ce186807a2")
 		)
@@ -16633,6 +19440,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "acc79938-65db-408d-83f7-8e6c6d36f326")
 		)
@@ -16648,6 +19501,7 @@
 			)
 		)
 	)
+	
 	(symbol
 		(lib_id "power:GND")
 		(at 188.468 144.272 0)
@@ -16791,6 +19645,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "6"
 			(uuid "a89d4389-2fac-4b66-9e66-3869fe988a4b")
 		)
@@ -17672,6 +20572,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "3"
 			(uuid "190e748b-d501-400b-9b09-c145d7bead85")
 		)
@@ -17906,7 +20852,7 @@
 				(justify right)
 			)
 		)
-		(pin "USART0_TX" output
+		(pin "USART2_TX" output
 			(at 268.605 54.61 0)
 			(uuid "7c977e94-cdee-4fc8-8531-ceb7549efc51")
 			(effects
@@ -17916,7 +20862,7 @@
 				(justify right)
 			)
 		)
-		(pin "USART0_RX" input
+		(pin "USART2_RX" input
 			(at 268.605 59.69 0)
 			(uuid "84261360-049a-49d8-84fe-d349cb368761")
 			(effects
@@ -18001,7 +20947,7 @@
 	)
 	(sheet
 		(at 326.39 35.56)
-		(size 16.51 53.34)
+		(size 58.42 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18135,6 +21081,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "LED_PA15_N" input
+			(at 384.81 40.64 0)
+			(uuid "84c0b592-6c27-4f5f-a504-58427a16d728")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

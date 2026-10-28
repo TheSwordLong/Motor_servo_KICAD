@@ -2011,6 +2011,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5142,6 +5265,30 @@
 		)
 	)
 	(rectangle
+		(start 283.2 75.7)
+		(end 359.2 139.7)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "00a919ee-1b4d-4457-935e-82236cae072b")
+	)
+	(rectangle
+		(start 125 150)
+		(end 365 215)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "13079c91-339a-42b3-924e-ace4e95623f2")
+	)
+	(rectangle
 		(start 16.2 94.7)
 		(end 91.2 161.7)
 		(stroke
@@ -5151,19 +5298,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "118fbc24-143f-47db-9e6c-7f04ac3f83f5")
-	)
-	(rectangle
-		(start 268.2 25.7)
-		(end 322.2 74.7)
-		(stroke
-			(width 0.254)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "12ba9be3-501b-42c4-8329-5eacdb03b17d")
+		(uuid "2580525b-aceb-4bab-8afa-882a0af68e4a")
 	)
 	(rectangle
 		(start 152.2 54.7)
@@ -5175,19 +5310,19 @@
 		(fill
 			(type none)
 		)
-		(uuid "51acfe5d-7f2f-4779-8afc-2ae9a973682e")
+		(uuid "2acfbdf5-085d-439b-893c-93f7094eff56")
 	)
 	(rectangle
-		(start 283.2 75.7)
-		(end 359.2 139.7)
+		(start 268.2 25.7)
+		(end 322.2 74.7)
 		(stroke
 			(width 0.254)
-			(type solid)
+			(type dash)
 		)
 		(fill
 			(type none)
 		)
-		(uuid "b6457bfa-0ab3-49d3-bfc1-42f0bd968959")
+		(uuid "2ff32fd6-1d13-45b8-9dae-0ef640be2d17")
 	)
 	(rectangle
 		(start 197.2 95.7)
@@ -5199,7 +5334,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "cc455f6e-74fd-4d24-bf84-d8d312cb3447")
+		(uuid "b5091563-178d-42cb-8227-a291dfcdd3dd")
 	)
 	(rectangle
 		(start 230.2 75.7)
@@ -5211,121 +5346,133 @@
 		(fill
 			(type none)
 		)
-		(uuid "de796610-32e4-46a6-bd09-c21f8eaf2eee")
+		(uuid "c9e19357-c92a-4a61-ba11-6f5e50975c2d")
 	)
-	(text "虚线分区为 DNP 备用器件，不构成当前工作链路。\n当前使用共地的自动收发方案；独立 MCU_RS485_DE 为预留信号。"
+	(text "485-03  自动收发方向"
 		(exclude_from_sim no)
-		(at 126.2 188.7 0)
+		(at 286 135 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.6 1.6)
-			)
-			(justify left top)
-		)
-		(uuid "022455a4-5d1c-4eb7-b50e-2a50f1b410c3")
-	)
-	(text "485-01  偏置 / 收发"
-		(exclude_from_sim no)
-		(at 232.2 135.7 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "140f0cd2-800c-4ab6-9df7-5d283e02a45a")
+		(uuid "6a2ec2b6-1d17-4d8f-89e4-118a5a87a005")
 	)
-	(text "485-02  自动方向控制"
+	(text "485-02  收发 / 偏置 / 端接"
 		(exclude_from_sim no)
-		(at 286.2 135.7 0)
+		(at 232 135 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "2c4b3390-4a6e-4b10-a740-218d9db1aedc")
+		(uuid "6b4a0d73-fb6e-4a93-a0be-d9d1458f9fd0")
 	)
-	(text "485-04  隔离收发器预留【备用 / DNP】"
+	(text "RS485 TEST POINTS"
 		(exclude_from_sim no)
-		(at 270.2 26.7 0)
+		(at 25.4 231.14 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
-				(bold yes)
+				(size 2 2)
 			)
-			(justify left top)
+			(justify left bottom)
 		)
-		(uuid "37ee4a5a-815a-4ce2-9451-adf7a166eda1")
+		(uuid "856ea99d-60eb-4d07-9a1a-c52d0cbfa4f0")
 	)
-	(text "485-01｜U13：SIT3485ESA，+3V3 供电；C50 去耦；CN4 引出 A / B。\nR25 / R26：360 Ω 总线偏置；R27：120 Ω 端接，需结合总线位置与另一端端接配置。\n485-02｜U13 的 DI 固定接地；Q3 由 UART TX 控制 DE / RE#。\nTX 低：发送低电平；TX 高：释放总线并接收，高电平由总线偏置恢复。\nR32=4.7k：TX 上拉；R31=330 Ω：栅极串阻；R28=1k：使能串阻；R30：使能上拉。\n该方式的高电平边沿受偏置、端接与线缆电容影响，应按实际波特率验证。"
-		(exclude_from_sim no)
-		(at 126.2 151.7 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.6 1.6)
-			)
-			(justify left top)
-		)
-		(uuid "43eb2b22-1023-476c-a658-85d82536cee8")
-	)
-	(text "485-03  数字隔离预留【备用 / DNP】"
-		(exclude_from_sim no)
-		(at 153.2 55.7 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "ad3589fa-e67d-448d-b1cd-d54b85cbf8be")
-	)
-	(text "RS485｜自动收发 / 备用隔离方案"
-		(exclude_from_sim no)
-		(at 19.2 20.7 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 3 3)
-			)
-			(justify left top)
-		)
-		(uuid "b594f2ec-2d32-44cf-9e52-1bcbea00d923")
-	)
-	(text "485-05  隔离器备选【备用 / DNP】"
+	(text "485-06  隔离器备选【DNP】"
 		(exclude_from_sim no)
 		(at 19.2 97.7 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "d5795c53-4434-499d-858a-2fef64a13dfc")
+		(uuid "8d6c6143-51a9-4c31-b113-2c1b5725ac34")
 	)
-	(text "485-01  总线接口"
+	(text "485-01  A/B 接口"
 		(exclude_from_sim no)
-		(at 199.2 135.7 0)
+		(at 199 135 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "eff9fb38-b27b-42da-925b-2cfcc63c6e32")
+		(uuid "9379d438-87d3-4d1b-a432-6fa986bcf043")
+	)
+	(text "485-07  工作原理与装配说明"
+		(exclude_from_sim no)
+		(at 128 153 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "ca987390-e836-4fb7-bff1-54de8f9bef40")
+	)
+	(text "RS485｜自动收发与备用隔离"
+		(exclude_from_sim no)
+		(at 19 18 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "d0004a4e-dbe1-4d80-bca9-33cc0ef170d8")
+	)
+	(text "U13：SIT3485ESA，3V3 供电；CN4 引出 A/B；C50 去耦。\nR25 / R26：360Ω 偏置；R27：120Ω 端接，需按总线位置配置。\nU13.DI 接 GND，Q3 由 USART1_TX 控制 DE / RE#。\nTX 低：发送低电平；TX 高：释放总线，靠偏置恢复高电平。\nR31=330Ω 栅极串阻；R28=1k 使能串阻；R30 使能上拉；R32 TX 上拉。\n当前为共地方案；备用隔离电路不装配，不能据此认定整板隔离。\n高电平恢复速度依赖偏置、端接及线缆电容，需按实际波特率验证。"
+		(exclude_from_sim no)
+		(at 130 163 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "d4cf1fcb-f74a-4c7c-9af5-f44bb4aaf46b")
+	)
+	(text "485-04  数字隔离【DNP】"
+		(exclude_from_sim no)
+		(at 175 58 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.7 1.7)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "daa26d25-a7e3-4190-a43e-44c814ff2ac7")
+	)
+	(text "485-05  隔离收发器预留【DNP】"
+		(exclude_from_sim no)
+		(at 270 29 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.7 1.7)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "e3df33e0-db77-4143-a230-ce7254dbb3b0")
 	)
 	(junction
 		(at 181.61 87.63)
@@ -5503,6 +5650,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 274.32) (xy 35.56 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1078c8ce-43b8-4739-b286-005b0b3272b0")
+	)
+	(wire
+		(pts
 			(xy 252.73 93.98) (xy 243.84 93.98)
 		)
 		(stroke
@@ -5510,6 +5667,16 @@
 			(type default)
 		)
 		(uuid "1367f08c-42bb-4056-86c0-9b3229508db6")
+	)
+	(wire
+		(pts
+			(xy 203.2 246.38) (xy 203.2 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18037958-6582-4382-b48e-c6d990e348b6")
 	)
 	(wire
 		(pts
@@ -5813,6 +5980,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 246.38) (xy 91.44 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987036c7-ee8c-4866-846b-7ae2a81a3756")
+	)
+	(wire
+		(pts
 			(xy 316.23 104.14) (xy 313.69 104.14)
 		)
 		(stroke
@@ -5883,6 +6060,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 246.38) (xy 35.56 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ded55f-cb89-424d-9b5b-05e295bb2183")
+	)
+	(wire
+		(pts
 			(xy 242.57 97.79) (xy 242.57 99.06)
 		)
 		(stroke
@@ -5890,6 +6077,16 @@
 			(type default)
 		)
 		(uuid "b5a734af-4b1c-4642-9e99-e5ce70eb4072")
+	)
+	(wire
+		(pts
+			(xy 147.32 246.38) (xy 147.32 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b906bc96-d1c8-4294-af24-005b4fbd92ae")
 	)
 	(wire
 		(pts
@@ -6010,6 +6207,16 @@
 			(type default)
 		)
 		(uuid "e5e22d6c-9dd5-41c5-b1b3-580624809164")
+	)
+	(wire
+		(pts
+			(xy 91.44 274.32) (xy 91.44 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa67f9f-2727-4bbc-92c0-ee4796f21a30")
 	)
 	(wire
 		(pts
@@ -7863,6 +8070,26 @@
 		(uuid "297966c9-6dc6-4762-9531-585c081aefe6")
 	)
 	(label "RS485_RX"
+		(at 147.32 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44972e19-69b5-43e7-ac12-57bcb6c17e45")
+	)
+	(label "RS485_EN"
+		(at 91.44 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e99c8cb-b502-4968-b610-b8ccd79a8e3b")
+	)
+	(label "RS485_RX"
 		(at 298.45 97.79 0)
 		(effects
 			(font
@@ -7871,6 +8098,16 @@
 			(justify left bottom)
 		)
 		(uuid "555a0e14-0e3a-4c27-ba18-0f08d8c9e480")
+	)
+	(label "RS485_EN"
+		(at 285.75 93.98 90)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "557134fb-769c-4ef4-a16b-fdd0d238889a")
 	)
 	(label "RS485A"
 		(at 207.01 99.695 0)
@@ -7892,6 +8129,16 @@
 		)
 		(uuid "91f5d9a9-d8d1-4523-9239-8b167ad28e6b")
 	)
+	(label "RS485B"
+		(at 35.56 279.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98c2b420-7a9d-435f-bad1-f6d2f7a3a041")
+	)
 	(label "RS485_TX"
 		(at 325.12 104.14 0)
 		(effects
@@ -7901,6 +8148,16 @@
 			(justify left bottom)
 		)
 		(uuid "b72d4053-438b-4bbf-86bf-9c14ee44e186")
+	)
+	(label "RS485A"
+		(at 203.2 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b947ad70-3364-4788-b247-71efaea687a0")
 	)
 	(label "RS485B"
 		(at 232.41 107.95 0)
@@ -7922,6 +8179,16 @@
 		)
 		(uuid "daebe6e3-4e2d-444b-b451-8a02f5898537")
 	)
+	(label "RS485_TX"
+		(at 35.56 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6ed6bbd-04e1-4c05-8081-b0baae1e7ab0")
+	)
 	(label "RS485_RX"
 		(at 168.275 74.93 0)
 		(effects
@@ -7931,6 +8198,28 @@
 			(justify left bottom)
 		)
 		(uuid "f8756039-70e7-47c2-959a-d7ea0e1fb70a")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 91.44 279.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f5e23cc-6aaf-467a-9fa3-963051a623ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(hierarchical_label "MCU_RS485_TX"
 		(shape output)
@@ -8131,6 +8420,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "f5f91939-f952-4c9e-904a-c700575f6859")
 		)
@@ -8474,6 +8809,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "b726fcb4-d1fd-4504-9c0b-0af1fb29c036")
 		)
@@ -8765,6 +9146,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "1a4134ef-7eb8-4eac-8b18-5e37054229f7")
 		)
@@ -9208,6 +9635,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "9"
 			(uuid "8403c3f8-670b-47ec-b005-c26fb9d082b8")
 		)
@@ -9343,6 +9816,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "3860c22c-83f6-4017-9eef-974284053133")
+		(property "Reference" "TP_485_RX1"
+			(at 151.13 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "485_RX"
+			(at 151.13 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 147.32 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "edd5815d-ffd1-4cc6-8754-fe728947af7f")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
+					(reference "TP_485_RX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 320.04 104.14 270)
 		(unit 1)
@@ -9428,6 +10023,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "a20d24fb-318e-48c0-8469-489279af901b")
 		)
@@ -9664,6 +10305,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "c645236f-aa4e-4eb2-87b8-24f8228a7388")
 		)
@@ -9836,6 +10523,128 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 91.44 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "5207900b-2f10-40eb-8960-aeb485e42f14")
+		(property "Reference" "TP_485_EN1"
+			(at 95.25 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "485_EN"
+			(at 95.25 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 91.44 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "43ae23f5-6e7b-402c-a74e-89db81a7ea24")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
+					(reference "TP_485_EN1")
 					(unit 1)
 				)
 			)
@@ -10065,6 +10874,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "93278550-bbf9-4f88-b735-eaf7154c32c8")
 		)
@@ -10408,6 +11263,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "49d699cd-6717-4fbe-9e8a-b3ddce22a0ea")
 		)
@@ -10418,6 +11319,128 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "7a90660c-80c0-45f8-997e-02f864bcf701")
+		(property "Reference" "TP_485_B1"
+			(at 39.37 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "485_B"
+			(at 39.37 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 35.56 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "74136f67-b517-4eb1-b3d3-e7bd8c5e226f")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
+					(reference "TP_485_B1")
 					(unit 1)
 				)
 			)
@@ -10721,6 +11744,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "26e6390d-0e8a-453c-a55a-022ac086bfca")
 		)
@@ -10734,6 +11803,128 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "9e351fee-adb6-4655-a841-a88fe480998c")
+		(property "Reference" "TP_485_TX1"
+			(at 39.37 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "485_TX"
+			(at 39.37 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 35.56 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "e94bfd17-5a9c-413b-8796-80ad6c9f9b94")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
+					(reference "TP_485_TX1")
 					(unit 1)
 				)
 			)
@@ -11156,6 +12347,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "227c20df-a89d-4dea-a209-1dc07afe068f")
 		)
@@ -11320,6 +12557,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "426a9544-b451-4fe8-adc2-f97ffeaba246")
 		)
@@ -11455,6 +12738,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "adc247e2-f006-4f53-bf53-2f47aecb2bfd")
 		)
@@ -11651,6 +12980,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "b69dab27-417f-4868-9ec4-f5e80c28a816")
 		)
@@ -11752,6 +13127,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "bc6cf97d-71d6-47f2-a820-a53c249e7487")
 		)
@@ -11768,6 +13189,128 @@
 			(project ""
 				(path "/9429215c-9ac0-4ad5-9375-deb9c999ec0e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "c666469b-3c64-4bd3-878d-38dc0be93a72")
+		(property "Reference" "TP_485_A1"
+			(at 207.01 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "485_A"
+			(at 207.01 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 203.2 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "583a6907-24bc-448f-8aaa-6d1eccb9b3ff")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
+					(reference "TP_485_A1")
 					(unit 1)
 				)
 			)
@@ -11918,6 +13461,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "4bf140ea-f144-4399-b670-f36793ee47ea")
 		)
@@ -11928,6 +13517,128 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 91.44 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "dfd9159f-96d6-4abd-98c6-6fd2b5dd4ac0")
+		(property "Reference" "TP_GND_485"
+			(at 95.25 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND_485"
+			(at 95.25 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D1.016mm"
+			(at 91.44 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "c1bf34be-5989-4297-9cea-ed6d2677ce29")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/0c884452-aecc-4e2c-81cc-965ac67a1a2e"
+					(reference "TP_GND_485")
 					(unit 1)
 				)
 			)
@@ -12155,6 +13866,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "43afd886-cef1-464c-8da0-455d243f4fde")
 		)
@@ -12377,6 +14134,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "4"
 			(uuid "1d790aa3-d8d3-413e-a4b2-7d6b3a02cbf1")
 		)
@@ -12602,6 +14405,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "4"
 			(uuid "3bc35f1b-f309-43e7-a84b-47234bd6b109")
 		)

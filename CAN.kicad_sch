@@ -2742,6 +2742,18 @@
 	)
 	(rectangle
 		(start 51 46)
+		(end 112 124)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2d4b6f7d-2f67-4f8d-8a52-668b99338718")
+	)
+	(rectangle
+		(start 114 46)
 		(end 195 124)
 		(stroke
 			(width 0.254)
@@ -2750,57 +2762,82 @@
 		(fill
 			(type none)
 		)
-		(uuid "ba13cad9-becf-47c1-a61b-b1a7c6a50a8a")
+		(uuid "7dda87ec-0969-4bb7-a380-c3276eb79332")
+	)
+	(rectangle
+		(start 23 132)
+		(end 274 163)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c1077e48-52bf-4120-9700-8ab1dee43ab6")
+	)
+	(text "CAN-02  防护 / 端接【DNP】"
+		(exclude_from_sim no)
+		(at 135 50 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.7 1.7)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "10bc4f84-3f47-436e-b82e-3596080e2a74")
 	)
 	(text "CAN｜备用不装配接口"
 		(exclude_from_sim no)
 		(at 23 20 0)
 		(effects
 			(font
-				(face "宋体")
+				(face "Microsoft YaHei")
 				(size 3 3)
 			)
 			(justify left top)
 		)
-		(uuid "1f2babf4-f99d-411c-b496-acf178c618cd")
+		(uuid "242bf5a7-739d-44fb-9390-9d0a1ae631f6")
 	)
-	(text "CAN-01  逻辑侧与收发器【备用 / DNP】"
+	(text "U9：ISO1050DWR；C41 / C42：两侧去耦；D9：总线防护；R21：端接。\nCN2 引出 CANL / CANH。本页全部 DNP，启用前复核隔离电源与接地边界。\nMCU 使用 PD0 / PD1 的 CAN0 重映射；分区框不代表电气隔离边界。"
 		(exclude_from_sim no)
-		(at 53 47 0)
+		(at 28 144 0)
 		(effects
 			(font
-				(face "宋体")
+				(face "Microsoft YaHei")
+				(size 1.7 1.7)
+			)
+			(justify left top)
+		)
+		(uuid "6d4e4677-ad8a-48c2-acf9-04a2877166e4")
+	)
+	(text "CAN-01  逻辑侧与收发器【DNP】"
+		(exclude_from_sim no)
+		(at 53 50 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
 				(size 1.8 1.8)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "3bc5062f-ca5f-450e-a5da-b5d70ce86041")
+		(uuid "ab52f69d-679c-408c-93ae-70004f006f95")
 	)
-	(text "CAN-02  总线保护与端接【备用 / DNP】"
+	(text "CAN-03  功能与装配说明【DNP】"
 		(exclude_from_sim no)
-		(at 117 47 0)
+		(at 26 135 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "46e27dc4-03d5-463f-917b-ecaf3ddb13a0")
-	)
-	(text "CAN-01：U9 接 MCU 的 CAN_TXD / CAN_RXD，转换为 CANH / CANL。\nC41、C42 分别对应两侧电源去耦。\nCAN-02：D9 为总线防护；R21 为端接电阻；CN2 引出 CANH / CANL。\n\n本页器件当前均为 DNP。启用前需复核总线侧电压与 D9 的接地归属，\n并确认隔离电源和地的边界；不能仅凭隔离芯片型号认定整板已实现隔离。"
-		(exclude_from_sim no)
-		(at 24 135 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
-			)
-			(justify left top)
-		)
-		(uuid "9a45412c-794f-4640-81fa-318cc2a5b931")
+		(uuid "dd73c69d-0da0-43e8-96a3-c5abb6418b86")
 	)
 	(junction
 		(at 116.205 71.12)
@@ -3782,6 +3819,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "62dc645e-385f-4bef-bde3-ff5dce9972c0")
 		)
@@ -4038,6 +4121,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "fd7fd6ef-e7dc-4fc2-bc5c-02d90a7b94e9")
 		)
@@ -4363,6 +4492,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "b415f9e9-0e72-4cd7-9e86-fd805d2fae38")
 		)
@@ -4520,6 +4695,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "54896a12-3f3e-4960-b8f4-b88524ccdf5d")
 		)
@@ -4836,6 +5057,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "13"
 			(uuid "157cd54f-fc0a-4cc4-b481-3bdf87789aa5")
 		)
@@ -5128,6 +5395,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "4c7a9619-f62f-4bfb-8d2f-e046bc45fcc2")
 		)

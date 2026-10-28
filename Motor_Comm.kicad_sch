@@ -3,8 +3,131 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "8aaa6c4d-e1df-4a2d-8ee5-6dce72b40d3e")
-	(paper "User" 594 450)
+	(paper "User" 594 580)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3493,66 +3616,6 @@
 		)
 	)
 	(rectangle
-		(start 12 75)
-		(end 119 153)
-		(stroke
-			(width 0.254)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "2ddb1c24-1cef-4030-bf55-4df1c7dcf7d8")
-	)
-	(rectangle
-		(start 12 12)
-		(end 119 69)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "35d18d5c-a3ca-434a-9beb-c4c44c367e12")
-	)
-	(rectangle
-		(start 125 13)
-		(end 282 153)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6264cecb-c5ce-47f5-9e26-dab95a7f7db6")
-	)
-	(rectangle
-		(start 12 272)
-		(end 282 389)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6761ca6d-f2fb-4dec-816b-ff7c7e399523")
-	)
-	(rectangle
-		(start 295 158)
-		(end 577 271)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6db09d5c-e69a-4927-a5f4-ef4613299509")
-	)
-	(rectangle
 		(start 295 272)
 		(end 577 389)
 		(stroke
@@ -3562,7 +3625,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "cdd4751f-9c8e-477b-bf8f-c61365319fdc")
+		(uuid "42008965-718b-41c0-bd11-12c142a10627")
 	)
 	(rectangle
 		(start 12 158)
@@ -3574,158 +3637,316 @@
 		(fill
 			(type none)
 		)
-		(uuid "e30a9ca3-1914-49b3-be0c-5c88f3423ab7")
+		(uuid "a65e3973-f4b3-4567-a33d-fc21a99568c2")
 	)
-	(text "DIR 高：绿灯亮，电机 DIR 低。\nBRAKE 高：刹车；低：释放，黄灯亮。\n默认刹车：3V3 稳定 + MCU 高阻。\n芯片掉电时输出高阻，不保证刹车。"
-		(exclude_from_sim no)
-		(at 158.75 241.3 0)
-		(effects
-			(font
-				(size 1.4 1.4)
-			)
-			(justify left top)
+	(rectangle
+		(start 12 75)
+		(end 119 153)
+		(stroke
+			(width 0.254)
+			(type dash)
 		)
-		(uuid "102885ab-af32-4dc5-849f-2e4e1e8cbfca")
+		(fill
+			(type none)
+		)
+		(uuid "a91cb42a-4777-4bfc-9952-d306e2f1b4c8")
 	)
-	(text "MOT-05  电机 2 / CN6：DIR / BRAKE 开漏反相控制"
-		(exclude_from_sim no)
-		(at 300.99 162.56 0)
-		(effects
-			(font
-				(size 1.9 1.9)
-			)
-			(justify left top)
+	(rectangle
+		(start 125 13)
+		(end 282 153)
+		(stroke
+			(width 0.254)
+			(type solid)
 		)
-		(uuid "248f32ff-2c09-47a1-9743-0d7d3c3e3385")
+		(fill
+			(type none)
+		)
+		(uuid "b5237824-6d6a-492d-aac6-79cfbbfb64e4")
 	)
-	(text "MOT-03  第二组 PWM 预留【备用 / DNP】"
-		(exclude_from_sim no)
-		(at 16 76 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
-				(bold yes)
-			)
-			(justify left top)
+	(rectangle
+		(start 12 272)
+		(end 282 389)
+		(stroke
+			(width 0.254)
+			(type solid)
 		)
-		(uuid "3e75caeb-3de7-4288-9825-656203c14312")
+		(fill
+			(type none)
+		)
+		(uuid "c5616134-ddef-4860-b743-9d865ce4bcd9")
 	)
-	(text "MOT-04  电机 1 / CN5：DIR / BRAKE 开漏反相控制"
-		(exclude_from_sim no)
-		(at 19.05 162.56 0)
-		(effects
-			(font
-				(size 1.9 1.9)
-			)
-			(justify left top)
+	(rectangle
+		(start 295 12)
+		(end 577 80)
+		(stroke
+			(width 0.254)
+			(type solid)
 		)
-		(uuid "3e93086c-11ea-4bbb-85f5-b44056ba62b6")
+		(fill
+			(type none)
+		)
+		(uuid "c64fabf7-ac4a-4eb4-9117-b0245315ef1f")
 	)
-	(text "四路电机接口｜功能与逻辑说明"
-		(exclude_from_sim no)
-		(at 305 22 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 2.7 2.7)
-			)
-			(justify left top)
+	(rectangle
+		(start 12 12)
+		(end 119 69)
+		(stroke
+			(width 0.254)
+			(type solid)
 		)
-		(uuid "469b440e-8d78-4559-88b6-22f5b6ce859b")
+		(fill
+			(type none)
+		)
+		(uuid "cc2add49-482a-444c-a6fe-abe90bac4ede")
+	)
+	(rectangle
+		(start 160 86)
+		(end 212 153)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d6ae1773-35c7-4d7c-9fe2-d0f2492faa81")
+	)
+	(rectangle
+		(start 295 86)
+		(end 577 153)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dee1b330-cbe9-4528-8f3e-0f5f8f908252")
+	)
+	(rectangle
+		(start 295 158)
+		(end 577 271)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f45802f0-b106-412e-873e-97a924687ddc")
 	)
 	(text "MOT-01  PWM 电平转换"
 		(exclude_from_sim no)
-		(at 16 13 0)
+		(at 15 15 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "70cd8df1-2ee8-4680-8420-992ad0dc2051")
+		(uuid "07ec4da6-32c2-4f4d-b299-606e2e28733a")
 	)
-	(text "DIR 高：绿灯亮，电机 DIR 低。\nBRAKE 高：刹车；低：释放，黄灯亮。\n默认刹车：3V3 稳定 + MCU 高阻。\n芯片掉电时输出高阻，不保证刹车。"
+	(text "MOT-02  四路接口与 FG 上拉"
 		(exclude_from_sim no)
-		(at 440.69 355.6 0)
+		(at 128 16 0)
 		(effects
 			(font
-				(size 1.4 1.4)
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "725c9961-f8a3-4495-8842-27b3378ed2aa")
+		(uuid "0f59e9d4-7098-4860-b831-298dd680c269")
 	)
-	(text "MOT-01：U15 将四路 PWM 从 3V3 转为 5V。Motor_start 高使能；R41 下拉默认关闭。\nMOT-02：CN5~CN8：1=PWM，2=BRAKE，3=DIR，4=FG，5=24V，6=GND。\nFG 为无内部上拉的开集电极输出，板端 4.7k 上拉；6 脉冲/电机转。\n\nMOT-04~07：每路一颗 SN74LVC2G06DBVR；3V3 供电，开漏反相输出。\nDIRx 高 → 电机 DIR 低；DIR 输入 10k 下拉。\nBRAKEx 高 → 刹车；低 → 释放；BRAKE 输入 10k 上拉。\n默认刹车条件：3V3 已稳定且 MCU 引脚高阻；逻辑掉电时不能保证刹车。\n电机 DIR / BRAKE / PWM 自带 5V 上拉；PWM 高为停止。\n先保持 PWM 停止，初始化 DIR / BRAKE 后再允许运行；换向前先停机。\n\nD10~D17 为 MCU 命令指示：DIR 高点亮；RELEASE 低点亮。\nLED 不代表电机实际反馈。BRAKE 软件极性相对原双 MOS 电路已反转。\nMOT-03 与 H6~H10 为 DNP 预留，当前版本不装。"
+	(text "U17：开漏反相控制，3V3 供电。\nDIR 高：绿灯亮，电机 DIR 低。\nBRAKE 高：刹车；低：释放，黄灯亮。\n默认刹车需 3V3 稳定、MCU 高阻。\nLED 表示命令，不代表电机反馈。"
 		(exclude_from_sim no)
-		(at 305 37 0)
+		(at 158 239 0)
 		(effects
 			(font
-				(face "宋体")
+				(face "Microsoft YaHei")
 				(size 1.65 1.65)
 			)
 			(justify left top)
 		)
-		(uuid "8658ae3f-b6da-4da8-9c99-7eb9ca9a8913")
+		(uuid "2539eabf-d40d-4c04-80bf-a2fcb6e69f02")
 	)
-	(text "MOT-02  四路接口与 FG 上拉"
+	(text "MOT-09  接口与上电逻辑说明"
 		(exclude_from_sim no)
-		(at 129 14 0)
+		(at 298 15 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "a36f9e78-aac8-4d77-942d-66700cc310dd")
+		(uuid "4fb800a0-75a9-4f4f-9150-6b2ffc7baa41")
 	)
-	(text "MOT-07  电机 4 / CN8：DIR / BRAKE 开漏反相控制"
+	(text "MOT-06  电机 3 / CN7：DIR 与 BRAKE"
 		(exclude_from_sim no)
-		(at 300.99 276.86 0)
+		(at 15 275 0)
 		(effects
 			(font
-				(size 1.9 1.9)
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "adc41da2-e17a-4d0a-b523-a9f3db0fe183")
+		(uuid "51cda60c-075c-42d2-b6dd-7cd4d4f8b42a")
 	)
-	(text "DIR 高：绿灯亮，电机 DIR 低。\nBRAKE 高：刹车；低：释放，黄灯亮。\n默认刹车：3V3 稳定 + MCU 高阻。\n芯片掉电时输出高阻，不保证刹车。"
+	(text "U15：四路 PWM 由 3V3 转 5V；Motor_start 高使能，R41 下拉默认关闭。\nCN5～CN8：1=PWM，2=BRAKE，3=DIR，4=FG，5=24V，6=GND。\nR42～R45：FG 的 4.7k 上拉；电机 FG 为开集电极，无内部上拉。\nFG：6 脉冲 / 电机轴转；输出轴转速需计入减速比。\n电机 PWM / DIR / BRAKE 自带 5V 上拉；PWM 高为停止。\n先保持 PWM 停止，设置 DIR / BRAKE 后再使能；换向前先停车。\n3V3 掉电时开漏控制失效，不保证刹车；当前电机与控制板共地。"
 		(exclude_from_sim no)
-		(at 440.69 241.3 0)
+		(at 300 25 0)
 		(effects
 			(font
-				(size 1.4 1.4)
+				(face "Microsoft YaHei")
+				(size 1.8 1.8)
 			)
 			(justify left top)
 		)
-		(uuid "b05fefa1-26d8-442c-92de-420447dabc3e")
+		(uuid "6fa886d7-8fe0-47b9-a6dd-4b0d480e09b6")
 	)
-	(text "DIR 高：绿灯亮，电机 DIR 低。\nBRAKE 高：刹车；低：释放，黄灯亮。\n默认刹车：3V3 稳定 + MCU 高阻。\n芯片掉电时输出高阻，不保证刹车。"
+	(text "MOT-05  电机 2 / CN6：DIR 与 BRAKE"
 		(exclude_from_sim no)
-		(at 158.75 355.6 0)
+		(at 298 161 0)
 		(effects
 			(font
-				(size 1.4 1.4)
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "c1496809-7971-4028-8189-9b10cfc82764")
+		(uuid "7d915b30-a284-45ca-8a73-741972403533")
 	)
-	(text "MOT-06  电机 3 / CN7：DIR / BRAKE 开漏反相控制"
+	(text "MOTOR SIGNAL TEST POINTS - 30 mil / GND 40 mil"
 		(exclude_from_sim no)
-		(at 19.05 276.86 0)
+		(at 25.4 421.64 0)
 		(effects
 			(font
-				(size 1.9 1.9)
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "838ebb88-b083-495a-b4cc-0cd60eda0ff1")
+	)
+	(text "+3V3 → R74（1k）→ D21（绿灯）→ PA15 / 77。\n低亮、高灭；由程序控制，不代表电机实际运行反馈。\n关闭 JTAG 保留 SWD；先输出高，再配置推挽；BUTTON_ESTOP_ENABLE=0。"
+		(exclude_from_sim no)
+		(at 303 126 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.8 1.8)
 			)
 			(justify left top)
 		)
-		(uuid "f716eaae-885f-4303-8f0a-e1c24990b91e")
+		(uuid "87eb843c-92d9-4233-b17d-db971a109f07")
+	)
+	(text "MOT-08  PA15 可编程状态指示灯"
+		(exclude_from_sim no)
+		(at 298 89 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "8d291a98-1157-4147-bf15-4dfff536e1a0")
+	)
+	(text "MOT-07  电机 4 / CN8：DIR 与 BRAKE"
+		(exclude_from_sim no)
+		(at 298 275 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "900590b7-8179-46a4-a390-5267ea57d1aa")
+	)
+	(text "U18：开漏反相控制，3V3 供电。\nDIR 高：绿灯亮，电机 DIR 低。\nBRAKE 高：刹车；低：释放，黄灯亮。\n默认刹车需 3V3 稳定、MCU 高阻。\nLED 表示命令，不代表电机反馈。"
+		(exclude_from_sim no)
+		(at 158 353 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.65 1.65)
+			)
+			(justify left top)
+		)
+		(uuid "93859002-5be6-49b1-a398-d63b972e03fb")
+	)
+	(text "MOT-04  电机 1 / CN5：DIR 与 BRAKE"
+		(exclude_from_sim no)
+		(at 15 161 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "9d410641-ad07-4dea-9b03-df5c436f20bb")
+	)
+	(text "MOT-03  第二组 PWM 预留【DNP】"
+		(exclude_from_sim no)
+		(at 15 78 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "a997442e-8529-4111-9c5f-7ced9c1a7667")
+	)
+	(text "U19：开漏反相控制，3V3 供电。\nDIR 高：绿灯亮，电机 DIR 低。\nBRAKE 高：刹车；低：释放，黄灯亮。\n默认刹车需 3V3 稳定、MCU 高阻。\nLED 表示命令，不代表电机反馈。"
+		(exclude_from_sim no)
+		(at 440 239 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.65 1.65)
+			)
+			(justify left top)
+		)
+		(uuid "bee247ff-9147-4816-adce-b7fdde79352c")
+	)
+	(text "U20：开漏反相控制，3V3 供电。\nDIR 高：绿灯亮，电机 DIR 低。\nBRAKE 高：刹车；低：释放，黄灯亮。\n默认刹车需 3V3 稳定、MCU 高阻。\nLED 表示命令，不代表电机反馈。"
+		(exclude_from_sim no)
+		(at 440 353 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.65 1.65)
+			)
+			(justify left top)
+		)
+		(uuid "c0682023-9929-4b58-885e-f8ab4fc3f431")
+	)
+	(text "MOT-02A  扩展接口预留【DNP】"
+		(exclude_from_sim no)
+		(at 161 150 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "fbf87daa-37ef-4731-856d-e0c8339ad527")
 	)
 	(junction
 		(at 68.58 312.42)
@@ -4587,6 +4808,26 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 441.96) (xy 40.64 447.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201479be-1548-41c3-b78a-160fcb4992ea")
+	)
+	(wire
+		(pts
+			(xy 162.56 441.96) (xy 162.56 447.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208f16e7-fdeb-412d-83c5-0ab56d499ffd")
+	)
+	(wire
+		(pts
 			(xy 223.52 80.01) (xy 248.285 80.01)
 		)
 		(stroke
@@ -4687,6 +4928,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 508) (xy 223.52 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d37fd7c-7bab-4cd6-9c27-473f4093c7ab")
+	)
+	(wire
+		(pts
 			(xy 147.32 52.07) (xy 152.4 52.07)
 		)
 		(stroke
@@ -4697,6 +4948,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 541.02) (xy 284.48 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304f2684-be02-4705-8bd3-5a6a3d7f80eb")
+	)
+	(wire
+		(pts
 			(xy 209.55 27.94) (xy 232.41 27.94)
 		)
 		(stroke
@@ -4704,6 +4965,16 @@
 			(type default)
 		)
 		(uuid "30ac2545-4b26-4750-95be-dc7504d10672")
+	)
+	(wire
+		(pts
+			(xy 337.82 111.76) (xy 361.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324feed8-1c82-49bf-810b-62737b483400")
 	)
 	(bus
 		(pts
@@ -4764,6 +5035,16 @@
 			(type default)
 		)
 		(uuid "37192b38-03d4-400f-8598-406d3e8faf0e")
+	)
+	(wire
+		(pts
+			(xy 369.57 111.76) (xy 412.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3818e17c-fca9-4777-b37e-73e5d500df50")
 	)
 	(bus
 		(pts
@@ -4907,6 +5188,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 474.98) (xy 284.48 480.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431cf5cc-aa72-4d00-a02b-f7c663af848c")
+	)
+	(wire
+		(pts
 			(xy 148.59 223.52) (xy 160.02 223.52)
 		)
 		(stroke
@@ -4994,6 +5285,16 @@
 			(type default)
 		)
 		(uuid "4b50acb4-29e0-42b2-a589-927393db5468")
+	)
+	(wire
+		(pts
+			(xy 40.64 541.02) (xy 40.64 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e322cb0-681f-422d-8970-638f93e79539")
 	)
 	(wire
 		(pts
@@ -5117,6 +5418,16 @@
 	)
 	(wire
 		(pts
+			(xy 420.37 111.76) (xy 457.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bce4e59-f9a1-4606-8f7d-51da27084369")
+	)
+	(wire
+		(pts
 			(xy 520.7 312.42) (xy 520.7 318.77)
 		)
 		(stroke
@@ -5217,6 +5528,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 474.98) (xy 162.56 480.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed96848-50f1-4ec3-9136-466a58e6c685")
+	)
+	(wire
+		(pts
 			(xy 148.59 87.63) (xy 153.67 87.63)
 		)
 		(stroke
@@ -5277,6 +5598,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 508) (xy 40.64 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788e1251-1b8a-4847-ad56-9ab53b500680")
+	)
+	(wire
+		(pts
 			(xy 87.63 25.4) (xy 87.63 31.75)
 		)
 		(stroke
@@ -5324,6 +5655,16 @@
 			(type default)
 		)
 		(uuid "7eff977f-5892-4d24-9b7a-6c09dbf6fff7")
+	)
+	(wire
+		(pts
+			(xy 284.48 508) (xy 284.48 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8007213a-099b-4cf2-b85f-ce8d0ffd3029")
 	)
 	(wire
 		(pts
@@ -5427,6 +5768,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 441.96) (xy 101.6 447.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e12102b-8253-4a83-960c-0c32e40eadc3")
+	)
+	(wire
+		(pts
 			(xy 146.05 71.12) (xy 151.13 71.12)
 		)
 		(stroke
@@ -5497,6 +5848,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 441.96) (xy 284.48 447.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925e6f4d-950d-4946-a13f-a8ba18f0a0b6")
+	)
+	(wire
+		(pts
 			(xy 307.34 261.62) (xy 341.63 261.62)
 		)
 		(stroke
@@ -5554,6 +5915,16 @@
 			(type default)
 		)
 		(uuid "95dccf9f-d543-43cc-9863-724c974ff996")
+	)
+	(wire
+		(pts
+			(xy 101.6 474.98) (xy 101.6 480.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9687c330-e9d6-4dd0-893c-fdaa331edaa7")
 	)
 	(bus
 		(pts
@@ -5717,6 +6088,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 508) (xy 162.56 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add74595-d2fa-48eb-8257-98149a9a14aa")
+	)
+	(wire
+		(pts
 			(xy 148.59 143.51) (xy 153.67 143.51)
 		)
 		(stroke
@@ -5857,6 +6238,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 541.02) (xy 162.56 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befa9284-f7eb-4296-a966-3bda7bf73ddd")
+	)
+	(wire
+		(pts
 			(xy 100.33 106.68) (xy 100.33 99.06)
 		)
 		(stroke
@@ -5977,6 +6368,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 474.98) (xy 40.64 480.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d77816-5363-4d21-9b64-fe31a9e179e0")
+	)
+	(wire
+		(pts
 			(xy 25.4 337.82) (xy 91.44 337.82)
 		)
 		(stroke
@@ -5984,6 +6385,16 @@
 			(type default)
 		)
 		(uuid "ca25ec57-8a77-48a5-8233-43fbfd677a28")
+	)
+	(wire
+		(pts
+			(xy 101.6 541.02) (xy 101.6 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb02937b-9fb2-4766-8674-0fe859ec8ea3")
 	)
 	(bus
 		(pts
@@ -6024,6 +6435,16 @@
 			(type default)
 		)
 		(uuid "cfbff094-f470-4edd-b957-b97adbfbc545")
+	)
+	(wire
+		(pts
+			(xy 223.52 441.96) (xy 223.52 447.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0065ee4-6c71-4ec4-ba85-90ba16050369")
 	)
 	(wire
 		(pts
@@ -6247,6 +6668,26 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 541.02) (xy 223.52 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56ccc1f-0dc2-4985-a47d-f7a2ea232071")
+	)
+	(wire
+		(pts
+			(xy 101.6 508) (xy 101.6 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bb3ac0-a8b4-4219-b7b3-24b5bdcafedc")
+	)
+	(wire
+		(pts
 			(xy 147.32 124.46) (xy 152.4 124.46)
 		)
 		(stroke
@@ -6314,6 +6755,16 @@
 			(type default)
 		)
 		(uuid "eeb049eb-4bb3-49c8-9d64-2e9f3b41e1e1")
+	)
+	(wire
+		(pts
+			(xy 223.52 474.98) (xy 223.52 480.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b5ff52-c207-46b0-a5ad-52ab00f1cd15")
 	)
 	(wire
 		(pts
@@ -6525,6 +6976,16 @@
 		)
 		(uuid "0e8f7ea5-7ff0-45dd-8b72-6dc0c39a245e")
 	)
+	(label "PWM_5V3"
+		(at 162.56 513.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10ae187b-e82b-41c8-8ab9-d40ae07493c8")
+	)
 	(label "ADC_1"
 		(at 172.72 144.78 0)
 		(effects
@@ -6625,6 +7086,16 @@
 		)
 		(uuid "2f78c2e4-3c6b-49a8-9778-227f1408072e")
 	)
+	(label "FG4"
+		(at 223.52 546.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ff8ae2e-4b40-411c-860f-5929d9dcf870")
+	)
 	(label "DIR1"
 		(at 25.4 198.12 0)
 		(effects
@@ -6634,6 +7105,16 @@
 			(justify left bottom)
 		)
 		(uuid "31f9d93c-fd4b-4c78-8d31-c726773d351c")
+	)
+	(label "MOTOR_BRAKE4"
+		(at 101.6 546.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35869ebc-0e66-4322-8996-0f4a4ce0f2d0")
 	)
 	(label "MOTOR_DIR4"
 		(at 441.96 312.42 0)
@@ -6764,6 +7245,16 @@
 			(justify left bottom)
 		)
 		(uuid "4b018feb-23b2-4042-ab2b-6e1693aa69f4")
+	)
+	(label "MOTOR_DIR3"
+		(at 40.64 513.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cfa8823-6810-40a8-9d3c-dfa3a4a43907")
 	)
 	(label "PWM6"
 		(at 53.34 91.44 0)
@@ -7015,6 +7506,16 @@
 		)
 		(uuid "767de44f-26ab-41d8-a1b8-f83c5e0de904")
 	)
+	(label "MOTOR_BRAKE2"
+		(at 101.6 480.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76bd8e21-b1a4-4e5f-b74c-c3868b70849e")
+	)
 	(label "PWM3"
 		(at 52.07 34.29 0)
 		(effects
@@ -7055,6 +7556,16 @@
 		)
 		(uuid "7dedeb52-0f00-48c6-97f1-a561a89e3633")
 	)
+	(label "FG3"
+		(at 223.52 513.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e42a3fa-d712-4908-b471-ab764bd267d0")
+	)
 	(label "ADC_0"
 		(at 172.72 142.24 0)
 		(effects
@@ -7075,6 +7586,16 @@
 		)
 		(uuid "7fec95e7-9354-42f3-b384-32742bdaa2c2")
 	)
+	(label "MOTOR_BRAKE1"
+		(at 101.6 447.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8077c89e-d6d1-471d-b211-29f588029dc2")
+	)
 	(label "BRAKE2"
 		(at 147.32 49.53 0)
 		(effects
@@ -7094,6 +7615,16 @@
 			(justify left bottom)
 		)
 		(uuid "84624ae2-f480-4a9a-8075-830c52af851d")
+	)
+	(label "FG1"
+		(at 223.52 447.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8630656b-7926-482e-a0d2-f42fc3dc5f6a")
 	)
 	(label "PWM[5..8]"
 		(at 35.56 85.09 0)
@@ -7235,6 +7766,16 @@
 		)
 		(uuid "a4c04ba4-a330-471d-87e7-2b476a3a25bd")
 	)
+	(label "PWM_5V2"
+		(at 162.56 480.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6391ffa-8626-4654-b5a3-f95667c63bc0")
+	)
 	(label "BRAKE5"
 		(at 166.37 91.44 0)
 		(effects
@@ -7274,6 +7815,16 @@
 			(justify left bottom)
 		)
 		(uuid "ae35d134-07ec-4144-9054-232ef028b783")
+	)
+	(label "PWM_5V4"
+		(at 162.56 546.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae6b84e2-cc82-4377-b88c-0ac0d4fc7a8b")
 	)
 	(label "BRAKE1"
 		(at 25.4 223.52 0)
@@ -7345,6 +7896,16 @@
 		)
 		(uuid "be7db8ea-5e92-4172-8ba5-2a6644f3f52b")
 	)
+	(label "MOTOR_DIR4"
+		(at 40.64 546.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bff4f6e4-2dd8-4f4f-b123-4f902aebc6d0")
+	)
 	(label "BRAKE8"
 		(at 148.59 110.49 0)
 		(effects
@@ -7374,6 +7935,26 @@
 			(justify left bottom)
 		)
 		(uuid "c52c2012-04a7-41c2-ba6c-debcb83360d9")
+	)
+	(label "MOTOR_DIR2"
+		(at 40.64 480.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c734a52f-58ac-46e8-b414-2ec9fcf667f0")
+	)
+	(label "MOTOR_BRAKE3"
+		(at 101.6 513.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca6094ce-d5a6-44e8-9f21-a55a53f5460d")
 	)
 	(label "MOTOR_BRAKE2"
 		(at 218.44 53.34 0)
@@ -7415,6 +7996,16 @@
 		)
 		(uuid "ce5393da-5d78-42de-8684-d167dc579eab")
 	)
+	(label "PWM_5V1"
+		(at 162.56 447.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cea2893c-5280-418f-9e83-537c919b425f")
+	)
 	(label "PWM5"
 		(at 53.34 88.9 0)
 		(effects
@@ -7424,6 +8015,16 @@
 			(justify left bottom)
 		)
 		(uuid "d12cd459-012b-4232-afc3-4876d17b18a5")
+	)
+	(label "MOTOR_DIR1"
+		(at 40.64 447.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d147b910-c5ac-40f6-8fa1-2ee3ce34a314")
 	)
 	(label "FG3"
 		(at 223.52 85.09 0)
@@ -7535,6 +8136,16 @@
 		)
 		(uuid "eff26b5b-480a-4032-86d0-551f234cbccf")
 	)
+	(label "FG2"
+		(at 223.52 480.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1a8f8f8-f7a9-41e5-b17e-427fb87c8ddf")
+	)
 	(label "PWM_5V3"
 		(at 52.07 46.99 0)
 		(effects
@@ -7594,6 +8205,105 @@
 			(justify left bottom)
 		)
 		(uuid "fb10830c-0741-4df4-a6b1-533e16474b1a")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 284.48 480.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19e3898d-2df0-4f28-a851-ca1e3fa69f60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.48 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 284.48 447.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "265ad220-58eb-4e4a-9bba-1bd6553a7aeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.48 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 284.48 546.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27719d46-36ee-4d62-acac-98ede2927aea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.48 546.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 284.48 513.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "566e55f8-73db-42c8-a953-e053e6a2e422")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.48 513.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(hierarchical_label "LED_PA15_N"
+		(shape input)
+		(at 457.2 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12ad872a-9cf0-4bf3-9402-6172bdd41d3e")
 	)
 	(hierarchical_label "FG[5..8]"
 		(shape output)
@@ -7716,7 +8426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01f4d7de-624b-4cbb-bbaf-bd8935f8fdef")
-		(property "Reference" "R40"
+		(property "Reference" "R38"
 			(at 73.66 318.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7768,6 +8478,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "d607bfba-ea71-4108-838d-87f338e98353")
 		)
@@ -7777,7 +8533,129 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R40")
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 541.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "05e642df-3705-4102-8eb5-30150b5a94b0")
+		(property "Reference" "TP_DIR4"
+			(at 44.45 535.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DIR4"
+			(at 44.45 538.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 40.64 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 541.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 541.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "21131fb9-3df4-4e00-86a3-8b44d4dc4132")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_DIR4")
 					(unit 1)
 				)
 			)
@@ -7794,7 +8672,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "067b2118-9b68-4fa5-8afa-5925d6f80562")
-		(property "Reference" "R35"
+		(property "Reference" "R34"
 			(at 63.5 257.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7846,6 +8724,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "f46619d7-9a22-49e2-aa6b-b26d1f8b2b29")
 		)
@@ -7855,7 +8779,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R35")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -7872,7 +8796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08b2c37a-0338-438c-b262-493074428cf3")
-		(property "Reference" "R46"
+		(property "Reference" "R42"
 			(at 203.454 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7925,6 +8849,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "7ebc84f6-1c71-4a76-964a-2305bcf0cff4")
 		)
@@ -7934,7 +8904,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R46")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -7951,7 +8921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d0ae2bd-f49a-4537-a8d7-8fff19b525f7")
-		(property "Reference" "R57"
+		(property "Reference" "R49"
 			(at 345.44 372.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8003,6 +8973,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "af1007fd-dde6-4eea-bee9-9c2bb6d7770c")
 		)
@@ -8012,7 +9028,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R57")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -8029,7 +9045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ed8c7e6-ed6f-46c7-8589-78ae1b27f714")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0132"
 			(at 520.7 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -8088,7 +9104,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0182")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -8105,7 +9121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1018aed1-39cb-4028-8633-8b3c3bda4a4a")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR085"
 			(at 68.58 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -8164,7 +9180,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0170")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -8181,7 +9197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1193d463-67df-45de-9309-b6a512c8a561")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR082"
 			(at 25.4 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -8240,7 +9256,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0161")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -8257,7 +9273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13bfdb1f-b3eb-4309-a596-fc6cb5b4ec9e")
-		(property "Reference" "C67"
+		(property "Reference" "C58"
 			(at 525.78 318.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8309,6 +9325,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "fc8d5784-bd8c-4e26-b3a8-9dbed7835066")
 		)
@@ -8318,7 +9380,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "C67")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -8336,7 +9398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1647d4d7-0886-4555-8cfa-9665084aaf3b")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0111"
 			(at 232.41 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8397,7 +9459,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0113")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -8414,7 +9476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "165d6c07-3f7c-4261-87fb-3ce88354087e")
-		(property "Reference" "R63"
+		(property "Reference" "R53"
 			(at 378.46 323.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8466,6 +9528,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "3466c2f8-7341-49f5-a592-66202340229f")
 		)
@@ -8475,7 +9583,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R63")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -8492,7 +9600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1974a1a7-49d9-4cf3-a190-27eddb13978c")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0122"
 			(at 373.38 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -8551,7 +9659,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0163")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -8568,7 +9676,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e64c3d8-54e4-45cf-8508-8f4c33717254")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0130"
 			(at 520.7 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -8627,7 +9735,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0166")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -8644,7 +9752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f65d5cb-588a-45ff-94d3-e1917b219813")
-		(property "Reference" "U25"
+		(property "Reference" "U20"
 			(at 412.75 289.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8696,6 +9804,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "9355840b-3a8b-418b-a35a-e63114fca138")
 		)
@@ -8717,7 +9871,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "U25")
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -8790,6 +9944,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "92f8f87f-1eb6-4c5c-a678-ddfe284d87d1")
 		)
@@ -8816,7 +10016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "203a41d6-3bf8-4c42-aacf-9cede014784b")
-		(property "Reference" "R51"
+		(property "Reference" "R45"
 			(at 216.154 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8869,6 +10069,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "2acdea8a-9408-4115-8349-432d9090e179")
 		)
@@ -8878,7 +10124,497 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R51")
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 508 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "2066494a-798a-4996-a6b1-98d33ae090a0")
+		(property "Reference" "TP_DIR3"
+			(at 44.45 502.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DIR3"
+			(at 44.45 505.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 40.64 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "83ff1525-239c-459f-9da9-b5bead720f70")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_DIR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 284.48 441.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "20ab59bb-cda8-457e-9f07-60482eec7c9c")
+		(property "Reference" "TP_GND1"
+			(at 288.29 436.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND1"
+			(at 288.29 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D1.016mm"
+			(at 284.48 441.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "97ae8a43-a031-45ef-884d-e4d44c09c69e")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 365.76 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2107eb23-b8cd-4ae6-85a3-2720457d4bc4")
+		(property "Reference" "R74"
+			(at 365.76 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 365.76 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 365.76 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "065a151f-d611-4aca-a858-9e0b40b05dd6")
+		)
+		(pin "2"
+			(uuid "8c1c7325-c1fe-4bc8-aeb1-22dcaf5ff857")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 474.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "2234a669-68f5-432f-a48b-897a518d05ec")
+		(property "Reference" "TP_BRAKE2"
+			(at 105.41 469.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BRAKE2"
+			(at 105.41 472.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 101.6 474.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 474.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 474.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "c77eddd1-c59d-4c96-a424-ff2f5be1f02e")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_BRAKE2")
 					(unit 1)
 				)
 			)
@@ -8896,7 +10632,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2413096d-1261-4773-a93a-f4742658dcd2")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR090"
 			(at 104.14 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8957,7 +10693,129 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR086")
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 284.48 474.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "24353a54-f39f-4fe0-b2a3-75b5d5a7fb78")
+		(property "Reference" "TP_GND2"
+			(at 288.29 469.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND2"
+			(at 288.29 472.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D1.016mm"
+			(at 284.48 474.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 474.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 474.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "a51b33d0-ce4f-4e5a-b879-7cf659c20503")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_GND2")
 					(unit 1)
 				)
 			)
@@ -8974,7 +10832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "249bb400-ac8d-4581-b64c-238eada523a2")
-		(property "Reference" "R39"
+		(property "Reference" "R37"
 			(at 73.66 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9026,6 +10884,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "ccf3a2e7-8bc4-4fca-a81f-3ed9de0e2f8d")
 		)
@@ -9035,7 +10939,129 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R39")
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 474.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "26da2246-f3aa-4cb2-aca6-2c69b0cec4fe")
+		(property "Reference" "TP_FG2"
+			(at 227.33 469.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FG2"
+			(at 227.33 472.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 223.52 474.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 474.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 474.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "de1f0e03-4d5d-4d02-b025-216808436ec2")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_FG2")
 					(unit 1)
 				)
 			)
@@ -9104,6 +11130,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "9b371cea-a662-4b68-b6d8-194b72e9b450")
 		)
@@ -9130,7 +11202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "295c8396-f0cf-43a0-aafa-cf16456f5f18")
-		(property "Reference" "R53"
+		(property "Reference" "R46"
 			(at 345.44 242.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9182,6 +11254,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "8b74b291-a258-4a4e-a50e-aa96ce17157b")
 		)
@@ -9191,7 +11309,129 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R53")
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 284.48 541.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "2a044fb3-0ef1-4e90-bfb7-4f663a03cffc")
+		(property "Reference" "TP_GND4"
+			(at 288.29 535.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND4"
+			(at 288.29 538.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D1.016mm"
+			(at 284.48 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 541.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 541.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "7cea472d-dbb5-41e4-862c-66925657ab88")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_GND4")
 					(unit 1)
 				)
 			)
@@ -9208,7 +11448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b3155a9-c3dd-4618-9077-4ed97cc725e3")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0126"
 			(at 412.75 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9267,7 +11507,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0164")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -9284,7 +11524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30760c25-789e-4413-a692-9497ee7a524d")
-		(property "Reference" "R56"
+		(property "Reference" "R48"
 			(at 345.44 356.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9336,6 +11576,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "53c491be-137a-415b-ba71-536b303ea376")
 		)
@@ -9345,7 +11631,129 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R56")
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 474.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "31abbc2c-4cb1-4e88-ac58-cd90d3fb7a1d")
+		(property "Reference" "TP_PWM2"
+			(at 166.37 469.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWM2"
+			(at 166.37 472.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 162.56 474.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 474.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 474.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "edb3c0f7-e8c1-4a5f-96dc-a97e1e7740aa")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_PWM2")
 					(unit 1)
 				)
 			)
@@ -9647,6 +12055,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "f1362e78-b0f8-4965-afe0-5a60122cbc75")
 		)
@@ -9679,7 +12133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "345483cb-8af3-4559-b407-ac45933d5347")
-		(property "Reference" "R54"
+		(property "Reference" "R47"
 			(at 345.44 257.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9731,6 +12185,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "b369de7d-cbc4-41b4-b60d-cfd94dc1a9ed")
 		)
@@ -9740,7 +12240,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R54")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -9811,6 +12311,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "0af8ba93-4a1d-4444-95f4-fda543514476")
 		)
@@ -9838,7 +12384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bf278c4-dd2e-48dc-880c-a37b4b4fba9b")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0107"
 			(at 219.71 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9898,7 +12444,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0109")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -9915,7 +12461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d4d70ac-7232-47e0-9ff2-9ae7eeb23064")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0110"
 			(at 231.902 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9976,7 +12522,129 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0112")
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 541.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "3f3bb36c-a5c2-468e-bff1-96818c18ae21")
+		(property "Reference" "TP_BRAKE4"
+			(at 105.41 535.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BRAKE4"
+			(at 105.41 538.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 101.6 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 541.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 541.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "b2fba3d6-28d4-4cc0-bebd-4b252635d0a3")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_BRAKE4")
 					(unit 1)
 				)
 			)
@@ -9993,7 +12661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40c9bd38-d499-4678-9dd7-87b2ab708615")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0131"
 			(at 520.7 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -10052,7 +12720,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0167")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -10497,6 +13165,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "7"
 			(uuid "be099192-f871-48fe-b038-b76e251783b5")
 		)
@@ -10613,6 +13327,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "310ba159-df6c-4d5b-b1b0-b42351f96bdf")
 		)
@@ -10639,7 +13399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "477dca01-dc50-4cd4-b9ae-3ba00d46f505")
-		(property "Reference" "C65"
+		(property "Reference" "C57"
 			(at 525.78 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10691,6 +13451,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "150818b0-99b6-4057-852b-cd467caa66c2")
 		)
@@ -10700,7 +13506,129 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "C65")
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 508 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "47a8d193-3f85-4b2b-8f9b-92095ac98690")
+		(property "Reference" "TP_BRAKE3"
+			(at 105.41 502.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BRAKE3"
+			(at 105.41 505.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 101.6 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "34426db0-c77e-408a-af75-e79e2cb7de23")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_BRAKE3")
 					(unit 1)
 				)
 			)
@@ -11002,6 +13930,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "956cc37c-6614-465e-9581-4d4fea571e2a")
 		)
@@ -11034,7 +14008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "489fa51b-62d0-4df1-a1e6-6f39f39a182a")
-		(property "Reference" "C66"
+		(property "Reference" "C56"
 			(at 243.84 318.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11086,6 +14060,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "40c4bad6-5d3c-464a-8888-0dff5a69ebc6")
 		)
@@ -11095,7 +14115,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "C66")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -11112,7 +14132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c2146c0-8583-46ef-b7bb-95f46112e29b")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0100"
 			(at 130.81 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -11171,7 +14191,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0172")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -11189,7 +14209,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4ef57f2a-c02d-40f1-a40f-b0d75eeb4a30")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR093"
 			(at 100.33 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11250,7 +14270,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR089")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -11319,6 +14339,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "aa2fd8e5-1697-42f1-81c0-4c50f46507e7")
 		)
@@ -11346,7 +14412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "526f5d83-c60c-4d69-b717-58eae17bb43c")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR094"
 			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11407,7 +14473,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR090")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -11424,7 +14490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "536251be-7eff-4433-9371-153d714e01d4")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0114"
 			(at 238.76 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -11483,7 +14549,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0174")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -11500,7 +14566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54413c81-0ef6-4d2d-a2c9-1315655930b4")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0128"
 			(at 412.75 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -11559,7 +14625,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0180")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -11576,7 +14642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55607082-7628-4003-8068-87aa1ecafb65")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR089"
 			(at 91.44 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -11635,7 +14701,129 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0171")
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 441.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "5654e6a9-0423-436c-a58f-ae426f7307de")
+		(property "Reference" "TP_PWM1"
+			(at 166.37 436.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWM1"
+			(at 166.37 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 162.56 441.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "052999a9-f5dd-4704-97ae-804d50d3b9d1")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_PWM1")
 					(unit 1)
 				)
 			)
@@ -11652,7 +14840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57960840-c0e3-4377-8be8-efa7b71450c3")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR084"
 			(at 68.58 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -11711,7 +14899,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0154")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -11728,7 +14916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "591adeba-8002-4396-9205-4db11fd70e1d")
-		(property "Reference" "U22"
+		(property "Reference" "U17"
 			(at 130.81 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11780,6 +14968,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "fab3f33b-d402-47eb-98b4-e59802659a1f")
 		)
@@ -11801,7 +15035,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "U22")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -11818,7 +15052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b1594e7-bfe1-4022-b99e-a5c16793aeda")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR098"
 			(at 130.81 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11877,7 +15111,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0156")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -11895,7 +15129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b76aa3e-707d-4444-912d-b88d741cb552")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0117"
 			(at 248.285 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11956,7 +15190,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0115")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -11974,7 +15208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6119cecc-0ef9-4cd3-a3fd-08fba787f2dd")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0116"
 			(at 243.205 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12035,7 +15269,83 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0114")
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 337.82 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63383975-a081-461c-a398-0aa3f56b8648")
+		(property "Reference" "#PWR0901"
+			(at 337.82 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 337.82 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28ab9dfd-80a5-4e42-b7a2-7488c9508859")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "#PWR0901")
 					(unit 1)
 				)
 			)
@@ -12052,7 +15362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63606200-f5b6-4bfb-8f5d-896f8bfad58c")
-		(property "Reference" "R58"
+		(property "Reference" "R50"
 			(at 355.6 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12104,6 +15414,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "90167896-2248-4999-b8e4-1425d45e7b40")
 		)
@@ -12113,7 +15469,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R58")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -12406,6 +15762,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "3"
 			(uuid "fc5d86b0-4cf6-4b13-af75-3149e08909b0")
 		)
@@ -12444,7 +15846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "665305f7-83a8-4b0c-915c-279c78692986")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR096"
 			(at 127 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -12503,7 +15905,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0160")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -12520,7 +15922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66cfca4e-553e-4c77-8e46-f289aabc2592")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0133"
 			(at 520.7 328.93 0)
 			(hide yes)
 			(show_name no)
@@ -12579,7 +15981,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0183")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -12596,7 +15998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71ecc7ef-68e6-4b71-8ce4-4cd172ec561c")
-		(property "Reference" "R47"
+		(property "Reference" "R43"
 			(at 212.344 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12649,6 +16051,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "853b11c7-2517-4a86-aa31-c1ddc263f5fd")
 		)
@@ -12658,7 +16106,129 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R47")
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 284.48 508 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "748cf049-fb29-4b64-9435-5a3176097df5")
+		(property "Reference" "TP_GND3"
+			(at 288.29 502.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND3"
+			(at 288.29 505.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D1.016mm"
+			(at 284.48 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "5428b3f0-f2a0-4b75-92bd-22c56b6d50fd")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_GND3")
 					(unit 1)
 				)
 			)
@@ -12675,7 +16245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76d8964d-920b-46d0-8073-84d2f7eef15e")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR083"
 			(at 25.4 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -12734,7 +16304,129 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0177")
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 441.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "7858488e-a170-4868-87df-9769e51b6d22")
+		(property "Reference" "TP_DIR1"
+			(at 44.45 436.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DIR1"
+			(at 44.45 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 40.64 441.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "124b1d16-9295-4337-b672-79a7115ba66d")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_DIR1")
 					(unit 1)
 				)
 			)
@@ -12751,7 +16443,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cb1f1d1-9e20-41cc-bc9b-7b95f1d5d523")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0105"
 			(at 220.218 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12811,7 +16503,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0107")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -12880,6 +16572,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "8b98482d-e25c-4938-9862-edabc701925f")
 		)
@@ -12958,6 +16696,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "fa2181ec-666f-4f04-a068-6786744e42a4")
 		)
@@ -12974,6 +16758,252 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 416.56 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e5882e1-fc6c-409e-a58f-3caf340da65a")
+		(property "Reference" "D21"
+			(at 416.56 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STATUS_GREEN"
+			(at 416.56 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 416.56 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 416.56 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 416.56 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "3cd2b8bc-cd66-43a7-b6b4-3190d61372a4")
+		)
+		(pin "2"
+			(uuid "85ae0793-e680-44b4-a49a-af846f7c9d31")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 508 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "7e84f3ab-2869-4d86-87c2-7caec7bd7ac4")
+		(property "Reference" "TP_PWM3"
+			(at 166.37 502.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWM3"
+			(at 166.37 505.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 162.56 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "d1988695-69fe-4972-bc03-7812fb130d04")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_PWM3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 350.52 322.58 0)
 		(unit 1)
@@ -12984,7 +17014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "802d3821-4539-4a86-8f33-5cfd1d346f45")
-		(property "Reference" "R59"
+		(property "Reference" "R51"
 			(at 355.6 318.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13036,6 +17066,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "d38ec7fe-5829-4d9f-a378-8593d0e5bcea")
 		)
@@ -13045,7 +17121,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R59")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -13062,7 +17138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "819296ca-471d-401c-b243-5ebccda04955")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0118"
 			(at 307.34 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -13121,7 +17197,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0169")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -13138,7 +17214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8339f62f-bc7b-417e-85b0-2d25f494c975")
-		(property "Reference" "R34"
+		(property "Reference" "R33"
 			(at 63.5 242.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13190,6 +17266,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "a3db5350-fbce-4571-a5e6-79f4def7bfb5")
 		)
@@ -13199,7 +17321,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R34")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -13501,6 +17623,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "f1ba6fcc-1f4a-4f1e-83a6-017c9bb3a554")
 		)
@@ -13523,6 +17691,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 474.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "86a92376-1ffa-4782-90e1-df8979bfa3f5")
+		(property "Reference" "TP_DIR2"
+			(at 44.45 469.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DIR2"
+			(at 44.45 472.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 40.64 474.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 474.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 474.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "c38f205a-56fd-426a-8aca-c100625c28ed")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_DIR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 91.44 327.66 0)
 		(unit 1)
@@ -13533,7 +17823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86e003fd-0e35-402a-b17e-4a838f462c4f")
-		(property "Reference" "R45"
+		(property "Reference" "R40"
 			(at 96.52 323.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13585,6 +17875,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "323051e8-bb38-4be0-b953-d51e36c05363")
 		)
@@ -13594,7 +17930,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R45")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -13611,7 +17947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8aeb9cad-6f32-4b8e-bb20-3d504938da6f")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0108"
 			(at 225.425 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13671,7 +18007,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0110")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -13689,7 +18025,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8b42d29e-cb6c-4a85-82e2-34e59cc3659a")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR087"
 			(at 88.9 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13750,7 +18086,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR085")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -13821,6 +18157,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "16d1ad9a-dc3d-4d36-8c0d-f86a2e15efc3")
 		)
@@ -13847,7 +18229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cb898a7-6929-42e1-a188-c215734dff30")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR0119"
 			(at 307.34 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -13906,7 +18288,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0185")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -13923,7 +18305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d29017a-87a7-41cc-9b07-186ca74a72ad")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0101"
 			(at 130.81 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -13982,7 +18364,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0173")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -14000,7 +18382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8de02dad-5c5d-42a1-aa52-1df50d5a51b5")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0106"
 			(at 218.44 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14060,7 +18442,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0108")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -14077,7 +18459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f4eec64-969a-415d-9fea-0211444b9b19")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0127"
 			(at 412.75 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -14136,7 +18518,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0165")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -14581,6 +18963,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "7"
 			(uuid "101eb97b-eabd-4eae-b989-9af5641b7c49")
 		)
@@ -14919,6 +19347,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "3"
 			(uuid "49d9b4b5-e331-4ed9-a490-30c0c5f75e18")
 		)
@@ -14957,7 +19431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "958ce642-22c7-4fa8-9a3a-08685ca393b9")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0112"
 			(at 238.76 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15016,7 +19490,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0158")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -15034,7 +19508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96c17aa6-65b6-4920-b1fa-b813a4bfb99f")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0102"
 			(at 209.55 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -15094,7 +19568,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0100")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -15111,7 +19585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c0138ce-380f-4fe1-9de3-ab30d3c949ef")
-		(property "Reference" "R38"
+		(property "Reference" "R36"
 			(at 63.5 372.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15163,6 +19637,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "e6f5de5e-1a12-4521-9119-817a44108630")
 		)
@@ -15172,7 +19692,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R38")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -15189,7 +19709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c639302-1a22-4046-ad60-85640e628549")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0115"
 			(at 238.76 328.93 0)
 			(hide yes)
 			(show_name no)
@@ -15248,7 +19768,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0175")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -15265,7 +19785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d838ef4-7b23-44e5-abab-518d9f2730d9")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0121"
 			(at 350.52 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -15324,7 +19844,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0178")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -15341,7 +19861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fdcc139-5199-4743-9dae-d7f644335df2")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR086"
 			(at 87.63 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15402,7 +19922,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR084")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -15419,7 +19939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0999871-5094-4061-9ead-bfb632b235d2")
-		(property "Reference" "U23"
+		(property "Reference" "U19"
 			(at 412.75 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15471,6 +19991,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "8adcb23c-d4f2-4555-8b8c-7e744cac54ab")
 		)
@@ -15492,7 +20058,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "U23")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -15510,7 +20076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a44048d9-5833-48ab-a581-4bba59b1bedc")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR091"
 			(at 104.775 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15571,7 +20137,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR087")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -15588,7 +20154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a795d792-b0bd-48f9-8c22-17e5fa54353b")
-		(property "Reference" "R50"
+		(property "Reference" "R44"
 			(at 214.884 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15641,6 +20207,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "46a1a0cf-f98d-48df-9390-ace617e0f397")
 		)
@@ -15650,7 +20262,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R50")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -15667,7 +20279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7fb716c-fb75-455b-87b1-ef73d5974185")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR0129"
 			(at 412.75 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -15726,7 +20338,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0181")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -15743,7 +20355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9d272c0-4398-4d48-bfa3-237181159257")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR097"
 			(at 127 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -15802,7 +20414,129 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0176")
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 541.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "a9f049f3-76b9-407f-a173-8770f8a88a31")
+		(property "Reference" "TP_PWM4"
+			(at 166.37 535.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWM4"
+			(at 166.37 538.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 162.56 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 541.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 541.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "ec2b11b9-e570-4903-8caf-77d4452496ba")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_PWM4")
 					(unit 1)
 				)
 			)
@@ -15871,6 +20605,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "548681f6-f072-44e0-a833-35b94b74efa7")
 		)
@@ -15897,7 +20677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa7881ac-3766-406d-b9f9-eff63f08a257")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0109"
 			(at 226.06 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -15957,7 +20737,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0111")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -16028,6 +20808,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "f4b91cc7-54ed-4471-b1d3-58b1cc11c8d8")
 		)
@@ -16054,7 +20880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b74fda2a-59f7-429c-bf4e-169e9223c324")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0123"
 			(at 373.38 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -16113,7 +20939,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0179")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -16406,6 +21232,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "3"
 			(uuid "c476f1d0-425e-4e83-9e7a-24a5ff9a1b8f")
 		)
@@ -16444,7 +21316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9bf580b-d9b6-4258-80ab-10822db55eba")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0113"
 			(at 238.76 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -16503,7 +21375,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0159")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -16521,7 +21393,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bb2dc905-d6e4-439f-a1f1-1bad69d27c02")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR095"
 			(at 107.95 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16582,7 +21454,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR093")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -16599,7 +21471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c09dad75-034b-48b1-b39b-985472ffd5b2")
-		(property "Reference" "R37"
+		(property "Reference" "R35"
 			(at 63.5 356.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16651,6 +21523,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "1a8e0c27-4255-440d-8d64-214bd85c6223")
 		)
@@ -16660,7 +21578,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R37")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -16678,7 +21596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c49e7e31-b999-4f8b-b494-7012ff99d6f0")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR092"
 			(at 99.06 64.008 0)
 			(hide yes)
 			(show_name no)
@@ -16739,7 +21657,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR088")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -16808,6 +21726,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "8eeb5f76-0be9-4740-87d0-915c77c179b3")
 		)
@@ -16834,7 +21798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cde50496-b8d0-449e-834e-103254462103")
-		(property "Reference" "U24"
+		(property "Reference" "U18"
 			(at 130.81 289.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16886,6 +21850,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "f923fcdb-f539-415f-b2ce-a6a1bf420837")
 		)
@@ -16907,7 +21917,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "U24")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -16924,7 +21934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d256f721-d172-4a29-be87-7803e04500ba")
-		(property "Reference" "R62"
+		(property "Reference" "R52"
 			(at 378.46 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16976,6 +21986,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "72b30af6-0eff-4995-a54d-69513da1bc86")
 		)
@@ -16985,7 +22041,129 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R62")
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 508 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "d3b97c84-c83f-43a9-94ef-965a98f052a7")
+		(property "Reference" "TP_FG3"
+			(at 227.33 502.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FG3"
+			(at 227.33 505.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 223.52 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "f8fafd4e-0af3-4905-ae8b-e7fadbdcc1fe")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_FG3")
 					(unit 1)
 				)
 			)
@@ -17002,7 +22180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d751125b-b46d-4e44-be99-7a90dd403c25")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR099"
 			(at 130.81 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -17061,7 +22239,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0157")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -17363,6 +22541,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "df09c8fa-992e-4c4b-9142-8d95ade35daf")
 		)
@@ -17395,7 +22619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db2a1ed2-c097-4245-b535-47ae5df1de55")
-		(property "Reference" "R44"
+		(property "Reference" "R39"
 			(at 96.52 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17447,6 +22671,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "d669c4fb-da9a-4458-9286-1415a2f2fbc7")
 		)
@@ -17456,7 +22726,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "R44")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -17473,7 +22743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbe8ae78-e881-4a57-8755-b2cdfdc35f0d")
-		(property "Reference" "C64"
+		(property "Reference" "C55"
 			(at 243.84 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17525,6 +22795,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "d2e67208-6311-4854-a381-b429374cd5a9")
 		)
@@ -17534,7 +22850,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "C64")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -17836,6 +23152,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "aa7e5296-fb31-4727-8483-22f32d5c9004")
 		)
@@ -18144,6 +23506,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "3"
 			(uuid "1a913a55-2092-4e25-a2a0-e073c283f1cc")
 		)
@@ -18182,7 +23590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e57e1db4-df88-43a4-872a-14b2a5356898")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0124"
 			(at 408.94 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -18241,7 +23649,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0168")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -18258,7 +23666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e69d0ead-945c-4af0-a969-7421fb530504")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR088"
 			(at 91.44 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -18317,7 +23725,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0155")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -18335,7 +23743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e85957b5-373c-4a13-98fb-fa2146ea7a92")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0104"
 			(at 215.9 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -18395,7 +23803,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0102")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -18413,7 +23821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eceea882-af72-430c-9f8b-1c4621d68889")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0103"
 			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -18473,7 +23881,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0101")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -18490,7 +23898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efb936a4-7993-4e14-b89f-5d532138d26d")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0120"
 			(at 350.52 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -18549,7 +23957,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0162")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -18618,6 +24026,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "e71bd435-02a3-42e2-b46d-69e8c2853245")
 		)
@@ -18644,7 +24098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5074682-d14a-41a9-b0a8-817db9d8ada3")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0125"
 			(at 408.94 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -18703,7 +24157,7 @@
 		(instances
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
-					(reference "#PWR0184")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -18772,6 +24226,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "6783cce3-5296-4cb7-9379-e4f98ff573a3")
 		)
@@ -18782,6 +24282,372 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
 					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 441.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "f623c261-7906-4a6e-852a-e0d5ad14aa56")
+		(property "Reference" "TP_FG1"
+			(at 227.33 436.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FG1"
+			(at 227.33 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 223.52 441.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "d17b5a61-3946-4929-9e10-6c322164ca9e")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_FG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 541.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "fb611ae5-5605-4b21-84ee-0afd850c5454")
+		(property "Reference" "TP_FG4"
+			(at 227.33 535.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FG4"
+			(at 227.33 538.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 223.52 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 541.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 541.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "6cf339f9-e70f-4d45-b91d-8c952de4f0e9")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_FG4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 441.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "ffbbeeeb-0aba-4e72-8b9a-133e69e260da")
+		(property "Reference" "TP_BRAKE1"
+			(at 105.41 436.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BRAKE1"
+			(at 105.41 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D0.762mm"
+			(at 101.6 441.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "ce801cc1-84b2-4608-b1f3-595280b7fb48")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/ab5b236f-20a8-4993-b87c-2c1c522e6f92/e93f7eb9-c44f-4296-8391-19d4baa4357c"
+					(reference "TP_BRAKE1")
 					(unit 1)
 				)
 			)

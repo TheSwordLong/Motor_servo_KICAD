@@ -1,0 +1,11 @@
+{
+  "workbook_preserved_byte_for_byte": true,
+  "csvs_preserved_byte_for_byte": true,
+  "detail_rows_checked_against_fresh_netlist": 276,
+  "summary_groups_checked_against_detail": 70,
+  "purchase_pieces": 151,
+  "pcb_footprints": 200,
+  "missing_MPN_groups": 28,
+  "missing_LCSC_groups": 70,
+  "missing_Huaqiu_groups": 42
+}

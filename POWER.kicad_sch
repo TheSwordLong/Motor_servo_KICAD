@@ -3178,6 +3178,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -13404,20 +13527,8 @@
 		)
 	)
 	(rectangle
-		(start 12 24.7)
-		(end 143 127.7)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "1293eb2a-d64f-4713-9e4a-75abe8279c33")
-	)
-	(rectangle
 		(start 60 203.7)
-		(end 170 290.7)
+		(end 174 296)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -13425,55 +13536,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "483e6686-6bb7-438f-b7aa-9db2a33f2ff8")
-	)
-	(rectangle
-		(start 148 135.7)
-		(end 285 202.7)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "59e734d7-a761-4f10-89a9-ea85839ff82f")
-	)
-	(rectangle
-		(start 433 150.7)
-		(end 600 296.7)
-		(stroke
-			(width 0.254)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "87eec842-8c58-49dc-bb66-0b30a206f15c")
-	)
-	(rectangle
-		(start 149 24.7)
-		(end 262 127.7)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "923ebbbe-5ef2-4f74-af50-d62a0df6b75f")
-	)
-	(rectangle
-		(start 264 24.7)
-		(end 407 132.7)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "948c0cd1-6714-497d-9f16-94ba4ee20026")
+		(uuid "94e470bb-4fdf-49e9-9cf5-239690eb6625")
 	)
 	(rectangle
 		(start 12 136.7)
@@ -13485,194 +13548,265 @@
 		(fill
 			(type none)
 		)
-		(uuid "d3765892-46bf-4d2b-b379-ecd84aa84db9")
+		(uuid "9eb335d5-08a8-4aca-b1d0-5fe983ce49d6")
 	)
-	(text "U5：BOARD_5V_RAW → +5V。\n与 USB 的两路 LM66100 支路汇合至 +5V。\nC9、C13：输入与输出旁路。"
-		(exclude_from_sim no)
-		(at 154 93.7 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.5 1.5)
-			)
-			(justify left top)
+	(rectangle
+		(start 148 135.7)
+		(end 285 202.7)
+		(stroke
+			(width 0.254)
+			(type solid)
 		)
-		(uuid "017b53f3-31e6-45d8-a6b3-4ce4b8eb904f")
-	)
-	(text "H1~H4：连接金属安装板；R6~R8 与 C10~C12\n提供泄放 / 高频耦合。USB 页另有 FB2 / C60。"
-		(exclude_from_sim no)
-		(at 153 192.7 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.5 1.5)
-			)
-			(justify left top)
+		(fill
+			(type none)
 		)
-		(uuid "14dd5a8d-e9ed-4027-9c4a-c6fe890001a8")
+		(uuid "a0dc2ee3-a90f-4e01-a816-9293d0c134c7")
 	)
-	(text "Q1 / Q2 / D6 / D7：原电源保护备用方案。\n当前不在已装配供电路径中，不能视为现有输入保护。\n该分区仅标识用途，启用前需独立复核。"
-		(exclude_from_sim no)
-		(at 439 275.7 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.5 1.5)
-			)
-			(justify left top)
+	(rectangle
+		(start 433 150.7)
+		(end 600 296.7)
+		(stroke
+			(width 0.254)
+			(type dash)
 		)
-		(uuid "4bd8a98d-243a-44fd-968c-075e9f0092ed")
+		(fill
+			(type none)
+		)
+		(uuid "c938ac18-8390-4a13-b0ea-eeea26f1c83c")
 	)
-	(text "PWR-04  电源状态指示"
+	(rectangle
+		(start 264 24.7)
+		(end 407 132.7)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cda6a6af-0aea-43f7-8a3d-ba74c2cd9642")
+	)
+	(rectangle
+		(start 12 24.7)
+		(end 143 127.7)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d3df6c21-a1b2-4bc1-b53e-cc07ba8c0618")
+	)
+	(rectangle
+		(start 149 24.7)
+		(end 262 127.7)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dec1b28b-634e-411c-a2ef-a074882ab1d5")
+	)
+	(text "PWR-04  供电状态指示"
 		(exclude_from_sim no)
 		(at 15 139.7 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "5ec23c91-b526-4f4b-8acf-42d9be6efe6c")
+		(uuid "1448c1ba-b84b-4eb0-a9ce-39bad6dc783f")
 	)
-	(text "PWR-07  MOS 电源保护预留【备用 / DNP】"
+	(text "Q1 / Q2 / D6 / D7：保留的电源保护方案。\n当前不装配，不构成现有供电保护路径。"
 		(exclude_from_sim no)
-		(at 436 153.7 0)
+		(at 438 276 0)
 		(effects
 			(font
-				(face "宋体")
+				(face "Microsoft YaHei")
 				(size 1.8 1.8)
-				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "8473fcc7-ab3a-4675-a315-5969b0768af5")
+		(uuid "2a29de12-bc1f-4987-a586-b0f52795bd41")
 	)
-	(text "D2：+5V；D3：+3V3；D4：+24V。\nR1~R3 为限流电阻；LED 均为 0603。"
+	(text "D2：+5V；D3：+3V3；D4：+24V。\nR1～R3 限流；仅表示对应电源电压。"
 		(exclude_from_sim no)
-		(at 17 187.7 0)
+		(at 17 190 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "9037a7a4-085f-414e-9d80-d9cf80cab777")
-	)
-	(text "PWR-01  24 V 输入与 5 V 降压"
-		(exclude_from_sim no)
-		(at 15 27.7 0)
-		(effects
-			(font
-				(face "宋体")
+				(face "Microsoft YaHei")
 				(size 1.8 1.8)
-				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "bae72fe5-3b88-4fb6-9642-51933717f5ef")
+		(uuid "2f7af478-224b-439e-ad83-59dfc15ba5f5")
 	)
-	(text "PWR-02  板内 5 V 防倒灌支路"
+	(text "U2：隔离 DC-DC；U3 / U4：后级稳压。\n+5VS / +3V3S / GNDS 为备用电源域。"
 		(exclude_from_sim no)
-		(at 152 27.7 0)
+		(at 65 282 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
-				(bold yes)
+				(face "Microsoft YaHei")
+				(size 1.7 1.7)
 			)
 			(justify left top)
 		)
-		(uuid "bb7a67bc-e286-48e4-8038-b9d48047a382")
+		(uuid "411770a0-5d39-4b92-bda6-69ac61f3d4b6")
 	)
-	(text "装配说明：实线框内按元件属性装配；虚线框为保留方案。\n22 µF / 0603 电容需按工作电压核对有效容量；以上分区不改变现有元件参数。"
-		(exclude_from_sim no)
-		(at 20 302.7 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "c606e882-cc93-4620-8d70-a63f25e4aa02")
-	)
-	(text "PWR-06  隔离供电与稳压预留【备用 / DNP】"
-		(exclude_from_sim no)
-		(at 63 206.7 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "c9abe6dd-62ea-405e-bf25-8038ab5d7aaa")
-	)
-	(text "U6 / L3：+3V3 稳压，供 MCU 与逻辑接口。\nR10 / R11：反馈分压；C14 / C17 / C18：滤波去耦。"
-		(exclude_from_sim no)
-		(at 269 78.7 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "cd42e143-a4c5-4608-8be8-96f594bd259e")
-	)
-	(text "PWR-05  Earth / GND 与安装孔"
+	(text "PWR-05  机壳耦合与安装孔"
 		(exclude_from_sim no)
 		(at 151 138.7 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "cf4c03a9-9964-4e81-bfda-2b59d55c1db8")
+		(uuid "651ab5c2-bd22-45f4-9b52-c303cb455c06")
 	)
-	(text "CN1：24 V 电源输入；D1：输入瞬态钳位。\nU1 / D5 / L1 / C5：降压与输出滤波。\n输出网络为 BOARD_5V_RAW，送 PWR-02。"
+	(text "PWR-02  板内 5V 防倒灌"
 		(exclude_from_sim no)
-		(at 17 91.7 0)
+		(at 152 27.7 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.5 1.5)
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "db375ace-7c74-4988-8574-ef936e852708")
+		(uuid "67eaa5a9-a4fd-4731-ba42-09c92f79e099")
 	)
-	(text "PWR-03  +5V 转 +3V3"
+	(text "PWR-01  24V 输入与 5V 降压"
+		(exclude_from_sim no)
+		(at 15 27.7 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "774b7c95-459a-4863-a5f1-d55b983456fe")
+	)
+	(text "PWR-06  隔离供电预留【DNP】"
+		(exclude_from_sim no)
+		(at 63 206.7 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "b191a47a-8a87-4425-9139-dc654a3d3a2f")
+	)
+	(text "H1～H4 接 Earth 金属安装板。\nR6～R8 / C10～C12：泄放与高频耦合。"
+		(exclude_from_sim no)
+		(at 153 194 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.6 1.6)
+			)
+			(justify left top)
+		)
+		(uuid "bb675be5-880b-43d8-9649-26b3019f0450")
+	)
+	(text "U5：LM66100，接入 +5V 汇流。\nC9 / C13：输入、输出旁路。\n与 USB 的 U24 / U25 支路汇合。"
+		(exclude_from_sim no)
+		(at 154 93 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "bd24001e-8c45-4e41-b404-8cc13928d8dd")
+	)
+	(text "PWR-03  5V 转 3.3V"
 		(exclude_from_sim no)
 		(at 267 27.7 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.8 1.8)
+				(face "Microsoft YaHei")
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left top)
 		)
-		(uuid "e1c4be9b-e2bb-4d26-88b4-223dfbe04320")
+		(uuid "bebbdea4-3a59-41c4-900f-705fc6ae82a4")
 	)
-	(text "U2：隔离 DC-DC；U4 / U3：后级稳压。\n+5VS / +3V3S / GNDS 为备用电源域。\n当前相关元件不装配，启用前复核参数。"
+	(text "备用区保留原接线；启用前需独立复核。电容有效容量需结合偏压与具体料号校核。"
 		(exclude_from_sim no)
-		(at 65 271.7 0)
+		(at 20 312 0)
 		(effects
 			(font
-				(face "宋体")
-				(size 1.5 1.5)
+				(face "Microsoft YaHei")
+				(size 1.8 1.8)
 			)
 			(justify left top)
 		)
-		(uuid "e443d584-d4ae-4426-ae02-db193a196ac1")
+		(uuid "c83a3d3f-7f9f-4577-b873-d3afcbddb75c")
+	)
+	(text "POWER TEST POINTS"
+		(exclude_from_sim no)
+		(at 180.34 223.52 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6808ef2-e2f2-4fce-bdbc-c1dde417fb95")
+	)
+	(text "U6 / L3：3.3V 稳压；R10 / R11：反馈。\nC14～C18：输入、输出及反馈滤波。"
+		(exclude_from_sim no)
+		(at 269 78 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "e09d6d36-ddff-44fc-8a86-851b86e5304a")
+	)
+	(text "PWR-07  MOS 电源保护预留【DNP】"
+		(exclude_from_sim no)
+		(at 436 153.7 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "e946258e-68b0-47a4-afe9-74b94616072a")
+	)
+	(text "CN1：24V 输入；D1：输入瞬态钳位。\nU1 / D5 / L1 / C5：降压及输出滤波。\nBOARD_5V_RAW 送至 PWR-02。"
+		(exclude_from_sim no)
+		(at 17 92 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "f2e2db37-3b9d-4e66-b696-eef5cf3f7e98")
 	)
 	(junction
 		(at 217.805 186.69)
@@ -15182,6 +15316,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 238.76) (xy 302.26 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c15e71-45a1-472b-88e3-b2becdc71a15")
+	)
+	(wire
+		(pts
 			(xy 100.33 68.58) (xy 100.33 69.85)
 		)
 		(stroke
@@ -15342,6 +15486,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 266.7) (xy 190.5 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14be113-c5dc-4fc2-a28a-5e304540eeed")
+	)
+	(wire
+		(pts
 			(xy 500.38 191.77) (xy 511.81 191.77)
 		)
 		(stroke
@@ -15459,6 +15613,16 @@
 			(type default)
 		)
 		(uuid "a8abeb2d-20eb-49e1-9f98-58e91ee52c40")
+	)
+	(wire
+		(pts
+			(xy 246.38 238.76) (xy 246.38 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ff558a-2667-4f9e-a885-e4456ae32323")
 	)
 	(wire
 		(pts
@@ -15822,6 +15986,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 238.76) (xy 190.5 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabefd0a-2694-4059-b28e-8b984ce17410")
+	)
+	(wire
+		(pts
 			(xy 96.52 255.27) (xy 91.44 255.27)
 		)
 		(stroke
@@ -16029,6 +16203,16 @@
 			(type default)
 		)
 		(uuid "f1c764d1-0cd8-44ec-b2ee-1ba8d768374f")
+	)
+	(wire
+		(pts
+			(xy 358.14 238.76) (xy 358.14 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e5f5a2-0eaf-4c52-b714-744c93e9d91f")
 	)
 	(wire
 		(pts
@@ -39764,6 +39948,50 @@
 		)
 		(uuid "36787dff-c477-468a-9e03-1a3b4b145c2e")
 	)
+	(global_label "+5V"
+		(shape input)
+		(at 302.26 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04540031-7b25-46e3-b169-47e8f5084c3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.26 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 358.14 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a0f97d3-5991-4a2a-844f-560055c03f48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.14 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 172.72 71.755 270)
@@ -39820,6 +40048,28 @@
 		(uuid "4ca6696e-4c70-4d50-bf37-1af58e967467")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.23 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "BOARD_5V_RAW"
+		(shape input)
+		(at 246.38 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f687731-3cf3-46f2-b58e-026db0751ae7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.38 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39908,6 +40158,50 @@
 		(uuid "b8fe20a0-d9e5-4037-a1b3-2395471e887c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 227.965 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+24V"
+		(shape input)
+		(at 190.5 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7a2ee92-5514-4152-aa1e-3582331db57a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 190.5 271.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9e82cc7-dc8d-4bb1-8585-f8f70eaaa4b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40105,6 +40399,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "a9b7e59e-4ce0-44d1-a1a7-ca766f6b4172")
 		)
@@ -40609,6 +40949,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "8128c767-aded-4d2b-90ff-fbf41291e1e7")
 		)
@@ -40816,6 +41202,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "78704782-7da2-449b-b375-515acc330b95")
 		)
@@ -40961,6 +41393,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "cbe31d58-0060-457c-9720-57052ff31871")
 		)
@@ -41148,6 +41626,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "7674fb57-acd0-44d6-b72b-165b78c6330e")
 		)
@@ -41327,6 +41851,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "4"
 			(uuid "e7cd3db3-2bdf-4fae-a5a7-b9abe808c4be")
 		)
@@ -41429,6 +41999,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "2a80901b-f92e-49a5-b753-2340f7a856d7")
 		)
@@ -41510,6 +42126,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "203897c2-166d-40aa-acf7-c7d07d033e83")
 		)
@@ -41591,6 +42253,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "6cb501e6-a9fa-4ce3-9338-a91a9e739f43")
 		)
@@ -41690,6 +42398,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "8fbe3bb3-c83a-4ce8-9740-a3b372d53839")
 		)
@@ -41700,6 +42454,128 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 358.14 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "1bd9c62f-7fb5-4a9f-a1cb-adea4c35d56b")
+		(property "Reference" "TP_3V3"
+			(at 361.95 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3"
+			(at 361.95 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D1.143mm"
+			(at 358.14 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "358b7bec-991a-42b6-93d8-1411feaa27b9")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "TP_3V3")
 					(unit 1)
 				)
 			)
@@ -41848,6 +42724,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "50e9a98c-0bc2-4620-9d1f-35ebc7d2199d")
 		)
@@ -41864,6 +42786,128 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "20224ce5-175a-44fe-abe2-a19035c6f345")
+		(property "Reference" "TP_24V1"
+			(at 194.31 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24V"
+			(at 194.31 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D1.143mm"
+			(at 190.5 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "6bd6e00e-2dd9-4726-9e3b-a82aeaa14f16")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "TP_24V1")
 					(unit 1)
 				)
 			)
@@ -42099,6 +43143,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "e0d01ee4-951a-4116-8481-92b49579ec34")
 		)
@@ -42310,6 +43400,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "a56f1034-9b75-4668-b0e4-edc696c03f85")
 		)
@@ -42577,6 +43713,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "230f13fc-00b0-40b3-bc15-26494a21cf74")
 		)
@@ -42850,6 +44032,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "e35bf4a7-dc4a-459a-9de1-2396896e8460")
 		)
@@ -43314,6 +44542,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "ace6b65b-605a-4252-9612-fd68e490ca7f")
 		)
@@ -43828,6 +45102,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "4792ad84-d619-4908-b56f-b62ca911ccf3")
 		)
@@ -44051,6 +45371,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "3"
 			(uuid "07d8d6a8-928c-4a6d-aed7-3f394f209043")
 		)
@@ -44145,6 +45511,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "82701310-2a1f-469d-ac84-9cba7bca89b0")
 		)
@@ -44155,6 +45567,128 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 302.26 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "41f80881-c43a-4e18-8d73-bece410ecee1")
+		(property "Reference" "TP_5V1"
+			(at 306.07 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 306.07 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D1.143mm"
+			(at 302.26 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 302.26 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "8fd5e203-a131-42cd-b8d6-edff861f7aff")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "TP_5V1")
 					(unit 1)
 				)
 			)
@@ -44538,6 +46072,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "5e1ca359-4005-42ad-a125-c7bfe8a43e1c")
 		)
@@ -44619,6 +46199,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "ad57484b-8c2a-4ed3-bfe1-33c17979455c")
 		)
@@ -44842,6 +46468,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "4c7acc13-3e66-46f2-aa32-c49f8c553e6c")
 		)
@@ -45203,6 +46875,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "453631d4-6c12-44fb-9569-1a4e72ee185b")
 		)
@@ -45421,6 +47139,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "cb1bc17c-869f-45a4-b945-952ac708fabc")
 		)
@@ -45590,6 +47354,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "c8cdc7d6-44d7-436e-aa08-f9161cb1f0db")
 		)
@@ -45671,6 +47481,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "e87c12b9-ffcd-4d4c-aebb-6f05463ad52d")
 		)
@@ -45856,6 +47712,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "3"
 			(uuid "63b8d6e4-33b1-4ded-a064-871eefb72ff5")
 		)
@@ -46018,6 +47920,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "0ec5e3fa-eea3-4491-b7dc-1b2182eb61c9")
 		)
@@ -46188,6 +48136,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "175af38f-a361-496a-907c-2ad3e4018fa7")
 		)
@@ -46276,6 +48270,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "ccf776ea-42e4-401a-b779-0ce398e37bc4")
 		)
@@ -46833,6 +48873,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "01cf7a47-c4c6-4437-943b-c2c423e95aeb")
 		)
@@ -47011,6 +49097,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "fbbbb0e7-9f4c-4adc-859a-72a0879556c1")
 		)
@@ -47103,6 +49235,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "3a420629-5855-457f-be83-12bbd54c356f")
 		)
@@ -47272,6 +49450,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "1a4f05fa-c74f-451f-a404-208aee841114")
 		)
@@ -47510,6 +49734,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "52dcf4e3-1d72-49cc-aad8-0399763212a9")
 		)
@@ -47520,6 +49790,128 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 266.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "91141728-5e67-4f17-b521-38b149f104a9")
+		(property "Reference" "TP_GND_PWR1"
+			(at 194.31 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND_PWR"
+			(at 194.31 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D1.016mm"
+			(at 190.5 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "659e45ed-c461-46ee-a737-fe081cfad1d5")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "TP_GND_PWR1")
 					(unit 1)
 				)
 			)
@@ -47638,7 +50030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 252.73 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -47671,6 +50063,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "e55dd39b-5d2a-40c1-bc6f-0ac98ecbc561")
 		)
@@ -47814,6 +50252,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "b25219b4-90cc-40ca-9dc1-fe7d583dfa8f")
 		)
@@ -48072,6 +50556,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "963ea94d-259f-47b0-9a95-ad27a72a774b")
 		)
@@ -48231,6 +50761,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "e91dbc17-c549-4370-a476-e4f0f12f1148")
 		)
@@ -48794,6 +51370,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "02480b10-a0a5-4b7c-a0f7-c399fb804cd2")
 		)
@@ -48849,7 +51471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 226.06 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -48882,6 +51504,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "0858b387-a030-4946-99e6-854ad2d08e67")
 		)
@@ -49320,7 +51988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 251.46 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -49353,6 +52021,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "5b460241-4a6c-4703-8330-940110d8e8ff")
 		)
@@ -49681,6 +52395,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "27c95c1d-d81b-415f-8b8f-42b216b11be1")
 		)
@@ -49928,6 +52688,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "adcba1aa-c15a-47f3-a441-9f436fa920cc")
 		)
@@ -50086,6 +52892,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "4"
 			(uuid "f6fd489c-39a6-49f0-8a8d-4e80eb6e2ede")
 		)
@@ -50665,6 +53517,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "2846d05e-c3bf-4549-b6c4-d3ab359e3123")
 		)
@@ -50750,6 +53648,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "b353d5da-7362-4b16-a167-5d95d70970e7")
 		)
@@ -50799,7 +53743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 226.06 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -50832,6 +53776,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "4d412319-a31b-4862-92f7-fa57687d1d75")
 		)
@@ -51343,6 +54333,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "8381f434-4694-4d2d-b3fc-1f3b7468f02b")
 		)
@@ -51423,6 +54459,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "4f4fa3e0-17a5-46f1-b4f8-dea71eb28c3a")
 		)
@@ -51503,6 +54585,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "d9d155d2-623f-4205-a28f-506d3bb28629")
 		)
@@ -51672,6 +54800,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "7e70ae08-e5d5-4e90-a0fc-e045c63eafc9")
 		)
@@ -51915,6 +55089,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "a0aad4bb-77d4-4940-8909-6b5bfde1573b")
 		)
@@ -51925,6 +55145,128 @@
 			(project "GD32F303VET6_4Motor_Control"
 				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "f0814918-e308-48e9-bc5c-3340f07080fc")
+		(property "Reference" "TP_5V_RAW1"
+			(at 250.19 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V_RAW"
+			(at 250.19 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_api_lib:TestPoint_Pad_D1.143mm"
+			(at 246.38 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(pin "1"
+			(uuid "02f9e963-c7dc-4757-a719-3f4ece6baa21")
+		)
+		(instances
+			(project "GD32F303VET6_4Motor_Control"
+				(path "/54005433-e3aa-4693-8f75-bb73943288d3/991ba235-e77c-4edd-a3a2-0f8fb1340e9c"
+					(reference "TP_5V_RAW1")
 					(unit 1)
 				)
 			)
@@ -52152,6 +55494,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "2149a8f5-7aff-472b-9be2-3fa8e3910e1b")
 		)
@@ -52304,6 +55692,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "6f9bedff-489d-4c1f-b155-18a7ea1603a5")
 		)

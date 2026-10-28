@@ -2558,18 +2558,6 @@
 		)
 	)
 	(rectangle
-		(start 80 62)
-		(end 215 124)
-		(stroke
-			(width 0.254)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6a8ddb10-b745-4de1-b0b0-ade5f2d30c4e")
-	)
-	(rectangle
 		(start 219 62)
 		(end 279 124)
 		(stroke
@@ -2579,57 +2567,94 @@
 		(fill
 			(type none)
 		)
-		(uuid "fcfda204-2714-45fe-ae6e-788efb455e13")
+		(uuid "60082e98-fa0a-4826-bf95-f5ed2ea9a312")
+	)
+	(rectangle
+		(start 23 133)
+		(end 279 163)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c9fabacf-2943-47ea-8cb0-3affaf2a9e47")
+	)
+	(rectangle
+		(start 80 62)
+		(end 215 124)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f28c26cf-3d74-4414-adab-ac3d2b4f23bf")
+	)
+	(text "232-03  功能与装配说明【DNP】"
+		(exclude_from_sim no)
+		(at 26 136 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "165e553a-88e1-4027-be19-e46520593c84")
+	)
+	(text "232-01  收发器 / 电荷泵 / 滤波【DNP】"
+		(exclude_from_sim no)
+		(at 83 65 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "1e70d94b-9add-47e2-aec8-8f14b94112dd")
+	)
+	(text "U10：SP3232 电平转换；C43 / C44 / C46 / C47：电荷泵；C45：去耦。\nR22 / R23 / FB1：串联阻抗与滤波；CN3 引出 RS232 两路信号。\nMCU 端接 PC10 / PC11；本页全部 DNP，启用前核对外设选择与收发方向。"
+		(exclude_from_sim no)
+		(at 28 146 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 1.7 1.7)
+			)
+			(justify left top)
+		)
+		(uuid "20a7a79e-5f91-4c27-81c0-e4336d509e72")
+	)
+	(text "232-02  对外接口【DNP】"
+		(exclude_from_sim no)
+		(at 222 65 0)
+		(effects
+			(font
+				(face "Microsoft YaHei")
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "2489aeba-4775-425c-a427-2ec0eeca1c3e")
 	)
 	(text "RS232｜备用不装配接口"
 		(exclude_from_sim no)
 		(at 23 25 0)
 		(effects
 			(font
-				(face "宋体")
+				(face "Microsoft YaHei")
 				(size 3 3)
 			)
 			(justify left top)
 		)
-		(uuid "3dccfe17-e96b-4c05-8bf8-e8ed833f0447")
-	)
-	(text "232-01：U10 将 MCU UART 与 RS232 电平互相转换。\nC43 / C44 / C46 / C47 为电荷泵相关电容；C45 为电源去耦。\nR22 / R23 / FB1 为串联阻抗及滤波。\n232-02：CN3 引出 RS232_TX1、RS232_RX1，外接设备需具备共同参考地。\n\n本页器件当前均为 DNP；启用前复核 MCU TX / RX 的实际收发方向与接线。"
-		(exclude_from_sim no)
-		(at 24 137 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
-			)
-			(justify left top)
-		)
-		(uuid "443500f2-62f2-4f36-be79-cf315a329e91")
-	)
-	(text "232-02  对外串口【备用 / DNP】"
-		(exclude_from_sim no)
-		(at 222 65 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "cfc4630a-aca9-43ee-bea7-6b28c1ad5230")
-	)
-	(text "232-01  收发器 / 电荷泵 / 滤波【备用 / DNP】"
-		(exclude_from_sim no)
-		(at 83 65 0)
-		(effects
-			(font
-				(face "宋体")
-				(size 1.8 1.8)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "f6357b8c-050d-4042-9b3b-1ab15c525964")
+		(uuid "5e2ac5a4-dc1e-4792-b0d6-cefb48c0a70f")
 	)
 	(junction
 		(at 115.57 105.41)
@@ -3173,6 +3198,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "eb167481-2e58-4937-a6fb-512511b4374e")
 		)
@@ -3324,6 +3395,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "1"
 			(uuid "ef648165-c5ff-4c4d-b733-1ab54c5bf400")
 		)
@@ -3621,6 +3738,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "2d701079-d2d9-4df1-a014-e0567b4d66ab")
 		)
@@ -3997,6 +4160,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "c007cd9c-a176-44c8-ad51-2fe1fbd7bd10")
 		)
@@ -4344,6 +4553,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "f15fc862-b523-4cca-a5e4-791f5c64f0d1")
 		)
@@ -4649,6 +4904,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "a9abfc07-c546-4ea4-b739-814235aa0a9a")
 		)
@@ -4954,6 +5255,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "019b7fe9-37c9-42d5-aa26-38f738b4eb89")
 		)
@@ -5337,6 +5684,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "64670ecd-9c1b-44e1-88f6-6966d833f3e8")
 		)
@@ -5753,6 +6146,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "00870109-a918-4e5b-8cb1-7720a093dec8")
 		)
@@ -6052,6 +6491,52 @@
 				)
 			)
 		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(pin "2"
 			(uuid "7b28068f-18ae-4cf7-a7b8-42edc9219f51")
 		)

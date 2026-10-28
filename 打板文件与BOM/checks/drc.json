@@ -1,0 +1,336 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-28T14:41:43",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "GD32F303VET6_4Motor_Control.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "CN8 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 131.13,
+                        "y": 122.88419
+                    },
+                    "uuid": "3c30cd44-be6c-5538-b579-b3bc27e997c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "CN8 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 155.02,
+                        "y": 113.26419
+                    },
+                    "uuid": "a0e7bd2d-cc27-5fc2-afcb-1554aab51498"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "H5 的 矩形, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 75.67,
+                        "y": 96.76
+                    },
+                    "uuid": "4d7a342d-35ce-40d4-8709-8afebef4a954"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "CN7 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 102.6175,
+                        "y": 122.995
+                    },
+                    "uuid": "969c5463-cffc-527e-8d91-b7ae1607e97c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "CN7 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 126.5075,
+                        "y": 113.375
+                    },
+                    "uuid": "48dbe47f-04be-539c-a77c-781234cb29b0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "CN5 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 103.3675,
+                        "y": 64.064979
+                    },
+                    "uuid": "3517b646-22da-53c0-b865-29885f67810a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "CN5 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 127.2575,
+                        "y": 54.444979
+                    },
+                    "uuid": "2e28e619-9234-512c-ae6d-97ec1ef9f88f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "CN4 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 167.16,
+                        "y": 64.11
+                    },
+                    "uuid": "36873d5e-262b-45f6-8be9-43d934aeb20a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "CN4 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 176.1,
+                        "y": 54.52
+                    },
+                    "uuid": "8f3b5478-6fe3-429b-8d6f-dfbbf9b0eaec"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "CN6 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 133.6875,
+                        "y": 64.079979
+                    },
+                    "uuid": "e309fc65-06b1-5403-b68d-c592be386d27"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "CN6 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 157.5775,
+                        "y": 54.459979
+                    },
+                    "uuid": "212d0ef2-149c-5a3c-8a09-ae93a2cfdfdf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "H2 的参考字段",
+                    "pos": {
+                        "x": 181.5,
+                        "y": 59.2
+                    },
+                    "uuid": "a81fc867-16ce-4467-ae19-9550e48fbf18"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 矩形",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 59.0
+                    },
+                    "uuid": "3203adcd-7932-4be1-a454-b6d325d7a660"
+                },
+                {
+                    "description": "H1 的参考字段",
+                    "pos": {
+                        "x": 89.5,
+                        "y": 59.2
+                    },
+                    "uuid": "30a437e9-8d9f-4811-9833-2ed4a8b4a415"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}
